@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Aider",
+    "repo": "Aider-AI/aider",
+    "homepage": "https://aider.chat",
+    "category": "ai-coding-agents",
+    "description": "AI pair programming in your terminal; edits files in your local git repo and commits as it goes.",
+    "license": "Apache-2.0",
+    "links": [{ "label": "docs", "url": "https://aider.chat/docs/" }],
+    "added": "2026-07-10"
+  },
+  {
+    "name": "projectmem",
+    "repo": "riponcm/projectmem",
+    "homepage": "https://projectmem.dev",
+    "category": "ai-coding-agents",
+    "description": "Local-first, event-sourced memory + judgment layer for AI coding agents; warns before repeating a failed fix.",
+    "license": "MIT",
+    "links": [{ "label": "paper", "url": "https://arxiv.org/abs/2606.12329" }],
+    "added": "2026-07-10"
+  },
+  {
+    "name": "bat",
+    "repo": "sharkdp/bat",
+    "homepage": "https://github.com/sharkdp/bat",
+    "category": "developer-tools-cli",
+    "description": "A cat clone with syntax highlighting and Git integration.",
+    "license": "MIT/Apache-2.0",
+    "added": "2026-07-10"
+  },
+  {
+    "name": "fzf",
+    "repo": "junegunn/fzf",
+    "homepage": "https://junegunn.github.io/fzf/",
+    "category": "developer-tools-cli",
+    "description": "General-purpose command-line fuzzy finder for files, history, and processes; integrates with the shell and Vim.",
+    "license": "MIT",
+    "added": "2026-07-10"
+  },
+  {
+    "name": "lazygit",
+    "repo": "jesseduffield/lazygit",
+    "homepage": "https://github.com/jesseduffield/lazygit",
+    "category": "developer-tools-cli",
+    "description": "Simple terminal UI for Git commands.",
+    "license": "MIT",
+    "added": "2026-07-10"
+  },
+  {
+    "name": "ripgrep",
+    "repo": "BurntSushi/ripgrep",
+    "homepage": "https://github.com/BurntSushi/ripgrep",
+    "category": "developer-tools-cli",
+    "description": "Fast recursive regex search over directories that respects your .gitignore.",
+    "license": "Unlicense/MIT",
+    "added": "2026-07-10"
+  },
+  {
+    "name": "AcadGIS",
+    "repo": "riponcm/AcadGIS",
+    "homepage": "https://acadgis.com",
+    "category": "data-databases",
+    "description": "Publication-ready study-area maps, choropleths, and locator insets for research papers, in Python.",
+    "license": "Apache-2.0",
+    "added": "2026-07-10"
+  },
+  {
+    "name": "DuckDB",
+    "repo": "duckdb/duckdb",
+    "homepage": "https://duckdb.org",
+    "category": "data-databases",
+    "description": "In-process analytical SQL database; runs OLAP queries inside your app or notebook.",
+    "license": "MIT",
+    "links": [{ "label": "docs", "url": "https://duckdb.org/docs/" }],
+    "added": "2026-07-10"
+  },
+  {
+    "name": "Meilisearch",
+    "repo": "meilisearch/meilisearch",
+    "homepage": "https://www.meilisearch.com",
+    "category": "data-databases",
+    "description": "Fast, typo-tolerant search engine with a simple API.",
+    "license": "MIT (core)",
+    "links": [{ "label": "docs", "url": "https://www.meilisearch.com/docs" }],
+    "added": "2026-07-10"
+  },
+  {
+    "name": "Uptime Kuma",
+    "repo": "louislam/uptime-kuma",
+    "homepage": "https://uptime.kuma.pet",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted uptime monitoring tool with status pages and notifications.",
+    "license": "MIT",
+    "added": "2026-07-10"
+  },
+  {
+    "name": "GemType",
+    "repo": "riponcm/GemType",
+    "homepage": "https://gemtype.matily.org",
+    "category": "productivity",
+    "description": "Free, open-source Grammarly alternative: AI grammar and rewrite for Chrome and Safari.",
+    "license": "Apache-2.0",
+    "added": "2026-07-10"
+  },
+  {
+    "name": "KeePassXC",
+    "repo": "keepassxreboot/keepassxc",
+    "homepage": "https://keepassxc.org",
+    "category": "security-privacy",
+    "description": "Cross-platform, offline password manager; community continuation of KeePass.",
+    "license": "GPL-2.0/GPL-3.0",
+    "links": [{ "label": "docs", "url": "https://keepassxc.org/docs/" }],
+    "added": "2026-07-10"
+  },
+  {
+    "name": "Hoppscotch",
+    "repo": "hoppscotch/hoppscotch",
+    "homepage": "https://hoppscotch.io",
+    "category": "web-apis",
+    "description": "API development environment in the browser: REST, GraphQL, and realtime clients; self-hostable.",
+    "license": "MIT",
+    "links": [{ "label": "docs", "url": "https://docs.hoppscotch.io" }],
+    "added": "2026-07-10"
+  },
+  {
+    "name": "HTTPie",
+    "repo": "httpie/cli",
+    "homepage": "https://httpie.io",
+    "category": "web-apis",
+    "description": "User-friendly command-line HTTP client with JSON support and syntax highlighting.",
+    "license": "BSD-3-Clause",
+    "links": [{ "label": "docs", "url": "https://httpie.io/docs/cli" }],
+    "added": "2026-07-10"
+  },
+  {
+    "name": "OBS Studio",
+    "repo": "obsproject/obs-studio",
+    "homepage": "https://obsproject.com",
+    "category": "creator-media",
+    "description": "Free, open-source software for live streaming and screen recording.",
+    "license": "GPL-2.0",
+    "links": [{ "label": "docs", "url": "https://docs.obsproject.com" }],
+    "added": "2026-07-10"
+  }
+]

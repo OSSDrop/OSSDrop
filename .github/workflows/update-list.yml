@@ -1,0 +1,35 @@
+name: Update list
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # nightly: snapshot stars, recompute trending
+  push:
+    branches: [main]
+    paths: ["data/tools.json", "scripts/build_readme.py"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Rebuild README from tools.json
+        run: python scripts/build_readme.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md data/stars.json
+          git diff --staged --quiet || git commit -m "chore: rebuild list (stars snapshot $(date -u +%F))"
+          git push
