@@ -8,9 +8,10 @@
 ## Key facts
 
 - Tagline: "Drop your open-source tool."
-- Categories: AI & Coding Agents, Developer Tools & CLI, Data & Databases,
-  DevOps & Self-Hosted, Productivity, Security & Privacy, Web & APIs,
-  Creator / Media.
+- Categories: AI & Coding Agents, Developer Tools & CLI, Web & APIs,
+  Data & Databases, DevOps & Self-Hosted, Files & Sync, Security & Privacy,
+  Productivity, Notes & Knowledge, Communication & Social, Automation & IoT,
+  Finance & Business, Science & Education, Creator / Media.
 - Tables are sorted by live GitHub star count; "Trending this week" is
   computed from daily star snapshots, not editorial choice.
 - List content is public domain (CC0-1.0); each linked tool keeps its own

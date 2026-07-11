@@ -12,7 +12,7 @@ A curated home for open-source tools — by the people who build them.
 
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-22C55E?style=flat-square)](CONTRIBUTING.md) ![list](https://img.shields.io/badge/list-15_tools-2563EB?style=flat-square) [![license](https://img.shields.io/badge/list_license-CC0--1.0-6E7681?style=flat-square)](LICENSE) [![reddit](https://img.shields.io/badge/reddit-r%2FOSSDrop-0E4CB0?style=flat-square)](https://www.reddit.com/r/OSSDrop/) ![web](https://img.shields.io/badge/ossdrop.com-coming_soon-6E7681?style=flat-square)
 
-<sub>[AI & Coding Agents](#ai--coding-agents) · [Developer Tools & CLI](#developer-tools--cli) · [Data & Databases](#data--databases) · [DevOps & Self-Hosted](#devops--self-hosted) · [Productivity](#productivity) · [Security & Privacy](#security--privacy) · [Web & APIs](#web--apis) · [Creator / Media](#creator--media)</sub>
+<sub>[AI & Coding Agents](#ai--coding-agents) · [Developer Tools & CLI](#developer-tools--cli) · [Web & APIs](#web--apis) · [Data & Databases](#data--databases) · [DevOps & Self-Hosted](#devops--self-hosted) · [Security & Privacy](#security--privacy) · [Productivity](#productivity) · [Science & Education](#science--education) · [Creator / Media](#creator--media)</sub>
 
 </div>
 
@@ -59,32 +59,6 @@ or [drop your tool](CONTRIBUTING.md) — it takes one PR and it's free.
 | <a href="https://github.com/BurntSushi/ripgrep"><img src="https://github.com/BurntSushi.png?size=40" width="20" height="20" alt=""></a> **[ripgrep](https://github.com/BurntSushi/ripgrep)** | Fast recursive regex search over directories that respects your .gitignore. | ![Unlicense/MIT](https://img.shields.io/badge/Unlicense%2FMIT-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/BurntSushi/ripgrep?style=flat-square&label=stars&color=2563EB)](https://github.com/BurntSushi/ripgrep/stargazers) | [code](https://github.com/BurntSushi/ripgrep) |
 | <a href="https://github.com/sharkdp/bat"><img src="https://github.com/sharkdp.png?size=40" width="20" height="20" alt=""></a> **[bat](https://github.com/sharkdp/bat)** | A cat clone with syntax highlighting and Git integration. | ![MIT/Apache-2.0](https://img.shields.io/badge/MIT%2FApache--2.0-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/sharkdp/bat?style=flat-square&label=stars&color=2563EB)](https://github.com/sharkdp/bat/stargazers) | [code](https://github.com/sharkdp/bat) |
 
-## <img src="assets/icons/data.svg" width="18" alt=""> Data & Databases
-
-| Tool | What it is | License | Stars | Links |
-| --- | --- | --- | --- | --- |
-| <a href="https://github.com/meilisearch/meilisearch"><img src="https://github.com/meilisearch.png?size=40" width="20" height="20" alt=""></a> **[Meilisearch](https://www.meilisearch.com)** | Fast, typo-tolerant search engine with a simple API. | ![MIT (core)](https://img.shields.io/badge/MIT_(core)-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=flat-square&label=stars&color=2563EB)](https://github.com/meilisearch/meilisearch/stargazers) | [code](https://github.com/meilisearch/meilisearch) · [docs](https://www.meilisearch.com/docs) |
-| <a href="https://github.com/duckdb/duckdb"><img src="https://github.com/duckdb.png?size=40" width="20" height="20" alt=""></a> **[DuckDB](https://duckdb.org)** | In-process analytical SQL database; runs OLAP queries inside your app or notebook. | ![MIT](https://img.shields.io/badge/MIT-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/duckdb/duckdb?style=flat-square&label=stars&color=2563EB)](https://github.com/duckdb/duckdb/stargazers) | [code](https://github.com/duckdb/duckdb) · [docs](https://duckdb.org/docs/) |
-| <a href="https://github.com/riponcm/AcadGIS"><img src="https://github.com/riponcm.png?size=40" width="20" height="20" alt=""></a> **[AcadGIS](https://acadgis.com)** | Publication-ready study-area maps, choropleths, and locator insets for research papers, in Python. | ![Apache-2.0](https://img.shields.io/badge/Apache--2.0-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/riponcm/AcadGIS?style=flat-square&label=stars&color=2563EB)](https://github.com/riponcm/AcadGIS/stargazers) | [code](https://github.com/riponcm/AcadGIS) |
-
-## <img src="assets/icons/devops.svg" width="18" alt=""> DevOps & Self-Hosted
-
-| Tool | What it is | License | Stars | Links |
-| --- | --- | --- | --- | --- |
-| <a href="https://github.com/louislam/uptime-kuma"><img src="https://github.com/louislam.png?size=40" width="20" height="20" alt=""></a> **[Uptime Kuma](https://uptime.kuma.pet)** | Self-hosted uptime monitoring tool with status pages and notifications. | ![MIT](https://img.shields.io/badge/MIT-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/louislam/uptime-kuma?style=flat-square&label=stars&color=2563EB)](https://github.com/louislam/uptime-kuma/stargazers) | [code](https://github.com/louislam/uptime-kuma) |
-
-## <img src="assets/icons/productivity.svg" width="18" alt=""> Productivity
-
-| Tool | What it is | License | Stars | Links |
-| --- | --- | --- | --- | --- |
-| <a href="https://github.com/riponcm/GemType"><img src="https://github.com/riponcm.png?size=40" width="20" height="20" alt=""></a> **[GemType](https://gemtype.matily.org)** | Free, open-source Grammarly alternative: AI grammar and rewrite for Chrome and Safari. | ![Apache-2.0](https://img.shields.io/badge/Apache--2.0-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/riponcm/GemType?style=flat-square&label=stars&color=2563EB)](https://github.com/riponcm/GemType/stargazers) | [code](https://github.com/riponcm/GemType) |
-
-## <img src="assets/icons/security.svg" width="18" alt=""> Security & Privacy
-
-| Tool | What it is | License | Stars | Links |
-| --- | --- | --- | --- | --- |
-| <a href="https://github.com/keepassxreboot/keepassxc"><img src="https://github.com/keepassxreboot.png?size=40" width="20" height="20" alt=""></a> **[KeePassXC](https://keepassxc.org)** | Cross-platform, offline password manager; community continuation of KeePass. | ![GPL-2.0/GPL-3.0](https://img.shields.io/badge/GPL--2.0%2FGPL--3.0-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/keepassxreboot/keepassxc?style=flat-square&label=stars&color=2563EB)](https://github.com/keepassxreboot/keepassxc/stargazers) | [code](https://github.com/keepassxreboot/keepassxc) · [docs](https://keepassxc.org/docs/) |
-
 ## <img src="assets/icons/web.svg" width="18" alt=""> Web & APIs
 
 | Tool | What it is | License | Stars | Links |
@@ -92,11 +66,48 @@ or [drop your tool](CONTRIBUTING.md) — it takes one PR and it's free.
 | <a href="https://github.com/hoppscotch/hoppscotch"><img src="https://github.com/hoppscotch.png?size=40" width="20" height="20" alt=""></a> **[Hoppscotch](https://hoppscotch.io)** | API development environment in the browser: REST, GraphQL, and realtime clients; self-hostable. | ![MIT](https://img.shields.io/badge/MIT-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/hoppscotch/hoppscotch?style=flat-square&label=stars&color=2563EB)](https://github.com/hoppscotch/hoppscotch/stargazers) | [code](https://github.com/hoppscotch/hoppscotch) · [docs](https://docs.hoppscotch.io) |
 | <a href="https://github.com/httpie/cli"><img src="https://github.com/httpie.png?size=40" width="20" height="20" alt=""></a> **[HTTPie](https://httpie.io)** | User-friendly command-line HTTP client with JSON support and syntax highlighting. | ![BSD-3-Clause](https://img.shields.io/badge/BSD--3--Clause-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/httpie/cli?style=flat-square&label=stars&color=2563EB)](https://github.com/httpie/cli/stargazers) | [code](https://github.com/httpie/cli) · [docs](https://httpie.io/docs/cli) |
 
+## <img src="assets/icons/data.svg" width="18" alt=""> Data & Databases
+
+| Tool | What it is | License | Stars | Links |
+| --- | --- | --- | --- | --- |
+| <a href="https://github.com/meilisearch/meilisearch"><img src="https://github.com/meilisearch.png?size=40" width="20" height="20" alt=""></a> **[Meilisearch](https://www.meilisearch.com)** | Fast, typo-tolerant search engine with a simple API. | ![MIT (core)](https://img.shields.io/badge/MIT_(core)-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=flat-square&label=stars&color=2563EB)](https://github.com/meilisearch/meilisearch/stargazers) | [code](https://github.com/meilisearch/meilisearch) · [docs](https://www.meilisearch.com/docs) |
+| <a href="https://github.com/duckdb/duckdb"><img src="https://github.com/duckdb.png?size=40" width="20" height="20" alt=""></a> **[DuckDB](https://duckdb.org)** | In-process analytical SQL database; runs OLAP queries inside your app or notebook. | ![MIT](https://img.shields.io/badge/MIT-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/duckdb/duckdb?style=flat-square&label=stars&color=2563EB)](https://github.com/duckdb/duckdb/stargazers) | [code](https://github.com/duckdb/duckdb) · [docs](https://duckdb.org/docs/) |
+
+## <img src="assets/icons/devops.svg" width="18" alt=""> DevOps & Self-Hosted
+
+| Tool | What it is | License | Stars | Links |
+| --- | --- | --- | --- | --- |
+| <a href="https://github.com/louislam/uptime-kuma"><img src="https://github.com/louislam.png?size=40" width="20" height="20" alt=""></a> **[Uptime Kuma](https://uptime.kuma.pet)** | Self-hosted uptime monitoring tool with status pages and notifications. | ![MIT](https://img.shields.io/badge/MIT-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/louislam/uptime-kuma?style=flat-square&label=stars&color=2563EB)](https://github.com/louislam/uptime-kuma/stargazers) | [code](https://github.com/louislam/uptime-kuma) |
+
+## <img src="assets/icons/security.svg" width="18" alt=""> Security & Privacy
+
+| Tool | What it is | License | Stars | Links |
+| --- | --- | --- | --- | --- |
+| <a href="https://github.com/keepassxreboot/keepassxc"><img src="https://github.com/keepassxreboot.png?size=40" width="20" height="20" alt=""></a> **[KeePassXC](https://keepassxc.org)** | Cross-platform, offline password manager; community continuation of KeePass. | ![GPL-2.0/GPL-3.0](https://img.shields.io/badge/GPL--2.0%2FGPL--3.0-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/keepassxreboot/keepassxc?style=flat-square&label=stars&color=2563EB)](https://github.com/keepassxreboot/keepassxc/stargazers) | [code](https://github.com/keepassxreboot/keepassxc) · [docs](https://keepassxc.org/docs/) |
+
+## <img src="assets/icons/productivity.svg" width="18" alt=""> Productivity
+
+| Tool | What it is | License | Stars | Links |
+| --- | --- | --- | --- | --- |
+| <a href="https://github.com/riponcm/GemType"><img src="https://github.com/riponcm.png?size=40" width="20" height="20" alt=""></a> **[GemType](https://gemtype.matily.org)** | Free, open-source Grammarly alternative: AI grammar and rewrite for Chrome and Safari. | ![Apache-2.0](https://img.shields.io/badge/Apache--2.0-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/riponcm/GemType?style=flat-square&label=stars&color=2563EB)](https://github.com/riponcm/GemType/stargazers) | [code](https://github.com/riponcm/GemType) |
+
+## <img src="assets/icons/science.svg" width="18" alt=""> Science & Education
+
+| Tool | What it is | License | Stars | Links |
+| --- | --- | --- | --- | --- |
+| <a href="https://github.com/riponcm/AcadGIS"><img src="https://github.com/riponcm.png?size=40" width="20" height="20" alt=""></a> **[AcadGIS](https://acadgis.com)** | Publication-ready study-area maps, choropleths, and locator insets for research papers, in Python. | ![Apache-2.0](https://img.shields.io/badge/Apache--2.0-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/riponcm/AcadGIS?style=flat-square&label=stars&color=2563EB)](https://github.com/riponcm/AcadGIS/stargazers) | [code](https://github.com/riponcm/AcadGIS) |
+
 ## <img src="assets/icons/media.svg" width="18" alt=""> Creator / Media
 
 | Tool | What it is | License | Stars | Links |
 | --- | --- | --- | --- | --- |
 | <a href="https://github.com/obsproject/obs-studio"><img src="https://github.com/obsproject.png?size=40" width="20" height="20" alt=""></a> **[OBS Studio](https://obsproject.com)** | Free, open-source software for live streaming and screen recording. | ![GPL-2.0](https://img.shields.io/badge/GPL--2.0-22C55E?style=flat-square) | [![stars](https://img.shields.io/github/stars/obsproject/obs-studio?style=flat-square&label=stars&color=2563EB)](https://github.com/obsproject/obs-studio/stargazers) | [code](https://github.com/obsproject/obs-studio) · [docs](https://docs.obsproject.com) |
+
+## Open categories
+
+Waiting for their first drop — [yours?](CONTRIBUTING.md)
+
+<p><img src="assets/icons/files.svg" width="15" alt=""> <a href="CONTRIBUTING.md">Files & Sync</a>&ensp;·&ensp;<img src="assets/icons/notes.svg" width="15" alt=""> <a href="CONTRIBUTING.md">Notes & Knowledge</a>&ensp;·&ensp;<img src="assets/icons/comms.svg" width="15" alt=""> <a href="CONTRIBUTING.md">Communication & Social</a>&ensp;·&ensp;<img src="assets/icons/automation.svg" width="15" alt=""> <a href="CONTRIBUTING.md">Automation & IoT</a>&ensp;·&ensp;<img src="assets/icons/finance.svg" width="15" alt=""> <a href="CONTRIBUTING.md">Finance & Business</a></p>
 
 ---
 
@@ -110,9 +121,11 @@ Stars, icons, and trending are computed automatically; descriptions stay honest.
 
 **What is OSSDrop?**
 OSSDrop is a curated, community-maintained list of open-source tools, organized
-by category — AI and coding agents, developer tools and CLI utilities, data and
-databases, DevOps and self-hosted software, productivity, security and privacy,
-web and APIs, and creator and media tools.
+into categories spanning AI and coding agents, developer tools and CLI utilities,
+web and APIs, data and databases, DevOps and self-hosted software, files and sync,
+security and privacy, productivity, notes and knowledge, communication and social,
+automation and IoT, finance and business, science and education, and creator and
+media tools.
 
 **How do I add my open-source tool to the list?**
 Fork this repository, add one JSON object to `data/tools.json`, and open a pull

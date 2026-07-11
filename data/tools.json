@@ -60,7 +60,7 @@
     "name": "AcadGIS",
     "repo": "riponcm/AcadGIS",
     "homepage": "https://acadgis.com",
-    "category": "data-databases",
+    "category": "science-education",
     "description": "Publication-ready study-area maps, choropleths, and locator insets for research papers, in Python.",
     "license": "Apache-2.0",
     "added": "2026-07-10"

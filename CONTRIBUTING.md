@@ -27,9 +27,10 @@ nightly with live stars, icons, and trending.
 - `repo` — `owner/name` on GitHub. Your avatar and live star count come from
   this automatically; **never** put star numbers anywhere.
 - `homepage` — project site, or the repo URL if there isn't one.
-- `category` — one of: `ai-coding-agents`, `developer-tools-cli`,
-  `data-databases`, `devops-self-hosted`, `productivity`, `security-privacy`,
-  `web-apis`, `creator-media`.
+- `category` — one of: `ai-coding-agents`, `developer-tools-cli`, `web-apis`,
+  `data-databases`, `devops-self-hosted`, `files-sync`, `security-privacy`,
+  `productivity`, `notes-knowledge`, `communication-social`, `automation-iot`,
+  `finance-business`, `science-education`, `creator-media`.
 - `description` — one honest line: what it does, for whom. Say what it is,
   not "the best ever."
 - `license` — the SPDX id from your LICENSE file (e.g. `MIT`, `Apache-2.0`).

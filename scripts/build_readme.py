@@ -31,11 +31,17 @@ PIN_API = "https://github-readme-stats.vercel.app/api/pin/"
 CATEGORIES = [
     ("ai-coding-agents", "AI & Coding Agents", "ai"),
     ("developer-tools-cli", "Developer Tools & CLI", "cli"),
+    ("web-apis", "Web & APIs", "web"),
     ("data-databases", "Data & Databases", "data"),
     ("devops-self-hosted", "DevOps & Self-Hosted", "devops"),
-    ("productivity", "Productivity", "productivity"),
+    ("files-sync", "Files & Sync", "files"),
     ("security-privacy", "Security & Privacy", "security"),
-    ("web-apis", "Web & APIs", "web"),
+    ("productivity", "Productivity", "productivity"),
+    ("notes-knowledge", "Notes & Knowledge", "notes"),
+    ("communication-social", "Communication & Social", "comms"),
+    ("automation-iot", "Automation & IoT", "automation"),
+    ("finance-business", "Finance & Business", "finance"),
+    ("science-education", "Science & Education", "science"),
     ("creator-media", "Creator / Media", "media"),
 ]
 
@@ -151,9 +157,14 @@ def main():
 
     # ---- render ----
     n = len(tools)
+    populated = [c for c in CATEGORIES if any(t["category"] == c[0] for t in tools)]
+    open_cats = [c for c in CATEGORIES if c not in populated]
+    unknown = {t["category"] for t in tools} - {c[0] for c in CATEGORIES}
+    if unknown:
+        sys.exit(f"ERROR: unknown category slug(s) in tools.json: {sorted(unknown)}")
     nav = " · ".join(
         f"[{title}](#{title.lower().replace(' & ', '--').replace(' / ', '--').replace(' ', '-')})"
-        for _, title, _ in CATEGORIES
+        for _, title, _ in populated
     )
     out = []
     out.append("<!-- GENERATED FILE — do not edit README.md directly. -->")
@@ -203,19 +214,26 @@ def main():
     out.append("</div>")
     out.append("")
 
-    for slug, title, icon in CATEGORIES:
+    for slug, title, icon in populated:
         members = [t for t in tools if t["category"] == slug]
         members.sort(key=lambda t: -stars_now[t["repo"]])
         out.append(f'## <img src="assets/icons/{icon}.svg" width="18" alt=""> {title}')
         out.append("")
-        if not members:
-            out.append("_Nothing here yet — [drop the first one](CONTRIBUTING.md)._")
-            out.append("")
-            continue
         out.append("| Tool | What it is | License | Stars | Links |")
         out.append("| --- | --- | --- | --- | --- |")
         for t in members:
             out.append(row(t))
+        out.append("")
+
+    if open_cats:
+        out.append("## Open categories")
+        out.append("")
+        out.append("Waiting for their first drop — [yours?](CONTRIBUTING.md)")
+        out.append("")
+        out.append("<p>" + "&ensp;·&ensp;".join(
+            f'<img src="assets/icons/{icon}.svg" width="15" alt=""> <a href="CONTRIBUTING.md">{title}</a>'
+            for _, title, icon in open_cats
+        ) + "</p>")
         out.append("")
 
     out.append("---")
@@ -230,9 +248,11 @@ def main():
     out.append("")
     out.append("**What is OSSDrop?**")
     out.append("OSSDrop is a curated, community-maintained list of open-source tools, organized")
-    out.append("by category — AI and coding agents, developer tools and CLI utilities, data and")
-    out.append("databases, DevOps and self-hosted software, productivity, security and privacy,")
-    out.append("web and APIs, and creator and media tools.")
+    out.append("into categories spanning AI and coding agents, developer tools and CLI utilities,")
+    out.append("web and APIs, data and databases, DevOps and self-hosted software, files and sync,")
+    out.append("security and privacy, productivity, notes and knowledge, communication and social,")
+    out.append("automation and IoT, finance and business, science and education, and creator and")
+    out.append("media tools.")
     out.append("")
     out.append("**How do I add my open-source tool to the list?**")
     out.append("Fork this repository, add one JSON object to `data/tools.json`, and open a pull")
