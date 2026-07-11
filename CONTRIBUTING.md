@@ -58,6 +58,8 @@ nightly with live stars, icons, and trending.
 - `added` — today's date, `YYYY-MM-DD`.
 
 4. **You can add your own tool.** That's encouraged — this list is for makers.
+5. **Tool not on GitHub?** (GitLab, Codeberg, Hugging Face, self-hosted…)
+   Open the PR anyway and mention it — we'll add support for your forge.
 
 ## Reviewed for
 
