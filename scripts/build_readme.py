@@ -182,8 +182,9 @@ def main():
     n = len(tools)
     populated = [c for c in CATEGORIES if any(t["category"] == c[0] for t in tools)]
     open_cats = [c for c in CATEGORIES if c not in populated]
+    # category headings start with an <img>, which GitHub slugs as a leading "-"
     nav = " · ".join(
-        f"[{title}](#{title.lower().replace(' & ', '--').replace(' / ', '--').replace(' ', '-')})"
+        f"[{title}](#-{title.lower().replace(' & ', '--').replace(' / ', '--').replace(' ', '-')})"
         for _, title, _ in populated
     )
     out = []
