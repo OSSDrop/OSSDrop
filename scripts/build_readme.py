@@ -25,7 +25,7 @@ TOOLS_FILE = ROOT / "data" / "tools.json"
 STARS_FILE = ROOT / "data" / "stars.json"
 README_FILE = ROOT / "README.md"
 
-ICON_URL = "https://raw.githubusercontent.com/OSSDrop/.github/main/assets/ossdrop-icon.png"
+ICON_URL = "assets/ossdrop-mark.svg"  # the brand mark lives in this repo; masters in workspace branding/
 PIN_API = "https://github-readme-stats.vercel.app/api/pin/"
 
 CATEGORIES = [

@@ -3,7 +3,7 @@
 
 <div align="center">
 
-<a href="https://github.com/OSSDrop"><img src="https://raw.githubusercontent.com/OSSDrop/.github/main/assets/ossdrop-icon.png" width="72" alt="OSSDrop"></a>
+<a href="https://github.com/OSSDrop"><img src="assets/ossdrop-mark.svg" width="72" alt="OSSDrop"></a>
 
 # OSSDrop
 
