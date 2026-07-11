@@ -26,7 +26,15 @@ STARS_FILE = ROOT / "data" / "stars.json"
 README_FILE = ROOT / "README.md"
 
 ICON_URL = "assets/ossdrop-mark.svg"  # the brand mark lives in this repo; masters in workspace branding/
-PIN_API = "https://github-readme-stats.vercel.app/api/pin/"
+CARDS_DIR = ROOT / "assets" / "cards"  # showcase cards, self-rendered (no third-party image service)
+
+LANG_COLORS = {
+    "Python": "#3572A5", "JavaScript": "#f1e05a", "TypeScript": "#3178c6",
+    "Go": "#00ADD8", "Rust": "#dea584", "C": "#555555", "C++": "#f34b7d",
+    "Java": "#b07219", "Shell": "#89e051", "Ruby": "#701516", "PHP": "#4F5D95",
+    "C#": "#178600", "Vue": "#41b883", "Svelte": "#ff3e00", "Kotlin": "#A97BFF",
+    "Swift": "#F05138", "HTML": "#e34c26", "CSS": "#563d7c", "Lua": "#000080",
+}
 
 CATEGORIES = [
     ("ai-coding-agents", "AI & Coding Agents", "ai"),
@@ -72,7 +80,7 @@ def validate(tools):
         sys.exit("tools.json validation failed:\n  " + "\n  ".join(errors))
 
 
-def fetch_stars(repo):
+def fetch_repo(repo):
     req = urllib.request.Request(
         f"https://api.github.com/repos/{repo}",
         headers={"User-Agent": "OSSDrop-list-builder", "Accept": "application/vnd.github+json"},
@@ -84,7 +92,7 @@ def fetch_stars(repo):
         data = json.load(resp)
     if data.get("archived"):
         print(f"WARNING: {repo} is archived — consider removing it", file=sys.stderr)
-    return data["stargazers_count"]
+    return {"stars": data["stargazers_count"], "language": data.get("language") or ""}
 
 
 def load_snapshots():
@@ -121,14 +129,81 @@ def stars_badge(repo):
     return f"https://img.shields.io/github/stars/{repo}?style=flat-square&label=stars&color=2563EB"
 
 
-def pin_card(tool, caption):
+def esc(s):
+    return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
+
+def fmt_stars(n):
+    return f"{n/1000:.1f}k" if n >= 1000 else str(n)
+
+
+def wrap2(text, width=56):
+    """Wrap into at most 2 lines; ellipsize the second."""
+    words, lines, cur = text.split(), [], ""
+    for w in words:
+        if len(cur) + len(w) + 1 <= width:
+            cur = f"{cur} {w}".strip()
+        else:
+            lines.append(cur)
+            cur = w
+            if len(lines) == 2:
+                break
+    if cur and len(lines) < 2:
+        lines.append(cur)
+    if len(lines) == 2 and " ".join(lines) != text.strip() and len(" ".join(lines).split()) < len(words):
+        lines[1] = lines[1][: width - 1].rstrip() + "…"
+    return lines
+
+
+THEMES = {
+    "dark":  {"bg": "#0E1A38", "border": "#1E2C4F", "name": "#58a6ff", "text": "#9DB6D8", "meta": "#7D96BD"},
+    "light": {"bg": "#FFFFFF", "border": "#d0d7de", "name": "#0969da", "text": "#57606a", "meta": "#57606a"},
+}
+
+STAR_PATH = ("M8 .8l2 4.1 4.5.6-3.2 3.2.7 4.5L8 11.1 4 13.2l.7-4.5L1.5 5.5 6 4.9 8 .8z")
+
+
+def render_card(tool, info, theme):
+    t = THEMES[theme]
     owner, name = tool["repo"].split("/")
-    base = f"{PIN_API}?username={owner}&repo={name}&show_owner=true"
+    lang = info["language"]
+    lang_color = LANG_COLORS.get(lang, "#8b949e")
+    lines = wrap2(tool["description"])
+    desc = "".join(
+        f'<text x="20" y="{58 + i * 19}" font-size="12.5" fill="{t["text"]}">{esc(line)}</text>'
+        for i, line in enumerate(lines)
+    )
+    lang_part = (
+        f'<circle cx="26" cy="106" r="5" fill="{lang_color}"/>'
+        f'<text x="37" y="110.5" font-size="11.5" fill="{t["meta"]}">{esc(lang)}</text>'
+        if lang else ""
+    )
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="380" height="128" viewBox="0 0 380 128"
+     font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <rect x="0.5" y="0.5" width="379" height="127" rx="10" fill="{t['bg']}" stroke="{t['border']}"/>
+  <rect x="20" y="20" width="13" height="13" rx="3.5" fill="#22C55E"/>
+  <text x="41" y="31.5" font-size="14.5" fill="{t['name']}">
+    <tspan>{esc(owner)}/</tspan><tspan font-weight="600">{esc(name)}</tspan>
+  </text>
+  {desc}
+  {lang_part}
+  <text x="180" y="110.5" font-size="11.5" fill="{t['meta']}">{esc(tool['license'])}</text>
+  <path transform="translate(310 98) scale(0.9)" d="{STAR_PATH}" fill="none" stroke="{t['meta']}" stroke-width="1.3"/>
+  <text x="328" y="110.5" font-size="11.5" fill="{t['meta']}">{fmt_stars(info['stars'])}</text>
+</svg>
+'''
+
+
+def pin_card(tool, info, caption):
+    slug = tool["repo"].replace("/", "-").lower()
+    for theme in THEMES:
+        (CARDS_DIR / f"{slug}-{theme}.svg").write_text(render_card(tool, info, theme))
+    base = f"assets/cards/{slug}"
     return (
         f'<a href="https://github.com/{tool["repo"]}">'
         f"<picture>"
-        f'<source media="(prefers-color-scheme: dark)" srcset="{base}&theme=github_dark">'
-        f'<img src="{base}" width="370" alt="{tool["name"]}">'
+        f'<source media="(prefers-color-scheme: dark)" srcset="{base}-dark.svg">'
+        f'<img src="{base}-light.svg" width="380" alt="{tool["name"]}">'
         f"</picture></a><br>"
         f'<sub>{caption}</sub>'
     )
@@ -152,8 +227,9 @@ def main():
     tools = json.loads(TOOLS_FILE.read_text())
     validate(tools)
 
-    print(f"Fetching star counts for {len(tools)} repos…", file=sys.stderr)
-    stars_now = {t["repo"]: fetch_stars(t["repo"]) for t in tools}
+    print(f"Fetching repo data for {len(tools)} repos…", file=sys.stderr)
+    repo_info = {t["repo"]: fetch_repo(t["repo"]) for t in tools}
+    stars_now = {r: i["stars"] for r, i in repo_info.items()}
 
     snapshots = load_snapshots()
     snapshots[date.today().isoformat()] = stars_now
@@ -177,6 +253,10 @@ def main():
         latest = sorted(pool, key=lambda t: (t["added"], stars_now[t["repo"]]), reverse=True)
         showcase = [(t, f'added {t["added"]}') for t in latest[:SHOWCASE_COUNT]]
     showcase = [(t, "pinned · from the curators") for t in pinned] + showcase
+
+    CARDS_DIR.mkdir(parents=True, exist_ok=True)
+    for stale in CARDS_DIR.glob("*.svg"):
+        stale.unlink()
 
     # ---- render ----
     n = len(tools)
@@ -230,7 +310,7 @@ def main():
     out.append('<div align="center">')
     out.append("")
     for tool, caption in showcase:
-        out.append(pin_card(tool, caption))
+        out.append(pin_card(tool, repo_info[tool["repo"]], caption))
         out.append("")
     out.append("</div>")
     out.append("")

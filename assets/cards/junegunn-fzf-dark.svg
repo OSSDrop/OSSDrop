@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="128" viewBox="0 0 380 128"
+     font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+  <rect x="0.5" y="0.5" width="379" height="127" rx="10" fill="#0E1A38" stroke="#1E2C4F"/>
+  <rect x="20" y="20" width="13" height="13" rx="3.5" fill="#22C55E"/>
+  <text x="41" y="31.5" font-size="14.5" fill="#58a6ff">
+    <tspan>junegunn/</tspan><tspan font-weight="600">fzf</tspan>
+  </text>
+  <text x="20" y="58" font-size="12.5" fill="#9DB6D8">General-purpose command-line fuzzy finder for files,</text><text x="20" y="77" font-size="12.5" fill="#9DB6D8">history, and processes; integrates with the shell and…</text>
+  <circle cx="26" cy="106" r="5" fill="#00ADD8"/><text x="37" y="110.5" font-size="11.5" fill="#7D96BD">Go</text>
+  <text x="180" y="110.5" font-size="11.5" fill="#7D96BD">MIT</text>
+  <path transform="translate(310 98) scale(0.9)" d="M8 .8l2 4.1 4.5.6-3.2 3.2.7 4.5L8 11.1 4 13.2l.7-4.5L1.5 5.5 6 4.9 8 .8z" fill="none" stroke="#7D96BD" stroke-width="1.3"/>
+  <text x="328" y="110.5" font-size="11.5" fill="#7D96BD">81.6k</text>
+</svg>
