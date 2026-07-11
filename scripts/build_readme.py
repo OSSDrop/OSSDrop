@@ -48,6 +48,28 @@ CATEGORIES = [
 SHOWCASE_COUNT = 3
 TREND_MIN_HISTORY_DAYS = 5  # need this much history before "Trending" is honest
 SNAPSHOT_KEEP_DAYS = 35
+DESCRIPTION_MAX = 140  # one honest sentence; CONTRIBUTING.md documents this
+
+
+def validate(tools):
+    slugs = {c[0] for c in CATEGORIES}
+    errors = []
+    seen_repos = set()
+    for t in tools:
+        name = t.get("name", "<missing name>")
+        for field in ("name", "repo", "homepage", "category", "description", "license", "added"):
+            if not t.get(field):
+                errors.append(f"{name}: missing required field '{field}'")
+        if t.get("category") and t["category"] not in slugs:
+            errors.append(f"{name}: unknown category slug '{t['category']}'")
+        desc = t.get("description", "")
+        if len(desc) > DESCRIPTION_MAX:
+            errors.append(f"{name}: description is {len(desc)} chars (max {DESCRIPTION_MAX})")
+        if t.get("repo") in seen_repos:
+            errors.append(f"{name}: duplicate repo '{t['repo']}'")
+        seen_repos.add(t.get("repo"))
+    if errors:
+        sys.exit("tools.json validation failed:\n  " + "\n  ".join(errors))
 
 
 def fetch_stars(repo):
@@ -128,6 +150,7 @@ def row(tool):
 
 def main():
     tools = json.loads(TOOLS_FILE.read_text())
+    validate(tools)
 
     print(f"Fetching star counts for {len(tools)} repos…", file=sys.stderr)
     stars_now = {t["repo"]: fetch_stars(t["repo"]) for t in tools}
@@ -159,9 +182,6 @@ def main():
     n = len(tools)
     populated = [c for c in CATEGORIES if any(t["category"] == c[0] for t in tools)]
     open_cats = [c for c in CATEGORIES if c not in populated]
-    unknown = {t["category"] for t in tools} - {c[0] for c in CATEGORIES}
-    if unknown:
-        sys.exit(f"ERROR: unknown category slug(s) in tools.json: {sorted(unknown)}")
     nav = " · ".join(
         f"[{title}](#{title.lower().replace(' & ', '--').replace(' / ', '--').replace(' ', '-')})"
         for _, title, _ in populated

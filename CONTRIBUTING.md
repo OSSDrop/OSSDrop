@@ -27,12 +27,32 @@ nightly with live stars, icons, and trending.
 - `repo` — `owner/name` on GitHub. Your avatar and live star count come from
   this automatically; **never** put star numbers anywhere.
 - `homepage` — project site, or the repo URL if there isn't one.
-- `category` — one of: `ai-coding-agents`, `developer-tools-cli`, `web-apis`,
-  `data-databases`, `devops-self-hosted`, `files-sync`, `security-privacy`,
-  `productivity`, `notes-knowledge`, `communication-social`, `automation-iot`,
-  `finance-business`, `science-education`, `creator-media`.
-- `description` — one honest line: what it does, for whom. Say what it is,
-  not "the best ever."
+- `category` — one slug from the table below. Pick the single best fit for
+  what the tool **does**, not what it's built with (an AI-powered note app
+  goes in `notes-knowledge`, not `ai-coding-agents`).
+
+  | Slug | What goes here | For example |
+  | --- | --- | --- |
+  | `ai-coding-agents` | Tools whose job is AI: coding agents and assistants, LLM runtimes/frameworks, agent infrastructure | Aider, projectmem, Ollama |
+  | `developer-tools-cli` | Tools for developers: terminal utilities, editors, git tooling, build/search/debug helpers | ripgrep, fzf, lazygit |
+  | `web-apis` | Building, testing, and serving web apps and APIs: HTTP clients, API tooling, web frameworks/servers | HTTPie, Hoppscotch |
+  | `data-databases` | Storing and querying data: databases, search engines, analytics, ETL, data pipelines | DuckDB, Meilisearch |
+  | `devops-self-hosted` | Running software: deployment, containers, CI/CD, monitoring, self-hosting platforms and dashboards | Uptime Kuma, Docker-adjacent tools |
+  | `files-sync` | Moving and keeping files: sync, backup, file transfer/sharing, object storage | Syncthing, restic |
+  | `security-privacy` | Protecting things: password managers, encryption, VPN/proxy, auth/SSO, scanning | KeePassXC |
+  | `productivity` | Getting personal/team work done: tasks, calendars, writing aids, time tracking, dashboards | GemType |
+  | `notes-knowledge` | Capturing and organizing knowledge: note-taking, wikis, PKM, document management, bookmarks | Joplin-style apps |
+  | `communication-social` | Talking to people: chat, email, video calls, forums, fediverse/social platforms | Matrix/Mastodon-style tools |
+  | `automation-iot` | Making things happen automatically: workflow automation, home automation, IoT platforms | Home-Assistant-style tools, n8n-style tools |
+  | `finance-business` | Running money or a business: budgeting, invoicing, e-commerce, CRM/ERP/HR | Firefly-III-style apps |
+  | `science-education` | Research and learning: scientific/GIS/data-viz tooling, courseware, health and study tools | AcadGIS |
+  | `creator-media` | Making and playing media: audio/video/image editing, streaming, photography, design, games | OBS Studio |
+
+  If nothing fits, pick the closest and say so in the PR — categories grow
+  when real tools need them.
+- `description` — one sentence, **max 140 characters** (CI rejects longer):
+  what it does + for whom. Say what it is, not "the best ever." No feature
+  lists, no superlatives, no emoji.
 - `license` — the SPDX id from your LICENSE file (e.g. `MIT`, `Apache-2.0`).
 - `links` — optional extras (docs, paper). Omit if none.
 - `added` — today's date, `YYYY-MM-DD`.
