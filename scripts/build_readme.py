@@ -53,7 +53,7 @@ CATEGORIES = [
     ("creator-media", "Creator / Media", "media"),
 ]
 
-SHOWCASE_COUNT = 3
+SHOWCASE_COUNT = 3  # total cards incl. pinned — exactly one row of three on GitHub
 TREND_MIN_HISTORY_DAYS = 5  # need this much history before "Trending" is honest
 SNAPSHOT_KEEP_DAYS = 35
 DESCRIPTION_MAX = 140  # one honest sentence; CONTRIBUTING.md documents this
@@ -163,33 +163,36 @@ THEMES = {
 STAR_PATH = ("M8 .8l2 4.1 4.5.6-3.2 3.2.7 4.5L8 11.1 4 13.2l.7-4.5L1.5 5.5 6 4.9 8 .8z")
 
 
-def render_card(tool, info, theme):
+def render_card(tool, info, caption, theme):
     t = THEMES[theme]
     owner, name = tool["repo"].split("/")
     lang = info["language"]
     lang_color = LANG_COLORS.get(lang, "#8b949e")
-    lines = wrap2(tool["description"])
+    pinned = tool.get("pinned")
+    caption_color = "#22C55E" if pinned else t["meta"]
+    lines = wrap2(tool["description"], width=42)
     desc = "".join(
-        f'<text x="20" y="{58 + i * 19}" font-size="12.5" fill="{t["text"]}">{esc(line)}</text>'
+        f'<text x="14" y="{57 + i * 14.5}" font-size="10.8" fill="{t["text"]}">{esc(line)}</text>'
         for i, line in enumerate(lines)
     )
     lang_part = (
-        f'<circle cx="26" cy="106" r="5" fill="{lang_color}"/>'
-        f'<text x="37" y="110.5" font-size="11.5" fill="{t["meta"]}">{esc(lang)}</text>'
+        f'<circle cx="19" cy="98" r="4" fill="{lang_color}"/>'
+        f'<text x="28" y="101.5" font-size="10" fill="{t["meta"]}">{esc(lang)}</text>'
         if lang else ""
     )
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="380" height="128" viewBox="0 0 380 128"
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="265" height="118" viewBox="0 0 265 118"
      font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
-  <rect x="0.5" y="0.5" width="379" height="127" rx="10" fill="{t['bg']}" stroke="{t['border']}"/>
-  <rect x="20" y="20" width="13" height="13" rx="3.5" fill="#22C55E"/>
-  <text x="41" y="31.5" font-size="14.5" fill="{t['name']}">
+  <rect x="0.5" y="0.5" width="264" height="117" rx="9" fill="{t['bg']}" stroke="{t['border']}"/>
+  <rect x="14" y="13" width="11" height="11" rx="3" fill="#22C55E"/>
+  <text x="31" y="23" font-size="12.5" fill="{t['name']}">
     <tspan>{esc(owner)}/</tspan><tspan font-weight="600">{esc(name)}</tspan>
   </text>
+  <text x="14" y="38.5" font-size="9" letter-spacing="0.5" fill="{caption_color}">{esc(caption.upper())}</text>
   {desc}
   {lang_part}
-  <text x="180" y="110.5" font-size="11.5" fill="{t['meta']}">{esc(tool['license'])}</text>
-  <path transform="translate(310 98) scale(0.9)" d="{STAR_PATH}" fill="none" stroke="{t['meta']}" stroke-width="1.3"/>
-  <text x="328" y="110.5" font-size="11.5" fill="{t['meta']}">{fmt_stars(info['stars'])}</text>
+  <text x="132" y="101.5" font-size="10" text-anchor="middle" fill="{t['meta']}">{esc(tool['license'])}</text>
+  <path transform="translate(216 90.5) scale(0.75)" d="{STAR_PATH}" fill="none" stroke="{t['meta']}" stroke-width="1.4"/>
+  <text x="231" y="101.5" font-size="10" fill="{t['meta']}">{fmt_stars(info['stars'])}</text>
 </svg>
 '''
 
@@ -197,15 +200,14 @@ def render_card(tool, info, theme):
 def pin_card(tool, info, caption):
     slug = tool["repo"].replace("/", "-").lower()
     for theme in THEMES:
-        (CARDS_DIR / f"{slug}-{theme}.svg").write_text(render_card(tool, info, theme))
+        (CARDS_DIR / f"{slug}-{theme}.svg").write_text(render_card(tool, info, caption, theme))
     base = f"assets/cards/{slug}"
     return (
         f'<a href="https://github.com/{tool["repo"]}">'
         f"<picture>"
         f'<source media="(prefers-color-scheme: dark)" srcset="{base}-dark.svg">'
-        f'<img src="{base}-light.svg" width="380" alt="{tool["name"]}">'
-        f"</picture></a><br>"
-        f'<sub>{caption}</sub>'
+        f'<img src="{base}-light.svg" width="265" alt="{tool["name"]}">'
+        f"</picture></a>"
     )
 
 
@@ -238,6 +240,7 @@ def main():
     # ---- showcase: pinned card + trending (7-day star gain) or latest drops ----
     pinned = [t for t in tools if t.get("pinned")]
     pool = [t for t in tools if not t.get("pinned")]
+    take = max(0, SHOWCASE_COUNT - len(pinned))
     old = week_ago_snapshot(snapshots)
     history_days = (date.today() - date.fromisoformat(min(snapshots))).days
     if old and history_days >= TREND_MIN_HISTORY_DAYS:
@@ -246,12 +249,12 @@ def main():
         gains.sort(key=lambda x: -x[0])
         showcase_title = "Trending this week"
         showcase_note = "The biggest star gains among listed tools in the last 7 days — measured, not editorialized."
-        showcase = [(t, f'+{g:,} stars this week') for g, t in gains[:SHOWCASE_COUNT]]
+        showcase = [(t, f'+{g:,} stars this week') for g, t in gains[:take]]
     else:
         showcase_title = "Latest drops"
         showcase_note = "The most recent additions to the list. (Becomes “Trending this week” once a week of star history exists.)"
         latest = sorted(pool, key=lambda t: (t["added"], stars_now[t["repo"]]), reverse=True)
-        showcase = [(t, f'added {t["added"]}') for t in latest[:SHOWCASE_COUNT]]
+        showcase = [(t, f'added {t["added"]}') for t in latest[:take]]
     showcase = [(t, "pinned · from the curators") for t in pinned] + showcase
 
     CARDS_DIR.mkdir(parents=True, exist_ok=True)
@@ -307,12 +310,8 @@ def main():
     out.append("")
     out.append(f"<sub>{showcase_note}</sub>")
     out.append("")
-    out.append('<div align="center">')
-    out.append("")
-    for tool, caption in showcase:
-        out.append(pin_card(tool, repo_info[tool["repo"]], caption))
-        out.append("")
-    out.append("</div>")
+    cards = "&nbsp;".join(pin_card(t, repo_info[t["repo"]], c) for t, c in showcase)
+    out.append(f'<div align="center">{cards}</div>')
     out.append("")
 
     for slug, title, icon in populated:
