@@ -54,6 +54,7 @@ CATEGORIES = [
 ]
 
 SHOWCASE_COUNT = 3  # total cards incl. pinned — exactly one row of three on GitHub
+MOST_STARRED_COUNT = 3  # second showcase row: top-starred tools not already shown
 TREND_MIN_HISTORY_DAYS = 5  # need this much history before "Trending" is honest
 SNAPSHOT_KEEP_DAYS = 35
 DESCRIPTION_MAX = 140  # one honest sentence; CONTRIBUTING.md documents this
@@ -313,6 +314,22 @@ def main():
     cards = "&nbsp;".join(pin_card(t, repo_info[t["repo"]], c) for t, c in showcase)
     out.append(f'<div align="center">{cards}</div>')
     out.append("")
+
+    shown = {t["repo"] for t, _ in showcase}
+    most_starred = sorted(
+        (t for t in tools if t["repo"] not in shown),
+        key=lambda t: -stars_now[t["repo"]],
+    )[:MOST_STARRED_COUNT]
+    if most_starred:
+        out.append("## Most starred")
+        out.append("")
+        out.append("<sub>The heaviest hitters on the list — recomputed nightly.</sub>")
+        out.append("")
+        cards = "&nbsp;".join(
+            pin_card(t, repo_info[t["repo"]], "most starred") for t in most_starred
+        )
+        out.append(f'<div align="center">{cards}</div>')
+        out.append("")
 
     for slug, title, icon in populated:
         members = [t for t in tools if t["category"] == slug]
