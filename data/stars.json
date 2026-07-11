@@ -6,16 +6,16 @@
       "sharkdp/bat": 59641,
       "junegunn/fzf": 81633,
       "jesseduffield/lazygit": 80251,
-      "BurntSushi/ripgrep": 66007,
+      "BurntSushi/ripgrep": 66008,
       "riponcm/AcadGIS": 42,
       "duckdb/duckdb": 39282,
-      "meilisearch/meilisearch": 58490,
+      "meilisearch/meilisearch": 58491,
       "louislam/uptime-kuma": 88997,
       "riponcm/GemType": 42,
-      "keepassxreboot/keepassxc": 27941,
+      "keepassxreboot/keepassxc": 27942,
       "hoppscotch/hoppscotch": 79775,
       "httpie/cli": 38303,
-      "obsproject/obs-studio": 73786
+      "obsproject/obs-studio": 73788
     }
   }
 }

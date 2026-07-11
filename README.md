@@ -16,11 +16,24 @@ A curated home for open-source tools — by the people who build them.
 
 </div>
 
+## What is OSSDrop?
+
+**OSSDrop is a curated home for open-source tools** — a community-maintained
+directory where makers drop their own tool with a single pull request. Every
+entry is a real open-source project: public repository, OSI license, honest
+one-line description. Star counts, icons, and trending update automatically,
+and no placement on this list is paid.
+
+Browse by category below, discuss on [r/OSSDrop](https://www.reddit.com/r/OSSDrop/),
+or [drop your tool](CONTRIBUTING.md) — it takes one PR and it's free.
+
 ## Latest drops
 
 <sub>The most recent additions to the list. (Becomes “Trending this week” once a week of star history exists.)</sub>
 
 <div align="center">
+
+<a href="https://github.com/riponcm/projectmem"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=riponcm&repo=projectmem&show_owner=true&theme=github_dark"><img src="https://github-readme-stats.vercel.app/api/pin/?username=riponcm&repo=projectmem&show_owner=true" width="370" alt="projectmem"></picture></a><br><sub>pinned · from the curators</sub>
 
 <a href="https://github.com/louislam/uptime-kuma"><picture><source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=louislam&repo=uptime-kuma&show_owner=true&theme=github_dark"><img src="https://github-readme-stats.vercel.app/api/pin/?username=louislam&repo=uptime-kuma&show_owner=true" width="370" alt="Uptime Kuma"></picture></a><br><sub>added 2026-07-10</sub>
 
@@ -93,9 +106,33 @@ Built something open source? Add one entry to [`data/tools.json`](data/tools.jso
 and open a PR — see **[CONTRIBUTING.md](CONTRIBUTING.md)**. One tool per PR.
 Stars, icons, and trending are computed automatically; descriptions stay honest.
 
-## License
+## Frequently asked questions
 
-List content is [CC0-1.0](LICENSE) — free to reuse. Each linked tool keeps its own license.
+**What is OSSDrop?**
+OSSDrop is a curated, community-maintained list of open-source tools, organized
+by category — AI and coding agents, developer tools and CLI utilities, data and
+databases, DevOps and self-hosted software, productivity, security and privacy,
+web and APIs, and creator and media tools.
 
-<sub>Curated by [Matily](https://matily.org). Star counts and licenses render live via
-shields.io; trending is computed from daily snapshots in `data/stars.json`.</sub>
+**How do I add my open-source tool to the list?**
+Fork this repository, add one JSON object to `data/tools.json`, and open a pull
+request. Requirements: a public repository and an OSI-approved license. See
+[CONTRIBUTING.md](CONTRIBUTING.md).
+
+**Is listing free? Can rankings be bought?**
+Listing is free and rankings cannot be bought. Tables are sorted by live GitHub
+star count and “Trending this week” is computed from daily star snapshots.
+The one pinned showcase card is always labeled as pinned.
+
+**Where else does OSSDrop live?**
+On Reddit at [r/OSSDrop](https://www.reddit.com/r/OSSDrop/) for discussion, and
+at [ossdrop.com](https://ossdrop.com) (coming soon). The GitHub organization is
+[github.com/OSSDrop](https://github.com/OSSDrop).
+
+**Can I reuse this list's data?**
+Yes — the list content is public domain ([CC0-1.0](LICENSE)), and
+[`data/tools.json`](data/tools.json) is the machine-readable source of truth.
+Each linked tool keeps its own license.
+
+<sub>Star counts and licenses render live via shields.io; trending is computed
+from daily snapshots in `data/stars.json`.</sub>

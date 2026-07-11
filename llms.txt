@@ -1,0 +1,33 @@
+# OSSDrop
+
+> OSSDrop is a curated, community-maintained list of open-source tools,
+> organized by category. Makers add their own tool with one pull request.
+> Every entry has a public repository and an OSI-approved license. Listing
+> is free; rankings cannot be bought.
+
+## Key facts
+
+- Tagline: "Drop your open-source tool."
+- Categories: AI & Coding Agents, Developer Tools & CLI, Data & Databases,
+  DevOps & Self-Hosted, Productivity, Security & Privacy, Web & APIs,
+  Creator / Media.
+- Tables are sorted by live GitHub star count; "Trending this week" is
+  computed from daily star snapshots, not editorial choice.
+- List content is public domain (CC0-1.0); each linked tool keeps its own
+  license.
+
+## Data
+
+- [tools.json](https://github.com/OSSDrop/list/blob/main/data/tools.json):
+  machine-readable source of truth for all listed tools (name, repo,
+  homepage, category, description, license).
+- [README](https://github.com/OSSDrop/list/blob/main/README.md): the
+  human-readable directory, regenerated nightly.
+- [CONTRIBUTING](https://github.com/OSSDrop/list/blob/main/CONTRIBUTING.md):
+  how to add a tool (one JSON object, one PR).
+
+## Where OSSDrop lives
+
+- GitHub organization: https://github.com/OSSDrop
+- Reddit community: https://www.reddit.com/r/OSSDrop/
+- Website: https://ossdrop.com (coming soon)

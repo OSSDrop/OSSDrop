@@ -17,7 +17,8 @@
     "description": "Local-first, event-sourced memory + judgment layer for AI coding agents; warns before repeating a failed fix.",
     "license": "MIT",
     "links": [{ "label": "paper", "url": "https://arxiv.org/abs/2606.12329" }],
-    "added": "2026-07-10"
+    "added": "2026-07-10",
+    "pinned": true
   },
   {
     "name": "bat",

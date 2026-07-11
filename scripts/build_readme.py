@@ -130,11 +130,13 @@ def main():
     snapshots[date.today().isoformat()] = stars_now
     save_snapshots(snapshots)
 
-    # ---- showcase: trending (7-day star gain) or latest drops ----
+    # ---- showcase: pinned card + trending (7-day star gain) or latest drops ----
+    pinned = [t for t in tools if t.get("pinned")]
+    pool = [t for t in tools if not t.get("pinned")]
     old = week_ago_snapshot(snapshots)
     history_days = (date.today() - date.fromisoformat(min(snapshots))).days
     if old and history_days >= TREND_MIN_HISTORY_DAYS:
-        gains = [(stars_now[t["repo"]] - old.get(t["repo"], stars_now[t["repo"]]), t) for t in tools]
+        gains = [(stars_now[t["repo"]] - old.get(t["repo"], stars_now[t["repo"]]), t) for t in pool]
         gains = [(g, t) for g, t in gains if g > 0]
         gains.sort(key=lambda x: -x[0])
         showcase_title = "Trending this week"
@@ -143,8 +145,9 @@ def main():
     else:
         showcase_title = "Latest drops"
         showcase_note = "The most recent additions to the list. (Becomes “Trending this week” once a week of star history exists.)"
-        latest = sorted(tools, key=lambda t: (t["added"], stars_now[t["repo"]]), reverse=True)
+        latest = sorted(pool, key=lambda t: (t["added"], stars_now[t["repo"]]), reverse=True)
         showcase = [(t, f'added {t["added"]}') for t in latest[:SHOWCASE_COUNT]]
+    showcase = [(t, "pinned · from the curators") for t in pinned] + showcase
 
     # ---- render ----
     n = len(tools)
@@ -176,6 +179,17 @@ def main():
     out.append(f"<sub>{nav}</sub>")
     out.append("")
     out.append("</div>")
+    out.append("")
+    out.append("## What is OSSDrop?")
+    out.append("")
+    out.append("**OSSDrop is a curated home for open-source tools** — a community-maintained")
+    out.append("directory where makers drop their own tool with a single pull request. Every")
+    out.append("entry is a real open-source project: public repository, OSI license, honest")
+    out.append("one-line description. Star counts, icons, and trending update automatically,")
+    out.append("and no placement on this list is paid.")
+    out.append("")
+    out.append("Browse by category below, discuss on [r/OSSDrop](https://www.reddit.com/r/OSSDrop/),")
+    out.append("or [drop your tool](CONTRIBUTING.md) — it takes one PR and it's free.")
     out.append("")
     out.append(f"## {showcase_title}")
     out.append("")
@@ -212,12 +226,36 @@ def main():
     out.append("and open a PR — see **[CONTRIBUTING.md](CONTRIBUTING.md)**. One tool per PR.")
     out.append("Stars, icons, and trending are computed automatically; descriptions stay honest.")
     out.append("")
-    out.append("## License")
+    out.append("## Frequently asked questions")
     out.append("")
-    out.append("List content is [CC0-1.0](LICENSE) — free to reuse. Each linked tool keeps its own license.")
+    out.append("**What is OSSDrop?**")
+    out.append("OSSDrop is a curated, community-maintained list of open-source tools, organized")
+    out.append("by category — AI and coding agents, developer tools and CLI utilities, data and")
+    out.append("databases, DevOps and self-hosted software, productivity, security and privacy,")
+    out.append("web and APIs, and creator and media tools.")
     out.append("")
-    out.append("<sub>Curated by [Matily](https://matily.org). Star counts and licenses render live via")
-    out.append("shields.io; trending is computed from daily snapshots in `data/stars.json`.</sub>")
+    out.append("**How do I add my open-source tool to the list?**")
+    out.append("Fork this repository, add one JSON object to `data/tools.json`, and open a pull")
+    out.append("request. Requirements: a public repository and an OSI-approved license. See")
+    out.append("[CONTRIBUTING.md](CONTRIBUTING.md).")
+    out.append("")
+    out.append("**Is listing free? Can rankings be bought?**")
+    out.append("Listing is free and rankings cannot be bought. Tables are sorted by live GitHub")
+    out.append("star count and “Trending this week” is computed from daily star snapshots.")
+    out.append("The one pinned showcase card is always labeled as pinned.")
+    out.append("")
+    out.append("**Where else does OSSDrop live?**")
+    out.append("On Reddit at [r/OSSDrop](https://www.reddit.com/r/OSSDrop/) for discussion, and")
+    out.append("at [ossdrop.com](https://ossdrop.com) (coming soon). The GitHub organization is")
+    out.append("[github.com/OSSDrop](https://github.com/OSSDrop).")
+    out.append("")
+    out.append("**Can I reuse this list's data?**")
+    out.append("Yes — the list content is public domain ([CC0-1.0](LICENSE)), and")
+    out.append("[`data/tools.json`](data/tools.json) is the machine-readable source of truth.")
+    out.append("Each linked tool keeps its own license.")
+    out.append("")
+    out.append("<sub>Star counts and licenses render live via shields.io; trending is computed")
+    out.append("from daily snapshots in `data/stars.json`.</sub>")
     out.append("")
 
     README_FILE.write_text("\n".join(out))
