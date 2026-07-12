@@ -33,6 +33,23 @@
       "hoppscotch/hoppscotch": 79775,
       "httpie/cli": 38303,
       "obsproject/obs-studio": 73791
+    },
+    "2026-07-12": {
+      "Aider-AI/aider": 47308,
+      "riponcm/projectmem": 164,
+      "sharkdp/bat": 59672,
+      "junegunn/fzf": 81660,
+      "jesseduffield/lazygit": 80287,
+      "BurntSushi/ripgrep": 66043,
+      "riponcm/AcadGIS": 45,
+      "duckdb/duckdb": 39300,
+      "meilisearch/meilisearch": 58512,
+      "louislam/uptime-kuma": 89020,
+      "riponcm/GemType": 67,
+      "keepassxreboot/keepassxc": 27952,
+      "hoppscotch/hoppscotch": 79780,
+      "httpie/cli": 38303,
+      "obsproject/obs-studio": 73806
     }
   }
 }
