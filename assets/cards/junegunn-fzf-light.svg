@@ -5,7 +5,7 @@
   <text x="31" y="23" font-size="12.5" fill="#0969da">
     <tspan>junegunn/</tspan><tspan font-weight="600">fzf</tspan>
   </text>
-  <text x="14" y="38.5" font-size="9" letter-spacing="0.5" fill="#57606a">ADDED 2026-07-10</text>
+  <text x="14" y="38.5" font-size="9" letter-spacing="0.5" fill="#57606a">MOST STARRED</text>
   <text x="14" y="57.0" font-size="10.8" fill="#57606a">General-purpose command-line fuzzy finder</text><text x="14" y="71.5" font-size="10.8" fill="#57606a">for files, history, and processes;…</text>
   <circle cx="19" cy="98" r="4" fill="#00ADD8"/><text x="28" y="101.5" font-size="10" fill="#57606a">Go</text>
   <text x="132" y="101.5" font-size="10" text-anchor="middle" fill="#57606a">MIT</text>

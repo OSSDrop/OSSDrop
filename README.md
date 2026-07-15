@@ -27,17 +27,17 @@ and no placement on this list is paid.
 Browse by category below, discuss on [r/OSSDrop](https://www.reddit.com/r/OSSDrop/),
 or [drop your tool](CONTRIBUTING.md) — it takes one PR and it's free.
 
-## Latest drops
+## Trending this week
 
-<sub>The most recent additions to the list. (Becomes “Trending this week” once a week of star history exists.)</sub>
+<sub>The biggest star gains among listed tools in the last 7 days — measured, not editorialized.</sub>
 
-<div align="center"><a href="https://github.com/riponcm/projectmem"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/riponcm-projectmem-dark.svg"><img src="assets/cards/riponcm-projectmem-light.svg" width="265" alt="projectmem"></picture></a>&nbsp;<a href="https://github.com/louislam/uptime-kuma"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/louislam-uptime-kuma-dark.svg"><img src="assets/cards/louislam-uptime-kuma-light.svg" width="265" alt="Uptime Kuma"></picture></a>&nbsp;<a href="https://github.com/junegunn/fzf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/junegunn-fzf-dark.svg"><img src="assets/cards/junegunn-fzf-light.svg" width="265" alt="fzf"></picture></a></div>
+<div align="center"><a href="https://github.com/riponcm/projectmem"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/riponcm-projectmem-dark.svg"><img src="assets/cards/riponcm-projectmem-light.svg" width="265" alt="projectmem"></picture></a>&nbsp;<a href="https://github.com/louislam/uptime-kuma"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/louislam-uptime-kuma-dark.svg"><img src="assets/cards/louislam-uptime-kuma-light.svg" width="265" alt="Uptime Kuma"></picture></a>&nbsp;<a href="https://github.com/Aider-AI/aider"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/aider-ai-aider-dark.svg"><img src="assets/cards/aider-ai-aider-light.svg" width="265" alt="Aider"></picture></a></div>
 
 ## Most starred
 
 <sub>The heaviest hitters on the list — recomputed nightly.</sub>
 
-<div align="center"><a href="https://github.com/jesseduffield/lazygit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/jesseduffield-lazygit-dark.svg"><img src="assets/cards/jesseduffield-lazygit-light.svg" width="265" alt="lazygit"></picture></a>&nbsp;<a href="https://github.com/hoppscotch/hoppscotch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/hoppscotch-hoppscotch-dark.svg"><img src="assets/cards/hoppscotch-hoppscotch-light.svg" width="265" alt="Hoppscotch"></picture></a>&nbsp;<a href="https://github.com/obsproject/obs-studio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/obsproject-obs-studio-dark.svg"><img src="assets/cards/obsproject-obs-studio-light.svg" width="265" alt="OBS Studio"></picture></a></div>
+<div align="center"><a href="https://github.com/junegunn/fzf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/junegunn-fzf-dark.svg"><img src="assets/cards/junegunn-fzf-light.svg" width="265" alt="fzf"></picture></a>&nbsp;<a href="https://github.com/jesseduffield/lazygit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/jesseduffield-lazygit-dark.svg"><img src="assets/cards/jesseduffield-lazygit-light.svg" width="265" alt="lazygit"></picture></a>&nbsp;<a href="https://github.com/hoppscotch/hoppscotch"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/hoppscotch-hoppscotch-dark.svg"><img src="assets/cards/hoppscotch-hoppscotch-light.svg" width="265" alt="Hoppscotch"></picture></a></div>
 
 ## <img src="assets/icons/ai.svg" width="18" alt=""> AI & Coding Agents
 
