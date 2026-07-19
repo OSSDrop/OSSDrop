@@ -6,7 +6,12 @@
     "category": "ai-coding-agents",
     "description": "AI pair programming in your terminal; edits files in your local git repo and commits as it goes.",
     "license": "Apache-2.0",
-    "links": [{ "label": "docs", "url": "https://aider.chat/docs/" }],
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://aider.chat/docs/"
+      }
+    ],
     "added": "2026-07-10"
   },
   {
@@ -16,7 +21,12 @@
     "category": "ai-coding-agents",
     "description": "Local-first, event-sourced memory + judgment layer for AI coding agents; warns before repeating a failed fix.",
     "license": "MIT",
-    "links": [{ "label": "paper", "url": "https://arxiv.org/abs/2606.12329" }],
+    "links": [
+      {
+        "label": "paper",
+        "url": "https://arxiv.org/abs/2606.12329"
+      }
+    ],
     "added": "2026-07-10",
     "pinned": true
   },
@@ -72,7 +82,12 @@
     "category": "data-databases",
     "description": "In-process analytical SQL database; runs OLAP queries inside your app or notebook.",
     "license": "MIT",
-    "links": [{ "label": "docs", "url": "https://duckdb.org/docs/" }],
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://duckdb.org/docs/"
+      }
+    ],
     "added": "2026-07-10"
   },
   {
@@ -82,7 +97,12 @@
     "category": "data-databases",
     "description": "Fast, typo-tolerant search engine with a simple API.",
     "license": "MIT (core)",
-    "links": [{ "label": "docs", "url": "https://www.meilisearch.com/docs" }],
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://www.meilisearch.com/docs"
+      }
+    ],
     "added": "2026-07-10"
   },
   {
@@ -110,7 +130,12 @@
     "category": "security-privacy",
     "description": "Cross-platform, offline password manager; community continuation of KeePass.",
     "license": "GPL-2.0/GPL-3.0",
-    "links": [{ "label": "docs", "url": "https://keepassxc.org/docs/" }],
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://keepassxc.org/docs/"
+      }
+    ],
     "added": "2026-07-10"
   },
   {
@@ -120,7 +145,12 @@
     "category": "web-apis",
     "description": "API development environment in the browser: REST, GraphQL, and realtime clients; self-hostable.",
     "license": "MIT",
-    "links": [{ "label": "docs", "url": "https://docs.hoppscotch.io" }],
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://docs.hoppscotch.io"
+      }
+    ],
     "added": "2026-07-10"
   },
   {
@@ -130,7 +160,12 @@
     "category": "web-apis",
     "description": "User-friendly command-line HTTP client with JSON support and syntax highlighting.",
     "license": "BSD-3-Clause",
-    "links": [{ "label": "docs", "url": "https://httpie.io/docs/cli" }],
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://httpie.io/docs/cli"
+      }
+    ],
     "added": "2026-07-10"
   },
   {
@@ -140,7 +175,192 @@
     "category": "creator-media",
     "description": "Free, open-source software for live streaming and screen recording.",
     "license": "GPL-2.0",
-    "links": [{ "label": "docs", "url": "https://docs.obsproject.com" }],
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://docs.obsproject.com"
+      }
+    ],
     "added": "2026-07-10"
+  },
+  {
+    "name": "Gemma",
+    "repo": "google-deepmind/gemma",
+    "homepage": "https://ai.google.dev/gemma",
+    "category": "ai-coding-agents",
+    "description": "Google DeepMind's open-weight LLM library, with JAX tooling to run and fine-tune the Gemma models.",
+    "license": "Apache-2.0",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "Grok-1",
+    "repo": "xai-org/grok-1",
+    "homepage": "https://x.ai",
+    "category": "ai-coding-agents",
+    "description": "Open-weights release of xAI's 314B-parameter Grok-1 large language model, with JAX example code.",
+    "license": "Apache-2.0",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "VibeVoice",
+    "repo": "microsoft/VibeVoice",
+    "homepage": "https://microsoft.github.io/VibeVoice/",
+    "category": "creator-media",
+    "description": "Microsoft's open-source frontier text-to-speech model for long-form, multi-speaker conversational audio.",
+    "license": "",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "Whisper",
+    "repo": "openai/whisper",
+    "homepage": "https://github.com/openai/whisper",
+    "category": "creator-media",
+    "description": "OpenAI's robust multilingual speech-to-text model for transcription and translation.",
+    "license": "MIT",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "Llama",
+    "repo": "meta-llama/llama",
+    "homepage": "https://llama.meta.com",
+    "category": "ai-coding-agents",
+    "description": "Inference code for Meta's Llama family of open large language models.",
+    "license": "",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "MCP Servers",
+    "repo": "modelcontextprotocol/servers",
+    "homepage": "https://modelcontextprotocol.io",
+    "category": "developer-tools-cli",
+    "description": "Reference server implementations for the Model Context Protocol, the open standard (created by Anthropic) connecting AI assistants to tools and data.",
+    "license": "MIT",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "Transformers",
+    "repo": "huggingface/transformers",
+    "homepage": "https://huggingface.co/docs/transformers",
+    "category": "ai-coding-agents",
+    "description": "Hugging Face's library of pretrained models for text, vision, and audio — the standard toolkit for transformer models.",
+    "license": "Apache-2.0",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "PyTorch",
+    "repo": "pytorch/pytorch",
+    "homepage": "https://pytorch.org",
+    "category": "science-education",
+    "description": "Meta's Python-first deep-learning framework with strong GPU acceleration and dynamic graphs.",
+    "license": "BSD-3-Clause",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "TensorFlow",
+    "repo": "tensorflow/tensorflow",
+    "homepage": "https://www.tensorflow.org",
+    "category": "science-education",
+    "description": "Google's end-to-end open-source platform for machine learning, from research to production.",
+    "license": "Apache-2.0",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "RecurrentGemma",
+    "repo": "google-deepmind/recurrentgemma",
+    "homepage": "https://github.com/google-deepmind/recurrentgemma",
+    "category": "ai-coding-agents",
+    "description": "Google DeepMind's open-weight language model based on the Griffin architecture for fast, memory-efficient inference.",
+    "license": "Apache-2.0",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "VS Code",
+    "repo": "microsoft/vscode",
+    "homepage": "https://code.visualstudio.com",
+    "category": "developer-tools-cli",
+    "description": "Microsoft's open-source code editor with rich extensions, debugging, and Git — the core of Visual Studio Code.",
+    "license": "MIT",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "Playwright",
+    "repo": "microsoft/playwright",
+    "homepage": "https://playwright.dev",
+    "category": "developer-tools-cli",
+    "description": "Microsoft's framework for reliable end-to-end browser testing across Chromium, Firefox, and WebKit.",
+    "license": "Apache-2.0",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "PowerToys",
+    "repo": "microsoft/PowerToys",
+    "homepage": "https://learn.microsoft.com/windows/powertoys/",
+    "category": "productivity",
+    "description": "Microsoft's set of power-user utilities for Windows: window management, bulk rename, color picker, and more.",
+    "license": "MIT",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "React",
+    "repo": "facebook/react",
+    "homepage": "https://react.dev",
+    "category": "web-apis",
+    "description": "Meta's JavaScript library for building user interfaces from reusable components.",
+    "license": "MIT",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "Next.js",
+    "repo": "vercel/next.js",
+    "homepage": "https://nextjs.org",
+    "category": "web-apis",
+    "description": "Vercel's React framework for production — full-stack rendering, routing, and built-in optimizations.",
+    "license": "MIT",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "Flutter",
+    "repo": "flutter/flutter",
+    "homepage": "https://flutter.dev",
+    "category": "web-apis",
+    "description": "Google's UI toolkit for building natively compiled apps for mobile, web, and desktop from one codebase.",
+    "license": "BSD-3-Clause",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "Go",
+    "repo": "golang/go",
+    "homepage": "https://go.dev",
+    "category": "developer-tools-cli",
+    "description": "Google's open-source programming language for building simple, reliable, and efficient software.",
+    "license": "BSD-3-Clause",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "Kubernetes",
+    "repo": "kubernetes/kubernetes",
+    "homepage": "https://kubernetes.io",
+    "category": "devops-self-hosted",
+    "description": "Production-grade container orchestration to automate deployment, scaling, and management of containerized apps.",
+    "license": "Apache-2.0",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "Terraform",
+    "repo": "hashicorp/terraform",
+    "homepage": "https://www.terraform.io",
+    "category": "devops-self-hosted",
+    "description": "HashiCorp's infrastructure-as-code tool to provision cloud and on-prem resources safely and predictably.",
+    "license": "",
+    "added": "2026-07-19"
+  },
+  {
+    "name": "Grafana",
+    "repo": "grafana/grafana",
+    "homepage": "https://grafana.com",
+    "category": "devops-self-hosted",
+    "description": "Open observability platform to query, visualize, and alert on metrics, logs, and traces.",
+    "license": "AGPL-3.0",
+    "added": "2026-07-19"
   }
 ]
