@@ -207,7 +207,7 @@
     "homepage": "https://microsoft.github.io/VibeVoice/",
     "category": "creator-media",
     "description": "Microsoft's open-source frontier text-to-speech model for long-form, multi-speaker conversational audio.",
-    "license": "",
+    "license": "MIT",
     "added": "2026-07-19"
   },
   {
@@ -220,21 +220,12 @@
     "added": "2026-07-19"
   },
   {
-    "name": "Llama",
-    "repo": "meta-llama/llama",
-    "homepage": "https://llama.meta.com",
-    "category": "ai-coding-agents",
-    "description": "Inference code for Meta's Llama family of open large language models.",
-    "license": "",
-    "added": "2026-07-19"
-  },
-  {
     "name": "MCP Servers",
     "repo": "modelcontextprotocol/servers",
     "homepage": "https://modelcontextprotocol.io",
     "category": "developer-tools-cli",
-    "description": "Reference server implementations for the Model Context Protocol, the open standard (created by Anthropic) connecting AI assistants to tools and data.",
-    "license": "MIT",
+    "description": "Reference server implementations for the Model Context Protocol, the open standard connecting AI assistants to tools and data.",
+    "license": "Apache-2.0",
     "added": "2026-07-19"
   },
   {
@@ -346,13 +337,13 @@
     "added": "2026-07-19"
   },
   {
-    "name": "Terraform",
-    "repo": "hashicorp/terraform",
-    "homepage": "https://www.terraform.io",
+    "name": "OpenTofu",
+    "repo": "opentofu/opentofu",
+    "homepage": "https://opentofu.org",
     "category": "devops-self-hosted",
-    "description": "HashiCorp's infrastructure-as-code tool to provision cloud and on-prem resources safely and predictably.",
-    "license": "",
-    "added": "2026-07-19"
+    "description": "Infrastructure-as-code tool to provision cloud and on-prem resources declaratively; community-driven fork of Terraform.",
+    "license": "MPL-2.0",
+    "added": "2026-07-21"
   },
   {
     "name": "Grafana",
