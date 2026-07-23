@@ -178,5 +178,1085 @@
     "description": "Free 3D creation suite: modeling, sculpting, animation, simulation, rendering, and video editing.",
     "license": "GPL-2.0",
     "publishOn": "2026-07-25"
+  },
+  {
+    "name": "Codex CLI",
+    "repo": "openai/codex",
+    "homepage": "https://github.com/openai/codex",
+    "category": "ai-coding-agents",
+    "description": "Terminal-based coding agent from OpenAI that reads, edits, and runs code in your local repository.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-26"
+  },
+  {
+    "name": "Huginn",
+    "repo": "huginn/huginn",
+    "homepage": "https://github.com/huginn/huginn",
+    "category": "automation-iot",
+    "description": "Self-hosted system for building agents that monitor events and automate actions, similar to IFTTT.",
+    "license": "MIT",
+    "publishOn": "2026-07-26"
+  },
+  {
+    "name": "Mastodon",
+    "repo": "mastodon/mastodon",
+    "homepage": "https://joinmastodon.org",
+    "category": "communication-social",
+    "description": "Self-hosted social networking server using ActivityPub; a federated alternative to X/Twitter.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-07-26"
+  },
+  {
+    "name": "yt-dlp",
+    "repo": "yt-dlp/yt-dlp",
+    "homepage": "https://discord.gg/H5MNcFW63r",
+    "category": "creator-media",
+    "description": "Command-line tool for downloading video and audio from YouTube and many other sites.",
+    "license": "Unlicense",
+    "publishOn": "2026-07-26"
+  },
+  {
+    "name": "Apache Superset",
+    "repo": "apache/superset",
+    "homepage": "https://superset.apache.org/",
+    "category": "data-databases",
+    "description": "Data exploration and visualization platform for building dashboards and charts on existing databases.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-26"
+  },
+  {
+    "name": "act",
+    "repo": "nektos/act",
+    "homepage": "https://nektosact.com",
+    "category": "developer-tools-cli",
+    "description": "Runs GitHub Actions workflows locally in Docker, for testing CI before pushing.",
+    "license": "MIT",
+    "publishOn": "2026-07-26"
+  },
+  {
+    "name": "Immich",
+    "repo": "immich-app/immich",
+    "homepage": "https://immich.app",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted photo and video backup and management solution, an alternative to Google Photos.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-07-26"
+  },
+  {
+    "name": "LocalSend",
+    "repo": "localsend/localsend",
+    "homepage": "https://localsend.org",
+    "category": "files-sync",
+    "description": "Cross-platform app for sending files between devices on the same local network, an alternative to AirDrop.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-26"
+  },
+  {
+    "name": "Twenty",
+    "repo": "twentyhq/twenty",
+    "homepage": "https://twenty.com",
+    "category": "finance-business",
+    "description": "Customer relationship management platform positioned as an open alternative to Salesforce.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-07-26"
+  },
+  {
+    "name": "Memos",
+    "repo": "usememos/memos",
+    "homepage": "https://usememos.com",
+    "category": "notes-knowledge",
+    "description": "Self-hosted, lightweight note-taking service built for quick capture, with Markdown support.",
+    "license": "MIT",
+    "publishOn": "2026-07-26"
+  },
+  {
+    "name": "Rectangle",
+    "repo": "rxhanson/Rectangle",
+    "homepage": "https://rectangleapp.com",
+    "category": "productivity",
+    "description": "Move and resize macOS windows with keyboard shortcuts and drag-to-snap areas.",
+    "license": "MIT",
+    "publishOn": "2026-07-27"
+  },
+  {
+    "name": "Manim",
+    "repo": "ManimCommunity/manim",
+    "homepage": "https://www.manim.community",
+    "category": "science-education",
+    "description": "Python library for programmatically creating precise mathematical animations and diagrams.",
+    "license": "MIT",
+    "publishOn": "2026-07-27"
+  },
+  {
+    "name": "Metasploit Framework",
+    "repo": "rapid7/metasploit-framework",
+    "homepage": "https://www.metasploit.com/",
+    "category": "security-privacy",
+    "description": "Penetration testing framework with exploit development and vulnerability verification tools.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-07-27"
+  },
+  {
+    "name": "Gin",
+    "repo": "gin-gonic/gin",
+    "homepage": "https://gin-gonic.com/",
+    "category": "web-apis",
+    "description": "HTTP web framework for Go, built on httprouter, used for REST APIs and microservices.",
+    "license": "MIT",
+    "publishOn": "2026-07-27"
+  },
+  {
+    "name": "OpenHands",
+    "repo": "OpenHands/OpenHands",
+    "homepage": "https://openhands.dev",
+    "category": "ai-coding-agents",
+    "description": "AI agent platform that writes code, runs shell commands, and browses the web to complete software engineering tasks.",
+    "license": "MIT",
+    "publishOn": "2026-07-27"
+  },
+  {
+    "name": "Frigate",
+    "repo": "blakeblackshear/frigate",
+    "homepage": "https://frigate.video",
+    "category": "automation-iot",
+    "description": "Local network video recorder with real-time object detection for IP cameras, no cloud video upload required.",
+    "license": "MIT",
+    "publishOn": "2026-07-27"
+  },
+  {
+    "name": "Discourse",
+    "repo": "discourse/discourse",
+    "homepage": "https://www.discourse.org",
+    "category": "communication-social",
+    "description": "Discussion forum and community platform with topics, categories, and moderation tools.",
+    "license": "GPL-2.0",
+    "publishOn": "2026-07-27"
+  },
+  {
+    "name": "Jellyfin",
+    "repo": "jellyfin/jellyfin",
+    "homepage": "https://jellyfin.org",
+    "category": "creator-media",
+    "description": "Self-hosted media server for streaming your movies, TV shows, and music library.",
+    "license": "GPL-2.0",
+    "publishOn": "2026-07-27"
+  },
+  {
+    "name": "etcd",
+    "repo": "etcd-io/etcd",
+    "homepage": "https://etcd.io",
+    "category": "data-databases",
+    "description": "Distributed key-value store used for shared configuration and service discovery, notably within Kubernetes.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-27"
+  },
+  {
+    "name": "lazydocker",
+    "repo": "jesseduffield/lazydocker",
+    "homepage": "https://github.com/jesseduffield/lazydocker",
+    "category": "developer-tools-cli",
+    "description": "A terminal UI for managing Docker containers, images, and volumes.",
+    "license": "MIT",
+    "publishOn": "2026-07-27"
+  },
+  {
+    "name": "Ansible",
+    "repo": "ansible/ansible",
+    "homepage": "https://www.ansible.com/",
+    "category": "devops-self-hosted",
+    "description": "Agentless IT automation tool for configuration management, application deployment, and orchestration over SSH.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-07-28"
+  },
+  {
+    "name": "qBittorrent",
+    "repo": "qbittorrent/qBittorrent",
+    "homepage": "https://www.qbittorrent.org",
+    "category": "files-sync",
+    "description": "BitTorrent client with a Qt-based desktop interface and a built-in web UI for remote management.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-07-28"
+  },
+  {
+    "name": "Odoo",
+    "repo": "odoo/odoo",
+    "homepage": "https://www.odoo.com",
+    "category": "finance-business",
+    "description": "Modular business application suite covering CRM, inventory, accounting, and e-commerce.",
+    "license": "LGPL-3.0",
+    "publishOn": "2026-07-28"
+  },
+  {
+    "name": "SiYuan",
+    "repo": "siyuan-note/siyuan",
+    "homepage": "https://b3log.org/siyuan",
+    "category": "notes-knowledge",
+    "description": "Self-hosted personal knowledge management app with block-based editing and Markdown/WYSIWYG support.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-07-28"
+  },
+  {
+    "name": "Wekan",
+    "repo": "wekan/wekan",
+    "homepage": "https://wekan.fi",
+    "category": "productivity",
+    "description": "Self-hosted kanban board application, an alternative to Trello.",
+    "license": "MIT",
+    "publishOn": "2026-07-28"
+  },
+  {
+    "name": "Blockly",
+    "repo": "RaspberryPiFoundation/blockly",
+    "homepage": "https://blockly.com",
+    "category": "science-education",
+    "description": "Library for building visual, block-based programming editors, used in Scratch-like coding tools.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-28"
+  },
+  {
+    "name": "Trivy",
+    "repo": "aquasecurity/trivy",
+    "homepage": "https://trivy.dev",
+    "category": "security-privacy",
+    "description": "Scanner for vulnerabilities, misconfigurations, and exposed secrets in containers, code, and cloud infrastructure.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-28"
+  },
+  {
+    "name": "NestJS",
+    "repo": "nestjs/nest",
+    "homepage": "https://nestjs.com",
+    "category": "web-apis",
+    "description": "Node.js framework for server-side applications in TypeScript, using Angular-style modules and dependency injection.",
+    "license": "MIT",
+    "publishOn": "2026-07-28"
+  },
+  {
+    "name": "MetaGPT",
+    "repo": "FoundationAgents/MetaGPT",
+    "homepage": "https://atoms.dev/",
+    "category": "ai-coding-agents",
+    "description": "Multi-agent framework that simulates a software company's roles to turn one-line requirements into code.",
+    "license": "MIT",
+    "publishOn": "2026-07-28"
+  },
+  {
+    "name": "Tasmota",
+    "repo": "arendst/Tasmota",
+    "homepage": "https://tasmota.github.io/docs",
+    "category": "automation-iot",
+    "description": "Open-source firmware for ESP8266/ESP32 smart devices, enabling local MQTT/HTTP control without a cloud dependency.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-07-28"
+  },
+  {
+    "name": "Rocket.Chat",
+    "repo": "RocketChat/Rocket.Chat",
+    "homepage": "https://rocket.chat/",
+    "category": "communication-social",
+    "description": "Self-hosted team chat with channels, video calls, and integrations; an alternative to Slack. Core is MIT; ee/ subdirectory has a separate…",
+    "license": "MIT",
+    "publishOn": "2026-07-29"
+  },
+  {
+    "name": "LosslessCut",
+    "repo": "mifi/lossless-cut",
+    "homepage": "https://losslesscut.app/",
+    "category": "creator-media",
+    "description": "GUI tool for fast, lossless trimming and cutting of video and audio files.",
+    "license": "GPL-2.0",
+    "publishOn": "2026-07-29"
+  },
+  {
+    "name": "Apache Airflow",
+    "repo": "apache/airflow",
+    "homepage": "https://airflow.apache.org/",
+    "category": "data-databases",
+    "description": "Platform to author, schedule, and monitor data pipelines as directed acyclic graphs (DAGs).",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-29"
+  },
+  {
+    "name": "Helix",
+    "repo": "helix-editor/helix",
+    "homepage": "https://helix-editor.com",
+    "category": "developer-tools-cli",
+    "description": "A modal terminal text editor with built-in LSP support, in the tradition of Vim and Kakoune.",
+    "license": "MPL-2.0",
+    "publishOn": "2026-07-29"
+  },
+  {
+    "name": "Prometheus",
+    "repo": "prometheus/prometheus",
+    "homepage": "https://prometheus.io/",
+    "category": "devops-self-hosted",
+    "description": "Monitoring system and time-series database with a query language and alerting.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-29"
+  },
+  {
+    "name": "croc",
+    "repo": "schollz/croc",
+    "homepage": "https://schollz.com/software/croc6",
+    "category": "files-sync",
+    "description": "Command-line tool for sending files and folders between computers over an encrypted relay connection.",
+    "license": "MIT",
+    "publishOn": "2026-07-29"
+  },
+  {
+    "name": "Metabase",
+    "repo": "metabase/metabase",
+    "homepage": "https://metabase.com",
+    "category": "finance-business",
+    "description": "Business intelligence tool for querying databases and building dashboards without SQL.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-07-29"
+  },
+  {
+    "name": "Trilium",
+    "repo": "TriliumNext/Trilium",
+    "homepage": "https://triliumnotes.org",
+    "category": "notes-knowledge",
+    "description": "Self-hosted, hierarchical note-taking application for building a personal knowledge base.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-07-29"
+  },
+  {
+    "name": "Super Productivity",
+    "repo": "super-productivity/super-productivity",
+    "homepage": "http://super-productivity.com?ref=github",
+    "category": "productivity",
+    "description": "Todo list app with built-in time tracking and Jira/GitLab/GitHub integrations.",
+    "license": "MIT",
+    "publishOn": "2026-07-29"
+  },
+  {
+    "name": "OpenRefine",
+    "repo": "OpenRefine/OpenRefine",
+    "homepage": "https://openrefine.org/",
+    "category": "science-education",
+    "description": "Desktop tool for cleaning, transforming, and reconciling messy tabular data.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-07-29"
+  },
+  {
+    "name": "Keycloak",
+    "repo": "keycloak/keycloak",
+    "homepage": "https://www.keycloak.org",
+    "category": "security-privacy",
+    "description": "Identity and access management server with SSO, OAuth2, OpenID Connect, and user federation.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-30"
+  },
+  {
+    "name": "JSON Server",
+    "repo": "typicode/json-server",
+    "homepage": "https://github.com/typicode/json-server",
+    "category": "web-apis",
+    "description": "Spins up a fake REST API with CRUD endpoints from a JSON file, for prototyping frontends without a backend.",
+    "license": "MIT",
+    "publishOn": "2026-07-30"
+  },
+  {
+    "name": "Open Interpreter",
+    "repo": "openinterpreter/openinterpreter",
+    "homepage": "http://openinterpreter.com/",
+    "category": "ai-coding-agents",
+    "description": "Terminal coding agent that lets open models such as DeepSeek, Kimi, and Qwen read, write, and run code.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-30"
+  },
+  {
+    "name": "ThingsBoard",
+    "repo": "thingsboard/thingsboard",
+    "homepage": "https://thingsboard.io",
+    "category": "automation-iot",
+    "description": "IoT platform for device management, data collection, processing, and visualization.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-30"
+  },
+  {
+    "name": "Mattermost",
+    "repo": "mattermost/mattermost",
+    "homepage": "https://mattermost.com",
+    "category": "communication-social",
+    "description": "Self-hosted team messaging and collaboration platform, AGPL-licensed; an alternative to Slack.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-30"
+  },
+  {
+    "name": "PhotoPrism",
+    "repo": "photoprism/photoprism",
+    "homepage": "https://www.photoprism.app",
+    "category": "creator-media",
+    "description": "Self-hosted photo app with AI-based search, tagging, and album organization.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-07-30"
+  },
+  {
+    "name": "Milvus",
+    "repo": "milvus-io/milvus",
+    "homepage": "https://milvus.io",
+    "category": "data-databases",
+    "description": "Vector database for storing and searching embeddings, used for similarity search in AI applications.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-30"
+  },
+  {
+    "name": "fd",
+    "repo": "sharkdp/fd",
+    "homepage": "https://github.com/sharkdp/fd",
+    "category": "developer-tools-cli",
+    "description": "A simple, user-friendly alternative to the Unix find command for searching files.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-30"
+  },
+  {
+    "name": "Gitea",
+    "repo": "go-gitea/gitea",
+    "homepage": "https://gitea.com",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted Git service with code review, package registry, and CI/CD, similar to GitHub or GitLab.",
+    "license": "MIT",
+    "publishOn": "2026-07-30"
+  },
+  {
+    "name": "Nextcloud Server",
+    "repo": "nextcloud/server",
+    "homepage": "https://nextcloud.com",
+    "category": "files-sync",
+    "description": "Self-hosted file sync and share platform with collaboration apps, an alternative to Dropbox or Google Drive.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-07-30"
+  },
+  {
+    "name": "ERPNext",
+    "repo": "frappe/erpnext",
+    "homepage": "https://frappe.io/erpnext",
+    "category": "finance-business",
+    "description": "Enterprise resource planning system covering accounting, inventory, manufacturing, and HR.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-07-31"
+  },
+  {
+    "name": "Anki",
+    "repo": "ankitects/anki",
+    "homepage": "https://apps.ankiweb.net",
+    "category": "notes-knowledge",
+    "description": "Spaced-repetition flashcard program for memorizing information over time.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-07-31"
+  },
+  {
+    "name": "Linkwarden",
+    "repo": "linkwarden/linkwarden",
+    "homepage": "https://linkwarden.app",
+    "category": "productivity",
+    "description": "Self-hosted bookmark manager for collecting, annotating, and archiving links.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-07-31"
+  },
+  {
+    "name": "Stellarium",
+    "repo": "Stellarium/stellarium",
+    "homepage": "https://stellarium.org",
+    "category": "science-education",
+    "description": "Planetarium software that renders a realistic 3D sky for astronomy education and stargazing.",
+    "license": "GPL-2.0",
+    "publishOn": "2026-07-31"
+  },
+  {
+    "name": "Gitleaks",
+    "repo": "gitleaks/gitleaks",
+    "homepage": "https://gitleaks.io",
+    "category": "security-privacy",
+    "description": "Scans git repositories and files for hardcoded secrets like API keys and passwords.",
+    "license": "MIT",
+    "publishOn": "2026-07-31"
+  },
+  {
+    "name": "Express",
+    "repo": "expressjs/express",
+    "homepage": "https://expressjs.com",
+    "category": "web-apis",
+    "description": "Minimalist web framework for Node.js, used to build HTTP servers and APIs.",
+    "license": "MIT",
+    "publishOn": "2026-07-31"
+  },
+  {
+    "name": "Cline",
+    "repo": "cline/cline",
+    "homepage": "https://cline.bot",
+    "category": "ai-coding-agents",
+    "description": "Autonomous coding agent for VS Code that can create and edit files, run terminal commands, and use a browser.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-31"
+  },
+  {
+    "name": "Zigbee2MQTT",
+    "repo": "Koenkk/zigbee2mqtt",
+    "homepage": "https://www.zigbee2mqtt.io",
+    "category": "automation-iot",
+    "description": "Bridges Zigbee devices to MQTT, letting users control Zigbee hardware without a vendor-specific hub.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-07-31"
+  },
+  {
+    "name": "Chatwoot",
+    "repo": "chatwoot/chatwoot",
+    "homepage": "https://www.chatwoot.com/help-center",
+    "category": "communication-social",
+    "description": "Self-hosted customer support and live-chat platform; an alternative to Intercom or Zendesk. Core is MIT; enterprise/ has a separate license.",
+    "license": "MIT",
+    "publishOn": "2026-07-31"
+  },
+  {
+    "name": "HandBrake",
+    "repo": "HandBrake/HandBrake",
+    "homepage": "https://handbrake.fr",
+    "category": "creator-media",
+    "description": "Tool for converting video from nearly any format to a selection of modern codecs.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-07-31"
+  },
+  {
+    "name": "TiDB",
+    "repo": "pingcap/tidb",
+    "homepage": "https://www.tidb.io/",
+    "category": "data-databases",
+    "description": "Distributed SQL database that is MySQL-compatible, supporting both transactional and analytical workloads.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-01"
+  },
+  {
+    "name": "zoxide",
+    "repo": "ajeetdsouza/zoxide",
+    "homepage": "https://crates.io/crates/zoxide",
+    "category": "developer-tools-cli",
+    "description": "A smarter cd command that learns your most-used directories, for faster navigation.",
+    "license": "MIT",
+    "publishOn": "2026-08-01"
+  },
+  {
+    "name": "Headscale",
+    "repo": "juanfont/headscale",
+    "homepage": "https://github.com/juanfont/headscale",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted, open-source implementation of the Tailscale control server.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-08-01"
+  },
+  {
+    "name": "File Browser",
+    "repo": "filebrowser/filebrowser",
+    "homepage": "https://filebrowser.org",
+    "category": "files-sync",
+    "description": "Web-based file manager for browsing, uploading, and sharing files stored on a server, accessed through a browser.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-01"
+  },
+  {
+    "name": "Actual Budget",
+    "repo": "actualbudget/actual",
+    "homepage": "https://actualbudget.org",
+    "category": "finance-business",
+    "description": "Local-first personal budgeting app using envelope budgeting, an alternative to YNAB.",
+    "license": "MIT",
+    "publishOn": "2026-08-01"
+  },
+  {
+    "name": "Wiki.js",
+    "repo": "requarks/wiki",
+    "homepage": "https://js.wiki",
+    "category": "notes-knowledge",
+    "description": "Self-hosted wiki application built on Node.js with Markdown/WYSIWYG editing and Git-backed storage.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-08-01"
+  },
+  {
+    "name": "Etherpad",
+    "repo": "ether/etherpad",
+    "homepage": "https://etherpad.org",
+    "category": "productivity",
+    "description": "Real-time collaborative plain-text and rich-text document editor.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-01"
+  },
+  {
+    "name": "CodeCombat",
+    "repo": "codecombat/codecombat",
+    "homepage": "http://codecombat.com",
+    "category": "science-education",
+    "description": "Browser game that teaches programming by having players write code to control characters.",
+    "license": "MIT",
+    "publishOn": "2026-08-01"
+  },
+  {
+    "name": "age",
+    "repo": "FiloSottile/age",
+    "homepage": "https://age-encryption.org",
+    "category": "security-privacy",
+    "description": "Simple file encryption tool and Go library with small explicit keys and no configuration options.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-08-01"
+  },
+  {
+    "name": "Traefik",
+    "repo": "traefik/traefik",
+    "homepage": "https://traefik.io",
+    "category": "web-apis",
+    "description": "Reverse proxy and load balancer for microservices, with automatic service discovery and HTTPS via Let's Encrypt.",
+    "license": "MIT",
+    "publishOn": "2026-08-01"
+  },
+  {
+    "name": "crewAI",
+    "repo": "crewAIInc/crewAI",
+    "homepage": "https://crewai.com",
+    "category": "ai-coding-agents",
+    "description": "Framework for orchestrating role-based, collaborative multi-agent workflows, built independent of LangChain.",
+    "license": "MIT",
+    "publishOn": "2026-08-02"
+  },
+  {
+    "name": "ESPHome",
+    "repo": "esphome/esphome",
+    "homepage": "https://esphome.io/",
+    "category": "automation-iot",
+    "description": "Firmware framework for ESP32/ESP8266 microcontrollers, configured via YAML files and used to build smart-home devices.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-08-02"
+  },
+  {
+    "name": "Signal (Android)",
+    "repo": "signalapp/Signal-Android",
+    "homepage": "https://signal.org",
+    "category": "communication-social",
+    "description": "Android client for the Signal end-to-end encrypted messaging app.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-08-02"
+  },
+  {
+    "name": "VLC media player",
+    "repo": "videolan/vlc",
+    "homepage": "http://www.videolan.org/vlc",
+    "category": "creator-media",
+    "description": "Cross-platform media player that plays most audio and video formats and streams.",
+    "license": "GPL-2.0",
+    "publishOn": "2026-08-02"
+  },
+  {
+    "name": "RocksDB",
+    "repo": "facebook/rocksdb",
+    "homepage": "http://rocksdb.org",
+    "category": "data-databases",
+    "description": "Embeddable, persistent key-value store library optimized for fast storage; used as a storage engine in other databases.",
+    "license": "GPL-2.0",
+    "publishOn": "2026-08-02"
+  },
+  {
+    "name": "k9s",
+    "repo": "derailed/k9s",
+    "homepage": "https://k9scli.io",
+    "category": "developer-tools-cli",
+    "description": "A terminal UI for interacting with and managing Kubernetes clusters.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-02"
+  },
+  {
+    "name": "AdGuard Home",
+    "repo": "AdguardTeam/AdGuardHome",
+    "homepage": "https://adguard.com/adguard-home/overview.html",
+    "category": "devops-self-hosted",
+    "description": "Network-wide DNS server that blocks ads and trackers for every device on a network.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-08-02"
+  },
+  {
+    "name": "SeaweedFS",
+    "repo": "seaweedfs/seaweedfs",
+    "homepage": "https://seaweedfs.com",
+    "category": "files-sync",
+    "description": "Distributed file and object storage system with an S3-compatible API, built to handle very large numbers of files.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-02"
+  },
+  {
+    "name": "Ghostfolio",
+    "repo": "ghostfolio/ghostfolio",
+    "homepage": "https://Ghostfol.io",
+    "category": "finance-business",
+    "description": "Tracks investment portfolios across stocks, ETFs, and crypto with performance reporting.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-08-02"
+  },
+  {
+    "name": "Docmost",
+    "repo": "docmost/docmost",
+    "homepage": "https://docmost.com",
+    "category": "notes-knowledge",
+    "description": "Self-hosted collaborative wiki and documentation tool, an open-source alternative to Confluence and Notion.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-08-02"
+  },
+  {
+    "name": "ActivityWatch",
+    "repo": "ActivityWatch/activitywatch",
+    "homepage": "https://activitywatch.net/",
+    "category": "productivity",
+    "description": "Cross-platform automatic time tracker that logs app and website usage locally.",
+    "license": "MPL-2.0",
+    "publishOn": "2026-08-03"
+  },
+  {
+    "name": "Open edX Platform",
+    "repo": "openedx/openedx-platform",
+    "homepage": "https://openedx.org",
+    "category": "science-education",
+    "description": "Learning management system built for MOOCs, powering edX and other online course platforms.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-08-03"
+  },
+  {
+    "name": "sops",
+    "repo": "getsops/sops",
+    "homepage": "https://getsops.io",
+    "category": "security-privacy",
+    "description": "Encrypts and decrypts values in YAML, JSON, ENV, and INI files, integrating with cloud KMS providers.",
+    "license": "MPL-2.0",
+    "publishOn": "2026-08-03"
+  },
+  {
+    "name": "Kong Gateway",
+    "repo": "Kong/kong",
+    "homepage": "https://konghq.com/install/",
+    "category": "web-apis",
+    "description": "API gateway that manages, secures, and routes traffic between clients and backend or microservice APIs.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-03"
+  },
+  {
+    "name": "Goose",
+    "repo": "aaif-goose/goose",
+    "homepage": "https://goose-docs.ai/",
+    "category": "ai-coding-agents",
+    "description": "Extensible AI agent that can install, execute, edit, and test code locally with any LLM backend.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-03"
+  },
+  {
+    "name": "Eclipse Mosquitto",
+    "repo": "eclipse-mosquitto/mosquitto",
+    "homepage": "https://mosquitto.org",
+    "category": "automation-iot",
+    "description": "Lightweight, widely used MQTT message broker for IoT and machine-to-machine messaging.",
+    "license": "EPL-2.0",
+    "publishOn": "2026-08-03"
+  },
+  {
+    "name": "Zulip",
+    "repo": "zulip/zulip",
+    "homepage": "https://zulip.com",
+    "category": "communication-social",
+    "description": "Team chat organized by topic threads within channels; an alternative to Slack.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-03"
+  },
+  {
+    "name": "Audacity",
+    "repo": "audacity/audacity",
+    "homepage": "https://wiki.audacityteam.org/wiki/For_Developers",
+    "category": "creator-media",
+    "description": "Multi-track audio editor and recorder for Windows, macOS, and Linux.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-08-03"
+  },
+  {
+    "name": "Redash",
+    "repo": "getredash/redash",
+    "homepage": "http://redash.io/",
+    "category": "data-databases",
+    "description": "Connects to SQL and NoSQL data sources to build queries, visualizations, and dashboards.",
+    "license": "BSD-2-Clause",
+    "publishOn": "2026-08-03"
+  },
+  {
+    "name": "delta",
+    "repo": "dandavison/delta",
+    "homepage": "https://dandavison.github.io/delta/",
+    "category": "developer-tools-cli",
+    "description": "A syntax-highlighting pager for git, diff, grep, and blame output.",
+    "license": "MIT",
+    "publishOn": "2026-08-03"
+  },
+  {
+    "name": "restic",
+    "repo": "restic/restic",
+    "homepage": "https://restic.net",
+    "category": "devops-self-hosted",
+    "description": "Command-line backup program that encrypts and deduplicates data to local or cloud storage.",
+    "license": "BSD-2-Clause",
+    "publishOn": "2026-08-04"
+  },
+  {
+    "name": "Magic Wormhole",
+    "repo": "magic-wormhole/magic-wormhole",
+    "homepage": "https://magic-wormhole.readthedocs.io/en/latest/",
+    "category": "files-sync",
+    "description": "Sends files and short messages between two computers, paired using a one-time human-readable code.",
+    "license": "MIT",
+    "publishOn": "2026-08-04"
+  },
+  {
+    "name": "Dolibarr",
+    "repo": "Dolibarr/dolibarr",
+    "homepage": "https://www.dolibarr.org",
+    "category": "finance-business",
+    "description": "Web-based ERP and CRM for managing invoices, orders, stock, and accounting.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-08-04"
+  },
+  {
+    "name": "Foam",
+    "repo": "foambubble/foam",
+    "homepage": "https://foam.md",
+    "category": "notes-knowledge",
+    "description": "VS Code extension for personal knowledge management using linked Markdown notes, inspired by Roam Research.",
+    "license": "MIT",
+    "publishOn": "2026-08-04"
+  },
+  {
+    "name": "FreshRSS",
+    "repo": "FreshRSS/FreshRSS",
+    "homepage": "https://freshrss.org",
+    "category": "productivity",
+    "description": "Self-hostable RSS and Atom feed aggregator.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-08-04"
+  },
+  {
+    "name": "Moodle",
+    "repo": "moodle/moodle",
+    "homepage": "https://moodle.org/",
+    "category": "science-education",
+    "description": "Learning management system for hosting online courses, assignments, and grades, used by schools and universities.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-08-04"
+  },
+  {
+    "name": "Wazuh",
+    "repo": "wazuh/wazuh",
+    "homepage": "https://wazuh.com/",
+    "category": "security-privacy",
+    "description": "Open-source security platform combining SIEM and XDR for endpoint and cloud workload monitoring.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-08-04"
+  },
+  {
+    "name": "Insomnia",
+    "repo": "Kong/insomnia",
+    "homepage": "https://insomnia.rest",
+    "category": "web-apis",
+    "description": "Desktop API client for testing REST, GraphQL, WebSocket, SSE, and gRPC requests, an alternative to Postman.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-04"
+  },
+  {
+    "name": "LangGraph",
+    "repo": "langchain-ai/langgraph",
+    "homepage": "https://docs.langchain.com/oss/python/langgraph/",
+    "category": "ai-coding-agents",
+    "description": "Low-level framework from the LangChain team for building stateful, multi-step AI agents as graphs.",
+    "license": "MIT",
+    "publishOn": "2026-08-04"
+  },
+  {
+    "name": "FreeRTOS",
+    "repo": "FreeRTOS/FreeRTOS",
+    "homepage": "https://www.FreeRTOS.org",
+    "category": "automation-iot",
+    "description": "Real-time operating system kernel for microcontrollers, widely used in embedded and IoT devices.",
+    "license": "MIT",
+    "publishOn": "2026-08-04"
+  },
+  {
+    "name": "Lemmy",
+    "repo": "LemmyNet/lemmy",
+    "homepage": "https://join-lemmy.org",
+    "category": "communication-social",
+    "description": "Federated link-aggregation and discussion platform using ActivityPub; an alternative to Reddit.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-08-05"
+  },
+  {
+    "name": "PeerTube",
+    "repo": "Chocobozzz/PeerTube",
+    "homepage": "https://joinpeertube.org/",
+    "category": "creator-media",
+    "description": "Federated, peer-to-peer video hosting platform, an alternative to YouTube.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-08-05"
+  },
+  {
+    "name": "PostgREST",
+    "repo": "PostgREST/postgrest",
+    "homepage": "https://postgrest.org",
+    "category": "data-databases",
+    "description": "Turns an existing PostgreSQL database directly into a RESTful API, generated from the schema.",
+    "license": "MIT",
+    "publishOn": "2026-08-05"
+  },
+  {
+    "name": "Atuin",
+    "repo": "atuinsh/atuin",
+    "homepage": "https://atuin.sh",
+    "category": "developer-tools-cli",
+    "description": "Replaces default shell history with a searchable database that can sync across machines.",
+    "license": "MIT",
+    "publishOn": "2026-08-05"
+  },
+  {
+    "name": "Authelia",
+    "repo": "authelia/authelia",
+    "homepage": "https://www.authelia.com",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted single sign-on and multi-factor authentication portal that sits in front of reverse proxies.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-05"
+  },
+  {
+    "name": "Duplicati",
+    "repo": "duplicati/duplicati",
+    "homepage": "https://github.com/duplicati/duplicati",
+    "category": "files-sync",
+    "description": "Backup client that encrypts files and uploads them to cloud storage providers such as S3, Backblaze, and Google Drive.",
+    "license": "MIT",
+    "publishOn": "2026-08-05"
+  },
+  {
+    "name": "Beancount",
+    "repo": "beancount/beancount",
+    "homepage": "http://beancount.github.io/",
+    "category": "finance-business",
+    "description": "Double-entry accounting system that stores transactions as plain text files.",
+    "license": "GPL-2.0",
+    "publishOn": "2026-08-05"
+  },
+  {
+    "name": "Notesnook",
+    "repo": "streetwriters/notesnook",
+    "homepage": "https://notesnook.com/",
+    "category": "notes-knowledge",
+    "description": "End-to-end encrypted note-taking app, an alternative to Evernote, with cross-device sync.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-08-05"
+  },
+  {
+    "name": "Espanso",
+    "repo": "espanso/espanso",
+    "homepage": "https://espanso.org",
+    "category": "productivity",
+    "description": "Cross-platform text expander for snippets and templates, written in Rust.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-08-05"
+  },
+  {
+    "name": "Astropy",
+    "repo": "astropy/astropy",
+    "homepage": "https://www.astropy.org",
+    "category": "science-education",
+    "description": "Core Python library for astronomy and astrophysics, providing common tools for the field.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-08-05"
+  },
+  {
+    "name": "OWASP ZAP",
+    "repo": "zaproxy/zaproxy",
+    "homepage": "https://www.zaproxy.org",
+    "category": "security-privacy",
+    "description": "Web application security scanner for finding vulnerabilities during testing and development.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-06"
+  },
+  {
+    "name": "Fastify",
+    "repo": "fastify/fastify",
+    "homepage": "https://www.fastify.dev",
+    "category": "web-apis",
+    "description": "Web framework for Node.js focused on low overhead and JSON schema-based request/response handling.",
+    "license": "MIT",
+    "publishOn": "2026-08-06"
+  },
+  {
+    "name": "Tabby",
+    "repo": "TabbyML/tabby",
+    "homepage": "https://tabbyml.com",
+    "category": "ai-coding-agents",
+    "description": "Self-hosted AI coding assistant with code completion and chat, an alternative to GitHub Copilot.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-06"
+  },
+  {
+    "name": "ioBroker",
+    "repo": "ioBroker/ioBroker",
+    "homepage": "http://iobroker.net",
+    "category": "automation-iot",
+    "description": "Integration platform for home automation and IoT, connecting many devices and protocols through one system.",
+    "license": "MIT",
+    "publishOn": "2026-08-06"
+  },
+  {
+    "name": "Element (Web)",
+    "repo": "element-hq/element-web",
+    "homepage": "https://element.io",
+    "category": "communication-social",
+    "description": "Web client for the Matrix messaging protocol, with encrypted chat, voice, and video calls.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-08-06"
+  },
+  {
+    "name": "Shotcut",
+    "repo": "mltframework/shotcut",
+    "homepage": "https://www.shotcut.org",
+    "category": "creator-media",
+    "description": "Cross-platform, free video editor supporting a wide range of formats.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-08-06"
+  },
+  {
+    "name": "Vitess",
+    "repo": "vitessio/vitess",
+    "homepage": "http://vitess.io",
+    "category": "data-databases",
+    "description": "Database clustering system that shards and scales MySQL horizontally; originally built at YouTube.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-06"
+  },
+  {
+    "name": "hyperfine",
+    "repo": "sharkdp/hyperfine",
+    "homepage": "https://github.com/sharkdp/hyperfine",
+    "category": "developer-tools-cli",
+    "description": "A command-line benchmarking tool for comparing the runtime of commands.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-06"
+  },
+  {
+    "name": "Jenkins",
+    "repo": "jenkinsci/jenkins",
+    "homepage": "https://www.jenkins.io",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted automation server for building, testing, and deploying software through CI/CD pipelines.",
+    "license": "MIT",
+    "publishOn": "2026-08-06"
+  },
+  {
+    "name": "Kopia",
+    "repo": "kopia/kopia",
+    "homepage": "https://kopia.io",
+    "category": "files-sync",
+    "description": "Cross-platform backup tool with client-side end-to-end encryption, deduplication, and a CLI plus GUI.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-06"
   }
 ]
