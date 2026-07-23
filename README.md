@@ -31,7 +31,7 @@ or [drop your tool](CONTRIBUTING.md) — it takes one PR and it's free.
 
 <sub>The biggest star gains among listed tools in the last 7 days — measured, not editorialized.</sub>
 
-<div align="center"><a href="https://github.com/riponcm/projectmem"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/riponcm-projectmem-dark.svg"><img src="assets/cards/riponcm-projectmem-light.svg" width="265" alt="projectmem"></picture></a>&nbsp;<a href="https://github.com/BurntSushi/ripgrep"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/burntsushi-ripgrep-dark.svg"><img src="assets/cards/burntsushi-ripgrep-light.svg" width="265" alt="ripgrep"></picture></a>&nbsp;<a href="https://github.com/louislam/uptime-kuma"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/louislam-uptime-kuma-dark.svg"><img src="assets/cards/louislam-uptime-kuma-light.svg" width="265" alt="Uptime Kuma"></picture></a></div>
+<div align="center"><a href="https://github.com/riponcm/projectmem"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/riponcm-projectmem-dark.svg"><img src="assets/cards/riponcm-projectmem-light.svg" width="265" alt="projectmem"></picture></a>&nbsp;<a href="https://github.com/BurntSushi/ripgrep"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/burntsushi-ripgrep-dark.svg"><img src="assets/cards/burntsushi-ripgrep-light.svg" width="265" alt="ripgrep"></picture></a>&nbsp;<a href="https://github.com/jesseduffield/lazygit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/jesseduffield-lazygit-dark.svg"><img src="assets/cards/jesseduffield-lazygit-light.svg" width="265" alt="lazygit"></picture></a></div>
 
 ## Most starred
 
