@@ -353,5 +353,95 @@
     "description": "Open observability platform to query, visualize, and alert on metrics, logs, and traces.",
     "license": "AGPL-3.0",
     "added": "2026-07-19"
+  },
+  {
+    "name": "ACE-Step",
+    "repo": "ace-step/ACE-Step",
+    "homepage": "https://ace-step.github.io/",
+    "category": "creator-media",
+    "description": "An open-source foundation model for music generation, built for fast, controllable, full-length track synthesis.",
+    "license": "Apache-2.0",
+    "added": "2026-07-23"
+  },
+  {
+    "name": "QGIS",
+    "repo": "qgis/QGIS",
+    "homepage": "https://qgis.org",
+    "category": "science-education",
+    "description": "Free, cross-platform desktop GIS for creating, editing, analysing, and publishing geospatial data.",
+    "license": "GPL-2.0",
+    "added": "2026-07-23"
+  },
+  {
+    "name": "Continue",
+    "repo": "continuedev/continue",
+    "homepage": "https://continue.dev",
+    "category": "ai-coding-agents",
+    "description": "Open-source AI coding assistant for VS Code and JetBrains that works with the models you choose.",
+    "license": "Apache-2.0",
+    "added": "2026-07-23"
+  },
+  {
+    "name": "Zed",
+    "repo": "zed-industries/zed",
+    "homepage": "https://zed.dev",
+    "category": "developer-tools-cli",
+    "description": "High-performance, multiplayer code editor written in Rust, from the creators of Atom and Tree-sitter.",
+    "license": "GPL-3.0",
+    "added": "2026-07-23"
+  },
+  {
+    "name": "FastAPI",
+    "repo": "fastapi/fastapi",
+    "homepage": "https://fastapi.tiangolo.com/",
+    "category": "web-apis",
+    "description": "Modern, high-performance Python web framework for building APIs, with automatic docs and type validation.",
+    "license": "MIT",
+    "added": "2026-07-23"
+  },
+  {
+    "name": "ClickHouse",
+    "repo": "ClickHouse/ClickHouse",
+    "homepage": "https://clickhouse.com",
+    "category": "data-databases",
+    "description": "Column-oriented database management system for real-time analytics over very large datasets.",
+    "license": "Apache-2.0",
+    "added": "2026-07-23"
+  },
+  {
+    "name": "Coolify",
+    "repo": "coollabsio/coolify",
+    "homepage": "https://coolify.io",
+    "category": "devops-self-hosted",
+    "description": "Self-hostable platform to deploy apps, databases, and static sites; an open alternative to Heroku and Netlify.",
+    "license": "Apache-2.0",
+    "added": "2026-07-23"
+  },
+  {
+    "name": "Cryptomator",
+    "repo": "cryptomator/cryptomator",
+    "homepage": "https://cryptomator.org",
+    "category": "security-privacy",
+    "description": "Client-side, password-based encryption for your cloud files, across desktop and mobile.",
+    "license": "GPL-3.0",
+    "added": "2026-07-23"
+  },
+  {
+    "name": "Joplin",
+    "repo": "laurent22/joplin",
+    "homepage": "https://joplinapp.org",
+    "category": "notes-knowledge",
+    "description": "Privacy-focused, open-source note-taking and to-do app with end-to-end encrypted sync across devices.",
+    "license": "AGPL-3.0",
+    "added": "2026-07-23"
+  },
+  {
+    "name": "Home Assistant",
+    "repo": "home-assistant/core",
+    "homepage": "https://www.home-assistant.io",
+    "category": "automation-iot",
+    "description": "Open-source home automation that puts local control and privacy first, integrating thousands of devices.",
+    "license": "Apache-2.0",
+    "added": "2026-07-23"
   }
 ]
