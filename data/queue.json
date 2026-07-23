@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Ollama",
+    "repo": "ollama/ollama",
+    "homepage": "https://ollama.com",
+    "category": "ai-coding-agents",
+    "description": "Run open large language models locally with a simple CLI and API — pull a model and start chatting or building.",
+    "license": "MIT",
+    "publishOn": "2026-07-24"
+  },
+  {
+    "name": "Neovim",
+    "repo": "neovim/neovim",
+    "homepage": "https://neovim.io",
+    "category": "developer-tools-cli",
+    "description": "Hyperextensible, Vim-based text editor with a built-in language server client and Lua scripting.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-24"
+  },
+  {
+    "name": "Supabase",
+    "repo": "supabase/supabase",
+    "homepage": "https://supabase.com",
+    "category": "web-apis",
+    "description": "Open-source Firebase alternative: a Postgres database with auth, storage, realtime, and auto-generated APIs.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-24"
+  },
+  {
+    "name": "Qdrant",
+    "repo": "qdrant/qdrant",
+    "homepage": "https://qdrant.tech",
+    "category": "data-databases",
+    "description": "High-performance vector database and search engine for embeddings — powers semantic search and RAG.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-24"
+  },
+  {
+    "name": "Caddy",
+    "repo": "caddyserver/caddy",
+    "homepage": "https://caddyserver.com",
+    "category": "devops-self-hosted",
+    "description": "Web server and reverse proxy with automatic HTTPS by default, configured in a simple, readable file.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-24"
+  },
+  {
+    "name": "Syncthing",
+    "repo": "syncthing/syncthing",
+    "homepage": "https://syncthing.net",
+    "category": "files-sync",
+    "description": "Continuous, peer-to-peer file synchronization between your devices — private, encrypted, no cloud required.",
+    "license": "MPL-2.0",
+    "publishOn": "2026-07-24"
+  },
+  {
+    "name": "Vaultwarden",
+    "repo": "dani-garcia/vaultwarden",
+    "homepage": "https://github.com/dani-garcia/vaultwarden",
+    "category": "security-privacy",
+    "description": "Lightweight, self-hostable server compatible with Bitwarden clients — run your own password manager.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-07-24"
+  },
+  {
+    "name": "AppFlowy",
+    "repo": "AppFlowy-IO/AppFlowy",
+    "homepage": "https://appflowy.io",
+    "category": "productivity",
+    "description": "Open-source Notion alternative for notes, docs, and project boards — local-first and self-hostable.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-07-24"
+  },
+  {
+    "name": "Logseq",
+    "repo": "logseq/logseq",
+    "homepage": "https://logseq.com",
+    "category": "notes-knowledge",
+    "description": "Privacy-first, local-first knowledge base for networked notes and outlines over plain Markdown files.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-07-24"
+  },
+  {
+    "name": "Jitsi Meet",
+    "repo": "jitsi/jitsi-meet",
+    "homepage": "https://jitsi.org",
+    "category": "communication-social",
+    "description": "Encrypted, self-hostable video conferencing — start or join a meeting from the browser, no account needed.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-24"
+  },
+  {
+    "name": "Starship",
+    "repo": "starship/starship",
+    "homepage": "https://starship.rs",
+    "category": "developer-tools-cli",
+    "description": "Fast, customizable command-line prompt for any shell — shows git status, versions, and context at a glance.",
+    "license": "ISC",
+    "publishOn": "2026-07-25"
+  },
+  {
+    "name": "Bun",
+    "repo": "oven-sh/bun",
+    "homepage": "https://bun.sh",
+    "category": "web-apis",
+    "description": "Fast all-in-one JavaScript runtime, bundler, test runner, and package manager, built as a drop-in for Node.",
+    "license": "MIT",
+    "publishOn": "2026-07-25"
+  },
+  {
+    "name": "Valkey",
+    "repo": "valkey-io/valkey",
+    "homepage": "https://valkey.io",
+    "category": "data-databases",
+    "description": "High-performance in-memory key-value data store; a community-driven fork of Redis under an open license.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-07-25"
+  },
+  {
+    "name": "Portainer",
+    "repo": "portainer/portainer",
+    "homepage": "https://www.portainer.io",
+    "category": "devops-self-hosted",
+    "description": "Web UI to manage Docker, Swarm, and Kubernetes — deploy, monitor, and control containers from a browser.",
+    "license": "Zlib",
+    "publishOn": "2026-07-25"
+  },
+  {
+    "name": "rclone",
+    "repo": "rclone/rclone",
+    "homepage": "https://rclone.org",
+    "category": "files-sync",
+    "description": "Command-line program to sync, copy, and manage files across dozens of cloud storage providers.",
+    "license": "MIT",
+    "publishOn": "2026-07-25"
+  },
+  {
+    "name": "Excalidraw",
+    "repo": "excalidraw/excalidraw",
+    "homepage": "https://excalidraw.com",
+    "category": "productivity",
+    "description": "Virtual whiteboard for sketching hand-drawn-style diagrams and wireframes, with live collaboration.",
+    "license": "MIT",
+    "publishOn": "2026-07-25"
+  },
+  {
+    "name": "Node-RED",
+    "repo": "node-red/node-red",
+    "homepage": "https://nodered.org",
+    "category": "automation-iot",
+    "description": "Low-code, flow-based tool for wiring together APIs, devices, and services — visual automation in the browser.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-07-25"
+  },
+  {
+    "name": "Firefly III",
+    "repo": "firefly-iii/firefly-iii",
+    "homepage": "https://firefly-iii.org",
+    "category": "finance-business",
+    "description": "Self-hosted personal finance manager to track accounts, budgets, and bills, with reports and rules.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-07-25"
+  },
+  {
+    "name": "JupyterLab",
+    "repo": "jupyterlab/jupyterlab",
+    "homepage": "https://jupyter.org",
+    "category": "science-education",
+    "description": "Web-based interactive development environment for notebooks, code, and data across many languages.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-07-25"
+  },
+  {
+    "name": "Blender",
+    "repo": "blender/blender",
+    "homepage": "https://www.blender.org",
+    "category": "creator-media",
+    "description": "Free 3D creation suite: modeling, sculpting, animation, simulation, rendering, and video editing.",
+    "license": "GPL-2.0",
+    "publishOn": "2026-07-25"
+  }
+]

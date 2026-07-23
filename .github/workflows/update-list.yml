@@ -5,7 +5,7 @@ on:
     - cron: "17 3 * * *" # nightly: snapshot stars, recompute trending
   push:
     branches: [main]
-    paths: ["data/tools.json", "scripts/build_readme.py"]
+    paths: ["data/tools.json", "data/queue.json", "scripts/build_readme.py", "scripts/promote_queue.py"]
   pull_request:
     paths: ["data/tools.json", "scripts/build_readme.py"] # validate drops before merge
   workflow_dispatch:
@@ -23,6 +23,10 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Promote due queued tools (daily drip)
+        if: github.event_name != 'pull_request'
+        run: python scripts/promote_queue.py
+
       - name: Rebuild README from tools.json
         run: python scripts/build_readme.py
         env:
@@ -33,6 +37,21 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md data/stars.json assets/cards
-          git diff --staged --quiet || git commit -m "chore: rebuild list (stars snapshot $(date -u +%F))"
+          git add README.md data/tools.json data/queue.json data/stars.json assets/cards
+          git diff --staged --quiet || git commit -m "chore: daily drop + rebuild ($(date -u +%F))"
           git push
+
+      - name: Sync website (import newly-dropped tools)
+        if: github.event_name != 'pull_request'
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+          SYNC_SECRET: ${{ secrets.SYNC_SECRET }}
+        run: |
+          if [ -n "$SYNC_SECRET" ] && [ -n "$SITE_URL" ]; then
+            curl -fsS -X POST "$SITE_URL/api/sync-list" \
+              -H "Authorization: Bearer $SYNC_SECRET" \
+              -H "Content-Type: application/json" \
+              --max-time 90 -w "\nHTTP %{http_code}\n"
+          else
+            echo "SITE_URL/SYNC_SECRET not set — skipping site sync (add them in repo Action secrets)."
+          fi
