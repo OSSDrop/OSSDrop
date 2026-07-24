@@ -10,7 +10,7 @@
 **Drop your open-source tool.**
 A curated home for open-source tools — by the people who build them.
 
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-22C55E?style=flat-square)](CONTRIBUTING.md) ![list](https://img.shields.io/badge/list-54_tools-2563EB?style=flat-square) [![license](https://img.shields.io/badge/list_license-CC0--1.0-6E7681?style=flat-square)](LICENSE) [![reddit](https://img.shields.io/badge/reddit-r%2FOSSDrop-0E4CB0?style=flat-square)](https://www.reddit.com/r/OSSDrop/) ![web](https://img.shields.io/badge/ossdrop.com-coming_soon-6E7681?style=flat-square)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-22C55E?style=flat-square)](CONTRIBUTING.md) ![list](https://img.shields.io/badge/list-54_tools-2563EB?style=flat-square) [![license](https://img.shields.io/badge/list_license-CC0--1.0-6E7681?style=flat-square)](LICENSE) [![reddit](https://img.shields.io/badge/reddit-r%2FOSSDrop-0E4CB0?style=flat-square)](https://www.reddit.com/r/OSSDrop/) ![web](https://img.shields.io/badge/ossdrop.com-Live-6E7681?style=flat-square)
 
 <sub>[AI & Coding Agents](#-ai--coding-agents) · [Developer Tools & CLI](#-developer-tools--cli) · [Web & APIs](#-web--apis) · [Data & Databases](#-data--databases) · [DevOps & Self-Hosted](#-devops--self-hosted) · [Files & Sync](#-files--sync) · [Security & Privacy](#-security--privacy) · [Productivity](#-productivity) · [Notes & Knowledge](#-notes--knowledge) · [Communication & Social](#-communication--social) · [Automation & IoT](#-automation--iot) · [Science & Education](#-science--education) · [Creator / Media](#-creator--media)</sub>
 
