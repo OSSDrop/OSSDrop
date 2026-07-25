@@ -533,5 +533,95 @@
     "description": "Encrypted, self-hostable video conferencing — start or join a meeting from the browser, no account needed.",
     "license": "Apache-2.0",
     "added": "2026-07-24"
+  },
+  {
+    "name": "Starship",
+    "repo": "starship/starship",
+    "homepage": "https://starship.rs",
+    "category": "developer-tools-cli",
+    "description": "Fast, customizable command-line prompt for any shell — shows git status, versions, and context at a glance.",
+    "license": "ISC",
+    "added": "2026-07-25"
+  },
+  {
+    "name": "Bun",
+    "repo": "oven-sh/bun",
+    "homepage": "https://bun.sh",
+    "category": "web-apis",
+    "description": "Fast all-in-one JavaScript runtime, bundler, test runner, and package manager, built as a drop-in for Node.",
+    "license": "MIT",
+    "added": "2026-07-25"
+  },
+  {
+    "name": "Valkey",
+    "repo": "valkey-io/valkey",
+    "homepage": "https://valkey.io",
+    "category": "data-databases",
+    "description": "High-performance in-memory key-value data store; a community-driven fork of Redis under an open license.",
+    "license": "BSD-3-Clause",
+    "added": "2026-07-25"
+  },
+  {
+    "name": "Portainer",
+    "repo": "portainer/portainer",
+    "homepage": "https://www.portainer.io",
+    "category": "devops-self-hosted",
+    "description": "Web UI to manage Docker, Swarm, and Kubernetes — deploy, monitor, and control containers from a browser.",
+    "license": "Zlib",
+    "added": "2026-07-25"
+  },
+  {
+    "name": "rclone",
+    "repo": "rclone/rclone",
+    "homepage": "https://rclone.org",
+    "category": "files-sync",
+    "description": "Command-line program to sync, copy, and manage files across dozens of cloud storage providers.",
+    "license": "MIT",
+    "added": "2026-07-25"
+  },
+  {
+    "name": "Excalidraw",
+    "repo": "excalidraw/excalidraw",
+    "homepage": "https://excalidraw.com",
+    "category": "productivity",
+    "description": "Virtual whiteboard for sketching hand-drawn-style diagrams and wireframes, with live collaboration.",
+    "license": "MIT",
+    "added": "2026-07-25"
+  },
+  {
+    "name": "Node-RED",
+    "repo": "node-red/node-red",
+    "homepage": "https://nodered.org",
+    "category": "automation-iot",
+    "description": "Low-code, flow-based tool for wiring together APIs, devices, and services — visual automation in the browser.",
+    "license": "Apache-2.0",
+    "added": "2026-07-25"
+  },
+  {
+    "name": "Firefly III",
+    "repo": "firefly-iii/firefly-iii",
+    "homepage": "https://firefly-iii.org",
+    "category": "finance-business",
+    "description": "Self-hosted personal finance manager to track accounts, budgets, and bills, with reports and rules.",
+    "license": "AGPL-3.0",
+    "added": "2026-07-25"
+  },
+  {
+    "name": "JupyterLab",
+    "repo": "jupyterlab/jupyterlab",
+    "homepage": "https://jupyter.org",
+    "category": "science-education",
+    "description": "Web-based interactive development environment for notebooks, code, and data across many languages.",
+    "license": "BSD-3-Clause",
+    "added": "2026-07-25"
+  },
+  {
+    "name": "Blender",
+    "repo": "blender/blender",
+    "homepage": "https://www.blender.org",
+    "category": "creator-media",
+    "description": "Free 3D creation suite: modeling, sculpting, animation, simulation, rendering, and video editing.",
+    "license": "GPL-2.0",
+    "added": "2026-07-25"
   }
 ]
