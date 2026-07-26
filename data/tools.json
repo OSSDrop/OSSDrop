@@ -713,5 +713,20 @@
     "description": "Self-hosted, lightweight note-taking service built for quick capture, with Markdown support.",
     "license": "MIT",
     "added": "2026-07-26"
+  },
+  {
+    "name": "OpenPost",
+    "repo": "rodrgds/openpost",
+    "homepage": "https://openpost.social",
+    "category": "communication-social",
+    "description": "Self-hosted social media scheduler for publishing to Bluesky, Mastodon, X, LinkedIn, Threads, and more.",
+    "license": "AGPL-3.0-only",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://docs.openpost.social"
+      }
+    ],
+    "added": "2026-07-26"
   }
 ]
