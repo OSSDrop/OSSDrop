@@ -728,5 +728,95 @@
       }
     ],
     "added": "2026-07-26"
+  },
+  {
+    "name": "Rectangle",
+    "repo": "rxhanson/Rectangle",
+    "homepage": "https://rectangleapp.com",
+    "category": "productivity",
+    "description": "Move and resize macOS windows with keyboard shortcuts and drag-to-snap areas.",
+    "license": "MIT",
+    "added": "2026-07-27"
+  },
+  {
+    "name": "Manim",
+    "repo": "ManimCommunity/manim",
+    "homepage": "https://www.manim.community",
+    "category": "science-education",
+    "description": "Python library for programmatically creating precise mathematical animations and diagrams.",
+    "license": "MIT",
+    "added": "2026-07-27"
+  },
+  {
+    "name": "Metasploit Framework",
+    "repo": "rapid7/metasploit-framework",
+    "homepage": "https://www.metasploit.com/",
+    "category": "security-privacy",
+    "description": "Penetration testing framework with exploit development and vulnerability verification tools.",
+    "license": "BSD-3-Clause",
+    "added": "2026-07-27"
+  },
+  {
+    "name": "Gin",
+    "repo": "gin-gonic/gin",
+    "homepage": "https://gin-gonic.com/",
+    "category": "web-apis",
+    "description": "HTTP web framework for Go, built on httprouter, used for REST APIs and microservices.",
+    "license": "MIT",
+    "added": "2026-07-27"
+  },
+  {
+    "name": "OpenHands",
+    "repo": "OpenHands/OpenHands",
+    "homepage": "https://openhands.dev",
+    "category": "ai-coding-agents",
+    "description": "AI agent platform that writes code, runs shell commands, and browses the web to complete software engineering tasks.",
+    "license": "MIT",
+    "added": "2026-07-27"
+  },
+  {
+    "name": "Frigate",
+    "repo": "blakeblackshear/frigate",
+    "homepage": "https://frigate.video",
+    "category": "automation-iot",
+    "description": "Local network video recorder with real-time object detection for IP cameras, no cloud video upload required.",
+    "license": "MIT",
+    "added": "2026-07-27"
+  },
+  {
+    "name": "Discourse",
+    "repo": "discourse/discourse",
+    "homepage": "https://www.discourse.org",
+    "category": "communication-social",
+    "description": "Discussion forum and community platform with topics, categories, and moderation tools.",
+    "license": "GPL-2.0",
+    "added": "2026-07-27"
+  },
+  {
+    "name": "Jellyfin",
+    "repo": "jellyfin/jellyfin",
+    "homepage": "https://jellyfin.org",
+    "category": "creator-media",
+    "description": "Self-hosted media server for streaming your movies, TV shows, and music library.",
+    "license": "GPL-2.0",
+    "added": "2026-07-27"
+  },
+  {
+    "name": "etcd",
+    "repo": "etcd-io/etcd",
+    "homepage": "https://etcd.io",
+    "category": "data-databases",
+    "description": "Distributed key-value store used for shared configuration and service discovery, notably within Kubernetes.",
+    "license": "Apache-2.0",
+    "added": "2026-07-27"
+  },
+  {
+    "name": "lazydocker",
+    "repo": "jesseduffield/lazydocker",
+    "homepage": "https://github.com/jesseduffield/lazydocker",
+    "category": "developer-tools-cli",
+    "description": "A terminal UI for managing Docker containers, images, and volumes.",
+    "license": "MIT",
+    "added": "2026-07-27"
   }
 ]
