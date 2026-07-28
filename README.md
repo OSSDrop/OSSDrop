@@ -7,10 +7,10 @@
 
 # OSSDrop
 
-**Drop your open-source tool.**
-A curated home for open-source tools — by the people who build them.
+**Discover, launch, and discuss open-source software**
+OSSDrop is a community-curated Product Hunt alternative for open-source projects, developer tools, and self-hosted software
 
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-22C55E?style=flat-square)](CONTRIBUTING.md) ![list](https://img.shields.io/badge/list-95_tools-2563EB?style=flat-square) [![license](https://img.shields.io/badge/list_license-CC0--1.0-6E7681?style=flat-square)](LICENSE) [![reddit](https://img.shields.io/badge/reddit-r%2FOSSDrop-0E4CB0?style=flat-square)](https://www.reddit.com/r/OSSDrop/) ![web](https://img.shields.io/badge/ossdrop.com-coming_soon-6E7681?style=flat-square)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-22C55E?style=flat-square)](CONTRIBUTING.md) ![list](https://img.shields.io/badge/list-95_tools-2563EB?style=flat-square) [![license](https://img.shields.io/badge/list_license-CC0--1.0-6E7681?style=flat-square)](LICENSE) [![reddit](https://img.shields.io/badge/reddit-r%2FOSSDrop-0E4CB0?style=flat-square)](https://www.reddit.com/r/OSSDrop/) ![web](https://img.shields.io/badge/ossdrop.com-Live-6E7681?style=flat-square)
 
 <sub>[AI & Coding Agents](#-ai--coding-agents) · [Developer Tools & CLI](#-developer-tools--cli) · [Web & APIs](#-web--apis) · [Data & Databases](#-data--databases) · [DevOps & Self-Hosted](#-devops--self-hosted) · [Files & Sync](#-files--sync) · [Security & Privacy](#-security--privacy) · [Productivity](#-productivity) · [Notes & Knowledge](#-notes--knowledge) · [Communication & Social](#-communication--social) · [Automation & IoT](#-automation--iot) · [Finance & Business](#-finance--business) · [Science & Education](#-science--education) · [Creator / Media](#-creator--media)</sub>
 
@@ -18,11 +18,7 @@ A curated home for open-source tools — by the people who build them.
 
 ## What is OSSDrop?
 
-**OSSDrop is a curated home for open-source tools** — a community-maintained
-directory where makers drop their own tool with a single pull request. Every
-entry is a real open-source project: public repository, OSI license, honest
-one-line description. Star counts, icons, and trending update automatically,
-and no placement on this list is paid.
+**OSSDrop is an open-source software discovery** and launch platform where developers and maintainers can submit projects through GitHub, reach new users, and receive community votes and discussion. Unlike general product-launch platforms, OSSDrop is dedicated to projects with a public repository and an open-source license.
 
 Browse by category below, discuss on [r/OSSDrop](https://www.reddit.com/r/OSSDrop/),
 or [drop your tool](CONTRIBUTING.md) — it takes one PR and it's free.
@@ -234,7 +230,7 @@ The one pinned showcase card is always labeled as pinned.
 
 **Where else does OSSDrop live?**
 On Reddit at [r/OSSDrop](https://www.reddit.com/r/OSSDrop/) for discussion, and
-at [ossdrop.com](https://ossdrop.com) (coming soon). The GitHub organization is
+at [ossdrop.com](https://ossdrop.com) (Live). The GitHub organization is
 [github.com/OSSDrop](https://github.com/OSSDrop).
 
 **Can I reuse this list's data?**
