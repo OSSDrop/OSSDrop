@@ -7,10 +7,11 @@
 
 # OSSDrop
 
-**Discover, launch, and discuss open-source software**
-OSSDrop is a community-curated Product Hunt alternative for open-source projects, developer tools, and self-hosted software
+**Drop your open-source tool.**
+Discover, share, and discuss open-source software — a curated home for the
+tools developers actually use.
 
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-22C55E?style=flat-square)](CONTRIBUTING.md) ![list](https://img.shields.io/badge/list-95_tools-2563EB?style=flat-square) [![license](https://img.shields.io/badge/list_license-CC0--1.0-6E7681?style=flat-square)](LICENSE) [![reddit](https://img.shields.io/badge/reddit-r%2FOSSDrop-0E4CB0?style=flat-square)](https://www.reddit.com/r/OSSDrop/) ![web](https://img.shields.io/badge/ossdrop.com-Live-6E7681?style=flat-square)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-22C55E?style=flat-square)](CONTRIBUTING.md) ![list](https://img.shields.io/badge/list-95_tools-2563EB?style=flat-square) [![license](https://img.shields.io/badge/list_license-CC0--1.0-6E7681?style=flat-square)](LICENSE) [![reddit](https://img.shields.io/badge/reddit-r%2FOSSDrop-0E4CB0?style=flat-square)](https://www.reddit.com/r/OSSDrop/) [![web](https://img.shields.io/badge/ossdrop.com-Live-22C55E?style=flat-square)](https://ossdrop.com)
 
 <sub>[AI & Coding Agents](#-ai--coding-agents) · [Developer Tools & CLI](#-developer-tools--cli) · [Web & APIs](#-web--apis) · [Data & Databases](#-data--databases) · [DevOps & Self-Hosted](#-devops--self-hosted) · [Files & Sync](#-files--sync) · [Security & Privacy](#-security--privacy) · [Productivity](#-productivity) · [Notes & Knowledge](#-notes--knowledge) · [Communication & Social](#-communication--social) · [Automation & IoT](#-automation--iot) · [Finance & Business](#-finance--business) · [Science & Education](#-science--education) · [Creator / Media](#-creator--media)</sub>
 
@@ -18,16 +19,23 @@ OSSDrop is a community-curated Product Hunt alternative for open-source projects
 
 ## What is OSSDrop?
 
-**OSSDrop is an open-source software discovery** and launch platform where developers and maintainers can submit projects through GitHub, reach new users, and receive community votes and discussion. Unlike general product-launch platforms, OSSDrop is dedicated to projects with a public repository and an open-source license.
+**OSSDrop is a curated home for open-source tools** — a community-maintained
+place to discover, share, and discuss developer tools, self-hosted apps, and
+libraries. Makers drop their own project with a single pull request. Every entry
+is a real open-source project: public repository, OSI license, honest one-line
+description. Star counts, icons, and trending update automatically, and no
+placement on this list is paid.
 
-Browse by category below, discuss on [r/OSSDrop](https://www.reddit.com/r/OSSDrop/),
-or [drop your tool](CONTRIBUTING.md) — it takes one PR and it's free.
+Browse by category below, explore the same tools ranked at
+[ossdrop.com](https://ossdrop.com), discuss on
+[r/OSSDrop](https://www.reddit.com/r/OSSDrop/), or [drop your tool](CONTRIBUTING.md)
+— it takes one PR and it's free.
 
 ## Trending this week
 
 <sub>The biggest star gains among listed tools in the last 7 days — measured, not editorialized.</sub>
 
-<div align="center"><a href="https://github.com/riponcm/projectmem"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/riponcm-projectmem-dark.svg"><img src="assets/cards/riponcm-projectmem-light.svg" width="265" alt="projectmem"></picture></a>&nbsp;<a href="https://github.com/openai/whisper"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/openai-whisper-dark.svg"><img src="assets/cards/openai-whisper-light.svg" width="265" alt="Whisper"></picture></a>&nbsp;<a href="https://github.com/microsoft/playwright"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/microsoft-playwright-dark.svg"><img src="assets/cards/microsoft-playwright-light.svg" width="265" alt="Playwright"></picture></a></div>
+<div align="center"><a href="https://github.com/riponcm/projectmem"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/riponcm-projectmem-dark.svg"><img src="assets/cards/riponcm-projectmem-light.svg" width="265" alt="projectmem"></picture></a>&nbsp;<a href="https://github.com/microsoft/VibeVoice"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/microsoft-vibevoice-dark.svg"><img src="assets/cards/microsoft-vibevoice-light.svg" width="265" alt="VibeVoice"></picture></a>&nbsp;<a href="https://github.com/openai/whisper"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/openai-whisper-dark.svg"><img src="assets/cards/openai-whisper-light.svg" width="265" alt="Whisper"></picture></a></div>
 
 ## Most starred
 
@@ -218,6 +226,13 @@ security and privacy, productivity, notes and knowledge, communication and socia
 automation and IoT, finance and business, science and education, and creator and
 media tools.
 
+**Is OSSDrop a Product Hunt alternative for open source?**
+People often describe it that way. Like a product-launch site, OSSDrop is a place
+to discover new open-source software — developer tools, self-hosted apps, and
+libraries — and give the good ones votes and discussion. The difference: OSSDrop
+lists only projects with a public repository and an OSI-approved open-source
+license, and listing is always free.
+
 **How do I add my open-source tool to the list?**
 Fork this repository, add one JSON object to `data/tools.json`, and open a pull
 request. Requirements: a public repository and an OSI-approved license. See
@@ -229,8 +244,9 @@ star count and “Trending this week” is computed from daily star snapshots.
 The one pinned showcase card is always labeled as pinned.
 
 **Where else does OSSDrop live?**
-On Reddit at [r/OSSDrop](https://www.reddit.com/r/OSSDrop/) for discussion, and
-at [ossdrop.com](https://ossdrop.com) (Live). The GitHub organization is
+On the web at [ossdrop.com](https://ossdrop.com) — now live — where the same tools
+are ranked and open for discussion, and on Reddit at
+[r/OSSDrop](https://www.reddit.com/r/OSSDrop/). The GitHub organization is
 [github.com/OSSDrop](https://github.com/OSSDrop).
 
 **Can I reuse this list's data?**
