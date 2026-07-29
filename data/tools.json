@@ -908,5 +908,95 @@
     "description": "Open-source firmware for ESP8266/ESP32 smart devices, enabling local MQTT/HTTP control without a cloud dependency.",
     "license": "GPL-3.0",
     "added": "2026-07-28"
+  },
+  {
+    "name": "Rocket.Chat",
+    "repo": "RocketChat/Rocket.Chat",
+    "homepage": "https://rocket.chat/",
+    "category": "communication-social",
+    "description": "Self-hosted team chat with channels, video calls, and integrations; an alternative to Slack. Core is MIT; ee/ subdirectory has a separate…",
+    "license": "MIT",
+    "added": "2026-07-29"
+  },
+  {
+    "name": "LosslessCut",
+    "repo": "mifi/lossless-cut",
+    "homepage": "https://losslesscut.app/",
+    "category": "creator-media",
+    "description": "GUI tool for fast, lossless trimming and cutting of video and audio files.",
+    "license": "GPL-2.0",
+    "added": "2026-07-29"
+  },
+  {
+    "name": "Apache Airflow",
+    "repo": "apache/airflow",
+    "homepage": "https://airflow.apache.org/",
+    "category": "data-databases",
+    "description": "Platform to author, schedule, and monitor data pipelines as directed acyclic graphs (DAGs).",
+    "license": "Apache-2.0",
+    "added": "2026-07-29"
+  },
+  {
+    "name": "Helix",
+    "repo": "helix-editor/helix",
+    "homepage": "https://helix-editor.com",
+    "category": "developer-tools-cli",
+    "description": "A modal terminal text editor with built-in LSP support, in the tradition of Vim and Kakoune.",
+    "license": "MPL-2.0",
+    "added": "2026-07-29"
+  },
+  {
+    "name": "Prometheus",
+    "repo": "prometheus/prometheus",
+    "homepage": "https://prometheus.io/",
+    "category": "devops-self-hosted",
+    "description": "Monitoring system and time-series database with a query language and alerting.",
+    "license": "Apache-2.0",
+    "added": "2026-07-29"
+  },
+  {
+    "name": "croc",
+    "repo": "schollz/croc",
+    "homepage": "https://schollz.com/software/croc6",
+    "category": "files-sync",
+    "description": "Command-line tool for sending files and folders between computers over an encrypted relay connection.",
+    "license": "MIT",
+    "added": "2026-07-29"
+  },
+  {
+    "name": "Metabase",
+    "repo": "metabase/metabase",
+    "homepage": "https://metabase.com",
+    "category": "finance-business",
+    "description": "Business intelligence tool for querying databases and building dashboards without SQL.",
+    "license": "AGPL-3.0",
+    "added": "2026-07-29"
+  },
+  {
+    "name": "Trilium",
+    "repo": "TriliumNext/Trilium",
+    "homepage": "https://triliumnotes.org",
+    "category": "notes-knowledge",
+    "description": "Self-hosted, hierarchical note-taking application for building a personal knowledge base.",
+    "license": "AGPL-3.0",
+    "added": "2026-07-29"
+  },
+  {
+    "name": "Super Productivity",
+    "repo": "super-productivity/super-productivity",
+    "homepage": "http://super-productivity.com?ref=github",
+    "category": "productivity",
+    "description": "Todo list app with built-in time tracking and Jira/GitLab/GitHub integrations.",
+    "license": "MIT",
+    "added": "2026-07-29"
+  },
+  {
+    "name": "OpenRefine",
+    "repo": "OpenRefine/OpenRefine",
+    "homepage": "https://openrefine.org/",
+    "category": "science-education",
+    "description": "Desktop tool for cleaning, transforming, and reconciling messy tabular data.",
+    "license": "BSD-3-Clause",
+    "added": "2026-07-29"
   }
 ]
