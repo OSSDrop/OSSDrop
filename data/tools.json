@@ -998,5 +998,20 @@
     "description": "Desktop tool for cleaning, transforming, and reconciling messy tabular data.",
     "license": "BSD-3-Clause",
     "added": "2026-07-29"
+  },
+  {
+    "name": "OpenSRE",
+    "repo": "swapnildahiphale/OpenSRE",
+    "homepage": "https://opensre.in",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted AI SRE for incident investigation with episodic memory, a knowledge graph, Web UI, Slack, and Teams.",
+    "license": "Apache-2.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://opensre.in/docs"
+      }
+    ],
+    "added": "2026-07-29"
   }
 ]
