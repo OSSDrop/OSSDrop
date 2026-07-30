@@ -1013,5 +1013,95 @@
       }
     ],
     "added": "2026-07-29"
+  },
+  {
+    "name": "Keycloak",
+    "repo": "keycloak/keycloak",
+    "homepage": "https://www.keycloak.org",
+    "category": "security-privacy",
+    "description": "Identity and access management server with SSO, OAuth2, OpenID Connect, and user federation.",
+    "license": "Apache-2.0",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "JSON Server",
+    "repo": "typicode/json-server",
+    "homepage": "https://github.com/typicode/json-server",
+    "category": "web-apis",
+    "description": "Spins up a fake REST API with CRUD endpoints from a JSON file, for prototyping frontends without a backend.",
+    "license": "MIT",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "Open Interpreter",
+    "repo": "openinterpreter/openinterpreter",
+    "homepage": "http://openinterpreter.com/",
+    "category": "ai-coding-agents",
+    "description": "Terminal coding agent that lets open models such as DeepSeek, Kimi, and Qwen read, write, and run code.",
+    "license": "Apache-2.0",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "ThingsBoard",
+    "repo": "thingsboard/thingsboard",
+    "homepage": "https://thingsboard.io",
+    "category": "automation-iot",
+    "description": "IoT platform for device management, data collection, processing, and visualization.",
+    "license": "Apache-2.0",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "Mattermost",
+    "repo": "mattermost/mattermost",
+    "homepage": "https://mattermost.com",
+    "category": "communication-social",
+    "description": "Self-hosted team messaging and collaboration platform, AGPL-licensed; an alternative to Slack.",
+    "license": "Apache-2.0",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "PhotoPrism",
+    "repo": "photoprism/photoprism",
+    "homepage": "https://www.photoprism.app",
+    "category": "creator-media",
+    "description": "Self-hosted photo app with AI-based search, tagging, and album organization.",
+    "license": "AGPL-3.0",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "Milvus",
+    "repo": "milvus-io/milvus",
+    "homepage": "https://milvus.io",
+    "category": "data-databases",
+    "description": "Vector database for storing and searching embeddings, used for similarity search in AI applications.",
+    "license": "Apache-2.0",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "fd",
+    "repo": "sharkdp/fd",
+    "homepage": "https://github.com/sharkdp/fd",
+    "category": "developer-tools-cli",
+    "description": "A simple, user-friendly alternative to the Unix find command for searching files.",
+    "license": "Apache-2.0",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "Gitea",
+    "repo": "go-gitea/gitea",
+    "homepage": "https://gitea.com",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted Git service with code review, package registry, and CI/CD, similar to GitHub or GitLab.",
+    "license": "MIT",
+    "added": "2026-07-30"
+  },
+  {
+    "name": "Nextcloud Server",
+    "repo": "nextcloud/server",
+    "homepage": "https://nextcloud.com",
+    "category": "files-sync",
+    "description": "Self-hosted file sync and share platform with collaboration apps, an alternative to Dropbox or Google Drive.",
+    "license": "AGPL-3.0",
+    "added": "2026-07-30"
   }
 ]
