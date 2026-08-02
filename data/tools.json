@@ -1283,5 +1283,95 @@
     "description": "Reverse proxy and load balancer for microservices, with automatic service discovery and HTTPS via Let's Encrypt.",
     "license": "MIT",
     "added": "2026-08-01"
+  },
+  {
+    "name": "crewAI",
+    "repo": "crewAIInc/crewAI",
+    "homepage": "https://crewai.com",
+    "category": "ai-coding-agents",
+    "description": "Framework for orchestrating role-based, collaborative multi-agent workflows, built independent of LangChain.",
+    "license": "MIT",
+    "added": "2026-08-02"
+  },
+  {
+    "name": "ESPHome",
+    "repo": "esphome/esphome",
+    "homepage": "https://esphome.io/",
+    "category": "automation-iot",
+    "description": "Firmware framework for ESP32/ESP8266 microcontrollers, configured via YAML files and used to build smart-home devices.",
+    "license": "GPL-3.0",
+    "added": "2026-08-02"
+  },
+  {
+    "name": "Signal (Android)",
+    "repo": "signalapp/Signal-Android",
+    "homepage": "https://signal.org",
+    "category": "communication-social",
+    "description": "Android client for the Signal end-to-end encrypted messaging app.",
+    "license": "AGPL-3.0",
+    "added": "2026-08-02"
+  },
+  {
+    "name": "VLC media player",
+    "repo": "videolan/vlc",
+    "homepage": "http://www.videolan.org/vlc",
+    "category": "creator-media",
+    "description": "Cross-platform media player that plays most audio and video formats and streams.",
+    "license": "GPL-2.0",
+    "added": "2026-08-02"
+  },
+  {
+    "name": "RocksDB",
+    "repo": "facebook/rocksdb",
+    "homepage": "http://rocksdb.org",
+    "category": "data-databases",
+    "description": "Embeddable, persistent key-value store library optimized for fast storage; used as a storage engine in other databases.",
+    "license": "GPL-2.0",
+    "added": "2026-08-02"
+  },
+  {
+    "name": "k9s",
+    "repo": "derailed/k9s",
+    "homepage": "https://k9scli.io",
+    "category": "developer-tools-cli",
+    "description": "A terminal UI for interacting with and managing Kubernetes clusters.",
+    "license": "Apache-2.0",
+    "added": "2026-08-02"
+  },
+  {
+    "name": "AdGuard Home",
+    "repo": "AdguardTeam/AdGuardHome",
+    "homepage": "https://adguard.com/adguard-home/overview.html",
+    "category": "devops-self-hosted",
+    "description": "Network-wide DNS server that blocks ads and trackers for every device on a network.",
+    "license": "GPL-3.0",
+    "added": "2026-08-02"
+  },
+  {
+    "name": "SeaweedFS",
+    "repo": "seaweedfs/seaweedfs",
+    "homepage": "https://seaweedfs.com",
+    "category": "files-sync",
+    "description": "Distributed file and object storage system with an S3-compatible API, built to handle very large numbers of files.",
+    "license": "Apache-2.0",
+    "added": "2026-08-02"
+  },
+  {
+    "name": "Ghostfolio",
+    "repo": "ghostfolio/ghostfolio",
+    "homepage": "https://Ghostfol.io",
+    "category": "finance-business",
+    "description": "Tracks investment portfolios across stocks, ETFs, and crypto with performance reporting.",
+    "license": "AGPL-3.0",
+    "added": "2026-08-02"
+  },
+  {
+    "name": "Docmost",
+    "repo": "docmost/docmost",
+    "homepage": "https://docmost.com",
+    "category": "notes-knowledge",
+    "description": "Self-hosted collaborative wiki and documentation tool, an open-source alternative to Confluence and Notion.",
+    "license": "AGPL-3.0",
+    "added": "2026-08-02"
   }
 ]
