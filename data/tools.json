@@ -1373,5 +1373,14 @@
     "description": "Self-hosted collaborative wiki and documentation tool, an open-source alternative to Confluence and Notion.",
     "license": "AGPL-3.0",
     "added": "2026-08-02"
+  },
+  {
+    "name": "AI Dictation",
+    "repo": "writingmate/aidictation",
+    "homepage": "https://aidictation.com",
+    "category": "productivity",
+    "description": "Cross-platform speech-to-text app for voice typing with offline recognition and optional text cleanup.",
+    "license": "MIT",
+    "added": "2026-08-02"
   }
 ]
