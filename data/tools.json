@@ -1463,5 +1463,14 @@
     "description": "A syntax-highlighting pager for git, diff, grep, and blame output.",
     "license": "MIT",
     "added": "2026-08-03"
+  },
+  {
+    "name": "AI Dictation",
+    "repo": "writingmate/aidictation",
+    "homepage": "https://aidictation.com",
+    "category": "productivity",
+    "description": "Cross-platform speech-to-text app for voice typing with offline recognition and optional text cleanup.",
+    "license": "MIT",
+    "added": "2026-08-02"
   }
 ]
