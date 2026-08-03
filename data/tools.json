@@ -1373,5 +1373,95 @@
     "description": "Self-hosted collaborative wiki and documentation tool, an open-source alternative to Confluence and Notion.",
     "license": "AGPL-3.0",
     "added": "2026-08-02"
+  },
+  {
+    "name": "ActivityWatch",
+    "repo": "ActivityWatch/activitywatch",
+    "homepage": "https://activitywatch.net/",
+    "category": "productivity",
+    "description": "Cross-platform automatic time tracker that logs app and website usage locally.",
+    "license": "MPL-2.0",
+    "added": "2026-08-03"
+  },
+  {
+    "name": "Open edX Platform",
+    "repo": "openedx/openedx-platform",
+    "homepage": "https://openedx.org",
+    "category": "science-education",
+    "description": "Learning management system built for MOOCs, powering edX and other online course platforms.",
+    "license": "AGPL-3.0",
+    "added": "2026-08-03"
+  },
+  {
+    "name": "sops",
+    "repo": "getsops/sops",
+    "homepage": "https://getsops.io",
+    "category": "security-privacy",
+    "description": "Encrypts and decrypts values in YAML, JSON, ENV, and INI files, integrating with cloud KMS providers.",
+    "license": "MPL-2.0",
+    "added": "2026-08-03"
+  },
+  {
+    "name": "Kong Gateway",
+    "repo": "Kong/kong",
+    "homepage": "https://konghq.com/install/",
+    "category": "web-apis",
+    "description": "API gateway that manages, secures, and routes traffic between clients and backend or microservice APIs.",
+    "license": "Apache-2.0",
+    "added": "2026-08-03"
+  },
+  {
+    "name": "Goose",
+    "repo": "aaif-goose/goose",
+    "homepage": "https://goose-docs.ai/",
+    "category": "ai-coding-agents",
+    "description": "Extensible AI agent that can install, execute, edit, and test code locally with any LLM backend.",
+    "license": "Apache-2.0",
+    "added": "2026-08-03"
+  },
+  {
+    "name": "Eclipse Mosquitto",
+    "repo": "eclipse-mosquitto/mosquitto",
+    "homepage": "https://mosquitto.org",
+    "category": "automation-iot",
+    "description": "Lightweight, widely used MQTT message broker for IoT and machine-to-machine messaging.",
+    "license": "EPL-2.0",
+    "added": "2026-08-03"
+  },
+  {
+    "name": "Zulip",
+    "repo": "zulip/zulip",
+    "homepage": "https://zulip.com",
+    "category": "communication-social",
+    "description": "Team chat organized by topic threads within channels; an alternative to Slack.",
+    "license": "Apache-2.0",
+    "added": "2026-08-03"
+  },
+  {
+    "name": "Audacity",
+    "repo": "audacity/audacity",
+    "homepage": "https://wiki.audacityteam.org/wiki/For_Developers",
+    "category": "creator-media",
+    "description": "Multi-track audio editor and recorder for Windows, macOS, and Linux.",
+    "license": "GPL-3.0",
+    "added": "2026-08-03"
+  },
+  {
+    "name": "Redash",
+    "repo": "getredash/redash",
+    "homepage": "http://redash.io/",
+    "category": "data-databases",
+    "description": "Connects to SQL and NoSQL data sources to build queries, visualizations, and dashboards.",
+    "license": "BSD-2-Clause",
+    "added": "2026-08-03"
+  },
+  {
+    "name": "delta",
+    "repo": "dandavison/delta",
+    "homepage": "https://dandavison.github.io/delta/",
+    "category": "developer-tools-cli",
+    "description": "A syntax-highlighting pager for git, diff, grep, and blame output.",
+    "license": "MIT",
+    "added": "2026-08-03"
   }
 ]
