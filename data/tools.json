@@ -1571,5 +1571,95 @@
     "description": "Microsoft's open-source learned video codec — neural-network video compression for real-world, multi-platform deployment.",
     "license": "MIT",
     "added": "2026-08-04"
+  },
+  {
+    "name": "Lemmy",
+    "repo": "LemmyNet/lemmy",
+    "homepage": "https://join-lemmy.org",
+    "category": "communication-social",
+    "description": "Federated link-aggregation and discussion platform using ActivityPub; an alternative to Reddit.",
+    "license": "AGPL-3.0",
+    "added": "2026-08-05"
+  },
+  {
+    "name": "PeerTube",
+    "repo": "Chocobozzz/PeerTube",
+    "homepage": "https://joinpeertube.org/",
+    "category": "creator-media",
+    "description": "Federated, peer-to-peer video hosting platform, an alternative to YouTube.",
+    "license": "AGPL-3.0",
+    "added": "2026-08-05"
+  },
+  {
+    "name": "PostgREST",
+    "repo": "PostgREST/postgrest",
+    "homepage": "https://postgrest.org",
+    "category": "data-databases",
+    "description": "Turns an existing PostgreSQL database directly into a RESTful API, generated from the schema.",
+    "license": "MIT",
+    "added": "2026-08-05"
+  },
+  {
+    "name": "Atuin",
+    "repo": "atuinsh/atuin",
+    "homepage": "https://atuin.sh",
+    "category": "developer-tools-cli",
+    "description": "Replaces default shell history with a searchable database that can sync across machines.",
+    "license": "MIT",
+    "added": "2026-08-05"
+  },
+  {
+    "name": "Authelia",
+    "repo": "authelia/authelia",
+    "homepage": "https://www.authelia.com",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted single sign-on and multi-factor authentication portal that sits in front of reverse proxies.",
+    "license": "Apache-2.0",
+    "added": "2026-08-05"
+  },
+  {
+    "name": "Duplicati",
+    "repo": "duplicati/duplicati",
+    "homepage": "https://github.com/duplicati/duplicati",
+    "category": "files-sync",
+    "description": "Backup client that encrypts files and uploads them to cloud storage providers such as S3, Backblaze, and Google Drive.",
+    "license": "MIT",
+    "added": "2026-08-05"
+  },
+  {
+    "name": "Beancount",
+    "repo": "beancount/beancount",
+    "homepage": "http://beancount.github.io/",
+    "category": "finance-business",
+    "description": "Double-entry accounting system that stores transactions as plain text files.",
+    "license": "GPL-2.0",
+    "added": "2026-08-05"
+  },
+  {
+    "name": "Notesnook",
+    "repo": "streetwriters/notesnook",
+    "homepage": "https://notesnook.com/",
+    "category": "notes-knowledge",
+    "description": "End-to-end encrypted note-taking app, an alternative to Evernote, with cross-device sync.",
+    "license": "GPL-3.0",
+    "added": "2026-08-05"
+  },
+  {
+    "name": "Espanso",
+    "repo": "espanso/espanso",
+    "homepage": "https://espanso.org",
+    "category": "productivity",
+    "description": "Cross-platform text expander for snippets and templates, written in Rust.",
+    "license": "GPL-3.0",
+    "added": "2026-08-05"
+  },
+  {
+    "name": "Astropy",
+    "repo": "astropy/astropy",
+    "homepage": "https://www.astropy.org",
+    "category": "science-education",
+    "description": "Core Python library for astronomy and astrophysics, providing common tools for the field.",
+    "license": "BSD-3-Clause",
+    "added": "2026-08-05"
   }
 ]
