@@ -9,6 +9,11 @@ on:
   pull_request:
     paths: ["data/tools.json", "scripts/build_readme.py"] # validate drops before merge
   workflow_dispatch:
+    inputs:
+      backfill_awards:
+        description: "One-time: reconstruct ALL past daily/weekly award winners from history"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -54,4 +59,20 @@ jobs:
               --max-time 90 -w "\nHTTP %{http_code}\n"
           else
             echo "SITE_URL/SYNC_SECRET not set — skipping site sync (add them in repo Action secrets)."
+          fi
+
+      - name: Finalize awards (permanent daily/weekly winners)
+        if: github.event_name != 'pull_request'
+        env:
+          SITE_URL: ${{ secrets.SITE_URL }}
+          SYNC_SECRET: ${{ secrets.SYNC_SECRET }}
+        run: |
+          if [ -n "$SYNC_SECRET" ] && [ -n "$SITE_URL" ]; then
+            Q=""
+            if [ "${{ inputs.backfill_awards }}" = "true" ]; then Q="?backfill=1"; fi
+            curl -fsS -X POST "$SITE_URL/api/finalize-awards$Q" \
+              -H "Authorization: Bearer $SYNC_SECRET" \
+              --max-time 90 -w "\nHTTP %{http_code}\n"
+          else
+            echo "SITE_URL/SYNC_SECRET not set — skipping award finalize."
           fi
