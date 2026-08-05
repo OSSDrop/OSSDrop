@@ -1661,5 +1661,14 @@
     "description": "Core Python library for astronomy and astrophysics, providing common tools for the field.",
     "license": "BSD-3-Clause",
     "added": "2026-08-05"
+  },
+  {
+    "name": "QuoteChime",
+    "repo": "eswain89-web/quotechime-free",
+    "homepage": "https://quotechime.pages.dev/?ref=ossdrop",
+    "category": "finance-business",
+    "description": "Browser-private quote follow-up message generator for Australian trade and service businesses.",
+    "license": "MIT",
+    "added": "2026-08-05"
   }
 ]
