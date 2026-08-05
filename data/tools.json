@@ -1562,5 +1562,14 @@
     "description": "Real-time operating system kernel for microcontrollers, widely used in embedded and IoT devices.",
     "license": "MIT",
     "added": "2026-08-04"
+  },
+  {
+    "name": "MLVC",
+    "repo": "microsoft/mlvc",
+    "homepage": "https://arxiv.org/abs/2606.28027",
+    "category": "creator-media",
+    "description": "Microsoft's open-source learned video codec — neural-network video compression for real-world, multi-platform deployment.",
+    "license": "MIT",
+    "added": "2026-08-04"
   }
 ]
