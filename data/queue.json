@@ -1,59 +1,5 @@
 [
   {
-    "name": "Oh My Zsh",
-    "repo": "ohmyzsh/ohmyzsh",
-    "homepage": "https://ohmyz.sh",
-    "category": "developer-tools-cli",
-    "description": "Community framework for managing Zsh shell configuration, with plugins, themes, and helpers.",
-    "license": "MIT",
-    "publishOn": "2026-08-08"
-  },
-  {
-    "name": "MarkItDown",
-    "repo": "microsoft/markitdown",
-    "homepage": "https://github.com/microsoft/markitdown",
-    "category": "developer-tools-cli",
-    "description": "Python tool and CLI for converting files and Office documents to Markdown.",
-    "license": "MIT",
-    "publishOn": "2026-08-08"
-  },
-  {
-    "name": "Stable Diffusion web UI",
-    "repo": "AUTOMATIC1111/stable-diffusion-webui",
-    "homepage": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-    "category": "creator-media",
-    "description": "Browser-based interface for generating images with Stable Diffusion models.",
-    "license": "AGPL-3.0",
-    "publishOn": "2026-08-08"
-  },
-  {
-    "name": "LangChain",
-    "repo": "langchain-ai/langchain",
-    "homepage": "https://docs.langchain.com/langchain/",
-    "category": "ai-coding-agents",
-    "description": "Framework for building applications and agents powered by large language models.",
-    "license": "MIT",
-    "publishOn": "2026-08-08"
-  },
-  {
-    "name": "React Native",
-    "repo": "react/react-native",
-    "homepage": "https://reactnative.dev",
-    "category": "developer-tools-cli",
-    "description": "Framework for building native iOS and Android apps using React.",
-    "license": "MIT",
-    "publishOn": "2026-08-08"
-  },
-  {
-    "name": "ComfyUI",
-    "repo": "Comfy-Org/ComfyUI",
-    "homepage": "https://www.comfy.org/",
-    "category": "creator-media",
-    "description": "Node-based interface and backend for building image generation workflows with diffusion models.",
-    "license": "GPL-3.0",
-    "publishOn": "2026-08-08"
-  },
-  {
     "name": "llama.cpp",
     "repo": "ggml-org/llama.cpp",
     "homepage": "https://llama.app",
