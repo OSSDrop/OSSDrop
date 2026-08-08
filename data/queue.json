@@ -1,1 +1,1523 @@
-[]
+[
+  {
+    "name": "Oh My Zsh",
+    "repo": "ohmyzsh/ohmyzsh",
+    "homepage": "https://ohmyz.sh",
+    "category": "developer-tools-cli",
+    "description": "Community framework for managing Zsh shell configuration, with plugins, themes, and helpers.",
+    "license": "MIT",
+    "publishOn": "2026-08-08"
+  },
+  {
+    "name": "MarkItDown",
+    "repo": "microsoft/markitdown",
+    "homepage": "https://github.com/microsoft/markitdown",
+    "category": "developer-tools-cli",
+    "description": "Python tool and CLI for converting files and Office documents to Markdown.",
+    "license": "MIT",
+    "publishOn": "2026-08-08"
+  },
+  {
+    "name": "Stable Diffusion web UI",
+    "repo": "AUTOMATIC1111/stable-diffusion-webui",
+    "homepage": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "category": "creator-media",
+    "description": "Browser-based interface for generating images with Stable Diffusion models.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-08-08"
+  },
+  {
+    "name": "LangChain",
+    "repo": "langchain-ai/langchain",
+    "homepage": "https://docs.langchain.com/langchain/",
+    "category": "ai-coding-agents",
+    "description": "Framework for building applications and agents powered by large language models.",
+    "license": "MIT",
+    "publishOn": "2026-08-08"
+  },
+  {
+    "name": "React Native",
+    "repo": "react/react-native",
+    "homepage": "https://reactnative.dev",
+    "category": "developer-tools-cli",
+    "description": "Framework for building native iOS and Android apps using React.",
+    "license": "MIT",
+    "publishOn": "2026-08-08"
+  },
+  {
+    "name": "ComfyUI",
+    "repo": "Comfy-Org/ComfyUI",
+    "homepage": "https://www.comfy.org/",
+    "category": "creator-media",
+    "description": "Node-based interface and backend for building image generation workflows with diffusion models.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-08-08"
+  },
+  {
+    "name": "llama.cpp",
+    "repo": "ggml-org/llama.cpp",
+    "homepage": "https://llama.app",
+    "category": "ai-coding-agents",
+    "description": "C/C++ library for running LLM inference locally on CPUs and GPUs.",
+    "license": "MIT",
+    "publishOn": "2026-08-09"
+  },
+  {
+    "name": "Electron",
+    "repo": "electron/electron",
+    "homepage": "https://electronjs.org",
+    "category": "developer-tools-cli",
+    "description": "Framework for building cross-platform desktop apps with JavaScript, HTML, and CSS.",
+    "license": "MIT",
+    "publishOn": "2026-08-09"
+  },
+  {
+    "name": "three.js",
+    "repo": "mrdoob/three.js",
+    "homepage": "https://threejs.org/",
+    "category": "developer-tools-cli",
+    "description": "JavaScript library for creating and rendering 3D graphics in the browser via WebGL.",
+    "license": "MIT",
+    "publishOn": "2026-08-09"
+  },
+  {
+    "name": "D3.js",
+    "repo": "d3/d3",
+    "homepage": "https://d3js.org",
+    "category": "developer-tools-cli",
+    "description": "JavaScript library for producing data visualizations using SVG, Canvas, and HTML.",
+    "license": "ISC",
+    "publishOn": "2026-08-09"
+  },
+  {
+    "name": "TypeScript",
+    "repo": "microsoft/TypeScript",
+    "homepage": "https://www.typescriptlang.org",
+    "category": "developer-tools-cli",
+    "description": "Typed superset of JavaScript that compiles to plain JavaScript.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-09"
+  },
+  {
+    "name": "Tauri",
+    "repo": "tauri-apps/tauri",
+    "homepage": "https://tauri.app",
+    "category": "developer-tools-cli",
+    "description": "Toolkit for building desktop and mobile apps with a web frontend and Rust backend.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-09"
+  },
+  {
+    "name": "Deno",
+    "repo": "denoland/deno",
+    "homepage": "https://deno.com",
+    "category": "developer-tools-cli",
+    "description": "Runtime for JavaScript and TypeScript built on V8, with built-in tooling.",
+    "license": "MIT",
+    "publishOn": "2026-08-10"
+  },
+  {
+    "name": "Windows Terminal",
+    "repo": "microsoft/terminal",
+    "homepage": "https://github.com/microsoft/terminal",
+    "category": "developer-tools-cli",
+    "description": "Terminal application for Windows with tabs, panes, and Unicode support.",
+    "license": "MIT",
+    "publishOn": "2026-08-10"
+  },
+  {
+    "name": "Create React App",
+    "repo": "react/create-react-app",
+    "homepage": "https://create-react-app.dev/",
+    "category": "developer-tools-cli",
+    "description": "Command-line tool to scaffold a single-page React application with a preconfigured build setup.",
+    "license": "MIT",
+    "publishOn": "2026-08-10"
+  },
+  {
+    "name": "Angular",
+    "repo": "angular/angular",
+    "homepage": "https://angular.dev",
+    "category": "developer-tools-cli",
+    "description": "TypeScript framework for building single-page web applications, maintained by Google.",
+    "license": "MIT",
+    "publishOn": "2026-08-10"
+  },
+  {
+    "name": "Material UI",
+    "repo": "mui/material-ui",
+    "homepage": "https://mui.com/material-ui/",
+    "category": "developer-tools-cli",
+    "description": "React component library implementing Google's Material Design.",
+    "license": "MIT",
+    "publishOn": "2026-08-10"
+  },
+  {
+    "name": "Tailwind CSS",
+    "repo": "tailwindlabs/tailwindcss",
+    "homepage": "https://tailwindcss.com/",
+    "category": "developer-tools-cli",
+    "description": "Utility-first CSS framework for styling web interfaces with composable classes.",
+    "license": "MIT",
+    "publishOn": "2026-08-10"
+  },
+  {
+    "name": "Storybook",
+    "repo": "storybookjs/storybook",
+    "homepage": "https://storybook.js.org",
+    "category": "developer-tools-cli",
+    "description": "Tool for developing, documenting, and testing UI components in isolation.",
+    "license": "MIT",
+    "publishOn": "2026-08-11"
+  },
+  {
+    "name": "OpenCV",
+    "repo": "opencv/opencv",
+    "homepage": "https://opencv.org",
+    "category": "science-education",
+    "description": "Computer vision and image-processing library with C++, Python, and Java interfaces.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-11"
+  },
+  {
+    "name": "uv",
+    "repo": "astral-sh/uv",
+    "homepage": "https://docs.astral.sh/uv",
+    "category": "developer-tools-cli",
+    "description": "Python package and project manager written in Rust.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-11"
+  },
+  {
+    "name": "vLLM",
+    "repo": "vllm-project/vllm",
+    "homepage": "https://vllm.ai",
+    "category": "ai-coding-agents",
+    "description": "Inference and serving engine for running large language models.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-11"
+  },
+  {
+    "name": "Django",
+    "repo": "django/django",
+    "homepage": "https://www.djangoproject.com/",
+    "category": "web-apis",
+    "description": "Python web framework for building server-side web applications and APIs.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-08-11"
+  },
+  {
+    "name": "Svelte",
+    "repo": "sveltejs/svelte",
+    "homepage": "https://svelte.dev",
+    "category": "developer-tools-cli",
+    "description": "JavaScript framework that compiles components to minimal JavaScript at build time.",
+    "license": "MIT",
+    "publishOn": "2026-08-11"
+  },
+  {
+    "name": "Vite",
+    "repo": "vitejs/vite",
+    "homepage": "http://vite.dev",
+    "category": "developer-tools-cli",
+    "description": "Frontend build tool and development server for modern web projects.",
+    "license": "MIT",
+    "publishOn": "2026-08-12"
+  },
+  {
+    "name": "Spring Boot",
+    "repo": "spring-projects/spring-boot",
+    "homepage": "https://spring.io/projects/spring-boot",
+    "category": "web-apis",
+    "description": "Java framework for building stand-alone, production-grade Spring applications and services.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-12"
+  },
+  {
+    "name": "code-server",
+    "repo": "coder/code-server",
+    "homepage": "https://coder.com",
+    "category": "devops-self-hosted",
+    "description": "Runs VS Code on a remote server, accessible through a web browser.",
+    "license": "MIT",
+    "publishOn": "2026-08-12"
+  },
+  {
+    "name": "Tesseract",
+    "repo": "tesseract-ocr/tesseract",
+    "homepage": "https://tesseract-ocr.github.io/",
+    "category": "science-education",
+    "description": "Optical character recognition engine that extracts text from images.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-12"
+  },
+  {
+    "name": "Flask",
+    "repo": "pallets/flask",
+    "homepage": "https://flask.palletsprojects.com",
+    "category": "web-apis",
+    "description": "Python micro web framework for building web applications and APIs.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-08-12"
+  },
+  {
+    "name": "Moby",
+    "repo": "moby/moby",
+    "homepage": "https://mobyproject.org/",
+    "category": "devops-self-hosted",
+    "description": "Open-source framework and components for assembling container-based systems, underlying Docker.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-12"
+  },
+  {
+    "name": "Unsloth",
+    "repo": "unslothai/unsloth",
+    "homepage": "https://unsloth.ai/docs",
+    "category": "ai-coding-agents",
+    "description": "Library for faster fine-tuning and training of large language models with lower memory use.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-13"
+  },
+  {
+    "name": "Chart.js",
+    "repo": "chartjs/Chart.js",
+    "homepage": "https://www.chartjs.org/",
+    "category": "data-databases",
+    "description": "JavaScript library for creating charts using the HTML5 canvas element.",
+    "license": "MIT",
+    "publishOn": "2026-08-13"
+  },
+  {
+    "name": "Apache ECharts",
+    "repo": "apache/echarts",
+    "homepage": "https://echarts.apache.org",
+    "category": "data-databases",
+    "description": "JavaScript charting and data visualization library for the browser.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-13"
+  },
+  {
+    "name": "scikit-learn",
+    "repo": "scikit-learn/scikit-learn",
+    "homepage": "https://scikit-learn.org",
+    "category": "data-databases",
+    "description": "Machine learning library for Python with tools for classification, regression, and clustering.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-08-13"
+  },
+  {
+    "name": "webpack",
+    "repo": "webpack/webpack",
+    "homepage": "https://webpack.js.org",
+    "category": "developer-tools-cli",
+    "description": "Module bundler that packs JavaScript and assets into bundled outputs, with code splitting and loaders.",
+    "license": "MIT",
+    "publishOn": "2026-08-13"
+  },
+  {
+    "name": "Docusaurus",
+    "repo": "facebook/docusaurus",
+    "homepage": "https://docusaurus.io",
+    "category": "developer-tools-cli",
+    "description": "Static-site generator for building and maintaining documentation websites.",
+    "license": "MIT",
+    "publishOn": "2026-08-13"
+  },
+  {
+    "name": "AnythingLLM",
+    "repo": "Mintplex-Labs/anything-llm",
+    "homepage": "https://anythingllm.com",
+    "category": "ai-coding-agents",
+    "description": "Desktop and Docker app for chatting with documents and running local LLM-based agents.",
+    "license": "MIT",
+    "publishOn": "2026-08-14"
+  },
+  {
+    "name": "Keras",
+    "repo": "keras-team/keras",
+    "homepage": "http://keras.io/",
+    "category": "data-databases",
+    "description": "Deep learning API for Python that runs on multiple backend frameworks.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-14"
+  },
+  {
+    "name": "Mem0",
+    "repo": "mem0ai/mem0",
+    "homepage": "https://mem0.ai",
+    "category": "ai-coding-agents",
+    "description": "Memory layer that gives AI agents persistent, personalized recall across sessions.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-14"
+  },
+  {
+    "name": "Redux",
+    "repo": "reduxjs/redux",
+    "homepage": "https://redux.js.org",
+    "category": "developer-tools-cli",
+    "description": "Predictable state container library for JavaScript applications.",
+    "license": "MIT",
+    "publishOn": "2026-08-14"
+  },
+  {
+    "name": "Nuxt",
+    "repo": "nuxt/nuxt",
+    "homepage": "https://nuxt.com",
+    "category": "web-apis",
+    "description": "Full-stack framework for building Vue.js web applications.",
+    "license": "MIT",
+    "publishOn": "2026-08-14"
+  },
+  {
+    "name": "PocketBase",
+    "repo": "pocketbase/pocketbase",
+    "homepage": "https://pocketbase.io",
+    "category": "devops-self-hosted",
+    "description": "Open-source backend with database, auth, and file storage in a single file.",
+    "license": "MIT",
+    "publishOn": "2026-08-14"
+  },
+  {
+    "name": "Ultralytics YOLO",
+    "repo": "ultralytics/ultralytics",
+    "homepage": "https://platform.ultralytics.com",
+    "category": "science-education",
+    "description": "Python framework for YOLO models doing object detection, segmentation, classification, pose estimation, and tracking.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-08-15"
+  },
+  {
+    "name": "Penpot",
+    "repo": "penpot/penpot",
+    "homepage": "https://penpot.app",
+    "category": "creator-media",
+    "description": "Web-based design and prototyping tool for UI/UX with open file formats and developer handoff.",
+    "license": "MPL-2.0",
+    "publishOn": "2026-08-15"
+  },
+  {
+    "name": "Appwrite",
+    "repo": "appwrite/appwrite",
+    "homepage": "https://appwrite.io",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted backend platform providing auth, databases, storage, functions, and messaging for web and mobile apps.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-08-15"
+  },
+  {
+    "name": "React Router",
+    "repo": "remix-run/react-router",
+    "homepage": "https://reactrouter.com",
+    "category": "developer-tools-cli",
+    "description": "Routing library for React applications, providing declarative navigation and data loading.",
+    "license": "MIT",
+    "publishOn": "2026-08-15"
+  },
+  {
+    "name": "Segment Anything (SAM)",
+    "repo": "facebookresearch/segment-anything",
+    "homepage": "https://github.com/facebookresearch/segment-anything",
+    "category": "science-education",
+    "description": "Meta's image segmentation model with inference code, pretrained checkpoints, and example notebooks.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-15"
+  },
+  {
+    "name": "Vue.js",
+    "repo": "vuejs/core",
+    "homepage": "https://vuejs.org/",
+    "category": "developer-tools-cli",
+    "description": "JavaScript framework for building user interfaces with a reactive, component-based model.",
+    "license": "MIT",
+    "publishOn": "2026-08-15"
+  },
+  {
+    "name": "Material Design Icons",
+    "repo": "google/material-design-icons",
+    "homepage": "http://google.github.io/material-design-icons/",
+    "category": "creator-media",
+    "description": "Google's icon set (Material Symbols) for use in web and app interfaces.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-16"
+  },
+  {
+    "name": "Ionic Framework",
+    "repo": "ionic-team/ionic-framework",
+    "homepage": "https://ionicframework.com",
+    "category": "developer-tools-cli",
+    "description": "Cross-platform UI toolkit for building iOS, Android, and web apps with HTML, CSS, and JavaScript.",
+    "license": "MIT",
+    "publishOn": "2026-08-16"
+  },
+  {
+    "name": "Prettier",
+    "repo": "prettier/prettier",
+    "homepage": "https://prettier.io",
+    "category": "developer-tools-cli",
+    "description": "Opinionated code formatter supporting JavaScript, TypeScript, CSS, and many other languages.",
+    "license": "MIT",
+    "publishOn": "2026-08-16"
+  },
+  {
+    "name": "Guava",
+    "repo": "google/guava",
+    "homepage": "https://guava.dev/",
+    "category": "developer-tools-cli",
+    "description": "Google's set of core Java libraries including collections, caching, and utility classes.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-16"
+  },
+  {
+    "name": "LlamaIndex",
+    "repo": "run-llama/llama_index",
+    "homepage": "https://developers.llamaindex.ai",
+    "category": "ai-coding-agents",
+    "description": "Python framework for connecting LLMs to external data via indexing, retrieval, and document agents.",
+    "license": "MIT",
+    "publishOn": "2026-08-16"
+  },
+  {
+    "name": "Expo",
+    "repo": "expo/expo",
+    "homepage": "https://docs.expo.dev",
+    "category": "developer-tools-cli",
+    "description": "Framework and platform for building universal native apps for Android, iOS, and web with React.",
+    "license": "MIT",
+    "publishOn": "2026-08-16"
+  },
+  {
+    "name": "TanStack Query",
+    "repo": "TanStack/query",
+    "homepage": "https://tanstack.com/query",
+    "category": "developer-tools-cli",
+    "description": "Async state management and data-fetching library for React, Solid, Svelte, and Vue.",
+    "license": "MIT",
+    "publishOn": "2026-08-17"
+  },
+  {
+    "name": "pandas",
+    "repo": "pandas-dev/pandas",
+    "homepage": "https://pandas.pydata.org",
+    "category": "data-databases",
+    "description": "Python library for data analysis and manipulation with labeled table and series data structures.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-08-17"
+  },
+  {
+    "name": "Supervision",
+    "repo": "roboflow/supervision",
+    "homepage": "https://supervision.roboflow.com",
+    "category": "developer-tools-cli",
+    "description": "Python library of reusable computer vision utilities for object detection, tracking, and annotating images and video.",
+    "license": "MIT",
+    "publishOn": "2026-08-17"
+  },
+  {
+    "name": "Ruff",
+    "repo": "astral-sh/ruff",
+    "homepage": "https://docs.astral.sh/ruff",
+    "category": "developer-tools-cli",
+    "description": "Python linter and code formatter written in Rust.",
+    "license": "MIT",
+    "publishOn": "2026-08-17"
+  },
+  {
+    "name": "tmux",
+    "repo": "tmux/tmux",
+    "homepage": "https://github.com/tmux/tmux",
+    "category": "developer-tools-cli",
+    "description": "Terminal multiplexer that runs and switches between multiple terminal sessions in a single window.",
+    "license": "ISC",
+    "publishOn": "2026-08-17"
+  },
+  {
+    "name": "LocalAI",
+    "repo": "mudler/LocalAI",
+    "homepage": "https://localai.io",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted, OpenAI-compatible API for running LLMs, image, audio, and video models locally on consumer hardware.",
+    "license": "MIT",
+    "publishOn": "2026-08-17"
+  },
+  {
+    "name": "PixiJS",
+    "repo": "pixijs/pixijs",
+    "homepage": "http://pixijs.com",
+    "category": "creator-media",
+    "description": "JavaScript 2D rendering library using WebGL and Canvas for interactive graphics, games, and web content.",
+    "license": "MIT",
+    "publishOn": "2026-08-18"
+  },
+  {
+    "name": "Prisma",
+    "repo": "prisma/prisma",
+    "homepage": "https://www.prisma.io",
+    "category": "data-databases",
+    "description": "TypeScript and Node.js ORM for PostgreSQL, MySQL, SQLite, SQL Server, MongoDB, and other databases.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-18"
+  },
+  {
+    "name": "Text Generation WebUI",
+    "repo": "oobabooga/textgen",
+    "homepage": "https://github.com/oobabooga/textgen",
+    "category": "devops-self-hosted",
+    "description": "Desktop web UI for running local large language models with text, vision, and an OpenAI-compatible API.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-08-18"
+  },
+  {
+    "name": "Cal.com",
+    "repo": "calcom/cal.diy",
+    "homepage": "https://cal.diy",
+    "category": "productivity",
+    "description": "Open-source scheduling and appointment-booking platform, an alternative to Calendly.",
+    "license": "MIT",
+    "publishOn": "2026-08-18"
+  },
+  {
+    "name": "Qlib",
+    "repo": "microsoft/qlib",
+    "homepage": "https://qlib.readthedocs.io/en/latest/",
+    "category": "finance-business",
+    "description": "AI-oriented quantitative investment platform for building and running machine-learning trading strategies in Python.",
+    "license": "MIT",
+    "publishOn": "2026-08-18"
+  },
+  {
+    "name": "Monaco Editor",
+    "repo": "microsoft/monaco-editor",
+    "homepage": "https://microsoft.github.io/monaco-editor/",
+    "category": "developer-tools-cli",
+    "description": "Browser-based code editor that powers VS Code, with syntax highlighting and IntelliSense.",
+    "license": "MIT",
+    "publishOn": "2026-08-18"
+  },
+  {
+    "name": "Bruno",
+    "repo": "usebruno/bruno",
+    "homepage": "https://www.usebruno.com/",
+    "category": "web-apis",
+    "description": "Desktop API client for designing and testing HTTP APIs, storing request collections as plain files.",
+    "license": "MIT",
+    "publishOn": "2026-08-19"
+  },
+  {
+    "name": "GitHub CLI",
+    "repo": "cli/cli",
+    "homepage": "https://cli.github.com",
+    "category": "developer-tools-cli",
+    "description": "GitHub's official command-line tool for managing pull requests, issues, releases, and other GitHub workflows.",
+    "license": "MIT",
+    "publishOn": "2026-08-19"
+  },
+  {
+    "name": "Streamlit",
+    "repo": "streamlit/streamlit",
+    "homepage": "https://streamlit.io",
+    "category": "data-databases",
+    "description": "Python framework for building and sharing interactive data apps and dashboards without front-end code.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-19"
+  },
+  {
+    "name": "gRPC",
+    "repo": "grpc/grpc",
+    "homepage": "https://grpc.io",
+    "category": "web-apis",
+    "description": "RPC framework using HTTP/2 and Protocol Buffers for cross-language service-to-service communication.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-19"
+  },
+  {
+    "name": "Bubble Tea",
+    "repo": "charmbracelet/bubbletea",
+    "homepage": "https://github.com/charmbracelet/bubbletea",
+    "category": "developer-tools-cli",
+    "description": "A Go framework for building terminal user interfaces based on the Elm architecture.",
+    "license": "MIT",
+    "publishOn": "2026-08-19"
+  },
+  {
+    "name": "Paperless-ngx",
+    "repo": "paperless-ngx/paperless-ngx",
+    "homepage": "http://docs.paperless-ngx.com/",
+    "category": "productivity",
+    "description": "A document management system that scans, indexes, and archives physical documents into a searchable digital archive.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-08-19"
+  },
+  {
+    "name": "Payload",
+    "repo": "payloadcms/payload",
+    "homepage": "https://payloadcms.com",
+    "category": "notes-knowledge",
+    "description": "A TypeScript headless CMS and application framework built on Next.js with an admin panel.",
+    "license": "MIT",
+    "publishOn": "2026-08-20"
+  },
+  {
+    "name": "Babel",
+    "repo": "babel/babel",
+    "homepage": "https://babel.dev",
+    "category": "developer-tools-cli",
+    "description": "A JavaScript compiler that converts next-generation JavaScript into backwards-compatible code.",
+    "license": "MIT",
+    "publishOn": "2026-08-20"
+  },
+  {
+    "name": "Apache Spark",
+    "repo": "apache/spark",
+    "homepage": "https://spark.apache.org/",
+    "category": "data-databases",
+    "description": "A unified analytics engine for large-scale distributed data processing and machine learning.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-20"
+  },
+  {
+    "name": "Ray",
+    "repo": "ray-project/ray",
+    "homepage": "https://ray.io",
+    "category": "data-databases",
+    "description": "A distributed computing framework for scaling Python and machine learning workloads across clusters.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-20"
+  },
+  {
+    "name": "Gradio",
+    "repo": "gradio-app/gradio",
+    "homepage": "http://www.gradio.app",
+    "category": "developer-tools-cli",
+    "description": "A Python library for building web-based user interfaces and demos for machine learning models.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-20"
+  },
+  {
+    "name": "DeepSpeed",
+    "repo": "deepspeedai/DeepSpeed",
+    "homepage": "https://www.deepspeed.ai/",
+    "category": "data-databases",
+    "description": "A deep learning optimization library for distributed training and inference of large models.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-20"
+  },
+  {
+    "name": "LibreChat",
+    "repo": "danny-avila/LibreChat",
+    "homepage": "https://librechat.ai/",
+    "category": "ai-coding-agents",
+    "description": "A self-hostable chat interface supporting multiple AI models and providers with multi-user auth.",
+    "license": "MIT",
+    "publishOn": "2026-08-21"
+  },
+  {
+    "name": "Apache Dubbo",
+    "repo": "apache/dubbo",
+    "homepage": "https://dubbo.apache.org/",
+    "category": "developer-tools-cli",
+    "description": "A Java-based RPC and microservice framework for building distributed service applications.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-21"
+  },
+  {
+    "name": "Vim",
+    "repo": "vim/vim",
+    "homepage": "https://www.vim.org",
+    "category": "developer-tools-cli",
+    "description": "A modal text editor for the terminal, extending the classic vi editor.",
+    "license": "Vim",
+    "publishOn": "2026-08-21"
+  },
+  {
+    "name": "Faiss",
+    "repo": "facebookresearch/faiss",
+    "homepage": "https://faiss.ai",
+    "category": "data-databases",
+    "description": "A library for efficient similarity search and clustering of dense vectors.",
+    "license": "MIT",
+    "publishOn": "2026-08-21"
+  },
+  {
+    "name": "Chakra UI",
+    "repo": "chakra-ui/chakra-ui",
+    "homepage": "https://chakra-ui.com",
+    "category": "developer-tools-cli",
+    "description": "A React component library for building accessible user interfaces.",
+    "license": "MIT",
+    "publishOn": "2026-08-21"
+  },
+  {
+    "name": "Fiber",
+    "repo": "gofiber/fiber",
+    "homepage": "https://gofiber.io",
+    "category": "web-apis",
+    "description": "An Express-inspired web framework written in Go and built on the Fasthttp engine.",
+    "license": "MIT",
+    "publishOn": "2026-08-21"
+  },
+  {
+    "name": "esbuild",
+    "repo": "evanw/esbuild",
+    "homepage": "https://esbuild.github.io/",
+    "category": "developer-tools-cli",
+    "description": "A bundler and minifier for JavaScript and TypeScript, written in Go for fast builds.",
+    "license": "MIT",
+    "publishOn": "2026-08-22"
+  },
+  {
+    "name": "BitNet",
+    "repo": "microsoft/BitNet",
+    "homepage": "https://github.com/microsoft/BitNet",
+    "category": "ai-coding-agents",
+    "description": "Microsoft's official inference framework for running 1-bit large language models.",
+    "license": "MIT",
+    "publishOn": "2026-08-22"
+  },
+  {
+    "name": "LevelDB",
+    "repo": "google/leveldb",
+    "homepage": "https://github.com/google/leveldb",
+    "category": "data-databases",
+    "description": "A Google key-value storage library providing an ordered mapping from string keys to values.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-08-22"
+  },
+  {
+    "name": "Polars",
+    "repo": "pola-rs/polars",
+    "homepage": "https://docs.pola.rs",
+    "category": "data-databases",
+    "description": "A DataFrame library and query engine written in Rust, with Python and other bindings.",
+    "license": "MIT",
+    "publishOn": "2026-08-22"
+  },
+  {
+    "name": "GoogleTest",
+    "repo": "google/googletest",
+    "homepage": "https://google.github.io/googletest/",
+    "category": "developer-tools-cli",
+    "description": "Google's C++ unit testing and mocking framework.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-08-22"
+  },
+  {
+    "name": "ASP.NET Core",
+    "repo": "dotnet/aspnetcore",
+    "homepage": "https://asp.net",
+    "category": "web-apis",
+    "description": "A cross-platform .NET framework for building web applications and services.",
+    "license": "MIT",
+    "publishOn": "2026-08-22"
+  },
+  {
+    "name": "Umami",
+    "repo": "umami-software/umami",
+    "homepage": "https://umami.is",
+    "category": "devops-self-hosted",
+    "description": "A self-hosted, privacy-focused web analytics platform that runs without cookies.",
+    "license": "MIT",
+    "publishOn": "2026-08-23"
+  },
+  {
+    "name": "Docker Compose",
+    "repo": "docker/compose",
+    "homepage": "https://docs.docker.com/compose/",
+    "category": "devops-self-hosted",
+    "description": "A tool for defining and running multi-container Docker applications from a YAML file.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-23"
+  },
+  {
+    "name": "TypeORM",
+    "repo": "typeorm/typeorm",
+    "homepage": "http://typeorm.io",
+    "category": "data-databases",
+    "description": "An ORM for TypeScript and JavaScript supporting PostgreSQL, MySQL, SQLite, and other databases.",
+    "license": "MIT",
+    "publishOn": "2026-08-23"
+  },
+  {
+    "name": "MediaPipe",
+    "repo": "google-ai-edge/mediapipe",
+    "homepage": "https://ai.google.dev/edge/mediapipe",
+    "category": "ai-coding-agents",
+    "description": "Google's cross-platform framework for building on-device machine learning pipelines for media.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-23"
+  },
+  {
+    "name": "JAX",
+    "repo": "jax-ml/jax",
+    "homepage": "https://docs.jax.dev",
+    "category": "ai-coding-agents",
+    "description": "A Python library for array computing with automatic differentiation and JIT compilation to GPU/TPU.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-23"
+  },
+  {
+    "name": "SolidJS",
+    "repo": "solidjs/solid",
+    "homepage": "https://solidjs.com",
+    "category": "web-apis",
+    "description": "A declarative JavaScript library for building user interfaces with fine-grained reactivity.",
+    "license": "MIT",
+    "publishOn": "2026-08-23"
+  },
+  {
+    "name": "Drizzle ORM",
+    "repo": "drizzle-team/drizzle-orm",
+    "homepage": "https://orm.drizzle.team",
+    "category": "data-databases",
+    "description": "A TypeScript ORM for SQL databases with a typed query builder.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-24"
+  },
+  {
+    "name": "GraphRAG",
+    "repo": "microsoft/graphrag",
+    "homepage": "https://microsoft.github.io/graphrag/",
+    "category": "ai-coding-agents",
+    "description": "Microsoft's modular, graph-based retrieval-augmented generation (RAG) system.",
+    "license": "MIT",
+    "publishOn": "2026-08-24"
+  },
+  {
+    "name": "Detectron2",
+    "repo": "facebookresearch/detectron2",
+    "homepage": "https://detectron2.readthedocs.io/en/latest/",
+    "category": "science-education",
+    "description": "PyTorch library from Facebook AI Research for object detection, segmentation, and other visual recognition tasks.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-24"
+  },
+  {
+    "name": "Diffusers",
+    "repo": "huggingface/diffusers",
+    "homepage": "https://huggingface.co/docs/diffusers",
+    "category": "creator-media",
+    "description": "PyTorch library of diffusion models for generating images, video, and audio, from Hugging Face.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-24"
+  },
+  {
+    "name": "CLIP",
+    "repo": "openai/CLIP",
+    "homepage": "https://github.com/openai/CLIP",
+    "category": "science-education",
+    "description": "Neural network from OpenAI that links images and text to predict the most relevant caption for an image.",
+    "license": "MIT",
+    "publishOn": "2026-08-24"
+  },
+  {
+    "name": "K3s",
+    "repo": "k3s-io/k3s",
+    "homepage": "https://k3s.io",
+    "category": "devops-self-hosted",
+    "description": "Lightweight, single-binary Kubernetes distribution for edge, IoT, and resource-constrained environments.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-24"
+  },
+  {
+    "name": "Apache Kafka",
+    "repo": "apache/kafka",
+    "homepage": "https://kafka.apache.org/",
+    "category": "data-databases",
+    "description": "Distributed event streaming platform for publishing, subscribing to, storing, and processing streams of records.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-25"
+  },
+  {
+    "name": "Remix",
+    "repo": "remix-run/remix",
+    "homepage": "https://remix.run",
+    "category": "web-apis",
+    "description": "Full-stack React web framework focused on web standards, server rendering, and nested routing.",
+    "license": "MIT",
+    "publishOn": "2026-08-25"
+  },
+  {
+    "name": "MMDetection",
+    "repo": "open-mmlab/mmdetection",
+    "homepage": "https://mmdetection.readthedocs.io",
+    "category": "science-education",
+    "description": "OpenMMLab PyTorch toolbox and benchmark for object detection and instance segmentation models.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-25"
+  },
+  {
+    "name": "Tokio",
+    "repo": "tokio-rs/tokio",
+    "homepage": "https://tokio.rs",
+    "category": "developer-tools-cli",
+    "description": "Asynchronous runtime for Rust providing I/O, networking, scheduling, and timers for concurrent applications.",
+    "license": "MIT",
+    "publishOn": "2026-08-25"
+  },
+  {
+    "name": "Echo",
+    "repo": "labstack/echo",
+    "homepage": "https://echo.labstack.com",
+    "category": "web-apis",
+    "description": "Minimalist web framework for Go for building HTTP servers and REST APIs.",
+    "license": "MIT",
+    "publishOn": "2026-08-25"
+  },
+  {
+    "name": "OpenAI Python",
+    "repo": "openai/openai-python",
+    "homepage": "https://pypi.org/project/openai/",
+    "category": "web-apis",
+    "description": "Official Python client library for accessing the OpenAI REST API.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-25"
+  },
+  {
+    "name": "Symfony",
+    "repo": "symfony/symfony",
+    "homepage": "https://symfony.com",
+    "category": "web-apis",
+    "description": "PHP web framework and set of reusable components for building web applications.",
+    "license": "MIT",
+    "publishOn": "2026-08-26"
+  },
+  {
+    "name": "Windows Calculator",
+    "repo": "microsoft/calculator",
+    "homepage": "https://github.com/microsoft/calculator",
+    "category": "productivity",
+    "description": "The calculator application that ships with Windows, supporting standard, scientific, and programmer modes.",
+    "license": "MIT",
+    "publishOn": "2026-08-26"
+  },
+  {
+    "name": "Lighthouse",
+    "repo": "GoogleChrome/lighthouse",
+    "homepage": "https://developer.chrome.com/docs/lighthouse/overview/",
+    "category": "developer-tools-cli",
+    "description": "Automated tool that audits web pages for performance, accessibility, SEO, and other best practices.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-26"
+  },
+  {
+    "name": "Folly",
+    "repo": "facebook/folly",
+    "homepage": "https://github.com/facebook/folly",
+    "category": "developer-tools-cli",
+    "description": "C++ library of components developed and used at Facebook, extending the standard library.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-26"
+  },
+  {
+    "name": "Sequelize",
+    "repo": "sequelize/sequelize",
+    "homepage": "https://sequelize.org/",
+    "category": "data-databases",
+    "description": "Node.js and TypeScript ORM supporting PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, Oracle, DB2 and more.",
+    "license": "MIT",
+    "publishOn": "2026-08-26"
+  },
+  {
+    "name": "Nuclei",
+    "repo": "projectdiscovery/nuclei",
+    "homepage": "https://docs.projectdiscovery.io/tools/nuclei",
+    "category": "security-privacy",
+    "description": "Vulnerability scanner that runs YAML-based templates against apps, APIs, networks, DNS and cloud configurations.",
+    "license": "MIT",
+    "publishOn": "2026-08-26"
+  },
+  {
+    "name": "Helm",
+    "repo": "helm/helm",
+    "homepage": "https://helm.sh",
+    "category": "devops-self-hosted",
+    "description": "Package manager for Kubernetes that defines, installs and upgrades applications using charts.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-27"
+  },
+  {
+    "name": "Chroma",
+    "repo": "chroma-core/chroma",
+    "homepage": "https://www.trychroma.com/",
+    "category": "data-databases",
+    "description": "Vector database for storing and querying embeddings to power search and retrieval in AI applications.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-27"
+  },
+  {
+    "name": "Envoy",
+    "repo": "envoyproxy/envoy",
+    "homepage": "https://www.envoyproxy.io",
+    "category": "devops-self-hosted",
+    "description": "Cloud-native L7 proxy and communication bus used for edge, middle and service-to-service networking.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-27"
+  },
+  {
+    "name": "smolagents",
+    "repo": "huggingface/smolagents",
+    "homepage": "https://huggingface.co/docs/smolagents",
+    "category": "ai-coding-agents",
+    "description": "Minimal Python library for building agents that act by writing and running code.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-27"
+  },
+  {
+    "name": "XGBoost",
+    "repo": "dmlc/xgboost",
+    "homepage": "https://xgboost.readthedocs.io/",
+    "category": "science-education",
+    "description": "Gradient boosting library for Python, R, Java, Scala and more, running on single machines or distributed clusters.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-27"
+  },
+  {
+    "name": "Semantic Kernel",
+    "repo": "microsoft/semantic-kernel",
+    "homepage": "https://aka.ms/semantic-kernel",
+    "category": "ai-coding-agents",
+    "description": "SDK for integrating large language models into applications with plugins, planning and memory.",
+    "license": "MIT",
+    "publishOn": "2026-08-27"
+  },
+  {
+    "name": "Plausible Analytics",
+    "repo": "plausible/analytics",
+    "homepage": "https://plausible.io",
+    "category": "devops-self-hosted",
+    "description": "Self-hostable, cookie-free web analytics as a privacy-focused alternative to Google Analytics.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-08-28"
+  },
+  {
+    "name": "Karakeep",
+    "repo": "karakeep-app/karakeep",
+    "homepage": "https://karakeep.app",
+    "category": "notes-knowledge",
+    "description": "Self-hostable app for saving links, notes and images with automatic tagging and full-text search.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-08-28"
+  },
+  {
+    "name": "ESLint",
+    "repo": "eslint/eslint",
+    "homepage": "https://eslint.org",
+    "category": "developer-tools-cli",
+    "description": "Pluggable linter that finds and fixes problems in JavaScript and TypeScript code.",
+    "license": "MIT",
+    "publishOn": "2026-08-28"
+  },
+  {
+    "name": "MLflow",
+    "repo": "mlflow/mlflow",
+    "homepage": "https://mlflow.org",
+    "category": "science-education",
+    "description": "Platform for managing the machine learning lifecycle including tracking, evaluation, deployment and model registry.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-28"
+  },
+  {
+    "name": "vcpkg",
+    "repo": "microsoft/vcpkg",
+    "homepage": "https://github.com/microsoft/vcpkg",
+    "category": "developer-tools-cli",
+    "description": "C and C++ dependency manager for Windows, Linux and macOS.",
+    "license": "MIT",
+    "publishOn": "2026-08-28"
+  },
+  {
+    "name": "LeRobot",
+    "repo": "huggingface/lerobot",
+    "homepage": "https://huggingface.co/docs/lerobot",
+    "category": "science-education",
+    "description": "Library of models, datasets and tools for applying end-to-end machine learning to real-world robotics.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-28"
+  },
+  {
+    "name": "FlatBuffers",
+    "repo": "google/flatbuffers",
+    "homepage": "https://flatbuffers.dev/",
+    "category": "developer-tools-cli",
+    "description": "Cross-platform serialization library that lets you access serialized data without parsing or unpacking it first.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-29"
+  },
+  {
+    "name": "WinGet",
+    "repo": "microsoft/winget-cli",
+    "homepage": "https://learn.microsoft.com/windows/package-manager/",
+    "category": "developer-tools-cli",
+    "description": "Windows Package Manager, with a CLI, PowerShell modules, and COM API for installing and managing software on Windows.",
+    "license": "MIT",
+    "publishOn": "2026-08-29"
+  },
+  {
+    "name": "Apache Flink",
+    "repo": "apache/flink",
+    "homepage": "https://flink.apache.org/",
+    "category": "data-databases",
+    "description": "Distributed engine for stateful stream and batch processing over unbounded and bounded data streams.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-29"
+  },
+  {
+    "name": "Haystack",
+    "repo": "deepset-ai/haystack",
+    "homepage": "https://haystack.deepset.ai",
+    "category": "ai-coding-agents",
+    "description": "Framework for building LLM applications with modular pipelines for retrieval, RAG, agents, and semantic search.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-29"
+  },
+  {
+    "name": "Rancher",
+    "repo": "rancher/rancher",
+    "homepage": "http://rancher.com",
+    "category": "devops-self-hosted",
+    "description": "Platform for deploying and managing Kubernetes clusters and containerized workloads across environments.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-29"
+  },
+  {
+    "name": "Bazel",
+    "repo": "bazelbuild/bazel",
+    "homepage": "https://bazel.build",
+    "category": "developer-tools-cli",
+    "description": "Multi-language build and test system for building software at scale with reproducible, incremental builds.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-29"
+  },
+  {
+    "name": "Pulumi",
+    "repo": "pulumi/pulumi",
+    "homepage": "https://www.pulumi.com",
+    "category": "devops-self-hosted",
+    "description": "Infrastructure-as-code tool for defining and deploying cloud resources using general-purpose programming languages.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-30"
+  },
+  {
+    "name": "JARVIS",
+    "repo": "microsoft/JARVIS",
+    "homepage": "https://github.com/microsoft/JARVIS",
+    "category": "ai-coding-agents",
+    "description": "System that uses an LLM as a controller to connect and orchestrate machine learning models for multi-step tasks.",
+    "license": "MIT",
+    "publishOn": "2026-08-30"
+  },
+  {
+    "name": "Cilium",
+    "repo": "cilium/cilium",
+    "homepage": "https://cilium.io",
+    "category": "devops-self-hosted",
+    "description": "eBPF-based tool providing networking, security, and observability for Kubernetes and container workloads.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-30"
+  },
+  {
+    "name": "Actix Web",
+    "repo": "actix/actix-web",
+    "homepage": "https://actix.rs",
+    "category": "web-apis",
+    "description": "Web framework for Rust for building HTTP servers and APIs.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-30"
+  },
+  {
+    "name": "Gson",
+    "repo": "google/gson",
+    "homepage": "https://github.com/google/gson",
+    "category": "developer-tools-cli",
+    "description": "Java library for converting Java objects to JSON and back.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-30"
+  },
+  {
+    "name": "Gum",
+    "repo": "charmbracelet/gum",
+    "homepage": "https://github.com/charmbracelet/gum",
+    "category": "developer-tools-cli",
+    "description": "Tool for adding interactive prompts, inputs, and styling to shell scripts.",
+    "license": "MIT",
+    "publishOn": "2026-08-30"
+  },
+  {
+    "name": "Argo CD",
+    "repo": "argoproj/argo-cd",
+    "homepage": "https://argo-cd.readthedocs.io",
+    "category": "devops-self-hosted",
+    "description": "Declarative GitOps continuous delivery tool for deploying and syncing applications to Kubernetes.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-31"
+  },
+  {
+    "name": "p5.js",
+    "repo": "processing/p5.js",
+    "homepage": "http://p5js.org/",
+    "category": "creator-media",
+    "description": "JavaScript library for creative coding, drawing graphics and interactive visuals in the browser.",
+    "license": "LGPL-2.1",
+    "publishOn": "2026-08-31"
+  },
+  {
+    "name": "Lexical",
+    "repo": "facebook/lexical",
+    "homepage": "https://lexical.dev",
+    "category": "developer-tools-cli",
+    "description": "Extensible JavaScript text editor framework for building rich-text editing experiences on the web.",
+    "license": "MIT",
+    "publishOn": "2026-08-31"
+  },
+  {
+    "name": "Neon",
+    "repo": "neondatabase/neon",
+    "homepage": "https://neon.tech",
+    "category": "data-databases",
+    "description": "Serverless Postgres that separates storage and compute for autoscaling, database branching, and scale to zero.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-31"
+  },
+  {
+    "name": "Navidrome",
+    "repo": "navidrome/navidrome",
+    "homepage": "https://www.navidrome.org",
+    "category": "creator-media",
+    "description": "Self-hosted music server and streaming service compatible with Subsonic API clients.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-08-31"
+  },
+  {
+    "name": "Apache RocketMQ",
+    "repo": "apache/rocketmq",
+    "homepage": "https://rocketmq.apache.org/",
+    "category": "data-databases",
+    "description": "Distributed messaging and streaming platform for building event-driven applications.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-08-31"
+  },
+  {
+    "name": "Jina",
+    "repo": "jina-ai/serve",
+    "homepage": "https://jina.ai/serve",
+    "category": "developer-tools-cli",
+    "description": "Framework for building and serving multimodal AI applications with a cloud-native stack.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-09-01"
+  },
+  {
+    "name": "Hugging Face Datasets",
+    "repo": "huggingface/datasets",
+    "homepage": "https://huggingface.co/docs/datasets",
+    "category": "data-databases",
+    "description": "Python library for loading, processing, and sharing machine learning datasets.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-09-01"
+  },
+  {
+    "name": "Matomo",
+    "repo": "matomo-org/matomo",
+    "homepage": "https://matomo.org/",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted web analytics platform and privacy-focused alternative to Google Analytics.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-09-01"
+  },
+  {
+    "name": "PEFT",
+    "repo": "huggingface/peft",
+    "homepage": "https://huggingface.co/docs/peft",
+    "category": "developer-tools-cli",
+    "description": "Library for parameter-efficient fine-tuning of large pretrained models.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-09-01"
+  },
+  {
+    "name": "ONNX Runtime",
+    "repo": "microsoft/onnxruntime",
+    "homepage": "https://onnxruntime.ai",
+    "category": "developer-tools-cli",
+    "description": "Cross-platform runtime for machine learning model inference and training acceleration.",
+    "license": "MIT",
+    "publishOn": "2026-09-01"
+  },
+  {
+    "name": "ONNX",
+    "repo": "onnx/onnx",
+    "homepage": "https://onnx.ai/",
+    "category": "developer-tools-cli",
+    "description": "Open standard format for representing machine learning models across frameworks.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-09-01"
+  },
+  {
+    "name": "containerd",
+    "repo": "containerd/containerd",
+    "homepage": "https://containerd.io",
+    "category": "devops-self-hosted",
+    "description": "Container runtime for managing the complete container lifecycle on a host.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-09-02"
+  },
+  {
+    "name": "Candle",
+    "repo": "huggingface/candle",
+    "homepage": "https://github.com/huggingface/candle",
+    "category": "developer-tools-cli",
+    "description": "Minimalist machine learning framework for Rust focused on performance and small binaries.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-09-02"
+  },
+  {
+    "name": "Roslyn",
+    "repo": "dotnet/roslyn",
+    "homepage": "https://docs.microsoft.com/dotnet/csharp/roslyn-sdk/",
+    "category": "developer-tools-cli",
+    "description": ".NET compiler for C# and Visual Basic with rich code analysis APIs.",
+    "license": "MIT",
+    "publishOn": "2026-09-02"
+  },
+  {
+    "name": "Prophet",
+    "repo": "facebook/prophet",
+    "homepage": "https://facebook.github.io/prophet",
+    "category": "science-education",
+    "description": "Library for forecasting time series data with multiple seasonality and linear or non-linear growth.",
+    "license": "MIT",
+    "publishOn": "2026-09-02"
+  },
+  {
+    "name": "SimpleX Chat",
+    "repo": "simplex-chat/simplex-chat",
+    "homepage": "https://simplex.chat",
+    "category": "communication-social",
+    "description": "Private messaging network and apps that operate without user identifiers, for iOS, Android, and desktop.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-09-02"
+  },
+  {
+    "name": "TRL",
+    "repo": "huggingface/trl",
+    "homepage": "http://hf.co/docs/trl",
+    "category": "science-education",
+    "description": "Library for training transformer language models with reinforcement learning, including SFT, PPO, and DPO.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-09-02"
+  },
+  {
+    "name": "tiktoken",
+    "repo": "openai/tiktoken",
+    "homepage": "https://github.com/openai/tiktoken",
+    "category": "developer-tools-cli",
+    "description": "Fast BPE tokenizer library for use with OpenAI's models.",
+    "license": "MIT",
+    "publishOn": "2026-09-03"
+  },
+  {
+    "name": "LightGBM",
+    "repo": "lightgbm-org/LightGBM",
+    "homepage": "https://lightgbm.readthedocs.io/en/latest/",
+    "category": "science-education",
+    "description": "Gradient boosting framework based on decision tree algorithms for ranking, classification, and other ML tasks.",
+    "license": "MIT",
+    "publishOn": "2026-09-03"
+  },
+  {
+    "name": ".NET Runtime",
+    "repo": "dotnet/runtime",
+    "homepage": "https://docs.microsoft.com/dotnet/core/",
+    "category": "developer-tools-cli",
+    "description": "Cross-platform runtime and libraries for .NET applications on cloud, mobile, desktop, and IoT.",
+    "license": "MIT",
+    "publishOn": "2026-09-03"
+  },
+  {
+    "name": "torchvision",
+    "repo": "pytorch/vision",
+    "homepage": "https://pytorch.org/vision",
+    "category": "science-education",
+    "description": "Datasets, model architectures, and image transforms for computer vision built on PyTorch.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-09-03"
+  },
+  {
+    "name": "QuestDB",
+    "repo": "questdb/questdb",
+    "homepage": "https://questdb.com",
+    "category": "data-databases",
+    "description": "Time-series database for high-throughput ingestion and SQL analytics.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-09-03"
+  },
+  {
+    "name": "Apache Arrow",
+    "repo": "apache/arrow",
+    "homepage": "https://arrow.apache.org/",
+    "category": "data-databases",
+    "description": "Columnar in-memory data format and multi-language toolbox for fast data interchange and analytics.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-09-03"
+  },
+  {
+    "name": "Weaviate",
+    "repo": "weaviate/weaviate",
+    "homepage": "https://weaviate.io/developers/weaviate/",
+    "category": "data-databases",
+    "description": "Vector database that stores objects and vectors and combines vector search with structured filtering.",
+    "license": "BSD-3-Clause",
+    "publishOn": "2026-09-04"
+  },
+  {
+    "name": "Signal Desktop",
+    "repo": "signalapp/Signal-Desktop",
+    "homepage": "https://signal.org/download",
+    "category": "communication-social",
+    "description": "Private messenger desktop app for Windows, macOS, and Linux.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-09-04"
+  },
+  {
+    "name": "Apache Pulsar",
+    "repo": "apache/pulsar",
+    "homepage": "https://pulsar.apache.org/",
+    "category": "data-databases",
+    "description": "Distributed pub-sub messaging and streaming platform.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-09-04"
+  },
+  {
+    "name": "Documenso",
+    "repo": "documenso/documenso",
+    "homepage": "https://documenso.com",
+    "category": "productivity",
+    "description": "Self-hosted document signing platform and an alternative to DocuSign.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-09-04"
+  },
+  {
+    "name": "Apache Druid",
+    "repo": "apache/druid",
+    "homepage": "https://druid.apache.org/",
+    "category": "data-databases",
+    "description": "Real-time analytics database for fast queries over large event and time-series datasets.",
+    "license": "Apache-2.0",
+    "publishOn": "2026-09-04"
+  },
+  {
+    "name": "Mealie",
+    "repo": "mealie-recipes/mealie",
+    "homepage": "https://docs.mealie.io",
+    "category": "productivity",
+    "description": "Self-hosted recipe manager and meal planner with a REST API backend and web frontend.",
+    "license": "AGPL-3.0",
+    "publishOn": "2026-09-04"
+  },
+  {
+    "name": "Calypso",
+    "repo": "Automattic/wp-calypso",
+    "homepage": "https://developer.wordpress.com",
+    "category": "creator-media",
+    "description": "A JavaScript and REST API-based interface for reading, managing, and publishing to WordPress.com and Jetpack-connected sites.",
+    "license": "GPL-2.0",
+    "publishOn": "2026-09-05"
+  }
+]
