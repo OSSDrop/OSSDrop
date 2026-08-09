@@ -1805,5 +1805,59 @@
     "description": "Node-based interface and backend for building image generation workflows with diffusion models.",
     "license": "GPL-3.0",
     "added": "2026-08-08"
+  },
+  {
+    "name": "llama.cpp",
+    "repo": "ggml-org/llama.cpp",
+    "homepage": "https://llama.app",
+    "category": "ai-coding-agents",
+    "description": "C/C++ library for running LLM inference locally on CPUs and GPUs.",
+    "license": "MIT",
+    "added": "2026-08-09"
+  },
+  {
+    "name": "Electron",
+    "repo": "electron/electron",
+    "homepage": "https://electronjs.org",
+    "category": "developer-tools-cli",
+    "description": "Framework for building cross-platform desktop apps with JavaScript, HTML, and CSS.",
+    "license": "MIT",
+    "added": "2026-08-09"
+  },
+  {
+    "name": "three.js",
+    "repo": "mrdoob/three.js",
+    "homepage": "https://threejs.org/",
+    "category": "developer-tools-cli",
+    "description": "JavaScript library for creating and rendering 3D graphics in the browser via WebGL.",
+    "license": "MIT",
+    "added": "2026-08-09"
+  },
+  {
+    "name": "D3.js",
+    "repo": "d3/d3",
+    "homepage": "https://d3js.org",
+    "category": "developer-tools-cli",
+    "description": "JavaScript library for producing data visualizations using SVG, Canvas, and HTML.",
+    "license": "ISC",
+    "added": "2026-08-09"
+  },
+  {
+    "name": "TypeScript",
+    "repo": "microsoft/TypeScript",
+    "homepage": "https://www.typescriptlang.org",
+    "category": "developer-tools-cli",
+    "description": "Typed superset of JavaScript that compiles to plain JavaScript.",
+    "license": "Apache-2.0",
+    "added": "2026-08-09"
+  },
+  {
+    "name": "Tauri",
+    "repo": "tauri-apps/tauri",
+    "homepage": "https://tauri.app",
+    "category": "developer-tools-cli",
+    "description": "Toolkit for building desktop and mobile apps with a web frontend and Rust backend.",
+    "license": "Apache-2.0",
+    "added": "2026-08-09"
   }
 ]
