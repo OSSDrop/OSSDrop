@@ -1859,5 +1859,59 @@
     "description": "Toolkit for building desktop and mobile apps with a web frontend and Rust backend.",
     "license": "Apache-2.0",
     "added": "2026-08-09"
+  },
+  {
+    "name": "Deno",
+    "repo": "denoland/deno",
+    "homepage": "https://deno.com",
+    "category": "developer-tools-cli",
+    "description": "Runtime for JavaScript and TypeScript built on V8, with built-in tooling.",
+    "license": "MIT",
+    "added": "2026-08-10"
+  },
+  {
+    "name": "Windows Terminal",
+    "repo": "microsoft/terminal",
+    "homepage": "https://github.com/microsoft/terminal",
+    "category": "developer-tools-cli",
+    "description": "Terminal application for Windows with tabs, panes, and Unicode support.",
+    "license": "MIT",
+    "added": "2026-08-10"
+  },
+  {
+    "name": "Create React App",
+    "repo": "react/create-react-app",
+    "homepage": "https://create-react-app.dev/",
+    "category": "developer-tools-cli",
+    "description": "Command-line tool to scaffold a single-page React application with a preconfigured build setup.",
+    "license": "MIT",
+    "added": "2026-08-10"
+  },
+  {
+    "name": "Angular",
+    "repo": "angular/angular",
+    "homepage": "https://angular.dev",
+    "category": "developer-tools-cli",
+    "description": "TypeScript framework for building single-page web applications, maintained by Google.",
+    "license": "MIT",
+    "added": "2026-08-10"
+  },
+  {
+    "name": "Material UI",
+    "repo": "mui/material-ui",
+    "homepage": "https://mui.com/material-ui/",
+    "category": "developer-tools-cli",
+    "description": "React component library implementing Google's Material Design.",
+    "license": "MIT",
+    "added": "2026-08-10"
+  },
+  {
+    "name": "Tailwind CSS",
+    "repo": "tailwindlabs/tailwindcss",
+    "homepage": "https://tailwindcss.com/",
+    "category": "developer-tools-cli",
+    "description": "Utility-first CSS framework for styling web interfaces with composable classes.",
+    "license": "MIT",
+    "added": "2026-08-10"
   }
 ]
