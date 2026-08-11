@@ -1,59 +1,5 @@
 [
   {
-    "name": "Storybook",
-    "repo": "storybookjs/storybook",
-    "homepage": "https://storybook.js.org",
-    "category": "developer-tools-cli",
-    "description": "Tool for developing, documenting, and testing UI components in isolation.",
-    "license": "MIT",
-    "publishOn": "2026-08-11"
-  },
-  {
-    "name": "OpenCV",
-    "repo": "opencv/opencv",
-    "homepage": "https://opencv.org",
-    "category": "science-education",
-    "description": "Computer vision and image-processing library with C++, Python, and Java interfaces.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-11"
-  },
-  {
-    "name": "uv",
-    "repo": "astral-sh/uv",
-    "homepage": "https://docs.astral.sh/uv",
-    "category": "developer-tools-cli",
-    "description": "Python package and project manager written in Rust.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-11"
-  },
-  {
-    "name": "vLLM",
-    "repo": "vllm-project/vllm",
-    "homepage": "https://vllm.ai",
-    "category": "ai-coding-agents",
-    "description": "Inference and serving engine for running large language models.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-11"
-  },
-  {
-    "name": "Django",
-    "repo": "django/django",
-    "homepage": "https://www.djangoproject.com/",
-    "category": "web-apis",
-    "description": "Python web framework for building server-side web applications and APIs.",
-    "license": "BSD-3-Clause",
-    "publishOn": "2026-08-11"
-  },
-  {
-    "name": "Svelte",
-    "repo": "sveltejs/svelte",
-    "homepage": "https://svelte.dev",
-    "category": "developer-tools-cli",
-    "description": "JavaScript framework that compiles components to minimal JavaScript at build time.",
-    "license": "MIT",
-    "publishOn": "2026-08-11"
-  },
-  {
     "name": "Vite",
     "repo": "vitejs/vite",
     "homepage": "http://vite.dev",
