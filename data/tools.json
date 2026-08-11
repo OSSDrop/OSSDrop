@@ -1967,5 +1967,14 @@
     "description": "JavaScript framework that compiles components to minimal JavaScript at build time.",
     "license": "MIT",
     "added": "2026-08-11"
+  },
+  {
+    "name": "ItsPaint",
+    "repo": "joshlin2201/itspaint",
+    "homepage": "https://itspaintmac.com",
+    "category": "creator-media",
+    "description": "Native macOS paint and screenshot markup app for anyone who wants MS Paint on a Mac.",
+    "license": "MIT",
+    "added": "2026-08-11"
   }
 ]
