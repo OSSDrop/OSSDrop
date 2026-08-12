@@ -45,6 +45,10 @@ jobs:
           git add README.md data/tools.json data/queue.json data/stars.json assets/cards
           git diff --staged --quiet || git commit -m "chore: daily drop + rebuild ($(date -u +%F))"
           git push
+          # Hand the exact pushed commit to the site sync: a SHA-pinned raw URL is
+          # immutable, so the sync can never read a stale cached list.
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+        id: commit
 
       - name: Sync website (import newly-dropped tools)
         if: github.event_name != 'pull_request'
@@ -53,7 +57,7 @@ jobs:
           SYNC_SECRET: ${{ secrets.SYNC_SECRET }}
         run: |
           if [ -n "$SYNC_SECRET" ] && [ -n "$SITE_URL" ]; then
-            curl -fsS -X POST "$SITE_URL/api/sync-list" \
+            curl -fsS -X POST "$SITE_URL/api/sync-list?ref=${{ steps.commit.outputs.sha }}" \
               -H "Authorization: Bearer $SYNC_SECRET" \
               -H "Content-Type: application/json" \
               --max-time 90 -w "\nHTTP %{http_code}\n"
