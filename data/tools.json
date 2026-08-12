@@ -1969,6 +1969,69 @@
     "added": "2026-08-11"
   },
   {
+    "name": "Vite",
+    "repo": "vitejs/vite",
+    "homepage": "http://vite.dev",
+    "category": "developer-tools-cli",
+    "description": "Frontend build tool and development server for modern web projects.",
+    "license": "MIT",
+    "added": "2026-08-12"
+  },
+  {
+    "name": "Spring Boot",
+    "repo": "spring-projects/spring-boot",
+    "homepage": "https://spring.io/projects/spring-boot",
+    "category": "web-apis",
+    "description": "Java framework for building stand-alone, production-grade Spring applications and services.",
+    "license": "Apache-2.0",
+    "added": "2026-08-12"
+  },
+  {
+    "name": "code-server",
+    "repo": "coder/code-server",
+    "homepage": "https://coder.com",
+    "category": "devops-self-hosted",
+    "description": "Runs VS Code on a remote server, accessible through a web browser.",
+    "license": "MIT",
+    "added": "2026-08-12"
+  },
+  {
+    "name": "Tesseract",
+    "repo": "tesseract-ocr/tesseract",
+    "homepage": "https://tesseract-ocr.github.io/",
+    "category": "science-education",
+    "description": "Optical character recognition engine that extracts text from images.",
+    "license": "Apache-2.0",
+    "added": "2026-08-12"
+  },
+  {
+    "name": "Flask",
+    "repo": "pallets/flask",
+    "homepage": "https://flask.palletsprojects.com",
+    "category": "web-apis",
+    "description": "Python micro web framework for building web applications and APIs.",
+    "license": "BSD-3-Clause",
+    "added": "2026-08-12"
+  },
+  {
+    "name": "Moby",
+    "repo": "moby/moby",
+    "homepage": "https://mobyproject.org/",
+    "category": "devops-self-hosted",
+    "description": "Open-source framework and components for assembling container-based systems, underlying Docker.",
+    "license": "Apache-2.0",
+    "added": "2026-08-12"
+  },
+  {
+    "name": "zoxide-doctor",
+    "repo": "jiankn/zoxide-doctor",
+    "homepage": "https://zoxide.org/tools/zoxide-doctor/",
+    "category": "developer-tools-cli",
+    "description": "Read-only CLI for diagnosing zoxide PATH and shell initialization across Linux, macOS, and Windows.",
+    "license": "MIT",
+    "added": "2026-08-08"
+  },
+  {
     "name": "ItsPaint",
     "repo": "joshlin2201/itspaint",
     "homepage": "https://itspaintmac.com",
