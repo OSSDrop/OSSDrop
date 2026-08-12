@@ -2021,5 +2021,14 @@
     "description": "Open-source framework and components for assembling container-based systems, underlying Docker.",
     "license": "Apache-2.0",
     "added": "2026-08-12"
+  },
+  {
+    "name": "zoxide-doctor",
+    "repo": "jiankn/zoxide-doctor",
+    "homepage": "https://zoxide.org/tools/zoxide-doctor/",
+    "category": "developer-tools-cli",
+    "description": "Read-only CLI for diagnosing zoxide PATH and shell initialization across Linux, macOS, and Windows.",
+    "license": "MIT",
+    "added": "2026-08-08"
   }
 ]
