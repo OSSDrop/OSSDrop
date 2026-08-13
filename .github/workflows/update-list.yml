@@ -2,7 +2,11 @@ name: Update list
 
 on:
   schedule:
-    - cron: "17 3 * * *" # nightly: snapshot stars, recompute trending
+    # Runs twice a day on purpose. Every step below is idempotent, so the second
+    # run is a free safety net: if the first is throttled or hits a transient
+    # network error, the later one finishes the job without anyone stepping in.
+    - cron: "17 3 * * *" # nightly: promote the drip, snapshot stars, sync the site
+    - cron: "17 15 * * *" # catch-up: re-runs the same work; a no-op when all is well
   push:
     branches: [main]
     paths: ["data/tools.json", "data/queue.json", "scripts/build_readme.py", "scripts/promote_queue.py"]
@@ -14,6 +18,13 @@ on:
         description: "One-time: reconstruct ALL past daily/weekly award winners from history"
         type: boolean
         default: false
+
+# Only one run may write to a given ref at a time. Merging two PRs seconds apart
+# used to start two runs that raced on `git push`, and one failed with a
+# non-fast-forward. Queue them instead of cancelling — every run has work to do.
+concurrency:
+  group: update-list-${{ github.ref }}
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -38,17 +49,26 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit if changed
+        id: commit
         if: github.event_name != 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md data/tools.json data/queue.json data/stars.json assets/cards
           git diff --staged --quiet || git commit -m "chore: daily drop + rebuild ($(date -u +%F))"
-          git push
+          # Rebase-and-retry: if anything landed on main while this run was working
+          # (a merged PR, another run), rebase onto it instead of failing the job.
+          pushed=0
+          for attempt in 1 2 3; do
+            if git push; then pushed=1; break; fi
+            echo "push rejected — rebasing onto origin/main and retrying ($attempt/3)"
+            git pull --rebase origin main || true
+            sleep 5
+          done
+          if [ "$pushed" != "1" ]; then echo "::error::could not push after 3 attempts"; exit 1; fi
           # Hand the exact pushed commit to the site sync: a SHA-pinned raw URL is
           # immutable, so the sync can never read a stale cached list.
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-        id: commit
 
       - name: Sync website (import newly-dropped tools)
         if: github.event_name != 'pull_request'
@@ -56,27 +76,35 @@ jobs:
           SITE_URL: ${{ secrets.SITE_URL }}
           SYNC_SECRET: ${{ secrets.SYNC_SECRET }}
         run: |
-          if [ -n "$SYNC_SECRET" ] && [ -n "$SITE_URL" ]; then
-            curl -fsS -X POST "$SITE_URL/api/sync-list?ref=${{ steps.commit.outputs.sha }}" \
-              -H "Authorization: Bearer $SYNC_SECRET" \
-              -H "Content-Type: application/json" \
-              --max-time 90 -w "\nHTTP %{http_code}\n"
-          else
+          if [ -z "$SYNC_SECRET" ] || [ -z "$SITE_URL" ]; then
             echo "SITE_URL/SYNC_SECRET not set — skipping site sync (add them in repo Action secrets)."
+            exit 0
           fi
+          # Retry transient failures (cold start, 5xx, timeout) in-run. The sync is
+          # idempotent, so repeating it is always safe.
+          curl -fsS -X POST "$SITE_URL/api/sync-list?ref=${{ steps.commit.outputs.sha }}" \
+            -H "Authorization: Bearer $SYNC_SECRET" \
+            -H "Content-Type: application/json" \
+            --retry 5 --retry-delay 15 --retry-all-errors \
+            --max-time 120 -w "\nHTTP %{http_code}\n"
 
       - name: Finalize awards (permanent daily/weekly winners)
         if: github.event_name != 'pull_request'
+        # Best-effort: awards are a nice-to-have, and the endpoint re-finalizes a
+        # rolling window of recent days, so a skipped run heals itself. It must
+        # never turn the whole drip red.
+        continue-on-error: true
         env:
           SITE_URL: ${{ secrets.SITE_URL }}
           SYNC_SECRET: ${{ secrets.SYNC_SECRET }}
         run: |
-          if [ -n "$SYNC_SECRET" ] && [ -n "$SITE_URL" ]; then
-            Q=""
-            if [ "${{ inputs.backfill_awards }}" = "true" ]; then Q="?backfill=1"; fi
-            curl -fsS -X POST "$SITE_URL/api/finalize-awards$Q" \
-              -H "Authorization: Bearer $SYNC_SECRET" \
-              --max-time 90 -w "\nHTTP %{http_code}\n"
-          else
+          if [ -z "$SYNC_SECRET" ] || [ -z "$SITE_URL" ]; then
             echo "SITE_URL/SYNC_SECRET not set — skipping award finalize."
+            exit 0
           fi
+          Q=""
+          if [ "${{ inputs.backfill_awards }}" = "true" ]; then Q="?backfill=1"; fi
+          curl -fsS -X POST "$SITE_URL/api/finalize-awards$Q" \
+            -H "Authorization: Bearer $SYNC_SECRET" \
+            --retry 3 --retry-delay 15 --retry-all-errors \
+            --max-time 120 -w "\nHTTP %{http_code}\n"
