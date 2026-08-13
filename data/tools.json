@@ -2039,5 +2039,59 @@
     "description": "Native macOS paint and screenshot markup app for anyone who wants MS Paint on a Mac.",
     "license": "MIT",
     "added": "2026-08-11"
+  },
+  {
+    "name": "Unsloth",
+    "repo": "unslothai/unsloth",
+    "homepage": "https://unsloth.ai/docs",
+    "category": "ai-coding-agents",
+    "description": "Library for faster fine-tuning and training of large language models with lower memory use.",
+    "license": "Apache-2.0",
+    "added": "2026-08-13"
+  },
+  {
+    "name": "Chart.js",
+    "repo": "chartjs/Chart.js",
+    "homepage": "https://www.chartjs.org/",
+    "category": "data-databases",
+    "description": "JavaScript library for creating charts using the HTML5 canvas element.",
+    "license": "MIT",
+    "added": "2026-08-13"
+  },
+  {
+    "name": "Apache ECharts",
+    "repo": "apache/echarts",
+    "homepage": "https://echarts.apache.org",
+    "category": "data-databases",
+    "description": "JavaScript charting and data visualization library for the browser.",
+    "license": "Apache-2.0",
+    "added": "2026-08-13"
+  },
+  {
+    "name": "scikit-learn",
+    "repo": "scikit-learn/scikit-learn",
+    "homepage": "https://scikit-learn.org",
+    "category": "data-databases",
+    "description": "Machine learning library for Python with tools for classification, regression, and clustering.",
+    "license": "BSD-3-Clause",
+    "added": "2026-08-13"
+  },
+  {
+    "name": "webpack",
+    "repo": "webpack/webpack",
+    "homepage": "https://webpack.js.org",
+    "category": "developer-tools-cli",
+    "description": "Module bundler that packs JavaScript and assets into bundled outputs, with code splitting and loaders.",
+    "license": "MIT",
+    "added": "2026-08-13"
+  },
+  {
+    "name": "Docusaurus",
+    "repo": "facebook/docusaurus",
+    "homepage": "https://docusaurus.io",
+    "category": "developer-tools-cli",
+    "description": "Static-site generator for building and maintaining documentation websites.",
+    "license": "MIT",
+    "added": "2026-08-13"
   }
 ]
