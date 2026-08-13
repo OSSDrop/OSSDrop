@@ -2093,5 +2093,20 @@
     "description": "Static-site generator for building and maintaining documentation websites.",
     "license": "MIT",
     "added": "2026-08-13"
+  },
+  {
+    "name": "Atomic Agent",
+    "repo": "AtomicBot-ai/atomic-agent",
+    "homepage": "https://atomicagent.io",
+    "category": "ai-coding-agents",
+    "description": "Local-first CLI and TUI coding agent that runs open-weight models entirely on your machine, with no account or API key required.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://atomicagent.io/docs"
+      }
+    ],
+    "added": "2026-08-13"
   }
 ]
