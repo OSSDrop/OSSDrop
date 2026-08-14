@@ -2108,5 +2108,59 @@
       }
     ],
     "added": "2026-08-13"
+  },
+  {
+    "name": "AnythingLLM",
+    "repo": "Mintplex-Labs/anything-llm",
+    "homepage": "https://anythingllm.com",
+    "category": "ai-coding-agents",
+    "description": "Desktop and Docker app for chatting with documents and running local LLM-based agents.",
+    "license": "MIT",
+    "added": "2026-08-14"
+  },
+  {
+    "name": "Keras",
+    "repo": "keras-team/keras",
+    "homepage": "http://keras.io/",
+    "category": "data-databases",
+    "description": "Deep learning API for Python that runs on multiple backend frameworks.",
+    "license": "Apache-2.0",
+    "added": "2026-08-14"
+  },
+  {
+    "name": "Mem0",
+    "repo": "mem0ai/mem0",
+    "homepage": "https://mem0.ai",
+    "category": "ai-coding-agents",
+    "description": "Memory layer that gives AI agents persistent, personalized recall across sessions.",
+    "license": "Apache-2.0",
+    "added": "2026-08-14"
+  },
+  {
+    "name": "Redux",
+    "repo": "reduxjs/redux",
+    "homepage": "https://redux.js.org",
+    "category": "developer-tools-cli",
+    "description": "Predictable state container library for JavaScript applications.",
+    "license": "MIT",
+    "added": "2026-08-14"
+  },
+  {
+    "name": "Nuxt",
+    "repo": "nuxt/nuxt",
+    "homepage": "https://nuxt.com",
+    "category": "web-apis",
+    "description": "Full-stack framework for building Vue.js web applications.",
+    "license": "MIT",
+    "added": "2026-08-14"
+  },
+  {
+    "name": "PocketBase",
+    "repo": "pocketbase/pocketbase",
+    "homepage": "https://pocketbase.io",
+    "category": "devops-self-hosted",
+    "description": "Open-source backend with database, auth, and file storage in a single file.",
+    "license": "MIT",
+    "added": "2026-08-14"
   }
 ]
