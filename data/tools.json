@@ -2162,5 +2162,59 @@
     "description": "Open-source backend with database, auth, and file storage in a single file.",
     "license": "MIT",
     "added": "2026-08-14"
+  },
+  {
+    "name": "Ultralytics YOLO",
+    "repo": "ultralytics/ultralytics",
+    "homepage": "https://platform.ultralytics.com",
+    "category": "science-education",
+    "description": "Python framework for YOLO models doing object detection, segmentation, classification, pose estimation, and tracking.",
+    "license": "AGPL-3.0",
+    "added": "2026-08-15"
+  },
+  {
+    "name": "Penpot",
+    "repo": "penpot/penpot",
+    "homepage": "https://penpot.app",
+    "category": "creator-media",
+    "description": "Web-based design and prototyping tool for UI/UX with open file formats and developer handoff.",
+    "license": "MPL-2.0",
+    "added": "2026-08-15"
+  },
+  {
+    "name": "Appwrite",
+    "repo": "appwrite/appwrite",
+    "homepage": "https://appwrite.io",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted backend platform providing auth, databases, storage, functions, and messaging for web and mobile apps.",
+    "license": "BSD-3-Clause",
+    "added": "2026-08-15"
+  },
+  {
+    "name": "React Router",
+    "repo": "remix-run/react-router",
+    "homepage": "https://reactrouter.com",
+    "category": "developer-tools-cli",
+    "description": "Routing library for React applications, providing declarative navigation and data loading.",
+    "license": "MIT",
+    "added": "2026-08-15"
+  },
+  {
+    "name": "Segment Anything (SAM)",
+    "repo": "facebookresearch/segment-anything",
+    "homepage": "https://github.com/facebookresearch/segment-anything",
+    "category": "science-education",
+    "description": "Meta's image segmentation model with inference code, pretrained checkpoints, and example notebooks.",
+    "license": "Apache-2.0",
+    "added": "2026-08-15"
+  },
+  {
+    "name": "Vue.js",
+    "repo": "vuejs/core",
+    "homepage": "https://vuejs.org/",
+    "category": "developer-tools-cli",
+    "description": "JavaScript framework for building user interfaces with a reactive, component-based model.",
+    "license": "MIT",
+    "added": "2026-08-15"
   }
 ]
