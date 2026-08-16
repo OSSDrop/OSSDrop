@@ -1,59 +1,5 @@
 [
   {
-    "name": "Material Design Icons",
-    "repo": "google/material-design-icons",
-    "homepage": "http://google.github.io/material-design-icons/",
-    "category": "creator-media",
-    "description": "Google's icon set (Material Symbols) for use in web and app interfaces.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-16"
-  },
-  {
-    "name": "Ionic Framework",
-    "repo": "ionic-team/ionic-framework",
-    "homepage": "https://ionicframework.com",
-    "category": "developer-tools-cli",
-    "description": "Cross-platform UI toolkit for building iOS, Android, and web apps with HTML, CSS, and JavaScript.",
-    "license": "MIT",
-    "publishOn": "2026-08-16"
-  },
-  {
-    "name": "Prettier",
-    "repo": "prettier/prettier",
-    "homepage": "https://prettier.io",
-    "category": "developer-tools-cli",
-    "description": "Opinionated code formatter supporting JavaScript, TypeScript, CSS, and many other languages.",
-    "license": "MIT",
-    "publishOn": "2026-08-16"
-  },
-  {
-    "name": "Guava",
-    "repo": "google/guava",
-    "homepage": "https://guava.dev/",
-    "category": "developer-tools-cli",
-    "description": "Google's set of core Java libraries including collections, caching, and utility classes.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-16"
-  },
-  {
-    "name": "LlamaIndex",
-    "repo": "run-llama/llama_index",
-    "homepage": "https://developers.llamaindex.ai",
-    "category": "ai-coding-agents",
-    "description": "Python framework for connecting LLMs to external data via indexing, retrieval, and document agents.",
-    "license": "MIT",
-    "publishOn": "2026-08-16"
-  },
-  {
-    "name": "Expo",
-    "repo": "expo/expo",
-    "homepage": "https://docs.expo.dev",
-    "category": "developer-tools-cli",
-    "description": "Framework and platform for building universal native apps for Android, iOS, and web with React.",
-    "license": "MIT",
-    "publishOn": "2026-08-16"
-  },
-  {
     "name": "TanStack Query",
     "repo": "TanStack/query",
     "homepage": "https://tanstack.com/query",
