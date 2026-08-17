@@ -2270,5 +2270,59 @@
     "description": "Framework and platform for building universal native apps for Android, iOS, and web with React.",
     "license": "MIT",
     "added": "2026-08-16"
+  },
+  {
+    "name": "TanStack Query",
+    "repo": "TanStack/query",
+    "homepage": "https://tanstack.com/query",
+    "category": "developer-tools-cli",
+    "description": "Async state management and data-fetching library for React, Solid, Svelte, and Vue.",
+    "license": "MIT",
+    "added": "2026-08-17"
+  },
+  {
+    "name": "pandas",
+    "repo": "pandas-dev/pandas",
+    "homepage": "https://pandas.pydata.org",
+    "category": "data-databases",
+    "description": "Python library for data analysis and manipulation with labeled table and series data structures.",
+    "license": "BSD-3-Clause",
+    "added": "2026-08-17"
+  },
+  {
+    "name": "Supervision",
+    "repo": "roboflow/supervision",
+    "homepage": "https://supervision.roboflow.com",
+    "category": "developer-tools-cli",
+    "description": "Python library of reusable computer vision utilities for object detection, tracking, and annotating images and video.",
+    "license": "MIT",
+    "added": "2026-08-17"
+  },
+  {
+    "name": "Ruff",
+    "repo": "astral-sh/ruff",
+    "homepage": "https://docs.astral.sh/ruff",
+    "category": "developer-tools-cli",
+    "description": "Python linter and code formatter written in Rust.",
+    "license": "MIT",
+    "added": "2026-08-17"
+  },
+  {
+    "name": "tmux",
+    "repo": "tmux/tmux",
+    "homepage": "https://github.com/tmux/tmux",
+    "category": "developer-tools-cli",
+    "description": "Terminal multiplexer that runs and switches between multiple terminal sessions in a single window.",
+    "license": "ISC",
+    "added": "2026-08-17"
+  },
+  {
+    "name": "LocalAI",
+    "repo": "mudler/LocalAI",
+    "homepage": "https://localai.io",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted, OpenAI-compatible API for running LLMs, image, audio, and video models locally on consumer hardware.",
+    "license": "MIT",
+    "added": "2026-08-17"
   }
 ]
