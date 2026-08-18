@@ -34,6 +34,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          # Full history: the push retry below rebases onto origin/main, and a
+          # shallow clone (the default) cannot rebase across a divergent history.
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -62,7 +66,8 @@ jobs:
           for attempt in 1 2 3; do
             if git push; then pushed=1; break; fi
             echo "push rejected — rebasing onto origin/main and retrying ($attempt/3)"
-            git pull --rebase origin main || true
+            git fetch origin main
+            git rebase origin/main || git rebase --abort || true
             sleep 5
           done
           if [ "$pushed" != "1" ]; then echo "::error::could not push after 3 attempts"; exit 1; fi
