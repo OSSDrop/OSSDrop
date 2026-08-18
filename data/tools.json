@@ -2378,5 +2378,20 @@
     "description": "Browser-based code editor that powers VS Code, with syntax highlighting and IntelliSense.",
     "license": "MIT",
     "added": "2026-08-18"
+  },
+  {
+    "name": "evex",
+    "repo": "TommyBez/evex",
+    "homepage": "https://evex.sh",
+    "category": "ai-coding-agents",
+    "description": "Open registry of Eve agents you install with the shadcn CLI.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://evex.sh/docs"
+      }
+    ],
+    "added": "2026-08-17"
   }
 ]
