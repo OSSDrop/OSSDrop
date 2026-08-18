@@ -2393,5 +2393,20 @@
       }
     ],
     "added": "2026-08-17"
+  },
+  {
+    "name": "Skills Board",
+    "repo": "TommyBez/skillsboard",
+    "homepage": "https://www.skillsboard.sh",
+    "category": "ai-coding-agents",
+    "description": "Shared library of AI agent skills for teams: curate recommended skills once, use them from GitHub, an install command, ZIP, or MCP.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://www.skillsboard.sh/resources"
+      }
+    ],
+    "added": "2026-08-17"
   }
 ]
