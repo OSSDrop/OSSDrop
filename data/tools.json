@@ -2326,13 +2326,72 @@
     "added": "2026-08-17"
   },
   {
+    "name": "PixiJS",
+    "repo": "pixijs/pixijs",
+    "homepage": "http://pixijs.com",
+    "category": "creator-media",
+    "description": "JavaScript 2D rendering library using WebGL and Canvas for interactive graphics, games, and web content.",
+    "license": "MIT",
+    "added": "2026-08-18"
+  },
+  {
+    "name": "Prisma",
+    "repo": "prisma/prisma",
+    "homepage": "https://www.prisma.io",
+    "category": "data-databases",
+    "description": "TypeScript and Node.js ORM for PostgreSQL, MySQL, SQLite, SQL Server, MongoDB, and other databases.",
+    "license": "Apache-2.0",
+    "added": "2026-08-18"
+  },
+  {
+    "name": "Text Generation WebUI",
+    "repo": "oobabooga/textgen",
+    "homepage": "https://github.com/oobabooga/textgen",
+    "category": "devops-self-hosted",
+    "description": "Desktop web UI for running local large language models with text, vision, and an OpenAI-compatible API.",
+    "license": "AGPL-3.0",
+    "added": "2026-08-18"
+  },
+  {
+    "name": "Cal.com",
+    "repo": "calcom/cal.diy",
+    "homepage": "https://cal.diy",
+    "category": "productivity",
+    "description": "Open-source scheduling and appointment-booking platform, an alternative to Calendly.",
+    "license": "MIT",
+    "added": "2026-08-18"
+  },
+  {
+    "name": "Qlib",
+    "repo": "microsoft/qlib",
+    "homepage": "https://qlib.readthedocs.io/en/latest/",
+    "category": "finance-business",
+    "description": "AI-oriented quantitative investment platform for building and running machine-learning trading strategies in Python.",
+    "license": "MIT",
+    "added": "2026-08-18"
+  },
+  {
+    "name": "Monaco Editor",
+    "repo": "microsoft/monaco-editor",
+    "homepage": "https://microsoft.github.io/monaco-editor/",
+    "category": "developer-tools-cli",
+    "description": "Browser-based code editor that powers VS Code, with syntax highlighting and IntelliSense.",
+    "license": "MIT",
+    "added": "2026-08-18"
+  },
+  {
     "name": "evex",
     "repo": "TommyBez/evex",
     "homepage": "https://evex.sh",
     "category": "ai-coding-agents",
     "description": "Open registry of Eve agents you install with the shadcn CLI.",
     "license": "MIT",
-    "links": [{ "label": "docs", "url": "https://evex.sh/docs" }],
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://evex.sh/docs"
+      }
+    ],
     "added": "2026-08-17"
   }
 ]
