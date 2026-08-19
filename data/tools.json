@@ -2408,5 +2408,59 @@
       }
     ],
     "added": "2026-08-17"
+  },
+  {
+    "name": "Bruno",
+    "repo": "usebruno/bruno",
+    "homepage": "https://www.usebruno.com/",
+    "category": "web-apis",
+    "description": "Desktop API client for designing and testing HTTP APIs, storing request collections as plain files.",
+    "license": "MIT",
+    "added": "2026-08-19"
+  },
+  {
+    "name": "GitHub CLI",
+    "repo": "cli/cli",
+    "homepage": "https://cli.github.com",
+    "category": "developer-tools-cli",
+    "description": "GitHub's official command-line tool for managing pull requests, issues, releases, and other GitHub workflows.",
+    "license": "MIT",
+    "added": "2026-08-19"
+  },
+  {
+    "name": "Streamlit",
+    "repo": "streamlit/streamlit",
+    "homepage": "https://streamlit.io",
+    "category": "data-databases",
+    "description": "Python framework for building and sharing interactive data apps and dashboards without front-end code.",
+    "license": "Apache-2.0",
+    "added": "2026-08-19"
+  },
+  {
+    "name": "gRPC",
+    "repo": "grpc/grpc",
+    "homepage": "https://grpc.io",
+    "category": "web-apis",
+    "description": "RPC framework using HTTP/2 and Protocol Buffers for cross-language service-to-service communication.",
+    "license": "Apache-2.0",
+    "added": "2026-08-19"
+  },
+  {
+    "name": "Bubble Tea",
+    "repo": "charmbracelet/bubbletea",
+    "homepage": "https://github.com/charmbracelet/bubbletea",
+    "category": "developer-tools-cli",
+    "description": "A Go framework for building terminal user interfaces based on the Elm architecture.",
+    "license": "MIT",
+    "added": "2026-08-19"
+  },
+  {
+    "name": "Paperless-ngx",
+    "repo": "paperless-ngx/paperless-ngx",
+    "homepage": "http://docs.paperless-ngx.com/",
+    "category": "productivity",
+    "description": "A document management system that scans, indexes, and archives physical documents into a searchable digital archive.",
+    "license": "GPL-3.0",
+    "added": "2026-08-19"
   }
 ]
