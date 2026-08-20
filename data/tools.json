@@ -2462,5 +2462,59 @@
     "description": "A document management system that scans, indexes, and archives physical documents into a searchable digital archive.",
     "license": "GPL-3.0",
     "added": "2026-08-19"
+  },
+  {
+    "name": "Payload",
+    "repo": "payloadcms/payload",
+    "homepage": "https://payloadcms.com",
+    "category": "notes-knowledge",
+    "description": "A TypeScript headless CMS and application framework built on Next.js with an admin panel.",
+    "license": "MIT",
+    "added": "2026-08-20"
+  },
+  {
+    "name": "Babel",
+    "repo": "babel/babel",
+    "homepage": "https://babel.dev",
+    "category": "developer-tools-cli",
+    "description": "A JavaScript compiler that converts next-generation JavaScript into backwards-compatible code.",
+    "license": "MIT",
+    "added": "2026-08-20"
+  },
+  {
+    "name": "Apache Spark",
+    "repo": "apache/spark",
+    "homepage": "https://spark.apache.org/",
+    "category": "data-databases",
+    "description": "A unified analytics engine for large-scale distributed data processing and machine learning.",
+    "license": "Apache-2.0",
+    "added": "2026-08-20"
+  },
+  {
+    "name": "Ray",
+    "repo": "ray-project/ray",
+    "homepage": "https://ray.io",
+    "category": "data-databases",
+    "description": "A distributed computing framework for scaling Python and machine learning workloads across clusters.",
+    "license": "Apache-2.0",
+    "added": "2026-08-20"
+  },
+  {
+    "name": "Gradio",
+    "repo": "gradio-app/gradio",
+    "homepage": "http://www.gradio.app",
+    "category": "developer-tools-cli",
+    "description": "A Python library for building web-based user interfaces and demos for machine learning models.",
+    "license": "Apache-2.0",
+    "added": "2026-08-20"
+  },
+  {
+    "name": "DeepSpeed",
+    "repo": "deepspeedai/DeepSpeed",
+    "homepage": "https://www.deepspeed.ai/",
+    "category": "data-databases",
+    "description": "A deep learning optimization library for distributed training and inference of large models.",
+    "license": "Apache-2.0",
+    "added": "2026-08-20"
   }
 ]
