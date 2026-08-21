@@ -1,59 +1,5 @@
 [
   {
-    "name": "LibreChat",
-    "repo": "danny-avila/LibreChat",
-    "homepage": "https://librechat.ai/",
-    "category": "ai-coding-agents",
-    "description": "A self-hostable chat interface supporting multiple AI models and providers with multi-user auth.",
-    "license": "MIT",
-    "publishOn": "2026-08-21"
-  },
-  {
-    "name": "Apache Dubbo",
-    "repo": "apache/dubbo",
-    "homepage": "https://dubbo.apache.org/",
-    "category": "developer-tools-cli",
-    "description": "A Java-based RPC and microservice framework for building distributed service applications.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-21"
-  },
-  {
-    "name": "Vim",
-    "repo": "vim/vim",
-    "homepage": "https://www.vim.org",
-    "category": "developer-tools-cli",
-    "description": "A modal text editor for the terminal, extending the classic vi editor.",
-    "license": "Vim",
-    "publishOn": "2026-08-21"
-  },
-  {
-    "name": "Faiss",
-    "repo": "facebookresearch/faiss",
-    "homepage": "https://faiss.ai",
-    "category": "data-databases",
-    "description": "A library for efficient similarity search and clustering of dense vectors.",
-    "license": "MIT",
-    "publishOn": "2026-08-21"
-  },
-  {
-    "name": "Chakra UI",
-    "repo": "chakra-ui/chakra-ui",
-    "homepage": "https://chakra-ui.com",
-    "category": "developer-tools-cli",
-    "description": "A React component library for building accessible user interfaces.",
-    "license": "MIT",
-    "publishOn": "2026-08-21"
-  },
-  {
-    "name": "Fiber",
-    "repo": "gofiber/fiber",
-    "homepage": "https://gofiber.io",
-    "category": "web-apis",
-    "description": "An Express-inspired web framework written in Go and built on the Fasthttp engine.",
-    "license": "MIT",
-    "publishOn": "2026-08-21"
-  },
-  {
     "name": "esbuild",
     "repo": "evanw/esbuild",
     "homepage": "https://esbuild.github.io/",
