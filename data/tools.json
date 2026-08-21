@@ -2576,7 +2576,7 @@
     "repo": "Posnic/POS",
     "homepage": "https://posnic.com/",
     "category": "finance-business",
-    "description": "Offline-first point-of-sale software for retail and restaurants, with local billing, inventory, reports, and open source.",
+    "description": "Offline-first point-of-sale software for retail and restaurants, with local billing, inventory, reports, and public AGPL source.",
     "license": "AGPL-3.0-only",
     "links": [
       {
