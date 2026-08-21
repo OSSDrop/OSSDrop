@@ -2570,5 +2570,24 @@
     "description": "An Express-inspired web framework written in Go and built on the Fasthttp engine.",
     "license": "MIT",
     "added": "2026-08-21"
+  },
+  {
+    "name": "Posnic",
+    "repo": "Posnic/POS",
+    "homepage": "https://posnic.com/",
+    "category": "finance-business",
+    "description": "Offline-first point-of-sale software for retail and restaurants, with local billing, inventory, reports, and open source.",
+    "license": "AGPL-3.0-only",
+    "links": [
+      {
+        "label": "download",
+        "url": "https://posnic.com/download"
+      },
+      {
+        "label": "developer documentation",
+        "url": "https://posnic.com/developers"
+      }
+    ],
+    "added": "2026-08-21"
   }
 ]
