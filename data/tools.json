@@ -2624,5 +2624,20 @@
     "description": "A cross-platform .NET framework for building web applications and services.",
     "license": "MIT",
     "added": "2026-08-22"
+  },
+  {
+    "name": "Log Lens",
+    "repo": "cliqthemes/log-lens",
+    "homepage": "https://log-lens.cliqthemes.com",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted error tracker for Laravel, Horizon, and nginx logs; its JSON API lets coding agents read issues and fix them.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://docs.log-lens.cliqthemes.com"
+      }
+    ],
+    "added": "2026-08-22"
   }
 ]
