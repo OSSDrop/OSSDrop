@@ -1,59 +1,5 @@
 [
   {
-    "name": "esbuild",
-    "repo": "evanw/esbuild",
-    "homepage": "https://esbuild.github.io/",
-    "category": "developer-tools-cli",
-    "description": "A bundler and minifier for JavaScript and TypeScript, written in Go for fast builds.",
-    "license": "MIT",
-    "publishOn": "2026-08-22"
-  },
-  {
-    "name": "BitNet",
-    "repo": "microsoft/BitNet",
-    "homepage": "https://github.com/microsoft/BitNet",
-    "category": "ai-coding-agents",
-    "description": "Microsoft's official inference framework for running 1-bit large language models.",
-    "license": "MIT",
-    "publishOn": "2026-08-22"
-  },
-  {
-    "name": "LevelDB",
-    "repo": "google/leveldb",
-    "homepage": "https://github.com/google/leveldb",
-    "category": "data-databases",
-    "description": "A Google key-value storage library providing an ordered mapping from string keys to values.",
-    "license": "BSD-3-Clause",
-    "publishOn": "2026-08-22"
-  },
-  {
-    "name": "Polars",
-    "repo": "pola-rs/polars",
-    "homepage": "https://docs.pola.rs",
-    "category": "data-databases",
-    "description": "A DataFrame library and query engine written in Rust, with Python and other bindings.",
-    "license": "MIT",
-    "publishOn": "2026-08-22"
-  },
-  {
-    "name": "GoogleTest",
-    "repo": "google/googletest",
-    "homepage": "https://google.github.io/googletest/",
-    "category": "developer-tools-cli",
-    "description": "Google's C++ unit testing and mocking framework.",
-    "license": "BSD-3-Clause",
-    "publishOn": "2026-08-22"
-  },
-  {
-    "name": "ASP.NET Core",
-    "repo": "dotnet/aspnetcore",
-    "homepage": "https://asp.net",
-    "category": "web-apis",
-    "description": "A cross-platform .NET framework for building web applications and services.",
-    "license": "MIT",
-    "publishOn": "2026-08-22"
-  },
-  {
     "name": "Umami",
     "repo": "umami-software/umami",
     "homepage": "https://umami.is",
