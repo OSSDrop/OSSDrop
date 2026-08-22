@@ -2624,5 +2624,14 @@
     "description": "A cross-platform .NET framework for building web applications and services.",
     "license": "MIT",
     "added": "2026-08-22"
+  },
+  {
+    "name": "Plainsay",
+    "repo": "conrader/plainsay",
+    "homepage": "https://plainsay.app",
+    "category": "productivity",
+    "description": "Native macOS dictation that runs Whisper and Parakeet locally and types into any app.",
+    "license": "MIT",
+    "added": "2026-08-22"
   }
 ]
