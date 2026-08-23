@@ -2624,5 +2624,59 @@
     "description": "A cross-platform .NET framework for building web applications and services.",
     "license": "MIT",
     "added": "2026-08-22"
+  },
+  {
+    "name": "Umami",
+    "repo": "umami-software/umami",
+    "homepage": "https://umami.is",
+    "category": "devops-self-hosted",
+    "description": "A self-hosted, privacy-focused web analytics platform that runs without cookies.",
+    "license": "MIT",
+    "added": "2026-08-23"
+  },
+  {
+    "name": "Docker Compose",
+    "repo": "docker/compose",
+    "homepage": "https://docs.docker.com/compose/",
+    "category": "devops-self-hosted",
+    "description": "A tool for defining and running multi-container Docker applications from a YAML file.",
+    "license": "Apache-2.0",
+    "added": "2026-08-23"
+  },
+  {
+    "name": "TypeORM",
+    "repo": "typeorm/typeorm",
+    "homepage": "http://typeorm.io",
+    "category": "data-databases",
+    "description": "An ORM for TypeScript and JavaScript supporting PostgreSQL, MySQL, SQLite, and other databases.",
+    "license": "MIT",
+    "added": "2026-08-23"
+  },
+  {
+    "name": "MediaPipe",
+    "repo": "google-ai-edge/mediapipe",
+    "homepage": "https://ai.google.dev/edge/mediapipe",
+    "category": "ai-coding-agents",
+    "description": "Google's cross-platform framework for building on-device machine learning pipelines for media.",
+    "license": "Apache-2.0",
+    "added": "2026-08-23"
+  },
+  {
+    "name": "JAX",
+    "repo": "jax-ml/jax",
+    "homepage": "https://docs.jax.dev",
+    "category": "ai-coding-agents",
+    "description": "A Python library for array computing with automatic differentiation and JIT compilation to GPU/TPU.",
+    "license": "Apache-2.0",
+    "added": "2026-08-23"
+  },
+  {
+    "name": "SolidJS",
+    "repo": "solidjs/solid",
+    "homepage": "https://solidjs.com",
+    "category": "web-apis",
+    "description": "A declarative JavaScript library for building user interfaces with fine-grained reactivity.",
+    "license": "MIT",
+    "added": "2026-08-23"
   }
 ]
