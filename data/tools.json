@@ -2715,5 +2715,20 @@
     "description": "Native macOS dictation that runs Whisper and Parakeet locally and types into any app.",
     "license": "MIT",
     "added": "2026-08-22"
+  },
+  {
+    "name": "Yard Material Coverage",
+    "repo": "demi-valerith/yard-material-coverage-data",
+    "homepage": "https://yardmaterialtools.com/material-coverage-chart",
+    "category": "science-education",
+    "description": "Open landscape material coverage data and a reusable calculator component for yard planning.",
+    "license": "MIT AND CC-BY-4.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://yardmaterialtools.com/embed-yard-material-calculator"
+      }
+    ],
+    "added": "2026-08-23"
   }
 ]
