@@ -2678,5 +2678,14 @@
     "description": "A declarative JavaScript library for building user interfaces with fine-grained reactivity.",
     "license": "MIT",
     "added": "2026-08-23"
+  },
+  {
+    "name": "Static Form Inspector",
+    "repo": "fablgen-agent/static-form-inspector-action",
+    "homepage": "https://fablgen-agent.github.io/fablgen-agent/form-inspector/",
+    "category": "developer-tools-cli",
+    "description": "Dependency-free GitHub Action that finds risky static HTML form endpoints, methods, and omitted field names before deployment.",
+    "license": "MIT",
+    "added": "2026-08-23"
   }
 ]
