@@ -1,59 +1,5 @@
 [
   {
-    "name": "Drizzle ORM",
-    "repo": "drizzle-team/drizzle-orm",
-    "homepage": "https://orm.drizzle.team",
-    "category": "data-databases",
-    "description": "A TypeScript ORM for SQL databases with a typed query builder.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-24"
-  },
-  {
-    "name": "GraphRAG",
-    "repo": "microsoft/graphrag",
-    "homepage": "https://microsoft.github.io/graphrag/",
-    "category": "ai-coding-agents",
-    "description": "Microsoft's modular, graph-based retrieval-augmented generation (RAG) system.",
-    "license": "MIT",
-    "publishOn": "2026-08-24"
-  },
-  {
-    "name": "Detectron2",
-    "repo": "facebookresearch/detectron2",
-    "homepage": "https://detectron2.readthedocs.io/en/latest/",
-    "category": "science-education",
-    "description": "PyTorch library from Facebook AI Research for object detection, segmentation, and other visual recognition tasks.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-24"
-  },
-  {
-    "name": "Diffusers",
-    "repo": "huggingface/diffusers",
-    "homepage": "https://huggingface.co/docs/diffusers",
-    "category": "creator-media",
-    "description": "PyTorch library of diffusion models for generating images, video, and audio, from Hugging Face.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-24"
-  },
-  {
-    "name": "CLIP",
-    "repo": "openai/CLIP",
-    "homepage": "https://github.com/openai/CLIP",
-    "category": "science-education",
-    "description": "Neural network from OpenAI that links images and text to predict the most relevant caption for an image.",
-    "license": "MIT",
-    "publishOn": "2026-08-24"
-  },
-  {
-    "name": "K3s",
-    "repo": "k3s-io/k3s",
-    "homepage": "https://k3s.io",
-    "category": "devops-self-hosted",
-    "description": "Lightweight, single-binary Kubernetes distribution for edge, IoT, and resource-constrained environments.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-24"
-  },
-  {
     "name": "Apache Kafka",
     "repo": "apache/kafka",
     "homepage": "https://kafka.apache.org/",
