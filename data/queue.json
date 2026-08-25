@@ -1,59 +1,5 @@
 [
   {
-    "name": "Apache Kafka",
-    "repo": "apache/kafka",
-    "homepage": "https://kafka.apache.org/",
-    "category": "data-databases",
-    "description": "Distributed event streaming platform for publishing, subscribing to, storing, and processing streams of records.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-25"
-  },
-  {
-    "name": "Remix",
-    "repo": "remix-run/remix",
-    "homepage": "https://remix.run",
-    "category": "web-apis",
-    "description": "Full-stack React web framework focused on web standards, server rendering, and nested routing.",
-    "license": "MIT",
-    "publishOn": "2026-08-25"
-  },
-  {
-    "name": "MMDetection",
-    "repo": "open-mmlab/mmdetection",
-    "homepage": "https://mmdetection.readthedocs.io",
-    "category": "science-education",
-    "description": "OpenMMLab PyTorch toolbox and benchmark for object detection and instance segmentation models.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-25"
-  },
-  {
-    "name": "Tokio",
-    "repo": "tokio-rs/tokio",
-    "homepage": "https://tokio.rs",
-    "category": "developer-tools-cli",
-    "description": "Asynchronous runtime for Rust providing I/O, networking, scheduling, and timers for concurrent applications.",
-    "license": "MIT",
-    "publishOn": "2026-08-25"
-  },
-  {
-    "name": "Echo",
-    "repo": "labstack/echo",
-    "homepage": "https://echo.labstack.com",
-    "category": "web-apis",
-    "description": "Minimalist web framework for Go for building HTTP servers and REST APIs.",
-    "license": "MIT",
-    "publishOn": "2026-08-25"
-  },
-  {
-    "name": "OpenAI Python",
-    "repo": "openai/openai-python",
-    "homepage": "https://pypi.org/project/openai/",
-    "category": "web-apis",
-    "description": "Official Python client library for accessing the OpenAI REST API.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-25"
-  },
-  {
     "name": "Symfony",
     "repo": "symfony/symfony",
     "homepage": "https://symfony.com",
