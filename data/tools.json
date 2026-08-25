@@ -2697,11 +2697,7 @@
     "license": "AGPL-3.0-only",
     "links": [
       {
-        "label": "download",
-        "url": "https://posnic.com/download"
-      },
-      {
-        "label": "developer documentation",
+        "label": "docs",
         "url": "https://posnic.com/developers"
       }
     ],
@@ -2723,12 +2719,6 @@
     "category": "science-education",
     "description": "Open landscape material coverage data and a reusable calculator component for yard planning.",
     "license": "MIT AND CC-BY-4.0",
-    "links": [
-      {
-        "label": "docs",
-        "url": "https://yardmaterialtools.com/embed-yard-material-calculator"
-      }
-    ],
     "added": "2026-08-23"
   },
   {

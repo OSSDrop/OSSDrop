@@ -54,7 +54,9 @@ nightly with live stars, icons, and trending.
   what it does + for whom. Say what it is, not "the best ever." No feature
   lists, no superlatives, no emoji.
 - `license` — the SPDX id from your LICENSE file (e.g. `MIT`, `Apache-2.0`).
-- `links` — optional extras (docs, paper). Omit if none.
+- `links` — at most ONE optional extra, labelled `docs` or `paper`. Omit if
+  none. The repo and homepage are already linked for you, so this is for
+  documentation or a paper — not a download page or a second marketing link.
 - `added` — today's date, `YYYY-MM-DD`.
 
 4. **You can add your own tool.** That's encouraged — this list is for makers.

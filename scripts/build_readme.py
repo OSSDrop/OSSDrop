@@ -60,12 +60,41 @@ SNAPSHOT_KEEP_DAYS = 35
 DESCRIPTION_MAX = 140  # one honest sentence; CONTRIBUTING.md documents this
 
 
+# The list format is closed on purpose. Contributors have added extra keys and
+# extra outbound links (a second link to their own domain reads as a backlink,
+# not documentation), so anything outside this set fails the PR check instead of
+# being noticed by eye later.
+ALLOWED_FIELDS = {
+    "name", "repo", "homepage", "category", "description", "license", "added",
+    "links", "pinned",
+}
+ALLOWED_LINK_LABELS = {"docs", "paper"}
+MAX_EXTRA_LINKS = 1
+
+
 def validate(tools):
     slugs = {c[0] for c in CATEGORIES}
     errors = []
     seen_repos = set()
     for t in tools:
         name = t.get("name", "<missing name>")
+        extra = sorted(set(t) - ALLOWED_FIELDS)
+        if extra:
+            errors.append(f"{name}: unsupported field(s) {extra} — the list format is {sorted(ALLOWED_FIELDS)}")
+        links = t.get("links") or []
+        if not isinstance(links, list):
+            errors.append(f"{name}: 'links' must be a list")
+            links = []
+        if len(links) > MAX_EXTRA_LINKS:
+            errors.append(f"{name}: {len(links)} extra links (max {MAX_EXTRA_LINKS}) — the repo and homepage are already linked")
+        for l in links:
+            if not isinstance(l, dict) or "label" not in l or "url" not in l:
+                errors.append(f"{name}: each link needs a 'label' and a 'url'")
+                continue
+            if l["label"] not in ALLOWED_LINK_LABELS:
+                errors.append(f"{name}: link label '{l['label']}' not allowed (use one of {sorted(ALLOWED_LINK_LABELS)})")
+            if not str(l["url"]).startswith(("http://", "https://")):
+                errors.append(f"{name}: link url must be http(s): '{l['url']}'")
         for field in ("name", "repo", "homepage", "category", "description", "license", "added"):
             if not t.get(field):
                 errors.append(f"{name}: missing required field '{field}'")
