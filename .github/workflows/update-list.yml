@@ -43,6 +43,12 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Hold newly-merged tools for the next drip window
+        if: github.event_name == 'push'
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+        run: python scripts/defer_submissions.py
+
       - name: Promote due queued tools (daily drip)
         if: github.event_name != 'pull_request'
         run: python scripts/promote_queue.py
@@ -55,6 +61,8 @@ jobs:
       - name: Commit if changed
         id: commit
         if: github.event_name != 'pull_request'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # build_readme.py re-runs here on a push race
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -65,9 +73,18 @@ jobs:
           pushed=0
           for attempt in 1 2 3; do
             if git push; then pushed=1; break; fi
-            echo "push rejected — rebasing onto origin/main and retrying ($attempt/3)"
+            # Do NOT rebase. README.md, stars.json and the cards are GENERATED, so
+            # two concurrent runs both rewrite them and the rebase hits a content
+            # conflict it cannot resolve — this failed a real run on 2026-08-23.
+            # They are pure functions of tools.json/queue.json, so take the newest
+            # main and regenerate on top of it; that always converges.
+            echo "push rejected — resetting to origin/main and regenerating ($attempt/3)"
             git fetch origin main
-            git rebase origin/main || git rebase --abort || true
+            git reset --hard origin/main
+            python scripts/promote_queue.py
+            python scripts/build_readme.py
+            git add README.md data/tools.json data/queue.json data/stars.json assets/cards
+            git diff --staged --quiet || git commit -m "chore: daily drop + rebuild ($(date -u +%F))"
             sleep 5
           done
           if [ "$pushed" != "1" ]; then echo "::error::could not push after 3 attempts"; exit 1; fi
