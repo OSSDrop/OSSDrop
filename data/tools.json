@@ -2828,5 +2828,20 @@
     "description": "Official Python client library for accessing the OpenAI REST API.",
     "license": "Apache-2.0",
     "added": "2026-08-25"
+  },
+  {
+    "name": "YunCMS",
+    "repo": "Yunsoft-Software/yuncms",
+    "homepage": "https://github.com/Yunsoft-Software/yuncms",
+    "category": "web-apis",
+    "description": "Self-hosted MySQL CMS and REST backend with a React Studio, role-based access control, files, extensions, and MCP.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/Yunsoft-Software/yuncms/tree/main/docs"
+      }
+    ],
+    "added": "2026-08-26"
   }
 ]
