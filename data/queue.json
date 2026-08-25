@@ -547,5 +547,14 @@
     "description": "A JavaScript and REST API-based interface for reading, managing, and publishing to WordPress.com and Jetpack-connected sites.",
     "license": "GPL-2.0",
     "publishOn": "2026-09-05"
+  },
+  {
+    "name": "NextGenUp",
+    "repo": "riponcm/nextgenUp",
+    "homepage": "https://matily.org/nextgenup/",
+    "category": "creator-media",
+    "description": "Upscales photos to 8K and video to 4K on your own machine using Real-ESRGAN, with GFPGAN face restoration. No cloud, no watermark.",
+    "license": "MIT",
+    "publishOn": "2026-08-26"
   }
 ]
