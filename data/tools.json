@@ -2852,5 +2852,14 @@
     "description": "Local-first browser tool for comparing 17 AI image and video model profiles and exporting model-aware creative briefs.",
     "license": "MIT",
     "added": "2026-08-26"
+  },
+  {
+    "name": "Temperature Scale Reference",
+    "repo": "lyakhovpro-pixel/temperature-scale-reference",
+    "homepage": "https://lyakhovpro-pixel.github.io/temperature-scale-reference/",
+    "category": "science-education",
+    "description": "Dependency-free browser calculator and JavaScript reference for converting Celsius, Fahrenheit, kelvin, and Rankine.",
+    "license": "MIT",
+    "added": "2026-08-26"
   }
 ]
