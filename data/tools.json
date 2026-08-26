@@ -119,7 +119,7 @@
     "repo": "riponcm/GemType",
     "homepage": "https://gemtype.matily.org",
     "category": "productivity",
-    "description": "Free, open-source Grammarly alternative: AI grammar and rewrite for Chrome and Safari.",
+    "description": "Free, open-source Grammarly alternative: AI grammar checks and rewrites in Chrome, Edge, Firefox, Word, and a desktop app.",
     "license": "Apache-2.0",
     "added": "2026-07-10"
   },
