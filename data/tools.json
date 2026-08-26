@@ -2843,5 +2843,14 @@
       }
     ],
     "added": "2026-08-26"
+  },
+  {
+    "name": "CreateForge UI Lab",
+    "repo": "Mr-ZhangBo/ai-model-prompt-brief-builder",
+    "homepage": "https://mr-zhangbo.github.io/ai-model-prompt-brief-builder/",
+    "category": "creator-media",
+    "description": "Local-first browser tool for comparing 17 AI image and video model profiles and exporting model-aware creative briefs.",
+    "license": "MIT",
+    "added": "2026-08-26"
   }
 ]
