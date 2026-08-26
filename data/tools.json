@@ -2876,5 +2876,68 @@
       }
     ],
     "added": "2026-08-26"
+  },
+  {
+    "name": "Symfony",
+    "repo": "symfony/symfony",
+    "homepage": "https://symfony.com",
+    "category": "web-apis",
+    "description": "PHP web framework and set of reusable components for building web applications.",
+    "license": "MIT",
+    "added": "2026-08-26"
+  },
+  {
+    "name": "Windows Calculator",
+    "repo": "microsoft/calculator",
+    "homepage": "https://github.com/microsoft/calculator",
+    "category": "productivity",
+    "description": "The calculator application that ships with Windows, supporting standard, scientific, and programmer modes.",
+    "license": "MIT",
+    "added": "2026-08-26"
+  },
+  {
+    "name": "Lighthouse",
+    "repo": "GoogleChrome/lighthouse",
+    "homepage": "https://developer.chrome.com/docs/lighthouse/overview/",
+    "category": "developer-tools-cli",
+    "description": "Automated tool that audits web pages for performance, accessibility, SEO, and other best practices.",
+    "license": "Apache-2.0",
+    "added": "2026-08-26"
+  },
+  {
+    "name": "Folly",
+    "repo": "facebook/folly",
+    "homepage": "https://github.com/facebook/folly",
+    "category": "developer-tools-cli",
+    "description": "C++ library of components developed and used at Facebook, extending the standard library.",
+    "license": "Apache-2.0",
+    "added": "2026-08-26"
+  },
+  {
+    "name": "Sequelize",
+    "repo": "sequelize/sequelize",
+    "homepage": "https://sequelize.org/",
+    "category": "data-databases",
+    "description": "Node.js and TypeScript ORM supporting PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, Oracle, DB2 and more.",
+    "license": "MIT",
+    "added": "2026-08-26"
+  },
+  {
+    "name": "Nuclei",
+    "repo": "projectdiscovery/nuclei",
+    "homepage": "https://docs.projectdiscovery.io/tools/nuclei",
+    "category": "security-privacy",
+    "description": "Vulnerability scanner that runs YAML-based templates against apps, APIs, networks, DNS and cloud configurations.",
+    "license": "MIT",
+    "added": "2026-08-26"
+  },
+  {
+    "name": "NextGenUp",
+    "repo": "riponcm/nextgenUp",
+    "homepage": "https://matily.org/nextgenup/",
+    "category": "creator-media",
+    "description": "Upscales photos to 8K and video to 4K on your own machine using Real-ESRGAN, with GFPGAN face restoration. No cloud, no watermark.",
+    "license": "MIT",
+    "added": "2026-08-26"
   }
 ]
