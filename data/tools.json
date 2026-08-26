@@ -2828,5 +2828,20 @@
     "description": "Official Python client library for accessing the OpenAI REST API.",
     "license": "Apache-2.0",
     "added": "2026-08-25"
+  },
+  {
+    "name": "SEMAPRAX",
+    "repo": "wavect/semaprax",
+    "homepage": "https://wavect.io/semaprax/",
+    "category": "developer-tools-cli",
+    "description": "Pre-alpha agent-native systems language with deterministic semantic graphs and native and WebAssembly compiler lanes.",
+    "license": "Apache-2.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/wavect/semaprax/blob/main/docs/RFC-0001.md"
+      }
+    ],
+    "added": "2026-08-26"
   }
 ]
