@@ -44,9 +44,10 @@ jobs:
           python-version: "3.12"
 
       - name: Hold newly-merged tools for the next drip window
-        if: github.event_name == 'push'
-        env:
-          BEFORE_SHA: ${{ github.event.before }}
+        # Runs on every non-PR event, not just push: when rapid merges make GitHub
+        # cancel queued runs, the next scheduled run still catches those tools
+        # because the baseline is the last bot commit rather than one push.
+        if: github.event_name != 'pull_request'
         run: python scripts/defer_submissions.py
 
       - name: Promote due queued tools (daily drip)
@@ -81,6 +82,7 @@ jobs:
             echo "push rejected — resetting to origin/main and regenerating ($attempt/3)"
             git fetch origin main
             git reset --hard origin/main
+            python scripts/defer_submissions.py
             python scripts/promote_queue.py
             python scripts/build_readme.py
             git add README.md data/tools.json data/queue.json data/stars.json assets/cards
