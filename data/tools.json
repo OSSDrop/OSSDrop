@@ -2939,5 +2939,59 @@
     "description": "Upscales photos to 8K and video to 4K on your own machine using Real-ESRGAN, with GFPGAN face restoration. No cloud, no watermark.",
     "license": "MIT",
     "added": "2026-08-26"
+  },
+  {
+    "name": "Helm",
+    "repo": "helm/helm",
+    "homepage": "https://helm.sh",
+    "category": "devops-self-hosted",
+    "description": "Package manager for Kubernetes that defines, installs and upgrades applications using charts.",
+    "license": "Apache-2.0",
+    "added": "2026-08-27"
+  },
+  {
+    "name": "Chroma",
+    "repo": "chroma-core/chroma",
+    "homepage": "https://www.trychroma.com/",
+    "category": "data-databases",
+    "description": "Vector database for storing and querying embeddings to power search and retrieval in AI applications.",
+    "license": "Apache-2.0",
+    "added": "2026-08-27"
+  },
+  {
+    "name": "Envoy",
+    "repo": "envoyproxy/envoy",
+    "homepage": "https://www.envoyproxy.io",
+    "category": "devops-self-hosted",
+    "description": "Cloud-native L7 proxy and communication bus used for edge, middle and service-to-service networking.",
+    "license": "Apache-2.0",
+    "added": "2026-08-27"
+  },
+  {
+    "name": "smolagents",
+    "repo": "huggingface/smolagents",
+    "homepage": "https://huggingface.co/docs/smolagents",
+    "category": "ai-coding-agents",
+    "description": "Minimal Python library for building agents that act by writing and running code.",
+    "license": "Apache-2.0",
+    "added": "2026-08-27"
+  },
+  {
+    "name": "XGBoost",
+    "repo": "dmlc/xgboost",
+    "homepage": "https://xgboost.readthedocs.io/",
+    "category": "science-education",
+    "description": "Gradient boosting library for Python, R, Java, Scala and more, running on single machines or distributed clusters.",
+    "license": "Apache-2.0",
+    "added": "2026-08-27"
+  },
+  {
+    "name": "Semantic Kernel",
+    "repo": "microsoft/semantic-kernel",
+    "homepage": "https://aka.ms/semantic-kernel",
+    "category": "ai-coding-agents",
+    "description": "SDK for integrating large language models into applications with plugins, planning and memory.",
+    "license": "MIT",
+    "added": "2026-08-27"
   }
 ]
