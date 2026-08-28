@@ -3047,14 +3047,5 @@
     "description": "Library of models, datasets and tools for applying end-to-end machine learning to real-world robotics.",
     "license": "Apache-2.0",
     "added": "2026-08-28"
-  },
-  {
-    "name": "Codex Quota Overlay",
-    "repo": "cpys/codex-quota-overlay",
-    "homepage": "https://cpys.github.io/codex-quota-overlay/",
-    "category": "developer-tools-cli",
-    "description": "Windows tray overlay and local dashboard for Codex quota windows, reset times, pacing, forecasts, and usage activity.",
-    "license": "MIT",
-    "added": "2026-08-28"
   }
 ]

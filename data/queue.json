@@ -385,5 +385,14 @@
     "description": "A JavaScript and REST API-based interface for reading, managing, and publishing to WordPress.com and Jetpack-connected sites.",
     "license": "GPL-2.0",
     "publishOn": "2026-09-05"
+  },
+  {
+    "name": "Codex Quota Overlay",
+    "repo": "cpys/codex-quota-overlay",
+    "homepage": "https://cpys.github.io/codex-quota-overlay/",
+    "category": "developer-tools-cli",
+    "description": "Windows tray overlay and local dashboard for Codex quota windows, reset times, pacing, forecasts, and usage activity.",
+    "license": "MIT",
+    "publishOn": "2026-08-29"
   }
 ]
