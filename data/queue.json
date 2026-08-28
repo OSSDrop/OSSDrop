@@ -1,59 +1,5 @@
 [
   {
-    "name": "Plausible Analytics",
-    "repo": "plausible/analytics",
-    "homepage": "https://plausible.io",
-    "category": "devops-self-hosted",
-    "description": "Self-hostable, cookie-free web analytics as a privacy-focused alternative to Google Analytics.",
-    "license": "AGPL-3.0",
-    "publishOn": "2026-08-28"
-  },
-  {
-    "name": "Karakeep",
-    "repo": "karakeep-app/karakeep",
-    "homepage": "https://karakeep.app",
-    "category": "notes-knowledge",
-    "description": "Self-hostable app for saving links, notes and images with automatic tagging and full-text search.",
-    "license": "AGPL-3.0",
-    "publishOn": "2026-08-28"
-  },
-  {
-    "name": "ESLint",
-    "repo": "eslint/eslint",
-    "homepage": "https://eslint.org",
-    "category": "developer-tools-cli",
-    "description": "Pluggable linter that finds and fixes problems in JavaScript and TypeScript code.",
-    "license": "MIT",
-    "publishOn": "2026-08-28"
-  },
-  {
-    "name": "MLflow",
-    "repo": "mlflow/mlflow",
-    "homepage": "https://mlflow.org",
-    "category": "science-education",
-    "description": "Platform for managing the machine learning lifecycle including tracking, evaluation, deployment and model registry.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-28"
-  },
-  {
-    "name": "vcpkg",
-    "repo": "microsoft/vcpkg",
-    "homepage": "https://github.com/microsoft/vcpkg",
-    "category": "developer-tools-cli",
-    "description": "C and C++ dependency manager for Windows, Linux and macOS.",
-    "license": "MIT",
-    "publishOn": "2026-08-28"
-  },
-  {
-    "name": "LeRobot",
-    "repo": "huggingface/lerobot",
-    "homepage": "https://huggingface.co/docs/lerobot",
-    "category": "science-education",
-    "description": "Library of models, datasets and tools for applying end-to-end machine learning to real-world robotics.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-28"
-  },
-  {
     "name": "FlatBuffers",
     "repo": "google/flatbuffers",
     "homepage": "https://flatbuffers.dev/",
