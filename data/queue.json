@@ -1,59 +1,5 @@
 [
   {
-    "name": "FlatBuffers",
-    "repo": "google/flatbuffers",
-    "homepage": "https://flatbuffers.dev/",
-    "category": "developer-tools-cli",
-    "description": "Cross-platform serialization library that lets you access serialized data without parsing or unpacking it first.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-29"
-  },
-  {
-    "name": "WinGet",
-    "repo": "microsoft/winget-cli",
-    "homepage": "https://learn.microsoft.com/windows/package-manager/",
-    "category": "developer-tools-cli",
-    "description": "Windows Package Manager, with a CLI, PowerShell modules, and COM API for installing and managing software on Windows.",
-    "license": "MIT",
-    "publishOn": "2026-08-29"
-  },
-  {
-    "name": "Apache Flink",
-    "repo": "apache/flink",
-    "homepage": "https://flink.apache.org/",
-    "category": "data-databases",
-    "description": "Distributed engine for stateful stream and batch processing over unbounded and bounded data streams.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-29"
-  },
-  {
-    "name": "Haystack",
-    "repo": "deepset-ai/haystack",
-    "homepage": "https://haystack.deepset.ai",
-    "category": "ai-coding-agents",
-    "description": "Framework for building LLM applications with modular pipelines for retrieval, RAG, agents, and semantic search.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-29"
-  },
-  {
-    "name": "Rancher",
-    "repo": "rancher/rancher",
-    "homepage": "http://rancher.com",
-    "category": "devops-self-hosted",
-    "description": "Platform for deploying and managing Kubernetes clusters and containerized workloads across environments.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-29"
-  },
-  {
-    "name": "Bazel",
-    "repo": "bazelbuild/bazel",
-    "homepage": "https://bazel.build",
-    "category": "developer-tools-cli",
-    "description": "Multi-language build and test system for building software at scale with reproducible, incremental builds.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-29"
-  },
-  {
     "name": "Pulumi",
     "repo": "pulumi/pulumi",
     "homepage": "https://www.pulumi.com",
@@ -385,14 +331,5 @@
     "description": "A JavaScript and REST API-based interface for reading, managing, and publishing to WordPress.com and Jetpack-connected sites.",
     "license": "GPL-2.0",
     "publishOn": "2026-09-05"
-  },
-  {
-    "name": "Codex Quota Overlay",
-    "repo": "cpys/codex-quota-overlay",
-    "homepage": "https://cpys.github.io/codex-quota-overlay/",
-    "category": "developer-tools-cli",
-    "description": "Windows tray overlay and local dashboard for Codex quota windows, reset times, pacing, forecasts, and usage activity.",
-    "license": "MIT",
-    "publishOn": "2026-08-29"
   }
 ]
