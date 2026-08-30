@@ -3110,5 +3110,59 @@
     "description": "Windows tray overlay and local dashboard for Codex quota windows, reset times, pacing, forecasts, and usage activity.",
     "license": "MIT",
     "added": "2026-08-29"
+  },
+  {
+    "name": "Pulumi",
+    "repo": "pulumi/pulumi",
+    "homepage": "https://www.pulumi.com",
+    "category": "devops-self-hosted",
+    "description": "Infrastructure-as-code tool for defining and deploying cloud resources using general-purpose programming languages.",
+    "license": "Apache-2.0",
+    "added": "2026-08-30"
+  },
+  {
+    "name": "JARVIS",
+    "repo": "microsoft/JARVIS",
+    "homepage": "https://github.com/microsoft/JARVIS",
+    "category": "ai-coding-agents",
+    "description": "System that uses an LLM as a controller to connect and orchestrate machine learning models for multi-step tasks.",
+    "license": "MIT",
+    "added": "2026-08-30"
+  },
+  {
+    "name": "Cilium",
+    "repo": "cilium/cilium",
+    "homepage": "https://cilium.io",
+    "category": "devops-self-hosted",
+    "description": "eBPF-based tool providing networking, security, and observability for Kubernetes and container workloads.",
+    "license": "Apache-2.0",
+    "added": "2026-08-30"
+  },
+  {
+    "name": "Actix Web",
+    "repo": "actix/actix-web",
+    "homepage": "https://actix.rs",
+    "category": "web-apis",
+    "description": "Web framework for Rust for building HTTP servers and APIs.",
+    "license": "Apache-2.0",
+    "added": "2026-08-30"
+  },
+  {
+    "name": "Gson",
+    "repo": "google/gson",
+    "homepage": "https://github.com/google/gson",
+    "category": "developer-tools-cli",
+    "description": "Java library for converting Java objects to JSON and back.",
+    "license": "Apache-2.0",
+    "added": "2026-08-30"
+  },
+  {
+    "name": "Gum",
+    "repo": "charmbracelet/gum",
+    "homepage": "https://github.com/charmbracelet/gum",
+    "category": "developer-tools-cli",
+    "description": "Tool for adding interactive prompts, inputs, and styling to shell scripts.",
+    "license": "MIT",
+    "added": "2026-08-30"
   }
 ]
