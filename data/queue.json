@@ -1,59 +1,5 @@
 [
   {
-    "name": "Argo CD",
-    "repo": "argoproj/argo-cd",
-    "homepage": "https://argo-cd.readthedocs.io",
-    "category": "devops-self-hosted",
-    "description": "Declarative GitOps continuous delivery tool for deploying and syncing applications to Kubernetes.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-31"
-  },
-  {
-    "name": "p5.js",
-    "repo": "processing/p5.js",
-    "homepage": "http://p5js.org/",
-    "category": "creator-media",
-    "description": "JavaScript library for creative coding, drawing graphics and interactive visuals in the browser.",
-    "license": "LGPL-2.1",
-    "publishOn": "2026-08-31"
-  },
-  {
-    "name": "Lexical",
-    "repo": "facebook/lexical",
-    "homepage": "https://lexical.dev",
-    "category": "developer-tools-cli",
-    "description": "Extensible JavaScript text editor framework for building rich-text editing experiences on the web.",
-    "license": "MIT",
-    "publishOn": "2026-08-31"
-  },
-  {
-    "name": "Neon",
-    "repo": "neondatabase/neon",
-    "homepage": "https://neon.tech",
-    "category": "data-databases",
-    "description": "Serverless Postgres that separates storage and compute for autoscaling, database branching, and scale to zero.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-31"
-  },
-  {
-    "name": "Navidrome",
-    "repo": "navidrome/navidrome",
-    "homepage": "https://www.navidrome.org",
-    "category": "creator-media",
-    "description": "Self-hosted music server and streaming service compatible with Subsonic API clients.",
-    "license": "GPL-3.0",
-    "publishOn": "2026-08-31"
-  },
-  {
-    "name": "Apache RocketMQ",
-    "repo": "apache/rocketmq",
-    "homepage": "https://rocketmq.apache.org/",
-    "category": "data-databases",
-    "description": "Distributed messaging and streaming platform for building event-driven applications.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-08-31"
-  },
-  {
     "name": "Jina",
     "repo": "jina-ai/serve",
     "homepage": "https://jina.ai/serve",
