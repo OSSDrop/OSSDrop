@@ -3218,5 +3218,59 @@
     "description": "Distributed messaging and streaming platform for building event-driven applications.",
     "license": "Apache-2.0",
     "added": "2026-08-31"
+  },
+  {
+    "name": "Jina",
+    "repo": "jina-ai/serve",
+    "homepage": "https://jina.ai/serve",
+    "category": "developer-tools-cli",
+    "description": "Framework for building and serving multimodal AI applications with a cloud-native stack.",
+    "license": "Apache-2.0",
+    "added": "2026-09-01"
+  },
+  {
+    "name": "Hugging Face Datasets",
+    "repo": "huggingface/datasets",
+    "homepage": "https://huggingface.co/docs/datasets",
+    "category": "data-databases",
+    "description": "Python library for loading, processing, and sharing machine learning datasets.",
+    "license": "Apache-2.0",
+    "added": "2026-09-01"
+  },
+  {
+    "name": "Matomo",
+    "repo": "matomo-org/matomo",
+    "homepage": "https://matomo.org/",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted web analytics platform and privacy-focused alternative to Google Analytics.",
+    "license": "GPL-3.0",
+    "added": "2026-09-01"
+  },
+  {
+    "name": "PEFT",
+    "repo": "huggingface/peft",
+    "homepage": "https://huggingface.co/docs/peft",
+    "category": "developer-tools-cli",
+    "description": "Library for parameter-efficient fine-tuning of large pretrained models.",
+    "license": "Apache-2.0",
+    "added": "2026-09-01"
+  },
+  {
+    "name": "ONNX Runtime",
+    "repo": "microsoft/onnxruntime",
+    "homepage": "https://onnxruntime.ai",
+    "category": "developer-tools-cli",
+    "description": "Cross-platform runtime for machine learning model inference and training acceleration.",
+    "license": "MIT",
+    "added": "2026-09-01"
+  },
+  {
+    "name": "ONNX",
+    "repo": "onnx/onnx",
+    "homepage": "https://onnx.ai/",
+    "category": "developer-tools-cli",
+    "description": "Open standard format for representing machine learning models across frameworks.",
+    "license": "Apache-2.0",
+    "added": "2026-09-01"
   }
 ]
