@@ -1,59 +1,5 @@
 [
   {
-    "name": "containerd",
-    "repo": "containerd/containerd",
-    "homepage": "https://containerd.io",
-    "category": "devops-self-hosted",
-    "description": "Container runtime for managing the complete container lifecycle on a host.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-09-02"
-  },
-  {
-    "name": "Candle",
-    "repo": "huggingface/candle",
-    "homepage": "https://github.com/huggingface/candle",
-    "category": "developer-tools-cli",
-    "description": "Minimalist machine learning framework for Rust focused on performance and small binaries.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-09-02"
-  },
-  {
-    "name": "Roslyn",
-    "repo": "dotnet/roslyn",
-    "homepage": "https://docs.microsoft.com/dotnet/csharp/roslyn-sdk/",
-    "category": "developer-tools-cli",
-    "description": ".NET compiler for C# and Visual Basic with rich code analysis APIs.",
-    "license": "MIT",
-    "publishOn": "2026-09-02"
-  },
-  {
-    "name": "Prophet",
-    "repo": "facebook/prophet",
-    "homepage": "https://facebook.github.io/prophet",
-    "category": "science-education",
-    "description": "Library for forecasting time series data with multiple seasonality and linear or non-linear growth.",
-    "license": "MIT",
-    "publishOn": "2026-09-02"
-  },
-  {
-    "name": "SimpleX Chat",
-    "repo": "simplex-chat/simplex-chat",
-    "homepage": "https://simplex.chat",
-    "category": "communication-social",
-    "description": "Private messaging network and apps that operate without user identifiers, for iOS, Android, and desktop.",
-    "license": "AGPL-3.0",
-    "publishOn": "2026-09-02"
-  },
-  {
-    "name": "TRL",
-    "repo": "huggingface/trl",
-    "homepage": "http://hf.co/docs/trl",
-    "category": "science-education",
-    "description": "Library for training transformer language models with reinforcement learning, including SFT, PPO, and DPO.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-09-02"
-  },
-  {
     "name": "tiktoken",
     "repo": "openai/tiktoken",
     "homepage": "https://github.com/openai/tiktoken",
@@ -169,5 +115,38 @@
     "description": "A JavaScript and REST API-based interface for reading, managing, and publishing to WordPress.com and Jetpack-connected sites.",
     "license": "GPL-2.0",
     "publishOn": "2026-09-05"
+  },
+  {
+    "name": "SessionSifu",
+    "repo": "tpluharik/SessionSifu",
+    "homepage": "https://github.com/tpluharik/SessionSifu",
+    "category": "productivity",
+    "description": "Restores desktop applications, documents, workspaces, and window layouts, with an optional private local visual timeline.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-09-03"
+  },
+  {
+    "name": "Authier",
+    "repo": "authier-pm/authier",
+    "homepage": "https://www.authier.pm/",
+    "category": "security-privacy",
+    "description": "Open-source password manager with browser autofill, encrypted vault sync, TOTP codes, and trusted-device approval.",
+    "license": "AGPL-3.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://www.authier.pm/security"
+      }
+    ],
+    "publishOn": "2026-09-03"
+  },
+  {
+    "name": "relnote",
+    "repo": "loki-inu/relnote",
+    "homepage": "https://loki-inu.github.io/relnote/",
+    "category": "developer-tools-cli",
+    "description": "Offline stdlib Python CLI and GitHub Action for conventional-commit GitHub release notes; no API and no config file.",
+    "license": "MIT",
+    "publishOn": "2026-09-03"
   }
 ]
