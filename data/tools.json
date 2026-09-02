@@ -3281,5 +3281,20 @@
     "description": "Restores desktop applications, documents, workspaces, and window layouts, with an optional private local visual timeline.",
     "license": "GPL-3.0",
     "added": "2026-09-01"
+  },
+  {
+    "name": "Authier",
+    "repo": "authier-pm/authier",
+    "homepage": "https://www.authier.pm/",
+    "category": "security-privacy",
+    "description": "Open-source password manager with browser autofill, encrypted vault sync, TOTP codes, and trusted-device approval.",
+    "license": "AGPL-3.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://www.authier.pm/security"
+      }
+    ],
+    "added": "2026-09-01"
   }
 ]
