@@ -3272,5 +3272,14 @@
     "description": "Open standard format for representing machine learning models across frameworks.",
     "license": "Apache-2.0",
     "added": "2026-09-01"
+  },
+  {
+    "name": "SessionSifu",
+    "repo": "tpluharik/SessionSifu",
+    "homepage": "https://github.com/tpluharik/SessionSifu",
+    "category": "productivity",
+    "description": "Restores desktop applications, documents, workspaces, and window layouts, with an optional private local visual timeline.",
+    "license": "GPL-3.0",
+    "added": "2026-09-01"
   }
 ]
