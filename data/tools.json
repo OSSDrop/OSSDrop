@@ -3326,5 +3326,92 @@
     "description": "Library for training transformer language models with reinforcement learning, including SFT, PPO, and DPO.",
     "license": "Apache-2.0",
     "added": "2026-09-02"
+  },
+  {
+    "name": "tiktoken",
+    "repo": "openai/tiktoken",
+    "homepage": "https://github.com/openai/tiktoken",
+    "category": "developer-tools-cli",
+    "description": "Fast BPE tokenizer library for use with OpenAI's models.",
+    "license": "MIT",
+    "added": "2026-09-03"
+  },
+  {
+    "name": "LightGBM",
+    "repo": "lightgbm-org/LightGBM",
+    "homepage": "https://lightgbm.readthedocs.io/en/latest/",
+    "category": "science-education",
+    "description": "Gradient boosting framework based on decision tree algorithms for ranking, classification, and other ML tasks.",
+    "license": "MIT",
+    "added": "2026-09-03"
+  },
+  {
+    "name": ".NET Runtime",
+    "repo": "dotnet/runtime",
+    "homepage": "https://docs.microsoft.com/dotnet/core/",
+    "category": "developer-tools-cli",
+    "description": "Cross-platform runtime and libraries for .NET applications on cloud, mobile, desktop, and IoT.",
+    "license": "MIT",
+    "added": "2026-09-03"
+  },
+  {
+    "name": "torchvision",
+    "repo": "pytorch/vision",
+    "homepage": "https://pytorch.org/vision",
+    "category": "science-education",
+    "description": "Datasets, model architectures, and image transforms for computer vision built on PyTorch.",
+    "license": "BSD-3-Clause",
+    "added": "2026-09-03"
+  },
+  {
+    "name": "QuestDB",
+    "repo": "questdb/questdb",
+    "homepage": "https://questdb.com",
+    "category": "data-databases",
+    "description": "Time-series database for high-throughput ingestion and SQL analytics.",
+    "license": "Apache-2.0",
+    "added": "2026-09-03"
+  },
+  {
+    "name": "Apache Arrow",
+    "repo": "apache/arrow",
+    "homepage": "https://arrow.apache.org/",
+    "category": "data-databases",
+    "description": "Columnar in-memory data format and multi-language toolbox for fast data interchange and analytics.",
+    "license": "Apache-2.0",
+    "added": "2026-09-03"
+  },
+  {
+    "name": "SessionSifu",
+    "repo": "tpluharik/SessionSifu",
+    "homepage": "https://github.com/tpluharik/SessionSifu",
+    "category": "productivity",
+    "description": "Restores desktop applications, documents, workspaces, and window layouts, with an optional private local visual timeline.",
+    "license": "GPL-3.0",
+    "added": "2026-09-03"
+  },
+  {
+    "name": "Authier",
+    "repo": "authier-pm/authier",
+    "homepage": "https://www.authier.pm/",
+    "category": "security-privacy",
+    "description": "Open-source password manager with browser autofill, encrypted vault sync, TOTP codes, and trusted-device approval.",
+    "license": "AGPL-3.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://www.authier.pm/security"
+      }
+    ],
+    "added": "2026-09-03"
+  },
+  {
+    "name": "relnote",
+    "repo": "loki-inu/relnote",
+    "homepage": "https://loki-inu.github.io/relnote/",
+    "category": "developer-tools-cli",
+    "description": "Offline stdlib Python CLI and GitHub Action for conventional-commit GitHub release notes; no API and no config file.",
+    "license": "MIT",
+    "added": "2026-09-03"
   }
 ]
