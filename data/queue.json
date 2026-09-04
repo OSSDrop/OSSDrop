@@ -1,59 +1,5 @@
 [
   {
-    "name": "Weaviate",
-    "repo": "weaviate/weaviate",
-    "homepage": "https://weaviate.io/developers/weaviate/",
-    "category": "data-databases",
-    "description": "Vector database that stores objects and vectors and combines vector search with structured filtering.",
-    "license": "BSD-3-Clause",
-    "publishOn": "2026-09-04"
-  },
-  {
-    "name": "Signal Desktop",
-    "repo": "signalapp/Signal-Desktop",
-    "homepage": "https://signal.org/download",
-    "category": "communication-social",
-    "description": "Private messenger desktop app for Windows, macOS, and Linux.",
-    "license": "AGPL-3.0",
-    "publishOn": "2026-09-04"
-  },
-  {
-    "name": "Apache Pulsar",
-    "repo": "apache/pulsar",
-    "homepage": "https://pulsar.apache.org/",
-    "category": "data-databases",
-    "description": "Distributed pub-sub messaging and streaming platform.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-09-04"
-  },
-  {
-    "name": "Documenso",
-    "repo": "documenso/documenso",
-    "homepage": "https://documenso.com",
-    "category": "productivity",
-    "description": "Self-hosted document signing platform and an alternative to DocuSign.",
-    "license": "AGPL-3.0",
-    "publishOn": "2026-09-04"
-  },
-  {
-    "name": "Apache Druid",
-    "repo": "apache/druid",
-    "homepage": "https://druid.apache.org/",
-    "category": "data-databases",
-    "description": "Real-time analytics database for fast queries over large event and time-series datasets.",
-    "license": "Apache-2.0",
-    "publishOn": "2026-09-04"
-  },
-  {
-    "name": "Mealie",
-    "repo": "mealie-recipes/mealie",
-    "homepage": "https://docs.mealie.io",
-    "category": "productivity",
-    "description": "Self-hosted recipe manager and meal planner with a REST API backend and web frontend.",
-    "license": "AGPL-3.0",
-    "publishOn": "2026-09-04"
-  },
-  {
     "name": "Calypso",
     "repo": "Automattic/wp-calypso",
     "homepage": "https://developer.wordpress.com",
