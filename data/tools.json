@@ -3476,5 +3476,14 @@
     "description": "A JavaScript and REST API-based interface for reading, managing, and publishing to WordPress.com and Jetpack-connected sites.",
     "license": "GPL-2.0",
     "added": "2026-09-05"
+  },
+  {
+    "name": "MailKite SaaS Starter",
+    "repo": "mailkite/saas-startup",
+    "homepage": "https://saas-startup.mailkite.dev",
+    "category": "web-apis",
+    "description": "Next.js SaaS starter for developers: auth, Stripe subscriptions and teams run inside your own app, with no auth vendor needed.",
+    "license": "MIT",
+    "added": "2026-09-05"
   }
 ]
