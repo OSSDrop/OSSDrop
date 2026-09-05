@@ -3476,5 +3476,14 @@
     "description": "A JavaScript and REST API-based interface for reading, managing, and publishing to WordPress.com and Jetpack-connected sites.",
     "license": "GPL-2.0",
     "added": "2026-09-05"
-  }
+  },
+  {
+  "name": "RuleBridge",
+  "repo": "Shadorux/RuleBridge",
+  "homepage": "https://github.com/Shadorux/RuleBridge",
+  "category": "ai-coding-agents",
+  "description": "CLI for normalizing and checking AI coding rules across agents and tools.",
+  "license": "MIT",
+  "added": "2026-09-05"
+}
 ]
