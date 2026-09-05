@@ -2865,7 +2865,7 @@
   {
     "name": "YunCMS",
     "repo": "Yunsoft-Software/yuncms",
-    "homepage": "https://github.com/Yunsoft-Software/yuncms",
+    "homepage": "https://yunsoft.com",
     "category": "web-apis",
     "description": "Self-hosted MySQL CMS and REST backend with a React Studio, role-based access control, files, extensions, and MCP.",
     "license": "MIT",
