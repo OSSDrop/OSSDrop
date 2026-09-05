@@ -1,11 +1,1 @@
-[
-  {
-    "name": "Calypso",
-    "repo": "Automattic/wp-calypso",
-    "homepage": "https://developer.wordpress.com",
-    "category": "creator-media",
-    "description": "A JavaScript and REST API-based interface for reading, managing, and publishing to WordPress.com and Jetpack-connected sites.",
-    "license": "GPL-2.0",
-    "publishOn": "2026-09-05"
-  }
-]
+[]
