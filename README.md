@@ -35,7 +35,7 @@ Browse by category below, explore the same tools ranked at
 
 <sub>The biggest star gains among listed tools in the last 7 days — measured, not editorialized.</sub>
 
-<div align="center"><a href="https://github.com/riponcm/projectmem"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/riponcm-projectmem-dark.svg"><img src="assets/cards/riponcm-projectmem-light.svg" width="265" alt="projectmem"></picture></a>&nbsp;<a href="https://github.com/openai/codex"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/openai-codex-dark.svg"><img src="assets/cards/openai-codex-light.svg" width="265" alt="Codex CLI"></picture></a>&nbsp;<a href="https://github.com/yt-dlp/yt-dlp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/yt-dlp-yt-dlp-dark.svg"><img src="assets/cards/yt-dlp-yt-dlp-light.svg" width="265" alt="yt-dlp"></picture></a></div>
+<div align="center"><a href="https://github.com/riponcm/projectmem"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/riponcm-projectmem-dark.svg"><img src="assets/cards/riponcm-projectmem-light.svg" width="265" alt="projectmem"></picture></a>&nbsp;<a href="https://github.com/openai/codex"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/openai-codex-dark.svg"><img src="assets/cards/openai-codex-light.svg" width="265" alt="Codex CLI"></picture></a>&nbsp;<a href="https://github.com/microsoft/markitdown"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/cards/microsoft-markitdown-dark.svg"><img src="assets/cards/microsoft-markitdown-light.svg" width="265" alt="MarkItDown"></picture></a></div>
 
 ## Most starred
 

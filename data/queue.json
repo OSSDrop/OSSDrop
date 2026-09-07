@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "name": "MailKite SaaS Starter",
+    "repo": "mailkite/saas-startup",
+    "homepage": "https://saas-startup.mailkite.dev",
+    "category": "web-apis",
+    "description": "Next.js SaaS starter for developers: auth, Stripe subscriptions and teams run inside your own app, with no auth vendor needed.",
+    "license": "MIT",
+    "publishOn": "2026-09-08"
+  },
+  {
+    "name": "RuleBridge",
+    "repo": "Shadorux/RuleBridge",
+    "homepage": "https://github.com/Shadorux/RuleBridge",
+    "category": "ai-coding-agents",
+    "description": "CLI for normalizing and checking AI coding rules across agents and tools.",
+    "license": "MIT",
+    "publishOn": "2026-09-08"
+  }
+]
