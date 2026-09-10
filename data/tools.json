@@ -3512,5 +3512,14 @@
     "description": "Node.js CLI for comparing sitemap URL cohorts between releases and reporting declared URL and image coverage.",
     "license": "MIT",
     "added": "2026-09-10"
+  },
+  {
+    "name": "PuppyOne",
+    "repo": "puppyone-ai/puppyone-desktop",
+    "homepage": "https://www.puppyone.ai",
+    "category": "notes-knowledge",
+    "description": "Local-first workspace where you and your AI work on the same project files with built-in version history.",
+    "license": "Apache-2.0",
+    "added": "2026-09-10"
   }
 ]
