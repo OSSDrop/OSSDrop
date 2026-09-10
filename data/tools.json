@@ -3530,5 +3530,14 @@
     "description": "Records a coding agent's session and replays it offline, for developers debugging agent runs without spending tokens.",
     "license": "Apache-2.0",
     "added": "2026-09-10"
+  },
+  {
+    "name": "lodsmith",
+    "repo": "saengha/lodsmith",
+    "homepage": "https://github.com/saengha/lodsmith",
+    "category": "creator-media",
+    "description": "Blender add-on that builds named low-poly indie game props from JSON recipes with known triangle budgets.",
+    "license": "Apache-2.0",
+    "added": "2026-09-10"
   }
 ]
