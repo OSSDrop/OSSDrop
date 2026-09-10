@@ -3503,5 +3503,14 @@
     "description": "MIT-licensed CLI that validates rights-aware metadata for AI-hybrid video-production deliveries.",
     "license": "MIT",
     "added": "2026-09-10"
+  },
+  {
+    "name": "Sitemap Cohort Auditor",
+    "repo": "edilec/sitemap-cohort-auditor",
+    "homepage": "https://github.com/edilec/sitemap-cohort-auditor",
+    "category": "developer-tools-cli",
+    "description": "Node.js CLI for comparing sitemap URL cohorts between releases and reporting declared URL and image coverage.",
+    "license": "MIT",
+    "added": "2026-09-10"
   }
 ]
