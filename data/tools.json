@@ -3494,5 +3494,14 @@
     "description": "CLI for normalizing and checking AI coding rules across agents and tools.",
     "license": "MIT",
     "added": "2026-09-08"
+  },
+  {
+    "name": "SHAR Production Metadata Linter",
+    "repo": "SHARProduction/production-metadata-linter",
+    "homepage": "https://github.com/SHARProduction/production-metadata-linter",
+    "category": "creator-media",
+    "description": "MIT-licensed CLI that validates rights-aware metadata for AI-hybrid video-production deliveries.",
+    "license": "MIT",
+    "added": "2026-09-10"
   }
 ]
