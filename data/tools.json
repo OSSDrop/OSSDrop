@@ -3494,50 +3494,5 @@
     "description": "CLI for normalizing and checking AI coding rules across agents and tools.",
     "license": "MIT",
     "added": "2026-09-08"
-  },
-  {
-    "name": "SHAR Production Metadata Linter",
-    "repo": "SHARProduction/production-metadata-linter",
-    "homepage": "https://github.com/SHARProduction/production-metadata-linter",
-    "category": "creator-media",
-    "description": "MIT-licensed CLI that validates rights-aware metadata for AI-hybrid video-production deliveries.",
-    "license": "MIT",
-    "added": "2026-09-10"
-  },
-  {
-    "name": "Sitemap Cohort Auditor",
-    "repo": "edilec/sitemap-cohort-auditor",
-    "homepage": "https://github.com/edilec/sitemap-cohort-auditor",
-    "category": "developer-tools-cli",
-    "description": "Node.js CLI for comparing sitemap URL cohorts between releases and reporting declared URL and image coverage.",
-    "license": "MIT",
-    "added": "2026-09-10"
-  },
-  {
-    "name": "PuppyOne",
-    "repo": "puppyone-ai/puppyone-desktop",
-    "homepage": "https://www.puppyone.ai",
-    "category": "notes-knowledge",
-    "description": "Local-first workspace where you and your AI work on the same project files with built-in version history.",
-    "license": "Apache-2.0",
-    "added": "2026-09-10"
-  },
-  {
-    "name": "OrcaReplay",
-    "repo": "Continuum-AI-Corp/OrcaReplay",
-    "homepage": "https://github.com/Continuum-AI-Corp/OrcaReplay",
-    "category": "ai-coding-agents",
-    "description": "Records a coding agent's session and replays it offline, for developers debugging agent runs without spending tokens.",
-    "license": "Apache-2.0",
-    "added": "2026-09-10"
-  },
-  {
-    "name": "lodsmith",
-    "repo": "saengha/lodsmith",
-    "homepage": "https://github.com/saengha/lodsmith",
-    "category": "creator-media",
-    "description": "Blender add-on that builds named low-poly indie game props from JSON recipes with known triangle budgets.",
-    "license": "Apache-2.0",
-    "added": "2026-09-10"
   }
 ]
