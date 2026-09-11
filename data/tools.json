@@ -3539,5 +3539,14 @@
     "description": "Blender add-on that builds named low-poly indie game props from JSON recipes with known triangle budgets.",
     "license": "Apache-2.0",
     "added": "2026-09-11"
+  },
+  {
+    "name": "ProofKey",
+    "repo": "jiru-labs/proofkey",
+    "homepage": "https://github.com/jiru-labs/proofkey",
+    "category": "productivity",
+    "description": "Grammarly-style grammar checks and rewrites in Chrome, sent only to your own LLM API key or a local model. No backend, no telemetry.",
+    "license": "MIT",
+    "added": "2026-09-11"
   }
 ]
