@@ -3548,5 +3548,20 @@
     "description": "Grammarly-style grammar checks and rewrites in Chrome, sent only to your own LLM API key or a local model. No backend, no telemetry.",
     "license": "MIT",
     "added": "2026-09-15"
+  },
+  {
+    "name": "Orchestrator",
+    "repo": "zachealy1/orchestrator",
+    "homepage": "https://zachealy1.github.io/orchestrator/",
+    "category": "ai-coding-agents",
+    "description": "Free Mac workspace for developers to manage Codex tasks and review the resulting code changes.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/zachealy1/orchestrator/blob/main/docs/public/INSTALLATION.md"
+      }
+    ],
+    "added": "2026-09-15"
   }
 ]
