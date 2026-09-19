@@ -3563,5 +3563,14 @@
       }
     ],
     "added": "2026-09-16"
+  },
+  {
+    "name": "YYLO",
+    "repo": "yylo-dev/yylo",
+    "homepage": "https://github.com/yylo-dev/yylo",
+    "category": "ai-coding-agents",
+    "description": "Command-line orchestrator for coding agents, with typed task, validation, merge, and release-readiness boundaries across agent worktrees.",
+    "license": "MIT",
+    "added": "2026-09-16"
   }
 ]
