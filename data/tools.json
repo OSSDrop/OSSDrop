@@ -3572,5 +3572,14 @@
     "description": "Command-line orchestrator for coding agents, with typed task, validation, merge, and release-readiness boundaries across agent worktrees.",
     "license": "MIT",
     "added": "2026-09-21"
+  },
+  {
+    "name": "Open Download Manager",
+    "repo": "albilu/open-download-manager",
+    "homepage": "https://github.com/albilu/open-download-manager",
+    "category": "files-sync",
+    "description": "Native GTK4 download manager for Linux with one queue for HTTP/FTP, BitTorrent, video and site mirrors via aria2, yt-dlp and HTTrack.",
+    "license": "GPL-3.0",
+    "added": "2026-09-21"
   }
 ]
