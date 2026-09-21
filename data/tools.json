@@ -3596,5 +3596,14 @@
       }
     ],
     "added": "2026-09-21"
+  },
+  {
+    "name": "Client Close Kit",
+    "repo": "darweesh128-cmd/client-close-kit",
+    "homepage": "https://darweesh128-cmd.github.io/client-close-kit/",
+    "category": "finance-business",
+    "description": "Free MIT browser freelance docs: invoices, quotes, credit notes, certificates of completion, and more. No signup.",
+    "license": "MIT",
+    "added": "2026-09-21"
   }
 ]
