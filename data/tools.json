@@ -3581,5 +3581,20 @@
     "description": "Native GTK4 download manager for Linux with one queue for HTTP/FTP, BitTorrent, video and site mirrors via aria2, yt-dlp and HTTrack.",
     "license": "GPL-3.0",
     "added": "2026-09-21"
+  },
+  {
+    "name": "Jev Social",
+    "repo": "socai-io/jev-social",
+    "homepage": "https://socai-io.github.io/jev-social/",
+    "category": "ai-coding-agents",
+    "description": "Local-first AI agent that routes social research through socai to capture browser evidence and stream a cited report.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/socai-io/jev-social#run-it"
+      }
+    ],
+    "added": "2026-09-21"
   }
 ]
