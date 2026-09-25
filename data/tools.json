@@ -3680,5 +3680,14 @@
     "description": "Security middleware that intercepts AI agent tool calls at runtime to block prompt injection, data exfiltration and dangerous commands",
     "license": "Apache-2.0",
     "added": "2026-09-24"
+  },
+  {
+    "name": "engram",
+    "repo": "jnMetaCode/engram",
+    "homepage": "https://github.com/jnMetaCode/engram",
+    "category": "notes-knowledge",
+    "description": "Index your notes and files, recall anything with citations",
+    "license": "MIT",
+    "added": "2026-09-24"
   }
 ]
