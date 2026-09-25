@@ -3671,5 +3671,14 @@
     "description": "Paste a README or blurb in the browser and download a clean single-page landing HTML.",
     "license": "MIT",
     "added": "2026-09-24"
+  },
+  {
+    "name": "ShellWard",
+    "repo": "jnMetaCode/shellward",
+    "homepage": "https://github.com/jnMetaCode/shellward",
+    "category": "security-privacy",
+    "description": "Security middleware that intercepts AI agent tool calls at runtime to block prompt injection, data exfiltration and dangerous commands",
+    "license": "Apache-2.0",
+    "added": "2026-09-24"
   }
 ]
