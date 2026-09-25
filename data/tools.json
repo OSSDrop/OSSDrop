@@ -3662,5 +3662,14 @@
       }
     ],
     "added": "2026-09-24"
+  },
+  {
+    "name": "README → Landing",
+    "repo": "boltdoesthis/readme-to-landing",
+    "homepage": "https://boltdoesthis.github.io/readme-to-landing/",
+    "category": "web-apis",
+    "description": "Paste a README or blurb in the browser and download a clean single-page landing HTML.",
+    "license": "MIT",
+    "added": "2026-09-24"
   }
 ]
