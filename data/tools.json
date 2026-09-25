@@ -3638,5 +3638,14 @@
       }
     ],
     "added": "2026-09-23"
+  },
+  {
+    "name": "YYLO Skills",
+    "repo": "yylo-dev/yylo-skills",
+    "homepage": "https://github.com/yylo-dev/yylo-skills",
+    "category": "ai-coding-agents",
+    "description": "Reusable agent skills maintained by YYLO: canonical SKILL.md packs for ledger tasks, wiki, workflow, and project understanding.",
+    "license": "MIT",
+    "added": "2026-09-24"
   }
 ]
