@@ -3647,5 +3647,20 @@
     "description": "Reusable agent skills maintained by YYLO: canonical SKILL.md packs for ledger tasks, wiki, workflow, and project understanding.",
     "license": "MIT",
     "added": "2026-09-24"
+  },
+  {
+    "name": "DeepZero",
+    "repo": "416rehman/DeepZero",
+    "homepage": "https://github.com/416rehman/DeepZero",
+    "category": "security-privacy",
+    "description": "Python pipeline engine for security researchers to run configurable, resumable analysis workflows on Windows drivers.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://blog.ahmadz.ai/DeepZero/en/"
+      }
+    ],
+    "added": "2026-09-24"
   }
 ]
