@@ -3716,5 +3716,20 @@
     "description": "Check saved Lighthouse captures against declared route-level performance budgets before a web release.",
     "license": "MIT",
     "added": "2026-09-29"
+  },
+  {
+    "name": "ipynbtopdf",
+    "repo": "wangxiaoxiang5599/ipynbtopdf",
+    "homepage": "https://ipynbtopdf.xyz/",
+    "category": "science-education",
+    "description": "Browser-based tool for viewing Jupyter notebooks and exporting them as PDF, HTML, or Python.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://ipynbtopdf.xyz/how-to-convert-jupyter-notebook-to-pdf"
+      }
+    ],
+    "added": "2026-09-29"
   }
 ]
