@@ -3507,7 +3507,7 @@
   {
     "name": "Sitemap Cohort Auditor",
     "repo": "edilec/sitemap-cohort-auditor",
-    "homepage": "https://github.com/edilec/sitemap-cohort-auditor",
+    "homepage": "https://edilec.com/open-source/sitemap-cohort-auditor/",
     "category": "developer-tools-cli",
     "description": "Node.js CLI for comparing sitemap URL cohorts between releases and reporting declared URL and image coverage.",
     "license": "MIT",
