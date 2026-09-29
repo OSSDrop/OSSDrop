@@ -3698,5 +3698,14 @@
     "description": "Local-first alternative to Cursor, Antigravity, and VS Code agents. Progressive tool discovery keeps local models fast.",
     "license": "MIT",
     "added": "2026-09-29"
+  },
+  {
+    "name": "taken",
+    "repo": "RogueAlg0/taken",
+    "homepage": "https://roguealg0.github.io/taken/",
+    "category": "developer-tools-cli",
+    "description": "CLI that checks whether a GitHub issue is already being worked on before you volunteer, with GO/TAKEN/CAUTION verdicts.",
+    "license": "MIT",
+    "added": "2026-09-29"
   }
 ]
