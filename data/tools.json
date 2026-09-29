@@ -3689,5 +3689,14 @@
     "description": "Index your notes and files, recall anything with citations",
     "license": "MIT",
     "added": "2026-09-26"
+  },
+  {
+    "name": "vixl",
+    "repo": "vixl-ai/vixl",
+    "homepage": "https://vixl.app/",
+    "category": "ai-coding-agents",
+    "description": "Local-first alternative to Cursor, Antigravity, and VS Code agents. Progressive tool discovery keeps local models fast.",
+    "license": "MIT",
+    "added": "2026-09-29"
   }
 ]
