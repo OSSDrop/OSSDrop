@@ -3707,5 +3707,14 @@
     "description": "CLI that checks whether a GitHub issue is already being worked on before you volunteer, with GO/TAKEN/CAUTION verdicts.",
     "license": "MIT",
     "added": "2026-09-29"
+  },
+  {
+    "name": "Web Performance Budget Gate",
+    "repo": "edilec/web-performance-budget-gate",
+    "homepage": "https://edilec.com/open-source/web-performance-budget-gate/",
+    "category": "developer-tools-cli",
+    "description": "Check saved Lighthouse captures against declared route-level performance budgets before a web release.",
+    "license": "MIT",
+    "added": "2026-09-29"
   }
 ]
