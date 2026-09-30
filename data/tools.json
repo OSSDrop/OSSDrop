@@ -3731,5 +3731,20 @@
       }
     ],
     "added": "2026-09-30"
+  },
+  {
+    "name": "agent-manager",
+    "repo": "YoanWai/agent-manager",
+    "homepage": "https://agent-manager.dev",
+    "category": "ai-coding-agents",
+    "description": "Terminal UI for developers that runs coding-agent CLIs like Claude Code and Codex side by side, each in its own persistent tmux session.",
+    "license": "Apache-2.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://agent-manager.dev/docs/"
+      }
+    ],
+    "added": "2026-09-29"
   }
 ]
