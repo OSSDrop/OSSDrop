@@ -1,44 +1,17 @@
 [
   {
-    "name": "vixl",
-    "repo": "vixl-ai/vixl",
-    "homepage": "https://vixl.app/",
+    "name": "agent-manager",
+    "repo": "YoanWai/agent-manager",
+    "homepage": "https://agent-manager.dev",
     "category": "ai-coding-agents",
-    "description": "Local-first alternative to Cursor, Antigravity, and VS Code agents. Progressive tool discovery keeps local models fast.",
-    "license": "MIT",
-    "publishOn": "2026-09-30"
-  },
-  {
-    "name": "taken",
-    "repo": "RogueAlg0/taken",
-    "homepage": "https://roguealg0.github.io/taken/",
-    "category": "developer-tools-cli",
-    "description": "CLI that checks whether a GitHub issue is already being worked on before you volunteer, with GO/TAKEN/CAUTION verdicts.",
-    "license": "MIT",
-    "publishOn": "2026-09-30"
-  },
-  {
-    "name": "Web Performance Budget Gate",
-    "repo": "edilec/web-performance-budget-gate",
-    "homepage": "https://edilec.com/open-source/web-performance-budget-gate/",
-    "category": "developer-tools-cli",
-    "description": "Check saved Lighthouse captures against declared route-level performance budgets before a web release.",
-    "license": "MIT",
-    "publishOn": "2026-09-30"
-  },
-  {
-    "name": "ipynbtopdf",
-    "repo": "wangxiaoxiang5599/ipynbtopdf",
-    "homepage": "https://ipynbtopdf.xyz/",
-    "category": "science-education",
-    "description": "Browser-based tool for viewing Jupyter notebooks and exporting them as PDF, HTML, or Python.",
-    "license": "MIT",
+    "description": "Terminal UI for developers that runs coding-agent CLIs like Claude Code and Codex side by side, each in its own persistent tmux session.",
+    "license": "Apache-2.0",
     "links": [
       {
         "label": "docs",
-        "url": "https://ipynbtopdf.xyz/how-to-convert-jupyter-notebook-to-pdf"
+        "url": "https://agent-manager.dev/docs/"
       }
     ],
-    "publishOn": "2026-09-30"
+    "publishOn": "2026-10-01"
   }
 ]
