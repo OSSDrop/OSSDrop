@@ -3746,5 +3746,14 @@
       }
     ],
     "added": "2026-09-30"
+  },
+  {
+    "name": "Darkmoon",
+    "repo": "ASCIT31/Dark-Moon",
+    "homepage": "https://github.com/ASCIT31/Dark-Moon",
+    "category": "security-privacy",
+    "description": "Autonomous AI penetration-testing CLI that orchestrates specialist agents and offensive tools to find and prove vulnerabilities in apps.",
+    "license": "GPL-3.0",
+    "added": "2026-10-01"
   }
 ]
