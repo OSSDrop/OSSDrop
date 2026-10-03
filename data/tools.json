@@ -3746,5 +3746,14 @@
       }
     ],
     "added": "2026-09-30"
+  },
+  {
+    "name": "Bestax",
+    "repo": "allxsmith/bestax",
+    "homepage": "https://bestax.io",
+    "category": "developer-tools-cli",
+    "description": "React component library for the Bulma v1 CSS framework, written in TypeScript, for React 18 and 19.",
+    "license": "MIT",
+    "added": "2026-10-02"
   }
 ]
