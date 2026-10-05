@@ -3761,5 +3761,20 @@
       }
     ],
     "added": "2026-10-05"
+  },
+  {
+    "name": "AuraLAN",
+    "repo": "YellowNest/AuraLAN",
+    "homepage": "https://yellownest.github.io/AuraLAN/",
+    "category": "devops-self-hosted",
+    "description": "Local-first LAN inventory and network monitoring for Linux and Raspberry Pi, with device identity, activity, and service views.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/YellowNest/AuraLAN/blob/main/docs/INSTALLATION.md"
+      }
+    ],
+    "added": "2026-10-05"
   }
 ]
