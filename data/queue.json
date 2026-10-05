@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "name": "Hyperconsciousness",
+    "repo": "louis030195/hyperconsciousness",
+    "homepage": "https://github.com/louis030195/hyperconsciousness",
+    "category": "notes-knowledge",
+    "description": "Developer-alpha encrypted, append-only knowledge store for humans and agents, with scoped MCP access.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/louis030195/hyperconsciousness#install-from-source"
+      }
+    ],
+    "publishOn": "2026-10-06"
+  },
+  {
+    "name": "AuraLAN",
+    "repo": "YellowNest/AuraLAN",
+    "homepage": "https://yellownest.github.io/AuraLAN/",
+    "category": "devops-self-hosted",
+    "description": "Local-first LAN inventory and network monitoring for Linux and Raspberry Pi, with device identity, activity, and service views.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/YellowNest/AuraLAN/blob/main/docs/INSTALLATION.md"
+      }
+    ],
+    "publishOn": "2026-10-06"
+  },
+  {
+    "name": "Bestax",
+    "repo": "allxsmith/bestax",
+    "homepage": "https://bestax.io",
+    "category": "developer-tools-cli",
+    "description": "React component library for the Bulma v1 CSS framework, written in TypeScript, for React 18 and 19.",
+    "license": "MIT",
+    "publishOn": "2026-10-06"
+  },
+  {
+    "name": "Darkmoon",
+    "repo": "ASCIT31/Dark-Moon",
+    "homepage": "https://github.com/ASCIT31/Dark-Moon",
+    "category": "security-privacy",
+    "description": "Autonomous AI penetration-testing CLI that orchestrates specialist agents and offensive tools to find and prove vulnerabilities in apps.",
+    "license": "GPL-3.0",
+    "publishOn": "2026-10-06"
+  }
+]
