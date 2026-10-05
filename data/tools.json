@@ -3746,5 +3746,20 @@
       }
     ],
     "added": "2026-09-30"
+  },
+  {
+    "name": "Hyperconsciousness",
+    "repo": "louis030195/hyperconsciousness",
+    "homepage": "https://github.com/louis030195/hyperconsciousness",
+    "category": "notes-knowledge",
+    "description": "Developer-alpha encrypted, append-only knowledge store for humans and agents, with scoped MCP access.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/louis030195/hyperconsciousness#install-from-source"
+      }
+    ],
+    "added": "2026-10-05"
   }
 ]
