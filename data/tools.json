@@ -3794,5 +3794,20 @@
     "description": "Autonomous AI penetration-testing CLI that orchestrates specialist agents and offensive tools to find and prove vulnerabilities in apps.",
     "license": "GPL-3.0",
     "added": "2026-10-06"
+  },
+  {
+    "name": "5dive",
+    "repo": "5dive-ai/5dive",
+    "homepage": "https://5dive.ai",
+    "category": "ai-coding-agents",
+    "description": "Runs AI coding-agent CLIs as a team on your own Linux server: each agent is a Linux user and systemd service sharing one task queue.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://5dive.ai/docs/5dive-cli"
+      }
+    ],
+    "added": "2026-10-07"
   }
 ]
