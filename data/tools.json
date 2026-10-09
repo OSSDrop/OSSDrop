@@ -3794,5 +3794,14 @@
     "description": "Autonomous AI penetration-testing CLI that orchestrates specialist agents and offensive tools to find and prove vulnerabilities in apps.",
     "license": "GPL-3.0",
     "added": "2026-10-06"
+  },
+  {
+    "name": "QRDock",
+    "repo": "seyitwb-svg/qrdock",
+    "homepage": "https://github.com/seyitwb-svg/qrdock",
+    "category": "web-apis",
+    "description": "Self-hosted QR codes that stay retargetable after printing, plus short links with scan stats.",
+    "license": "MIT",
+    "added": "2026-10-07"
   }
 ]
