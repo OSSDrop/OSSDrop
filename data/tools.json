@@ -3794,5 +3794,20 @@
     "description": "Autonomous AI penetration-testing CLI that orchestrates specialist agents and offensive tools to find and prove vulnerabilities in apps.",
     "license": "GPL-3.0",
     "added": "2026-10-06"
+  },
+  {
+    "name": "Open Reports",
+    "repo": "varaprasadreddy9676/open-reports",
+    "homepage": "https://open-reports-demo.onrender.com/",
+    "category": "finance-business",
+    "description": "Self-hosted visual designer and JSON render API for invoices, statements, labels, and other business documents.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://open-reports-demo.onrender.com/guides/render-json-report-api/"
+      }
+    ],
+    "added": "2026-10-11"
   }
 ]
