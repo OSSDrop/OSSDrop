@@ -3794,5 +3794,20 @@
     "description": "Autonomous AI penetration-testing CLI that orchestrates specialist agents and offensive tools to find and prove vulnerabilities in apps.",
     "license": "GPL-3.0",
     "added": "2026-10-06"
+  },
+  {
+    "name": "DeclaRenta",
+    "repo": "GeiserX/DeclaRenta",
+    "homepage": "https://declarenta.com",
+    "category": "finance-business",
+    "description": "Turns reports from IBKR, Degiro and 11 other foreign brokers into the Spanish tax return boxes (Modelo 100) and the Modelo 720 file.",
+    "license": "AGPL-3.0-or-later",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://declarenta.com/docs/"
+      }
+    ],
+    "added": "2026-10-10"
   }
 ]
