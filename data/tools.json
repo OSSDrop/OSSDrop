@@ -3794,5 +3794,14 @@
     "description": "Autonomous AI penetration-testing CLI that orchestrates specialist agents and offensive tools to find and prove vulnerabilities in apps.",
     "license": "GPL-3.0",
     "added": "2026-10-06"
+  },
+  {
+    "name": "Blackcoin Core",
+    "repo": "Blackcoin-Dev/Blackcoin",
+    "homepage": "https://projectblackcoin.org/",
+    "category": "finance-business",
+    "description": "Full-node and wallet software for Blackcoin users to verify the blockchain and manage transactions.",
+    "license": "MIT",
+    "added": "2026-10-09"
   }
 ]
