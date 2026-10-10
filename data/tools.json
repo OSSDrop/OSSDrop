@@ -3794,5 +3794,20 @@
     "description": "Autonomous AI penetration-testing CLI that orchestrates specialist agents and offensive tools to find and prove vulnerabilities in apps.",
     "license": "GPL-3.0",
     "added": "2026-10-06"
+  },
+  {
+    "name": "Tale",
+    "repo": "tale-project/tale",
+    "homepage": "https://tale.dev",
+    "category": "productivity",
+    "description": "Self-hosted project workspace where people and AI agents share tasks, files, knowledge, and reviewed outputs.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://docs.tale.dev"
+      }
+    ],
+    "added": "2026-10-08"
   }
 ]
