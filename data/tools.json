@@ -3805,7 +3805,7 @@
     "links": [
       {
         "label": "docs",
-        "url": "https://github.com/varaprasadreddy9676/open-reports/blob/main/docs/INTEGRATION_GUIDE.md"
+        "url": "https://open-reports-demo.onrender.com/guides/render-json-report-api/"
       }
     ],
     "added": "2026-10-11"
