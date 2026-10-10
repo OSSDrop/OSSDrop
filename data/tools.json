@@ -3795,4 +3795,14 @@
     "license": "GPL-3.0",
     "added": "2026-10-06"
   }
+,
+  {
+    "name": "Solaris Dev Shop",
+    "repo": "Shaisolaris/solaris-dev-shop",
+    "homepage": "https://github.com/Shaisolaris/solaris-dev-shop",
+    "category": "ai-coding-agents",
+    "description": "Free MIT skill library that routes a task to one accountable specialist.",
+    "license": "MIT",
+    "added": "2026-10-10"
+  }
 ]
