@@ -3803,5 +3803,20 @@
     "description": "Self-hosted QR codes that stay retargetable after printing, plus short links with scan stats.",
     "license": "MIT",
     "added": "2026-10-11"
+  },
+  {
+    "name": "5dive",
+    "repo": "5dive-ai/5dive",
+    "homepage": "https://5dive.ai",
+    "category": "ai-coding-agents",
+    "description": "Runs AI coding-agent CLIs as a team on your own Linux server: each agent is a Linux user and systemd service sharing one task queue.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://5dive.ai/docs/5dive-cli"
+      }
+    ],
+    "added": "2026-10-11"
   }
 ]
