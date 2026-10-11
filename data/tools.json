@@ -3851,5 +3851,20 @@
     "description": "Free MIT skill library that routes a task to one accountable specialist.",
     "license": "MIT",
     "added": "2026-10-11"
+  },
+  {
+    "name": "Open Reports",
+    "repo": "varaprasadreddy9676/open-reports",
+    "homepage": "https://open-reports-demo.onrender.com/",
+    "category": "finance-business",
+    "description": "Self-hosted visual designer and JSON render API for invoices, statements, labels, and other business documents.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://open-reports-demo.onrender.com/guides/render-json-report-api/"
+      }
+    ],
+    "added": "2026-10-11"
   }
 ]
