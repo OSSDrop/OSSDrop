@@ -3818,5 +3818,14 @@
       }
     ],
     "added": "2026-10-11"
+  },
+  {
+    "name": "Blackcoin Core",
+    "repo": "Blackcoin-Dev/Blackcoin",
+    "homepage": "https://projectblackcoin.org/",
+    "category": "finance-business",
+    "description": "Full-node and wallet for Blackcoin's Protocol V4 (Quantum Quasar) upgrade, adding post-quantum ML-DSA signatures.",
+    "license": "MIT",
+    "added": "2026-10-11"
   }
 ]
