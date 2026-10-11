@@ -3827,5 +3827,20 @@
     "description": "Full-node and wallet for Blackcoin's Protocol V4 (Quantum Quasar) upgrade, adding post-quantum ML-DSA signatures.",
     "license": "MIT",
     "added": "2026-10-11"
+  },
+  {
+    "name": "DeclaRenta",
+    "repo": "GeiserX/DeclaRenta",
+    "homepage": "https://declarenta.com",
+    "category": "finance-business",
+    "description": "Turns reports from IBKR, Degiro and 11 other foreign brokers into the Spanish tax return boxes (Modelo 100) and the Modelo 720 file.",
+    "license": "AGPL-3.0-or-later",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://declarenta.com/docs/"
+      }
+    ],
+    "added": "2026-10-11"
   }
 ]
