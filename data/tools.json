@@ -3866,5 +3866,14 @@
       }
     ],
     "added": "2026-10-12"
+  },
+  {
+    "name": "OMEGA",
+    "repo": "Omega-JS-Stack/omega",
+    "homepage": "https://omegajs.dev",
+    "category": "web-apis",
+    "description": "JavaScript framework that ships a website, backend, desktop app and browser extension from one project and one config file.",
+    "license": "Elastic-2.0",
+    "added": "2026-10-13"
   }
 ]
