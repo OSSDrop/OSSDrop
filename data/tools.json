@@ -3866,5 +3866,14 @@
       }
     ],
     "added": "2026-10-12"
+  },
+  {
+    "name": "akou",
+    "repo": "GeiserX/akou",
+    "homepage": "https://geiserx.github.io/akou/",
+    "category": "productivity",
+    "description": "macOS call recorder that transcribes on your Mac and lets your terminal agent follow and question a call while it runs.",
+    "license": "GPL-3.0-or-later",
+    "added": "2026-10-14"
   }
 ]
