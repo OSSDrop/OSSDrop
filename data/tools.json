@@ -3875,5 +3875,20 @@
     "description": "macOS call recorder that transcribes on your Mac and lets your terminal agent follow and question a call while it runs.",
     "license": "GPL-3.0-or-later",
     "added": "2026-10-14"
+  },
+  {
+    "name": "gene-archive",
+    "repo": "igormel81/gene_archive",
+    "homepage": "https://igormel81.github.io/gene_archive/",
+    "category": "notes-knowledge",
+    "description": "Create family history websites with interactive trees, source documents, maps and stories, with GEDCOM import and export.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/igormel81/gene_archive/tree/main/docs"
+      }
+    ],
+    "added": "2026-10-14"
   }
 ]
