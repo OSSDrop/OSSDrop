@@ -3905,5 +3905,20 @@
       }
     ],
     "added": "2026-10-14"
+  },
+  {
+    "name": "Telemetry Tracker",
+    "repo": "Telemetry-Tracker/telemetry-tracker",
+    "homepage": "https://telemetry-tracker.com",
+    "category": "devops-self-hosted",
+    "description": "Self-hostable error tracker for side projects and small teams that groups errors from JavaScript and TypeScript apps.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://telemetry-tracker.com/docs"
+      }
+    ],
+    "added": "2026-10-14"
   }
 ]
