@@ -3890,5 +3890,20 @@
       }
     ],
     "added": "2026-10-14"
+  },
+  {
+    "name": "SolidPing",
+    "repo": "fclairamb/solidping",
+    "homepage": "https://www.solidping.io",
+    "category": "devops-self-hosted",
+    "description": "Uptime monitoring with 43 check types, status pages, incidents and on-call escalation, self-hosted as one Go binary.",
+    "license": "AGPL-3.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://docs.solidping.io"
+      }
+    ],
+    "added": "2026-10-14"
   }
 ]
