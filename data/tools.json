@@ -3956,5 +3956,20 @@
     "description": "Searchable index of 12,000+ open-source tools built by reverse engineering closed apps, APIs, devices and games.",
     "license": "MIT",
     "added": "2026-10-17"
+  },
+  {
+    "name": "ClonePeek",
+    "repo": "harshitethic/clonepeek",
+    "homepage": "https://github.com/harshitethic/clonepeek",
+    "category": "security-privacy",
+    "description": "Read-only CLI and GitHub Action for reviewing repository execution hooks before trusting unfamiliar source code.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/harshitethic/clonepeek/blob/main/docs/GITHUB-ACTION.md"
+      }
+    ],
+    "added": "2026-10-17"
   }
 ]
