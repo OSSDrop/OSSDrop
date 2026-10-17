@@ -3920,5 +3920,14 @@
       }
     ],
     "added": "2026-10-15"
+  },
+  {
+    "name": "VPN Bypass",
+    "repo": "GeiserX/VPN-Bypass",
+    "homepage": "https://geiserx.github.io/VPN-Bypass/",
+    "category": "security-privacy",
+    "description": "macOS menu bar app that routes chosen domains and services around your VPN, or only those through it, and restores routes on reconnect.",
+    "license": "GPL-3.0-or-later",
+    "added": "2026-10-17"
   }
 ]
