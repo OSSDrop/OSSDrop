@@ -3938,5 +3938,14 @@
     "description": "Small-team CRM on Next.js and Supabase with a pipeline board and a per-account intent tab fed by the paid looot data API.",
     "license": "MIT",
     "added": "2026-10-17"
+  },
+  {
+    "name": "NSS Security Check",
+    "repo": "edtrackai/nextjs-supabase-stripe-security-checker",
+    "homepage": "https://github.com/edtrackai/nextjs-supabase-stripe-security-checker",
+    "category": "security-privacy",
+    "description": "Local CLI and GitHub Action that scans Next.js + Supabase + Stripe apps for leaked keys, missing RLS and unsafe webhooks.",
+    "license": "MIT",
+    "added": "2026-10-17"
   }
 ]
