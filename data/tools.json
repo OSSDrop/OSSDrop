@@ -3929,5 +3929,14 @@
     "description": "macOS menu bar app that routes chosen domains and services around your VPN, or only those through it, and restores routes on reconnect.",
     "license": "GPL-3.0-or-later",
     "added": "2026-10-17"
+  },
+  {
+    "name": "looot CRM",
+    "repo": "loootai/looot-crm",
+    "homepage": "https://github.com/loootai/looot-crm",
+    "category": "finance-business",
+    "description": "Small-team CRM on Next.js and Supabase with a pipeline board and a per-account intent tab fed by the paid looot data API.",
+    "license": "MIT",
+    "added": "2026-10-17"
   }
 ]
