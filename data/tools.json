@@ -3947,5 +3947,14 @@
     "description": "Local CLI and GitHub Action that scans Next.js + Supabase + Stripe apps for leaked keys, missing RLS and unsafe webhooks.",
     "license": "MIT",
     "added": "2026-10-17"
+  },
+  {
+    "name": "awesome-reverse-engineered",
+    "repo": "alexgaoth/awesome-reverse-engineered",
+    "homepage": "https://awesome.alexgaoth.com/",
+    "category": "developer-tools-cli",
+    "description": "Searchable index of 12,000+ open-source tools built by reverse engineering closed apps, APIs, devices and games.",
+    "license": "MIT",
+    "added": "2026-10-17"
   }
 ]
