@@ -3986,5 +3986,20 @@
       }
     ],
     "added": "2026-10-18"
+  },
+  {
+    "name": "Color by Tej SolPro",
+    "repo": "TejSolPro/color",
+    "homepage": "https://tejsolpro.github.io/color/?utm_source=ossdrop&utm_medium=directory&utm_campaign=early_distribution",
+    "category": "creator-media",
+    "description": "Turns one brand color into accessible semantic color tokens for web interfaces, checking each intended pair against WCAG 2.2.",
+    "license": "MPL-2.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://tejsolpro.github.io/color/documentation/"
+      }
+    ],
+    "added": "2026-10-19"
   }
 ]
