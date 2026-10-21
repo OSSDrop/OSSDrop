@@ -4001,5 +4001,20 @@
       }
     ],
     "added": "2026-10-21"
+  },
+  {
+    "name": "Orbi",
+    "repo": "orbi-build/orbi",
+    "homepage": "https://orbi.build/",
+    "category": "ai-coding-agents",
+    "description": "Self-hostable coding agent for GitHub: label an Issue and it opens a tested PR, gets a separate AI review, and merges it.",
+    "license": "AGPL-3.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://docs.orbi.build/"
+      }
+    ],
+    "added": "2026-10-21"
   }
 ]
