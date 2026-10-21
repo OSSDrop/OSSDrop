@@ -3986,5 +3986,20 @@
       }
     ],
     "added": "2026-10-18"
+  },
+  {
+    "name": "StoneSVN",
+    "repo": "firzen/StoneSVN",
+    "homepage": "https://stonesvn.github.io/en/",
+    "category": "developer-tools-cli",
+    "description": "SVN desktop client for developers to review diffs, select commits and shelve local changes on Windows, macOS and Linux.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/firzen/StoneSVN/blob/main/QUICKSTART.md"
+      }
+    ],
+    "added": "2026-10-21"
   }
 ]
