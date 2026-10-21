@@ -4016,5 +4016,14 @@
       }
     ],
     "added": "2026-10-21"
+  },
+  {
+    "name": "Koru",
+    "repo": "koruworks/mono",
+    "homepage": "https://www.koru.do",
+    "category": "notes-knowledge",
+    "description": "Local-first desktop workspace for notes, documents and files on Windows and macOS, with no account and peer-to-peer device sync.",
+    "license": "MPL-2.0",
+    "added": "2026-10-21"
   }
 ]
