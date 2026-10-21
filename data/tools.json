@@ -233,7 +233,7 @@
     "repo": "huggingface/transformers",
     "homepage": "https://huggingface.co/docs/transformers",
     "category": "ai-coding-agents",
-    "description": "Hugging Face's library of pretrained models for text, vision, and audio — the standard toolkit for transformer models.",
+    "description": "Hugging Face's library of pretrained models for text, vision, and audio \u2014 the standard toolkit for transformer models.",
     "license": "Apache-2.0",
     "added": "2026-07-19"
   },
@@ -269,7 +269,7 @@
     "repo": "microsoft/vscode",
     "homepage": "https://code.visualstudio.com",
     "category": "developer-tools-cli",
-    "description": "Microsoft's open-source code editor with rich extensions, debugging, and Git — the core of Visual Studio Code.",
+    "description": "Microsoft's open-source code editor with rich extensions, debugging, and Git \u2014 the core of Visual Studio Code.",
     "license": "MIT",
     "added": "2026-07-19"
   },
@@ -305,7 +305,7 @@
     "repo": "vercel/next.js",
     "homepage": "https://nextjs.org",
     "category": "web-apis",
-    "description": "Vercel's React framework for production — full-stack rendering, routing, and built-in optimizations.",
+    "description": "Vercel's React framework for production \u2014 full-stack rendering, routing, and built-in optimizations.",
     "license": "MIT",
     "added": "2026-07-19"
   },
@@ -449,7 +449,7 @@
     "repo": "ollama/ollama",
     "homepage": "https://ollama.com",
     "category": "ai-coding-agents",
-    "description": "Run open large language models locally with a simple CLI and API — pull a model and start chatting or building.",
+    "description": "Run open large language models locally with a simple CLI and API \u2014 pull a model and start chatting or building.",
     "license": "MIT",
     "added": "2026-07-24"
   },
@@ -476,7 +476,7 @@
     "repo": "qdrant/qdrant",
     "homepage": "https://qdrant.tech",
     "category": "data-databases",
-    "description": "High-performance vector database and search engine for embeddings — powers semantic search and RAG.",
+    "description": "High-performance vector database and search engine for embeddings \u2014 powers semantic search and RAG.",
     "license": "Apache-2.0",
     "added": "2026-07-24"
   },
@@ -494,7 +494,7 @@
     "repo": "syncthing/syncthing",
     "homepage": "https://syncthing.net",
     "category": "files-sync",
-    "description": "Continuous, peer-to-peer file synchronization between your devices — private, encrypted, no cloud required.",
+    "description": "Continuous, peer-to-peer file synchronization between your devices \u2014 private, encrypted, no cloud required.",
     "license": "MPL-2.0",
     "added": "2026-07-24"
   },
@@ -503,7 +503,7 @@
     "repo": "dani-garcia/vaultwarden",
     "homepage": "https://github.com/dani-garcia/vaultwarden",
     "category": "security-privacy",
-    "description": "Lightweight, self-hostable server compatible with Bitwarden clients — run your own password manager.",
+    "description": "Lightweight, self-hostable server compatible with Bitwarden clients \u2014 run your own password manager.",
     "license": "AGPL-3.0",
     "added": "2026-07-24"
   },
@@ -512,7 +512,7 @@
     "repo": "AppFlowy-IO/AppFlowy",
     "homepage": "https://appflowy.io",
     "category": "productivity",
-    "description": "Open-source Notion alternative for notes, docs, and project boards — local-first and self-hostable.",
+    "description": "Open-source Notion alternative for notes, docs, and project boards \u2014 local-first and self-hostable.",
     "license": "AGPL-3.0",
     "added": "2026-07-24"
   },
@@ -530,7 +530,7 @@
     "repo": "jitsi/jitsi-meet",
     "homepage": "https://jitsi.org",
     "category": "communication-social",
-    "description": "Encrypted, self-hostable video conferencing — start or join a meeting from the browser, no account needed.",
+    "description": "Encrypted, self-hostable video conferencing \u2014 start or join a meeting from the browser, no account needed.",
     "license": "Apache-2.0",
     "added": "2026-07-24"
   },
@@ -539,7 +539,7 @@
     "repo": "starship/starship",
     "homepage": "https://starship.rs",
     "category": "developer-tools-cli",
-    "description": "Fast, customizable command-line prompt for any shell — shows git status, versions, and context at a glance.",
+    "description": "Fast, customizable command-line prompt for any shell \u2014 shows git status, versions, and context at a glance.",
     "license": "ISC",
     "added": "2026-07-25"
   },
@@ -566,7 +566,7 @@
     "repo": "portainer/portainer",
     "homepage": "https://www.portainer.io",
     "category": "devops-self-hosted",
-    "description": "Web UI to manage Docker, Swarm, and Kubernetes — deploy, monitor, and control containers from a browser.",
+    "description": "Web UI to manage Docker, Swarm, and Kubernetes \u2014 deploy, monitor, and control containers from a browser.",
     "license": "Zlib",
     "added": "2026-07-25"
   },
@@ -593,7 +593,7 @@
     "repo": "node-red/node-red",
     "homepage": "https://nodered.org",
     "category": "automation-iot",
-    "description": "Low-code, flow-based tool for wiring together APIs, devices, and services — visual automation in the browser.",
+    "description": "Low-code, flow-based tool for wiring together APIs, devices, and services \u2014 visual automation in the browser.",
     "license": "Apache-2.0",
     "added": "2026-07-25"
   },
@@ -914,7 +914,7 @@
     "repo": "RocketChat/Rocket.Chat",
     "homepage": "https://rocket.chat/",
     "category": "communication-social",
-    "description": "Self-hosted team chat with channels, video calls, and integrations; an alternative to Slack. Core is MIT; ee/ subdirectory has a separate…",
+    "description": "Self-hosted team chat with channels, video calls, and integrations; an alternative to Slack. Core is MIT; ee/ subdirectory has a separate\u2026",
     "license": "MIT",
     "added": "2026-07-29"
   },
@@ -1568,7 +1568,7 @@
     "repo": "microsoft/mlvc",
     "homepage": "https://arxiv.org/abs/2606.28027",
     "category": "creator-media",
-    "description": "Microsoft's open-source learned video codec — neural-network video compression for real-world, multi-platform deployment.",
+    "description": "Microsoft's open-source learned video codec \u2014 neural-network video compression for real-world, multi-platform deployment.",
     "license": "MIT",
     "added": "2026-08-04"
   },
@@ -3664,7 +3664,7 @@
     "added": "2026-09-26"
   },
   {
-    "name": "README → Landing",
+    "name": "README \u2192 Landing",
     "repo": "boltdoesthis/readme-to-landing",
     "homepage": "https://boltdoesthis.github.io/readme-to-landing/",
     "category": "web-apis",
@@ -3990,7 +3990,7 @@
   {
     "name": "flatratemath",
     "repo": "scrapertweeter3-prog/flatratemath",
-    "homepage": "https://poketdev.com",
+    "homepage": "https://github.com/scrapertweeter3-prog/flatratemath",
     "category": "developer-tools-cli",
     "description": "Freelance devs compare a fixed-bid project, a staff hire, and a flat-rate subscription on cost per delivered request.",
     "license": "MIT",
