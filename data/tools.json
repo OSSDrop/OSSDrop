@@ -4040,5 +4040,14 @@
       }
     ],
     "added": "2026-10-22"
+  },
+  {
+    "name": "vhr-bench",
+    "repo": "vpshostreview/vhr-vps-benchmark",
+    "homepage": "https://vpshostreview.com/vps-benchmark-tool",
+    "category": "devops-self-hosted",
+    "description": "Bash script that benchmarks a Linux server's CPU, memory and 4k random disk IOPS in about a minute with sysbench and fio.",
+    "license": "MIT",
+    "added": "2026-10-22"
   }
 ]
