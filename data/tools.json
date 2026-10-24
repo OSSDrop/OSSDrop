@@ -4073,5 +4073,20 @@
     "description": "Rust CLI that runs a repeatable task as a self-correcting agent loop, finished only when a deterministic checker, not the AI, passes.",
     "license": "MIT",
     "added": "2026-10-24"
+  },
+  {
+    "name": "System One SDK",
+    "repo": "ziyu/system-one-sdk",
+    "homepage": "https://system-one.dev/en/sdk",
+    "category": "ai-coding-agents",
+    "description": "TypeScript SDK for AI-agent decision layers, with adapters for the hosted System One API or your own local model runtimes.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://system-one.dev/en/api"
+      }
+    ],
+    "added": "2026-10-24"
   }
 ]
