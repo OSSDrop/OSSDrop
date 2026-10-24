@@ -4064,5 +4064,14 @@
       }
     ],
     "added": "2026-10-24"
+  },
+  {
+    "name": "loopsmith",
+    "repo": "bitphill/loopsmith",
+    "homepage": "https://bitphill.github.io/loopsmith/",
+    "category": "ai-coding-agents",
+    "description": "Rust CLI that runs a repeatable task as a self-correcting agent loop, finished only when a deterministic checker, not the AI, passes.",
+    "license": "MIT",
+    "added": "2026-10-24"
   }
 ]
