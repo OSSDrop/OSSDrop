@@ -4040,5 +4040,14 @@
       }
     ],
     "added": "2026-10-22"
+  },
+  {
+    "name": "lfr",
+    "repo": "Anonyfox/lfr",
+    "homepage": "https://lfr.email/?utm_source=ossdrop&utm_medium=directory&utm_campaign=oss",
+    "category": "communication-social",
+    "description": "Self-hosted mail server and newsletter platform in one Go binary, for running mailboxes and newsletters on your own domains and server.",
+    "license": "MIT",
+    "added": "2026-10-24"
   }
 ]
