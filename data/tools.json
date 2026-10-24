@@ -4040,5 +4040,14 @@
       }
     ],
     "added": "2026-10-22"
+  },
+  {
+    "name": "Open-CUAK",
+    "repo": "Aident-AI/open-cuak",
+    "homepage": "https://aident.ai",
+    "category": "automation-iot",
+    "description": "Open-source platform for running and managing browser-automation agents (computer-use agents) at scale, self-hostable with Docker.",
+    "license": "Apache-2.0",
+    "added": "2026-10-24"
   }
 ]
