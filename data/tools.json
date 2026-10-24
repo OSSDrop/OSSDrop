@@ -4088,5 +4088,14 @@
       }
     ],
     "added": "2026-10-24"
+  },
+  {
+    "name": "artgen-effects",
+    "repo": "ziyu/artgen-effects",
+    "homepage": "https://github.com/ziyu/artgen-effects",
+    "category": "creator-media",
+    "description": "Open-source image effects for pixel art, ASCII art, and risograph-style prints in the browser.",
+    "license": "MIT",
+    "added": "2026-10-24"
   }
 ]
