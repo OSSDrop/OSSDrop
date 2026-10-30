@@ -4148,5 +4148,14 @@
       }
     ],
     "added": "2026-10-30"
+  },
+  {
+    "name": "Oh My Android",
+    "repo": "ateymoori/oh-my-android",
+    "homepage": "https://royan.se/work/oh-my-android/",
+    "category": "developer-tools-cli",
+    "description": "Native macOS control panel for the Android Emulator and phones, with a built-in MCP server so AI agents can drive the emulator.",
+    "license": "MIT",
+    "added": "2026-10-30"
   }
 ]
