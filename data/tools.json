@@ -4106,5 +4106,14 @@
     "description": "Self-hosted mail server and newsletter platform in one Go binary, for running mailboxes and newsletters on your own domains and server.",
     "license": "MIT",
     "added": "2026-10-30"
+  },
+  {
+    "name": "LayoutKeeper",
+    "repo": "tumingke0/LayoutKeeper",
+    "homepage": "https://github.com/tumingke0/LayoutKeeper",
+    "category": "productivity",
+    "description": "macOS menu bar app that saves window layouts per external monitor and restores positions, sizes, and Spaces on reconnect.",
+    "license": "GPL-3.0",
+    "added": "2026-10-30"
   }
 ]
