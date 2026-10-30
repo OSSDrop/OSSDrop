@@ -4124,5 +4124,14 @@
     "description": "Finite-element workflows for engineers to build, run, and inspect structural and thermal models with AI assistants.",
     "license": "Apache-2.0",
     "added": "2026-10-30"
+  },
+  {
+    "name": "Mousetroke",
+    "repo": "eiaao/mousetroke",
+    "homepage": "https://mousetroke.com/",
+    "category": "productivity",
+    "description": "Free open-source mouse gestures for Windows: hold right button to draw gestures, hot corners, and Lua scripting.",
+    "license": "MIT",
+    "added": "2026-10-30"
   }
 ]
