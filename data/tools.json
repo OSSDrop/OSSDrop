@@ -4082,5 +4082,14 @@
     "description": "Open-source image effects for pixel art, ASCII art, and risograph-style prints in the browser.",
     "license": "MIT",
     "added": "2026-10-25"
+  },
+  {
+    "name": "lfm",
+    "repo": "Anonyfox/lfm",
+    "homepage": "https://lfm.cash/?utm_source=ossdrop&utm_medium=directory&utm_campaign=oss",
+    "category": "developer-tools-cli",
+    "description": "Agent-first CLI that researches real buyers and compiles one checked static landing page with your payment link, before you build.",
+    "license": "MIT",
+    "added": "2026-10-30"
   }
 ]
