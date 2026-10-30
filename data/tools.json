@@ -4115,5 +4115,14 @@
     "description": "macOS menu bar app that saves window layouts per external monitor and restores positions, sizes, and Spaces on reconnect.",
     "license": "GPL-3.0",
     "added": "2026-10-30"
+  },
+  {
+    "name": "AgentFEM",
+    "repo": "haoming-luo/agentfem",
+    "homepage": "https://haoming-luo.github.io/agentfem/",
+    "category": "science-education",
+    "description": "Finite-element workflows for engineers to build, run, and inspect structural and thermal models with AI assistants.",
+    "license": "Apache-2.0",
+    "added": "2026-10-30"
   }
 ]
