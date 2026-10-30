@@ -4082,5 +4082,20 @@
     "description": "Open-source image effects for pixel art, ASCII art, and risograph-style prints in the browser.",
     "license": "MIT",
     "added": "2026-10-25"
+  },
+  {
+    "name": "Kilobat CLI",
+    "repo": "seifip/kilobat-cli",
+    "homepage": "https://kilobat.app",
+    "category": "developer-tools-cli",
+    "description": "Monitor and diagnose Mac network connections from the command line or an MCP client.",
+    "license": "GPL-3.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/seifip/kilobat-cli#readme"
+      }
+    ],
+    "added": "2026-10-30"
   }
 ]
