@@ -4082,5 +4082,65 @@
     "description": "Open-source image effects for pixel art, ASCII art, and risograph-style prints in the browser.",
     "license": "MIT",
     "added": "2026-10-25"
+  },
+  {
+    "name": "lfr",
+    "repo": "Anonyfox/lfr",
+    "homepage": "https://lfr.email/",
+    "category": "communication-social",
+    "description": "Self-hosted mail server and newsletter platform in one Go binary, for running mailboxes and newsletters on your own domains and server.",
+    "license": "MIT",
+    "added": "2026-10-31"
+  },
+  {
+    "name": "LayoutKeeper",
+    "repo": "tumingke0/LayoutKeeper",
+    "homepage": "https://github.com/tumingke0/LayoutKeeper",
+    "category": "productivity",
+    "description": "macOS menu bar app that saves window layouts per external monitor and restores positions, sizes, and Spaces on reconnect.",
+    "license": "GPL-3.0",
+    "added": "2026-10-31"
+  },
+  {
+    "name": "AgentFEM",
+    "repo": "haoming-luo/agentfem",
+    "homepage": "https://haoming-luo.github.io/agentfem/",
+    "category": "science-education",
+    "description": "Finite-element workflows for engineers to build, run, and inspect structural and thermal models with AI assistants.",
+    "license": "Apache-2.0",
+    "added": "2026-10-31"
+  },
+  {
+    "name": "Mousetroke",
+    "repo": "eiaao/mousetroke",
+    "homepage": "https://mousetroke.com/",
+    "category": "productivity",
+    "description": "Free open-source mouse gestures for Windows: hold right button to draw gestures, hot corners, and Lua scripting.",
+    "license": "MIT",
+    "added": "2026-10-31"
+  },
+  {
+    "name": "Chatoyant",
+    "repo": "Anonyfox/chatoyant",
+    "homepage": "https://github.com/Anonyfox/chatoyant",
+    "category": "ai-coding-agents",
+    "description": "OCaml-first LLM SDK with typed provider clients, structured outputs, tool calling and streaming, plus a zero-dependency npm package.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://anonyfox.github.io/chatoyant/"
+      }
+    ],
+    "added": "2026-10-31"
+  },
+  {
+    "name": "Oh My Android",
+    "repo": "ateymoori/oh-my-android",
+    "homepage": "https://royan.se/work/oh-my-android/",
+    "category": "developer-tools-cli",
+    "description": "Native macOS control panel for the Android Emulator and phones, with a built-in MCP server so AI agents can drive the emulator.",
+    "license": "MIT",
+    "added": "2026-10-31"
   }
 ]
