@@ -4142,5 +4142,14 @@
     "description": "Native macOS control panel for the Android Emulator and phones, with a built-in MCP server so AI agents can drive the emulator.",
     "license": "MIT",
     "added": "2026-10-31"
+  },
+  {
+    "name": "AudioLens",
+    "repo": "SimZhou/vscode-audiolens",
+    "homepage": "https://github.com/SimZhou/vscode-audiolens",
+    "category": "creator-media",
+    "description": "Audio playback with per-channel waveforms and spectrograms in VS Code for speech and audio developers.",
+    "license": "Apache-2.0",
+    "added": "2026-11-02"
   }
 ]
