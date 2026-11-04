@@ -4142,5 +4142,23 @@
     "description": "Native macOS control panel for the Android Emulator and phones, with a built-in MCP server so AI agents can drive the emulator.",
     "license": "MIT",
     "added": "2026-10-31"
+  },
+  {
+    "name": "Bybit JavaScript SDK (Siebly)",
+    "repo": "sieblyio/bybit",
+    "homepage": "https://siebly.io/sdk/bybit/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for Bybit REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-04"
   }
+
+
+
+
+
+
+
+
+
 ]
