@@ -4024,6 +4024,177 @@
     "added": "2026-10-22"
   },
   {
+    "name": "Open-CUAK",
+    "repo": "Aident-AI/open-cuak",
+    "homepage": "https://aident.ai",
+    "category": "automation-iot",
+    "description": "Open-source platform for running and managing browser-automation agents (computer-use agents) at scale, self-hostable with Docker.",
+    "license": "Apache-2.0",
+    "added": "2026-10-25"
+  },
+  {
+    "name": "loopsmith",
+    "repo": "bitphill/loopsmith",
+    "homepage": "https://bitphill.github.io/loopsmith/",
+    "category": "ai-coding-agents",
+    "description": "Rust CLI that runs a repeatable task as a self-correcting agent loop, finished only when a deterministic checker, not the AI, passes.",
+    "license": "MIT",
+    "added": "2026-10-25"
+  },
+  {
+    "name": "System One SDK",
+    "repo": "ziyu/system-one-sdk",
+    "homepage": "https://system-one.dev/en/sdk",
+    "category": "ai-coding-agents",
+    "description": "TypeScript SDK for AI-agent decision layers, with adapters for the hosted System One API or your own local model runtimes.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://system-one.dev/en/api"
+      }
+    ],
+    "added": "2026-10-25"
+  },
+  {
+    "name": "artgen-effects",
+    "repo": "ziyu/artgen-effects",
+    "homepage": "https://github.com/ziyu/artgen-effects",
+    "category": "creator-media",
+    "description": "Open-source image effects for pixel art, ASCII art, and risograph-style prints in the browser.",
+    "license": "MIT",
+    "added": "2026-10-25"
+  },
+  {
+    "name": "lfr",
+    "repo": "Anonyfox/lfr",
+    "homepage": "https://lfr.email/",
+    "category": "communication-social",
+    "description": "Self-hosted mail server and newsletter platform in one Go binary, for running mailboxes and newsletters on your own domains and server.",
+    "license": "MIT",
+    "added": "2026-10-31"
+  },
+  {
+    "name": "LayoutKeeper",
+    "repo": "tumingke0/LayoutKeeper",
+    "homepage": "https://github.com/tumingke0/LayoutKeeper",
+    "category": "productivity",
+    "description": "macOS menu bar app that saves window layouts per external monitor and restores positions, sizes, and Spaces on reconnect.",
+    "license": "GPL-3.0",
+    "added": "2026-10-31"
+  },
+  {
+    "name": "AgentFEM",
+    "repo": "haoming-luo/agentfem",
+    "homepage": "https://haoming-luo.github.io/agentfem/",
+    "category": "science-education",
+    "description": "Finite-element workflows for engineers to build, run, and inspect structural and thermal models with AI assistants.",
+    "license": "Apache-2.0",
+    "added": "2026-10-31"
+  },
+  {
+    "name": "Mousetroke",
+    "repo": "eiaao/mousetroke",
+    "homepage": "https://mousetroke.com/",
+    "category": "productivity",
+    "description": "Free open-source mouse gestures for Windows: hold right button to draw gestures, hot corners, and Lua scripting.",
+    "license": "MIT",
+    "added": "2026-10-31"
+  },
+  {
+    "name": "Chatoyant",
+    "repo": "Anonyfox/chatoyant",
+    "homepage": "https://github.com/Anonyfox/chatoyant",
+    "category": "ai-coding-agents",
+    "description": "OCaml-first LLM SDK with typed provider clients, structured outputs, tool calling and streaming, plus a zero-dependency npm package.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://anonyfox.github.io/chatoyant/"
+      }
+    ],
+    "added": "2026-10-31"
+  },
+  {
+    "name": "Oh My Android",
+    "repo": "ateymoori/oh-my-android",
+    "homepage": "https://royan.se/work/oh-my-android/",
+    "category": "developer-tools-cli",
+    "description": "Native macOS control panel for the Android Emulator and phones, with a built-in MCP server so AI agents can drive the emulator.",
+    "license": "MIT",
+    "added": "2026-10-31"
+  },
+  {
+    "name": "Hyperliquid JavaScript SDK (Siebly)",
+    "repo": "sieblyio/hyperliquid-api",
+    "homepage": "https://siebly.io/sdk/hyperliquid/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for the Hyperliquid REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-02"
+  },
+  {
+    "name": "Binance JavaScript SDK (Siebly)",
+    "repo": "sieblyio/binance",
+    "homepage": "https://siebly.io/sdk/binance/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for Binance REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-03"
+  },
+  {
+    "name": "Bybit JavaScript SDK (Siebly)",
+    "repo": "sieblyio/bybit-api",
+    "homepage": "https://siebly.io/sdk/bybit/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for Bybit REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-04"
+  },
+  {
+    "name": "lfm",
+    "repo": "Anonyfox/lfm",
+    "homepage": "https://lfm.cash",
+    "category": "developer-tools-cli",
+    "description": "Agent-first CLI that researches real buyers and compiles one checked static landing page with your payment link, before you build.",
+    "license": "MIT",
+    "added": "2026-10-30"
+  },
+  {
+    "name": "Kilobat CLI",
+    "repo": "seifip/kilobat-cli",
+    "homepage": "https://kilobat.app",
+    "category": "developer-tools-cli",
+    "description": "Monitor and diagnose Mac network connections from the command line or an MCP client.",
+    "license": "GPL-3.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/seifip/kilobat-cli#readme"
+      }
+    ],
+    "added": "2026-10-30"
+  },
+  {
+    "name": "Model Salt",
+    "repo": "modelsalt/model-salt",
+    "homepage": "https://modelsalt.com",
+    "category": "ai-coding-agents",
+    "description": "MCP server that hands the model a few choices drawn from outside randomness before a creative task, so one prompt gives varied answers.",
+    "license": "MIT",
+    "added": "2026-11-01"
+  },
+  {
+    "name": "AudioLens",
+    "repo": "SimZhou/vscode-audiolens",
+    "homepage": "https://github.com/SimZhou/vscode-audiolens",
+    "category": "creator-media",
+    "description": "Audio playback with per-channel waveforms and spectrograms in VS Code for speech and audio developers.",
+    "license": "Apache-2.0",
+    "added": "2026-11-02"
+  },
+  {
     "name": "vhr-bench",
     "repo": "vpshostreview/vhr-vps-benchmark",
     "homepage": "https://vpshostreview.com/vps-benchmark-tool",
