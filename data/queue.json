@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "name": "Stayput",
+    "repo": "keenanlk/stayput",
+    "homepage": "https://stayput.dev",
+    "category": "creator-media",
+    "description": "Free browser tools to convert, compress and edit images, PDFs, video and audio on your device; files are not uploaded.",
+    "license": "MIT",
+    "publishOn": "2026-11-06"
+  }
+]

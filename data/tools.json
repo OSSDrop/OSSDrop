@@ -4124,14 +4124,5 @@
     "description": "Native macOS control panel for the Android Emulator and phones, with a built-in MCP server so AI agents can drive the emulator.",
     "license": "MIT",
     "added": "2026-10-31"
-  },
-  {
-    "name": "Stayput",
-    "repo": "keenanlk/stayput",
-    "homepage": "https://stayput.dev",
-    "category": "creator-media",
-    "description": "Free browser tools to convert, compress and edit images, PDFs, video and audio on your device; files are not uploaded.",
-    "license": "MIT",
-    "added": "2026-11-02"
   }
 ]
