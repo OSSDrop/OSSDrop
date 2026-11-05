@@ -4126,21 +4126,30 @@
     "added": "2026-10-31"
   },
   {
+    "name": "Hyperliquid JavaScript SDK (Siebly)",
+    "repo": "sieblyio/hyperliquid-api",
+    "homepage": "https://siebly.io/sdk/hyperliquid/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for the Hyperliquid REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-02"
+  },
+  {
+    "name": "Binance JavaScript SDK (Siebly)",
+    "repo": "sieblyio/binance",
+    "homepage": "https://siebly.io/sdk/binance/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for Binance REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-03"
+  },
+  {
     "name": "Bybit JavaScript SDK (Siebly)",
-    "repo": "sieblyio/bybit",
+    "repo": "sieblyio/bybit-api",
     "homepage": "https://siebly.io/sdk/bybit/javascript",
     "category": "developer-tools-cli",
     "description": "Typed Node.js and TypeScript SDK for Bybit REST and WebSocket APIs, with examples and docs.",
     "license": "MIT",
     "added": "2026-11-04"
   }
-
-
-
-
-
-
-
-
-
 ]
