@@ -4133,5 +4133,14 @@
     "description": "Typed Node.js and TypeScript SDK for the Hyperliquid REST and WebSocket APIs, with examples and docs.",
     "license": "MIT",
     "added": "2026-11-02"
+  },
+  {
+    "name": "Binance JavaScript SDK (Siebly)",
+    "repo": "sieblyio/binance",
+    "homepage": "https://siebly.io/sdk/binance/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for Binance REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-03"
   }
 ]
