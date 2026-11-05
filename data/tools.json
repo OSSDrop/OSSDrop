@@ -4151,5 +4151,14 @@
     "description": "Typed Node.js and TypeScript SDK for Bybit REST and WebSocket APIs, with examples and docs.",
     "license": "MIT",
     "added": "2026-11-04"
+  },
+  {
+    "name": "lfm",
+    "repo": "Anonyfox/lfm",
+    "homepage": "https://lfm.cash",
+    "category": "developer-tools-cli",
+    "description": "Agent-first CLI that researches real buyers and compiles one checked static landing page with your payment link, before you build.",
+    "license": "MIT",
+    "added": "2026-10-30"
   }
 ]
