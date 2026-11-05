@@ -4184,5 +4184,14 @@
     "description": "MCP server that hands the model a few choices drawn from outside randomness before a creative task, so one prompt gives varied answers.",
     "license": "MIT",
     "added": "2026-11-01"
+  },
+  {
+    "name": "AudioLens",
+    "repo": "SimZhou/vscode-audiolens",
+    "homepage": "https://github.com/SimZhou/vscode-audiolens",
+    "category": "creator-media",
+    "description": "Audio playback with per-channel waveforms and spectrograms in VS Code for speech and audio developers.",
+    "license": "Apache-2.0",
+    "added": "2026-11-02"
   }
 ]
