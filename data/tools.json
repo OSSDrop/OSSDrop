@@ -4124,5 +4124,14 @@
     "description": "Native macOS control panel for the Android Emulator and phones, with a built-in MCP server so AI agents can drive the emulator.",
     "license": "MIT",
     "added": "2026-10-31"
+  },
+  {
+    "name": "Telegram Sponsorship CPM Calculator",
+    "repo": "thinkpad2050/telegram-sponsorship-cpm-calculator",
+    "homepage": "https://thinkpad2050.github.io/telegram-sponsorship-cpm-calculator/",
+    "category": "finance-business",
+    "description": "Compare Telegram channel sponsorship quotes with median recent post views and calculate the implied CPM.",
+    "license": "MIT",
+    "added": "2026-11-05"
   }
 ]
