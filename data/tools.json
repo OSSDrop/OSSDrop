@@ -4175,5 +4175,14 @@
       }
     ],
     "added": "2026-10-30"
+  },
+  {
+    "name": "Model Salt",
+    "repo": "modelsalt/model-salt",
+    "homepage": "https://modelsalt.com",
+    "category": "ai-coding-agents",
+    "description": "MCP server that hands the model a few choices drawn from outside randomness before a creative task, so one prompt gives varied answers.",
+    "license": "MIT",
+    "added": "2026-11-01"
   }
 ]
