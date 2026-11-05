@@ -4126,15 +4126,6 @@
     "added": "2026-10-31"
   },
   {
-    "name": "Stayput",
-    "repo": "keenanlk/stayput",
-    "homepage": "https://stayput.dev",
-    "category": "creator-media",
-    "description": "Free browser tools to convert, compress and edit images, PDFs, video and audio on your device; files are not uploaded.",
-    "license": "MIT",
-    "added": "2026-11-02"
-  },
-  {
     "name": "Hyperliquid JavaScript SDK (Siebly)",
     "repo": "sieblyio/hyperliquid-api",
     "homepage": "https://siebly.io/sdk/hyperliquid/javascript",
