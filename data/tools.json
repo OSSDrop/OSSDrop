@@ -4211,5 +4211,15 @@
     "description": "Bash script that benchmarks a Linux server's CPU, memory and 4k random disk IOPS in about a minute with sysbench and fio.",
     "license": "MIT",
     "added": "2026-11-06"
+  },
+  {
+    "name": "gyt",
+    "repo": "tubeagentkit/youtube-transcript-cli",
+    "homepage": "https://getyoutubetranscript.com",
+    "category": "developer-tools-cli",
+    "description": "Command line client that gets YouTube transcripts, searches videos and channels, and lists a channel's videos from the terminal.",
+    "license": "MIT",
+    "links": [{ "label": "docs", "url": "https://getyoutubetranscript.com/docs" }],
+    "added": "2026-11-08"
   }
 ]
