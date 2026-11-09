@@ -4211,5 +4211,14 @@
     "description": "Bash script that benchmarks a Linux server's CPU, memory and 4k random disk IOPS in about a minute with sysbench and fio.",
     "license": "MIT",
     "added": "2026-11-06"
+  },
+  {
+    "name": "Gate JavaScript SDK (Siebly)",
+    "repo": "sieblyio/gateio-api",
+    "homepage": "https://siebly.io/sdk/gate/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for Gate.com REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-09"
   }
 ]
