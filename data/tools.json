@@ -4211,5 +4211,14 @@
     "description": "Bash script that benchmarks a Linux server's CPU, memory and 4k random disk IOPS in about a minute with sysbench and fio.",
     "license": "MIT",
     "added": "2026-11-06"
+  },
+  {
+    "name": "usb-rea",
+    "repo": "emirmrkaljevic/usb-rea",
+    "homepage": "https://github.com/emirmrkaljevic/usb-rea",
+    "category": "developer-tools-cli",
+    "description": "Infer a USB gadget protocol from labelled captures of the vendor app and generate a pyusb driver.",
+    "license": "MIT",
+    "added": "2026-11-09"
   }
 ]
