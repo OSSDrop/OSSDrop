@@ -4211,5 +4211,14 @@
     "description": "Bash script that benchmarks a Linux server's CPU, memory and 4k random disk IOPS in about a minute with sysbench and fio.",
     "license": "MIT",
     "added": "2026-11-06"
+  },
+  {
+    "name": "Kraken JavaScript SDK (Siebly)",
+    "repo": "sieblyio/kraken-api",
+    "homepage": "https://siebly.io/sdk/kraken/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for Kraken Spot and Futures REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-09"
   }
 ]
