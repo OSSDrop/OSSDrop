@@ -4271,5 +4271,14 @@
     "description": "Typed Node.js and TypeScript SDK for Kraken Spot and Futures REST and WebSocket APIs, with examples and docs.",
     "license": "MIT",
     "added": "2026-11-09"
+  },
+  {
+    "name": "Gate JavaScript SDK (Siebly)",
+    "repo": "sieblyio/gateio-api",
+    "homepage": "https://siebly.io/sdk/gate/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for Gate.com REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-09"
   }
 ]
