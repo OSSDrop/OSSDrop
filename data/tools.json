@@ -4220,5 +4220,20 @@
     "description": "Compare Telegram channel sponsorship quotes with median recent post views and calculate the implied CPM.",
     "license": "MIT",
     "added": "2026-11-05"
+  },
+  {
+    "name": "Verde",
+    "repo": "JonathanRiche/verde",
+    "homepage": "https://verdeai.dev",
+    "category": "ai-coding-agents",
+    "description": "Native Zig desktop workspace that runs Claude Code, Codex, Cursor and other coding agents side by side with terminal and browser; local-first, MIT.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://verdeai.dev/docs"
+      }
+    ],
+    "added": "2026-11-05"
   }
 ]
