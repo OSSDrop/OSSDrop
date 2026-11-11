@@ -4211,5 +4211,14 @@
     "description": "Bash script that benchmarks a Linux server's CPU, memory and 4k random disk IOPS in about a minute with sysbench and fio.",
     "license": "MIT",
     "added": "2026-11-06"
+  },
+  {
+    "name": "imagegen-swarm",
+    "repo": "Ekko237/imagegen-swarm",
+    "homepage": "https://github.com/Ekko237/imagegen-swarm",
+    "category": "creator-media",
+    "description": "Claude Code and Codex skill that hands a list of images to Codex, Jimeng, Grok, Gemini, Muse and Lovart at once.",
+    "license": "MIT",
+    "added": "2026-11-10"
   }
 ]
