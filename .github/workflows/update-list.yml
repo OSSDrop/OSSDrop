@@ -7,6 +7,11 @@ on:
     # network error, the later one finishes the job without anyone stepping in.
     - cron: "17 3 * * *" # nightly: promote the drip, snapshot stars, sync the site
     - cron: "17 15 * * *" # catch-up: re-runs the same work; a no-op when all is well
+    # Drop time (14:00 UTC = 7 am Denver). Tools promote only once their drop moment
+    # has passed (scripts/promote_queue.py). GitHub starts scheduled runs late, so
+    # the exact trigger is a Cloudflare cron that dispatches this workflow at 14:00
+    # (web/workers/drop-trigger); this entry is only a backup if that ever fails.
+    - cron: "3 14 * * *"
   push:
     branches: [main]
     paths: ["data/tools.json", "data/queue.json", "scripts/build_readme.py", "scripts/promote_queue.py"]

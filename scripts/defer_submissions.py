@@ -76,7 +76,18 @@ if not added:
 
 # The next window, not the back of the queue: a maker who opens a PR should not
 # wait behind the curated backlog.
-tomorrow = (datetime.date.today() + datetime.timedelta(days=1)).isoformat()
+# Keep in step with DROP_HOUR_UTC in web/src/lib/drop.ts. The daily drop is one
+# fixed moment; a tool merged before it (with an hour to spare, for the site sync)
+# makes today's drop, anything later waits for tomorrow's.
+DROP_HOUR_UTC = 14
+SYNC_MARGIN_HOURS = 1
+_now = (
+    datetime.datetime.fromisoformat(os.environ["DEFER_NOW"])
+    if os.environ.get("DEFER_NOW")
+    else datetime.datetime.now(datetime.timezone.utc).replace(tzinfo=None)
+)
+_day = _now.date() if _now.hour < DROP_HOUR_UTC - SYNC_MARGIN_HOURS else _now.date() + datetime.timedelta(days=1)
+tomorrow = _day.isoformat()  # name kept: it is the next drop day
 
 deferred = []
 for t in added:
