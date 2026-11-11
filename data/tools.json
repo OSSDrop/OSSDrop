@@ -4126,6 +4126,93 @@
     "added": "2026-10-31"
   },
   {
+    "name": "Stayput",
+    "repo": "keenanlk/stayput",
+    "homepage": "https://stayput.dev",
+    "category": "creator-media",
+    "description": "Free browser tools to convert, compress and edit images, PDFs, video and audio on your device; files are not uploaded.",
+    "license": "MIT",
+    "added": "2026-11-06"
+  },
+  {
+    "name": "Hyperliquid JavaScript SDK (Siebly)",
+    "repo": "sieblyio/hyperliquid-api",
+    "homepage": "https://siebly.io/sdk/hyperliquid/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for the Hyperliquid REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-06"
+  },
+  {
+    "name": "Binance JavaScript SDK (Siebly)",
+    "repo": "sieblyio/binance",
+    "homepage": "https://siebly.io/sdk/binance/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for Binance REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-06"
+  },
+  {
+    "name": "Bybit JavaScript SDK (Siebly)",
+    "repo": "sieblyio/bybit-api",
+    "homepage": "https://siebly.io/sdk/bybit/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for Bybit REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-06"
+  },
+  {
+    "name": "lfm",
+    "repo": "Anonyfox/lfm",
+    "homepage": "https://lfm.cash",
+    "category": "developer-tools-cli",
+    "description": "Agent-first CLI that researches real buyers and compiles one checked static landing page with your payment link, before you build.",
+    "license": "MIT",
+    "added": "2026-11-06"
+  },
+  {
+    "name": "Kilobat CLI",
+    "repo": "seifip/kilobat-cli",
+    "homepage": "https://kilobat.app",
+    "category": "developer-tools-cli",
+    "description": "Monitor and diagnose Mac network connections from the command line or an MCP client.",
+    "license": "GPL-3.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/seifip/kilobat-cli#readme"
+      }
+    ],
+    "added": "2026-11-06"
+  },
+  {
+    "name": "Model Salt",
+    "repo": "modelsalt/model-salt",
+    "homepage": "https://modelsalt.com",
+    "category": "ai-coding-agents",
+    "description": "MCP server that hands the model a few choices drawn from outside randomness before a creative task, so one prompt gives varied answers.",
+    "license": "MIT",
+    "added": "2026-11-06"
+  },
+  {
+    "name": "AudioLens",
+    "repo": "SimZhou/vscode-audiolens",
+    "homepage": "https://github.com/SimZhou/vscode-audiolens",
+    "category": "creator-media",
+    "description": "Audio playback with per-channel waveforms and spectrograms in VS Code for speech and audio developers.",
+    "license": "Apache-2.0",
+    "added": "2026-11-06"
+  },
+  {
+    "name": "vhr-bench",
+    "repo": "vpshostreview/vhr-vps-benchmark",
+    "homepage": "https://vpshostreview.com/vps-benchmark-tool",
+    "category": "devops-self-hosted",
+    "description": "Bash script that benchmarks a Linux server's CPU, memory and 4k random disk IOPS in about a minute with sysbench and fio.",
+    "license": "MIT",
+    "added": "2026-11-06"
+  },
+  {
     "name": "Telegram Sponsorship CPM Calculator",
     "repo": "thinkpad2050/telegram-sponsorship-cpm-calculator",
     "homepage": "https://thinkpad2050.github.io/telegram-sponsorship-cpm-calculator/",
