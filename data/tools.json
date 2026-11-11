@@ -4280,5 +4280,14 @@
     "description": "Typed Node.js and TypeScript SDK for Gate.com REST and WebSocket APIs, with examples and docs.",
     "license": "MIT",
     "added": "2026-11-09"
+  },
+  {
+    "name": "usb-rea",
+    "repo": "emirmrkaljevic/usb-rea",
+    "homepage": "https://github.com/emirmrkaljevic/usb-rea",
+    "category": "developer-tools-cli",
+    "description": "Infer a USB gadget protocol from labelled captures of the vendor app and generate a pyusb driver.",
+    "license": "MIT",
+    "added": "2026-11-09"
   }
 ]
