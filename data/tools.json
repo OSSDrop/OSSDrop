@@ -4235,5 +4235,14 @@
       }
     ],
     "added": "2026-11-05"
+  },
+  {
+    "name": "behave",
+    "repo": "emirmrkaljevic/behave",
+    "homepage": "https://github.com/emirmrkaljevic/behave",
+    "category": "developer-tools-cli",
+    "description": "Record how any CLI behaves and prove a Rust or Go rewrite matches stdout, stderr and exit codes.",
+    "license": "MIT",
+    "added": "2026-11-06"
   }
 ]
