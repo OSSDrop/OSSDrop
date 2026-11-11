@@ -4211,5 +4211,14 @@
     "description": "Bash script that benchmarks a Linux server's CPU, memory and 4k random disk IOPS in about a minute with sysbench and fio.",
     "license": "MIT",
     "added": "2026-11-06"
+  },
+  {
+    "name": "Telegram Sponsorship CPM Calculator",
+    "repo": "thinkpad2050/telegram-sponsorship-cpm-calculator",
+    "homepage": "https://thinkpad2050.github.io/telegram-sponsorship-cpm-calculator/",
+    "category": "finance-business",
+    "description": "Compare Telegram channel sponsorship quotes with median recent post views and calculate the implied CPM.",
+    "license": "MIT",
+    "added": "2026-11-05"
   }
 ]
