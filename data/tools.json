@@ -4253,5 +4253,14 @@
     "description": "Stops Claude Code from saying 'fixed' when the session has no proof it ran the check.",
     "license": "MIT",
     "added": "2026-11-09"
+  },
+  {
+    "name": "OKX JavaScript SDK (Siebly)",
+    "repo": "sieblyio/okx-api",
+    "homepage": "https://siebly.io/sdk/okx/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for OKX REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-09"
   }
 ]
