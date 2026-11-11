@@ -4244,5 +4244,14 @@
     "description": "Record how any CLI behaves and prove a Rust or Go rewrite matches stdout, stderr and exit codes.",
     "license": "MIT",
     "added": "2026-11-06"
+  },
+  {
+    "name": "claim-check",
+    "repo": "Balance0014/claude-code-claim-check",
+    "homepage": "https://github.com/Balance0014/claude-code-claim-check",
+    "category": "ai-coding-agents",
+    "description": "Stops Claude Code from saying 'fixed' when the session has no proof it ran the check.",
+    "license": "MIT",
+    "added": "2026-11-09"
   }
 ]
