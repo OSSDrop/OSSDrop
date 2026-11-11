@@ -4211,5 +4211,14 @@
     "description": "Bash script that benchmarks a Linux server's CPU, memory and 4k random disk IOPS in about a minute with sysbench and fio.",
     "license": "MIT",
     "added": "2026-11-06"
+  },
+  {
+    "name": "Nyxiontech PDF Tools",
+    "repo": "jurecki007/nyxiontech-tools",
+    "homepage": "https://tools.nyxiontech.com",
+    "category": "productivity",
+    "description": "Browser-based PDF and image toolkit: merge, split, sign, OCR and convert, with no uploads and no account.",
+    "license": "AGPL-3.0",
+    "added": "2026-11-11"
   }
 ]
