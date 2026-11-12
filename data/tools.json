@@ -4211,5 +4211,14 @@
     "description": "Bash script that benchmarks a Linux server's CPU, memory and 4k random disk IOPS in about a minute with sysbench and fio.",
     "license": "MIT",
     "added": "2026-11-06"
+  },
+  {
+    "name": "Muxflow",
+    "repo": "gal064/muxflow",
+    "homepage": "https://gal064.github.io/muxflow/",
+    "category": "ai-coding-agents",
+    "description": "Remote-first tmux IDE for coding agents, with agent notifications on desktop and Android, voice replies and screenshot paste over SSH.",
+    "license": "MIT",
+    "added": "2026-11-11"
   }
 ]
