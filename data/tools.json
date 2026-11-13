@@ -4211,5 +4211,14 @@
     "description": "Bash script that benchmarks a Linux server's CPU, memory and 4k random disk IOPS in about a minute with sysbench and fio.",
     "license": "MIT",
     "added": "2026-11-06"
+  },
+  {
+    "name": "truediscount",
+    "repo": "emirmrkaljevic/truediscount",
+    "homepage": "https://emirmrkaljevic.github.io/truediscount/",
+    "category": "finance-business",
+    "description": "Browser extension that checks EU sale prices against the shop's 30-day lowest price (Omnibus rule) and shows a price history.",
+    "license": "MIT",
+    "added": "2026-11-13"
   }
 ]
