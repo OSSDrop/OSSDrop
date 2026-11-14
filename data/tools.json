@@ -4211,5 +4211,14 @@
     "description": "Bash script that benchmarks a Linux server's CPU, memory and 4k random disk IOPS in about a minute with sysbench and fio.",
     "license": "MIT",
     "added": "2026-11-06"
+  },
+  {
+    "name": "llm-redteam-banking-checklist",
+    "repo": "ErcinDedeoglu/llm-redteam-banking-checklist",
+    "homepage": "https://github.com/ErcinDedeoglu/llm-redteam-banking-checklist",
+    "category": "security-privacy",
+    "description": "Go-live CI gate that scores LLM red-team findings in banking and fails a release when a gate is red.",
+    "license": "Apache-2.0",
+    "added": "2026-11-14"
   }
 ]
