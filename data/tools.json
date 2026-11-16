@@ -4212,4 +4212,13 @@
     "license": "MIT",
     "added": "2026-11-06"
   }
+  {
+  "name": "Gabby",
+  "repo": "undreamt-oss/gabby",
+  "homepage": "https://github.com/undreamt-oss/gabby",
+  "category": "ai-coding-agents",
+  "description": "Execution control and policy verification engine for isolating AI agent tool calls.",
+  "license": "Apache-2.0",
+  "added": "2026-11-16"
+}
 ]
