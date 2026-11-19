@@ -4211,5 +4211,14 @@
     "description": "Bash script that benchmarks a Linux server's CPU, memory and 4k random disk IOPS in about a minute with sysbench and fio.",
     "license": "MIT",
     "added": "2026-11-06"
+  },
+  {
+    "name": "BitTool Signer for iOS",
+    "repo": "bitbill/bittool-signer-ios",
+    "homepage": "https://bittool.com/signer/",
+    "category": "finance-business",
+    "description": "Offline iPhone signing app that keeps keys on a dedicated device and exchanges transaction requests and signatures via QR codes.",
+    "license": "MIT",
+    "added": "2026-11-19"
   }
 ]
