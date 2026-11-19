@@ -4211,5 +4211,20 @@
     "description": "Bash script that benchmarks a Linux server's CPU, memory and 4k random disk IOPS in about a minute with sysbench and fio.",
     "license": "MIT",
     "added": "2026-11-06"
+  },
+  {
+    "name": "Open Agent API",
+    "repo": "jiangxingfan1-coder/Open-Agent-API",
+    "homepage": "https://openagentapi.pages.dev/",
+    "category": "ai-coding-agents",
+    "description": "Call a coding agent from your own app through a self-hosted API, using the SDK you already have.",
+    "license": "Apache-2.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/jiangxingfan1-coder/Open-Agent-API#running-in-three-minutes"
+      }
+    ],
+    "added": "2026-11-19"
   }
 ]
