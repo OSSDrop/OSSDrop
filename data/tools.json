@@ -4298,5 +4298,14 @@
     "description": "Claude Code and Codex skill that hands a list of images to Codex, Jimeng, Grok, Gemini, Muse and Lovart at once.",
     "license": "MIT",
     "added": "2026-11-10"
+  },
+  {
+    "name": "Nyxiontech PDF Tools",
+    "repo": "jurecki007/nyxiontech-tools",
+    "homepage": "https://tools.nyxiontech.com",
+    "category": "productivity",
+    "description": "Browser-based PDF and image toolkit: merge, split, sign, OCR and convert, with no uploads and no account.",
+    "license": "AGPL-3.0",
+    "added": "2026-11-11"
   }
 ]
