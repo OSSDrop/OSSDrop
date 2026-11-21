@@ -13,7 +13,7 @@
     "repo": "JonathanRiche/verde",
     "homepage": "https://verdeai.dev",
     "category": "ai-coding-agents",
-    "description": "Native Zig desktop workspace that runs Claude Code, Codex, Cursor and other coding agents side by side with terminal and browser; local-first, MIT.",
+    "description": "Native Zig desktop workspace that runs Claude Code, Codex, Cursor and other agents side by side with terminal and browser; local-first, MIT.",
     "license": "MIT",
     "links": [
       {
