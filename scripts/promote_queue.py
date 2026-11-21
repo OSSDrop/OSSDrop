@@ -51,8 +51,26 @@ for t in queue:
     day = t.get("publishOn", "9999-12-31")
     (due if day < today or (day == today and drop_open) else rest).append(t)
 
+# A due entry that would fail the list's format check is held in the queue, not
+# promoted: one bad entry must not stop the whole list from publishing (a
+# 147-character description did exactly that for nine days in November 2026). The
+# hold is loud, so it gets fixed rather than forgotten.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from build_readme import problems  # noqa: E402
+
 promoted = []
 new_entries = []
+for t in list(due):
+    if t["name"] in existing:
+        continue
+    entry = {k: v for k, v in t.items() if k != "publishOn"}
+    entry["added"] = t.get("publishOn", today)  # what promotion will write
+    bad = problems([entry])
+    if bad:
+        print(f"::warning title=Held in queue::{t['name']}: " + "; ".join(bad), file=sys.stderr)
+        due.remove(t)
+        rest.append(t)
+
 for t in due:
     if t["name"] in existing:  # already listed — just drop from the queue
         continue
