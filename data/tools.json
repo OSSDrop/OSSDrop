@@ -4307,5 +4307,14 @@
     "description": "Browser-based PDF and image toolkit: merge, split, sign, OCR and convert, with no uploads and no account.",
     "license": "AGPL-3.0",
     "added": "2026-11-11"
+  },
+  {
+    "name": "Muxflow",
+    "repo": "gal064/muxflow",
+    "homepage": "https://gal064.github.io/muxflow/",
+    "category": "ai-coding-agents",
+    "description": "Remote-first tmux IDE for coding agents, with agent notifications on desktop and Android, voice replies and screenshot paste over SSH.",
+    "license": "MIT",
+    "added": "2026-11-11"
   }
 ]
