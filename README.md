@@ -31,6 +31,8 @@ Browse by category below, explore the same tools ranked at
 [r/OSSDrop](https://www.reddit.com/r/OSSDrop/), or [drop your tool](CONTRIBUTING.md)
 — it takes one PR and it's free.
 
+<div align="center"><a href="https://ossdrop.com/blog/write"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/write-for-ossdrop-dark.svg"><img src="assets/write-for-ossdrop-light.svg" width="840" alt="Write for the OSSDrop blog: a permanent backlink, SEO, GEO and AEO done for you, credited to your profile. Submit an article."></picture></a></div>
+
 ## Trending this week
 
 <sub>The biggest star gains among listed tools in the last 7 days — measured, not editorialized.</sub>
@@ -581,6 +583,10 @@ Browse by category below, explore the same tools ranked at
 Built something open source? Add one entry to [`data/tools.json`](data/tools.json)
 and open a PR — see **[CONTRIBUTING.md](CONTRIBUTING.md)**. One tool per PR.
 Stars, icons, and trending are computed automatically; descriptions stay honest.
+
+**Already listed? Write about it.** Publish a guide to your tool on the [OSSDrop blog](https://ossdrop.com/blog/write):
+a permanent link back to your project, search and AI-answer optimisation done for you,
+credited to your OSSDrop profile. Send a Markdown file; we edit it with you.
 
 ## Frequently asked questions
 
