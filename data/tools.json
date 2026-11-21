@@ -4289,5 +4289,116 @@
     "description": "Infer a USB gadget protocol from labelled captures of the vendor app and generate a pyusb driver.",
     "license": "MIT",
     "added": "2026-11-12"
+  },
+  {
+    "name": "imagegen-swarm",
+    "repo": "Ekko237/imagegen-swarm",
+    "homepage": "https://github.com/Ekko237/imagegen-swarm",
+    "category": "creator-media",
+    "description": "Claude Code and Codex skill that hands a list of images to Codex, Jimeng, Grok, Gemini, Muse and Lovart at once.",
+    "license": "MIT",
+    "added": "2026-11-21"
+  },
+  {
+    "name": "Nyxiontech PDF Tools",
+    "repo": "jurecki007/nyxiontech-tools",
+    "homepage": "https://tools.nyxiontech.com",
+    "category": "productivity",
+    "description": "Browser-based PDF and image toolkit: merge, split, sign, OCR and convert, with no uploads and no account.",
+    "license": "AGPL-3.0",
+    "added": "2026-11-21"
+  },
+  {
+    "name": "Muxflow",
+    "repo": "gal064/muxflow",
+    "homepage": "https://gal064.github.io/muxflow/",
+    "category": "ai-coding-agents",
+    "description": "Remote-first tmux IDE for coding agents, with agent notifications on desktop and Android, voice replies and screenshot paste over SSH.",
+    "license": "MIT",
+    "added": "2026-11-21"
+  },
+  {
+    "name": "truediscount",
+    "repo": "emirmrkaljevic/truediscount",
+    "homepage": "https://emirmrkaljevic.github.io/truediscount/",
+    "category": "finance-business",
+    "description": "Browser extension that checks EU sale prices against the shop's 30-day lowest price (Omnibus rule) and shows a price history.",
+    "license": "MIT",
+    "added": "2026-11-21"
+  },
+  {
+    "name": "llm-redteam-banking-checklist",
+    "repo": "ErcinDedeoglu/llm-redteam-banking-checklist",
+    "homepage": "https://github.com/ErcinDedeoglu/llm-redteam-banking-checklist",
+    "category": "security-privacy",
+    "description": "Go-live CI gate that scores LLM red-team findings in banking and fails a release when a gate is red.",
+    "license": "Apache-2.0",
+    "added": "2026-11-21"
+  },
+  {
+    "name": "Gabby",
+    "repo": "undreamt-oss/gabby",
+    "homepage": "https://github.com/undreamt-oss/gabby",
+    "category": "ai-coding-agents",
+    "description": "Execution control and policy verification engine for isolating AI agent tool calls.",
+    "license": "Apache-2.0",
+    "added": "2026-11-21"
+  },
+  {
+    "name": "Kaeso",
+    "repo": "logicplanes/kaeso",
+    "homepage": "https://kaeso.app",
+    "category": "ai-coding-agents",
+    "description": "Self-hosted AI gateway in Rust with one OpenAI- and Anthropic-compatible API, SSO, budgets and request logs.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://docs.kaeso.app"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "name": "ShrinkWatch EU",
+    "repo": "emirmrkaljevic/shrinkwatch-eu",
+    "homepage": "https://emirmrkaljevic.github.io/shrinkwatch-eu/",
+    "category": "finance-business",
+    "description": "Browser extension that shows the price per kg or litre on EU, UK and US grocery shops and warns about shrinkflation.",
+    "license": "MIT",
+    "added": "2026-11-21"
+  },
+  {
+    "name": "Open Agent API",
+    "repo": "jiangxingfan1-coder/Open-Agent-API",
+    "homepage": "https://openagentapi.pages.dev/",
+    "category": "ai-coding-agents",
+    "description": "Call a coding agent from your own app through a self-hosted API, using the SDK you already have.",
+    "license": "Apache-2.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/jiangxingfan1-coder/Open-Agent-API#running-in-three-minutes"
+      }
+    ],
+    "added": "2026-11-21"
+  },
+  {
+    "name": "BitTool Signer for iOS",
+    "repo": "bitbill/bittool-signer-ios",
+    "homepage": "https://bittool.com/signer/",
+    "category": "finance-business",
+    "description": "Offline iPhone signing app that keeps keys on a dedicated device and exchanges transaction requests and signatures via QR codes.",
+    "license": "MIT",
+    "added": "2026-11-21"
+  },
+  {
+    "name": "ThumbGate",
+    "repo": "IgorGanapolsky/ThumbGate",
+    "homepage": "https://thumbgate.ai",
+    "category": "ai-coding-agents",
+    "description": "Local pre-action gate for Claude Code that checks proposed tool calls before they run.",
+    "license": "MIT",
+    "added": "2026-11-21"
   }
 ]
