@@ -16,6 +16,8 @@ Optional: set GITHUB_TOKEN to raise the API rate limit.
 import json
 import os
 import sys
+import time
+import urllib.error
 import urllib.request
 from datetime import date, timedelta
 from pathlib import Path
@@ -72,7 +74,8 @@ ALLOWED_LINK_LABELS = {"docs", "paper"}
 MAX_EXTRA_LINKS = 1
 
 
-def validate(tools):
+def problems(tools):
+    """Every format error in `tools`, as strings (empty list = valid)."""
     slugs = {c[0] for c in CATEGORIES}
     errors = []
     seen_repos = set()
@@ -106,23 +109,49 @@ def validate(tools):
         if t.get("repo") in seen_repos:
             errors.append(f"{name}: duplicate repo '{t['repo']}'")
         seen_repos.add(t.get("repo"))
+    return errors
+
+
+def validate(tools):
+    errors = problems(tools)
     if errors:
         sys.exit("tools.json validation failed:\n  " + "\n  ".join(errors))
 
 
-def fetch_repo(repo):
-    req = urllib.request.Request(
-        f"https://api.github.com/repos/{repo}",
-        headers={"User-Agent": "OSSDrop-list-builder", "Accept": "application/vnd.github+json"},
-    )
+def fetch_repo(repo, last_known_stars=None):
+    """Live stars/language for a repo.
+
+    A single repository that is gone (404), hidden, or answering 5xx must not stop
+    the whole list from publishing: that is what stalled every nightly run for
+    nine days in November 2026 when three microsoft/onnxruntime* repos began
+    returning 404. After retries, fall back to the last snapshot's star count and
+    flag the entry as stale so the run can warn loudly. With no snapshot to fall
+    back on, the error still propagates.
+    """
+    headers = {"User-Agent": "OSSDrop-list-builder", "Accept": "application/vnd.github+json"}
     token = os.environ.get("GITHUB_TOKEN")
     if token:
-        req.add_header("Authorization", f"Bearer {token}")
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        data = json.load(resp)
-    if data.get("archived"):
-        print(f"WARNING: {repo} is archived — consider removing it", file=sys.stderr)
-    return {"stars": data["stargazers_count"], "language": data.get("language") or ""}
+        headers["Authorization"] = f"Bearer {token}"
+    last_err = None
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(f"https://api.github.com/repos/{repo}", headers=headers)
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.load(resp)
+            if data.get("archived"):
+                print(f"WARNING: {repo} is archived — consider removing it", file=sys.stderr)
+            return {"stars": data["stargazers_count"], "language": data.get("language") or ""}
+        except urllib.error.HTTPError as e:
+            last_err = e
+            if e.code == 404 and attempt >= 1:
+                break  # asked twice, still not found: gone or hidden, stop retrying
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            last_err = e
+        time.sleep(2 * (attempt + 1))
+    if last_known_stars is None:
+        raise last_err
+    print(f"::warning title=Repository unavailable::{repo} ({last_err}); keeping its last known star count", file=sys.stderr)
+    return {"stars": last_known_stars, "language": "", "stale": True}
 
 
 def load_snapshots():
@@ -260,10 +289,21 @@ def main():
     validate(tools)
 
     print(f"Fetching repo data for {len(tools)} repos…", file=sys.stderr)
-    repo_info = {t["repo"]: fetch_repo(t["repo"]) for t in tools}
+    snapshots = load_snapshots()
+    last_known = snapshots[max(snapshots)] if snapshots else {}
+    repo_info = {t["repo"]: fetch_repo(t["repo"], last_known.get(t["repo"])) for t in tools}
+    stale = sorted(r for r, i in repo_info.items() if i.get("stale"))
+    if stale:
+        # Many at once means GitHub itself is failing, not individual repos: do not
+        # publish a README built from yesterday's numbers and call it fresh.
+        if len(stale) > max(5, len(tools) // 4):
+            sys.exit(f"{len(stale)} of {len(tools)} repositories could not be read; refusing to publish. First few: {stale[:5]}")
+        summary = os.environ.get("GITHUB_STEP_SUMMARY")
+        if summary:
+            with open(summary, "a") as f:
+                f.write("### Repositories that could not be read (last known stars kept)\n" + "".join(f"- {r}\n" for r in stale))
     stars_now = {r: i["stars"] for r, i in repo_info.items()}
 
-    snapshots = load_snapshots()
     snapshots[date.today().isoformat()] = stars_now
     save_snapshots(snapshots)
 
