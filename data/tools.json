@@ -4358,5 +4358,14 @@
       }
     ],
     "added": "2026-11-16"
+  },
+  {
+    "name": "ShrinkWatch EU",
+    "repo": "emirmrkaljevic/shrinkwatch-eu",
+    "homepage": "https://emirmrkaljevic.github.io/shrinkwatch-eu/",
+    "category": "finance-business",
+    "description": "Browser extension that shows the price per kg or litre on EU, UK and US grocery shops and warns about shrinkflation.",
+    "license": "MIT",
+    "added": "2026-11-19"
   }
 ]
