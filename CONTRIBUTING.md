@@ -63,6 +63,15 @@ nightly with live stars, icons, and trending.
 5. **Tool not on GitHub?** (GitLab, Codeberg, Hugging Face, self-hosted…)
    Open the PR anyway and mention it — we'll add support for your forge.
 
+## After your tool is listed
+
+**Write about it on the OSSDrop blog.** You know your tool better than anyone, so a
+guide from you is the most useful thing a new user can read. Send a Markdown file
+through [ossdrop.com/blog/write](https://ossdrop.com/blog/write): we edit it with
+you, publish it with your name, and link it to your OSSDrop profile. You get a
+permanent link back to your project, and we do the search and AI-answer work
+(SEO, GEO, AEO). The page has the full guide, a template and published examples.
+
 ## Reviewed for
 
 - Valid JSON, correct category

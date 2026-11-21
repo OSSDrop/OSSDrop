@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="196" viewBox="0 0 840 196" role="img" aria-label="Write for the OSSDrop blog: a permanent backlink, SEO, GEO and AEO done for you, credited to your profile. Submit an article at ossdrop.com/blog/write">
+<rect x="1" y="1" width="838" height="194" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+<defs><clipPath id="c"><rect x="1" y="1" width="838" height="194" rx="16"/></clipPath></defs><rect x="0" y="0" width="7" height="196" fill="#22c55e" clip-path="url(#c)"/>
+<rect x="36" y="52" width="22" height="22" rx="5" fill="#2f6feb"/><rect x="64" y="52" width="22" height="22" rx="5" fill="#2f6feb"/><rect x="36" y="80" width="22" height="22" rx="5" fill="#2f6feb"/><rect x="64" y="80" width="22" height="22" rx="5" fill="#2f6feb"/><rect x="92" y="80" width="22" height="22" rx="5" fill="#2f6feb"/><rect x="36" y="108" width="22" height="22" rx="5" fill="#2f6feb"/><rect x="64" y="108" width="22" height="22" rx="5" fill="#2f6feb"/><rect x="92" y="108" width="22" height="22" rx="5" fill="#2f6feb"/><rect x="94" y="46" width="22" height="22" rx="5" fill="#22c55e" transform="rotate(10 105.0 57.0)"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif">
+<text x="150" y="50" font-size="12" font-weight="700" letter-spacing="1.6" fill="#3fb950">OSSDROP BLOG · WRITE FOR US</text>
+<text x="150" y="86" font-size="26" font-weight="700" fill="#e6edf3">Already listed? Write about your tool.</text>
+<text x="150" y="114" font-size="15" fill="#9198a1">Publish a guide on ossdrop.com. We edit it with you and credit you as the writer.</text>
+<rect x="150" y="134" width="664" height="40" rx="10" fill="#151b23"/>
+<path d="M166 155 l4 4 l8 -9" fill="none" stroke="#3fb950" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><text x="184" y="159" font-size="14" fill="#e6edf3">Permanent backlink</text>
+<path d="M346 155 l4 4 l8 -9" fill="none" stroke="#3fb950" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><text x="364" y="159" font-size="14" fill="#e6edf3">SEO, GEO and AEO done for you</text>
+<path d="M600 155 l4 4 l8 -9" fill="none" stroke="#3fb950" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><text x="618" y="159" font-size="14" fill="#e6edf3">Credited to your profile</text>
+<rect x="642" y="28" width="172" height="38" rx="10" fill="#22c55e"/>
+<text x="728" y="52" font-size="14" font-weight="700" text-anchor="middle" fill="#04101f">Submit an article →</text>
+</g>
+</svg>
