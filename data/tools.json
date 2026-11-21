@@ -4213,6 +4213,120 @@
     "added": "2026-11-06"
   },
   {
+    "name": "Telegram Sponsorship CPM Calculator",
+    "repo": "thinkpad2050/telegram-sponsorship-cpm-calculator",
+    "homepage": "https://thinkpad2050.github.io/telegram-sponsorship-cpm-calculator/",
+    "category": "finance-business",
+    "description": "Compare Telegram channel sponsorship quotes with median recent post views and calculate the implied CPM.",
+    "license": "MIT",
+    "added": "2026-11-12"
+  },
+  {
+    "name": "Verde",
+    "repo": "JonathanRiche/verde",
+    "homepage": "https://verdeai.dev",
+    "category": "ai-coding-agents",
+    "description": "Native Zig desktop workspace that runs Claude Code, Codex, Cursor and other agents side by side with terminal and browser; local-first, MIT.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://verdeai.dev/docs"
+      }
+    ],
+    "added": "2026-11-12"
+  },
+  {
+    "name": "behave",
+    "repo": "emirmrkaljevic/behave",
+    "homepage": "https://github.com/emirmrkaljevic/behave",
+    "category": "developer-tools-cli",
+    "description": "Record how any CLI behaves and prove a Rust or Go rewrite matches stdout, stderr and exit codes.",
+    "license": "MIT",
+    "added": "2026-11-12"
+  },
+  {
+    "name": "claim-check",
+    "repo": "Balance0014/claude-code-claim-check",
+    "homepage": "https://github.com/Balance0014/claude-code-claim-check",
+    "category": "ai-coding-agents",
+    "description": "Stops Claude Code from saying 'fixed' when the session has no proof it ran the check.",
+    "license": "MIT",
+    "added": "2026-11-12"
+  },
+  {
+    "name": "OKX JavaScript SDK (Siebly)",
+    "repo": "sieblyio/okx-api",
+    "homepage": "https://siebly.io/sdk/okx/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for OKX REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-12"
+  },
+  {
+    "name": "Kraken JavaScript SDK (Siebly)",
+    "repo": "sieblyio/kraken-api",
+    "homepage": "https://siebly.io/sdk/kraken/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for Kraken Spot and Futures REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-12"
+  },
+  {
+    "name": "Gate JavaScript SDK (Siebly)",
+    "repo": "sieblyio/gateio-api",
+    "homepage": "https://siebly.io/sdk/gate/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for Gate.com REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-12"
+  },
+  {
+    "name": "usb-rea",
+    "repo": "emirmrkaljevic/usb-rea",
+    "homepage": "https://github.com/emirmrkaljevic/usb-rea",
+    "category": "developer-tools-cli",
+    "description": "Infer a USB gadget protocol from labelled captures of the vendor app and generate a pyusb driver.",
+    "license": "MIT",
+    "added": "2026-11-12"
+  },
+  {
+    "name": "imagegen-swarm",
+    "repo": "Ekko237/imagegen-swarm",
+    "homepage": "https://github.com/Ekko237/imagegen-swarm",
+    "category": "creator-media",
+    "description": "Claude Code and Codex skill that hands a list of images to Codex, Jimeng, Grok, Gemini, Muse and Lovart at once.",
+    "license": "MIT",
+    "added": "2026-11-10"
+  },
+  {
+    "name": "Nyxiontech PDF Tools",
+    "repo": "jurecki007/nyxiontech-tools",
+    "homepage": "https://tools.nyxiontech.com",
+    "category": "productivity",
+    "description": "Browser-based PDF and image toolkit: merge, split, sign, OCR and convert, with no uploads and no account.",
+    "license": "AGPL-3.0",
+    "added": "2026-11-11"
+  },
+  {
+    "name": "Muxflow",
+    "repo": "gal064/muxflow",
+    "homepage": "https://gal064.github.io/muxflow/",
+    "category": "ai-coding-agents",
+    "description": "Remote-first tmux IDE for coding agents, with agent notifications on desktop and Android, voice replies and screenshot paste over SSH.",
+    "license": "MIT",
+    "added": "2026-11-11"
+  },
+  {
+    "name": "truediscount",
+    "repo": "emirmrkaljevic/truediscount",
+    "homepage": "https://emirmrkaljevic.github.io/truediscount/",
+    "category": "finance-business",
+    "description": "Browser extension that checks EU sale prices against the shop's 30-day lowest price (Omnibus rule) and shows a price history.",
+    "license": "MIT",
+    "added": "2026-11-13"
+  },
+  {
     "name": "llm-redteam-banking-checklist",
     "repo": "ErcinDedeoglu/llm-redteam-banking-checklist",
     "homepage": "https://github.com/ErcinDedeoglu/llm-redteam-banking-checklist",
