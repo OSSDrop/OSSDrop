@@ -4367,5 +4367,20 @@
     "description": "Browser extension that shows the price per kg or litre on EU, UK and US grocery shops and warns about shrinkflation.",
     "license": "MIT",
     "added": "2026-11-19"
+  },
+  {
+    "name": "Open Agent API",
+    "repo": "jiangxingfan1-coder/Open-Agent-API",
+    "homepage": "https://openagentapi.pages.dev/",
+    "category": "ai-coding-agents",
+    "description": "Call a coding agent from your own app through a self-hosted API, using the SDK you already have.",
+    "license": "Apache-2.0",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/jiangxingfan1-coder/Open-Agent-API#running-in-three-minutes"
+      }
+    ],
+    "added": "2026-11-19"
   }
 ]
