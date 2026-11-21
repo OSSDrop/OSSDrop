@@ -4325,5 +4325,14 @@
     "description": "Browser extension that checks EU sale prices against the shop's 30-day lowest price (Omnibus rule) and shows a price history.",
     "license": "MIT",
     "added": "2026-11-13"
+  },
+  {
+    "name": "llm-redteam-banking-checklist",
+    "repo": "ErcinDedeoglu/llm-redteam-banking-checklist",
+    "homepage": "https://github.com/ErcinDedeoglu/llm-redteam-banking-checklist",
+    "category": "security-privacy",
+    "description": "Go-live CI gate that scores LLM red-team findings in banking and fails a release when a gate is red.",
+    "license": "Apache-2.0",
+    "added": "2026-11-14"
   }
 ]
