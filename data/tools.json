@@ -4334,5 +4334,14 @@
     "description": "Go-live CI gate that scores LLM red-team findings in banking and fails a release when a gate is red.",
     "license": "Apache-2.0",
     "added": "2026-11-14"
+  },
+  {
+    "name": "Gabby",
+    "repo": "undreamt-oss/gabby",
+    "homepage": "https://github.com/undreamt-oss/gabby",
+    "category": "ai-coding-agents",
+    "description": "Execution control and policy verification engine for isolating AI agent tool calls.",
+    "license": "Apache-2.0",
+    "added": "2026-11-16"
   }
 ]
