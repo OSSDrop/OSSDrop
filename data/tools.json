@@ -4400,5 +4400,14 @@
     "description": "Local pre-action gate for Claude Code that checks proposed tool calls before they run.",
     "license": "MIT",
     "added": "2026-11-21"
+  },
+  {
+    "name": "Quock",
+    "repo": "matteocelani/quock",
+    "homepage": "https://github.com/matteocelani/quock",
+    "category": "ai-coding-agents",
+    "description": "Free iPhone app for chatting with Ollama Cloud models, with streaming replies and photo and PDF attachments.",
+    "license": "MIT",
+    "added": "2026-11-21"
   }
 ]
