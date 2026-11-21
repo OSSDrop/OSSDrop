@@ -4400,5 +4400,14 @@
     "description": "Local pre-action gate for Claude Code that checks proposed tool calls before they run.",
     "license": "MIT",
     "added": "2026-11-21"
+  },
+  {
+    "name": "flatratemath",
+    "repo": "scrapertweeter3-prog/flatratemath",
+    "homepage": "https://github.com/scrapertweeter3-prog/flatratemath",
+    "category": "developer-tools-cli",
+    "description": "Freelance devs compare a fixed-bid project, a staff hire, and a flat-rate subscription on cost per delivered request.",
+    "license": "MIT",
+    "added": "2026-10-20"
   }
 ]
