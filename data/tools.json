@@ -4289,5 +4289,14 @@
     "description": "Infer a USB gadget protocol from labelled captures of the vendor app and generate a pyusb driver.",
     "license": "MIT",
     "added": "2026-11-12"
+  },
+  {
+    "name": "imagegen-swarm",
+    "repo": "Ekko237/imagegen-swarm",
+    "homepage": "https://github.com/Ekko237/imagegen-swarm",
+    "category": "creator-media",
+    "description": "Claude Code and Codex skill that hands a list of images to Codex, Jimeng, Grok, Gemini, Muse and Lovart at once.",
+    "license": "MIT",
+    "added": "2026-11-10"
   }
 ]
