@@ -4343,5 +4343,20 @@
     "description": "Execution control and policy verification engine for isolating AI agent tool calls.",
     "license": "Apache-2.0",
     "added": "2026-11-16"
+  },
+  {
+    "name": "Kaeso",
+    "repo": "logicplanes/kaeso",
+    "homepage": "https://kaeso.app",
+    "category": "ai-coding-agents",
+    "description": "Self-hosted AI gateway in Rust with one OpenAI- and Anthropic-compatible API, SSO, budgets and request logs.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://docs.kaeso.app"
+      }
+    ],
+    "added": "2026-11-16"
   }
 ]
