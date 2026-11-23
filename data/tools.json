@@ -4400,5 +4400,14 @@
     "description": "Local pre-action gate for Claude Code that checks proposed tool calls before they run.",
     "license": "MIT",
     "added": "2026-11-21"
+  },
+  {
+    "name": "SiteWatcher",
+    "repo": "NikKurkov/sitewatcher",
+    "homepage": "https://github.com/NikKurkov/sitewatcher",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted monitoring for website uptime, TLS certificates, and domain registration expiry.",
+    "license": "MIT",
+    "added": "2026-11-23"
   }
 ]
