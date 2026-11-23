@@ -4400,5 +4400,14 @@
     "description": "Local pre-action gate for Claude Code that checks proposed tool calls before they run.",
     "license": "MIT",
     "added": "2026-11-21"
+  },
+  {
+    "name": "Paradev",
+    "repo": "ParadevAI/Paradev",
+    "homepage": "https://paradev.com",
+    "category": "ai-coding-agents",
+    "description": "Workspace for developers to run coding agents in parallel and review their pull requests across repositories.",
+    "license": "MIT",
+    "added": "2026-11-23"
   }
 ]
