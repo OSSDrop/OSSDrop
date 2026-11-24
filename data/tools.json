@@ -4400,5 +4400,14 @@
     "description": "Local pre-action gate for Claude Code that checks proposed tool calls before they run.",
     "license": "MIT",
     "added": "2026-11-21"
+  },
+  {
+    "name": "Vertov",
+    "repo": "ankurmans/vertov-screen-recorder",
+    "homepage": "https://vertov.app/",
+    "category": "creator-media",
+    "description": "Self-hostable browser screen recorder for teams that edit walkthroughs by transcript and share them by link.",
+    "license": "AGPL-3.0",
+    "added": "2026-11-24"
   }
 ]
