@@ -4400,5 +4400,14 @@
     "description": "Local pre-action gate for Claude Code that checks proposed tool calls before they run.",
     "license": "MIT",
     "added": "2026-11-21"
+  },
+  {
+    "name": "Treseko Community",
+    "repo": "treseko/treseko-platform",
+    "homepage": "https://treseko.com/en",
+    "category": "developer-tools-cli",
+    "description": "Self-hosted QA and test management for organizing cases, test runs, API checks, evidence, bugs, and release reports.",
+    "license": "AGPL-3.0-or-later",
+    "added": "2026-11-24"
   }
 ]
