@@ -4400,5 +4400,20 @@
     "description": "Local pre-action gate for Claude Code that checks proposed tool calls before they run.",
     "license": "MIT",
     "added": "2026-11-21"
+  },
+  {
+    "name": "Precost",
+    "repo": "glauberportella/opencode-precost",
+    "homepage": "https://github.com/glauberportella/opencode-precost",
+    "category": "developer-tools-cli",
+    "description": "Estimates a prompt's token cost before it is sent and blocks it over your limit, in OpenCode and Claude Code.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/glauberportella/opencode-precost/blob/main/docs/INSTALLATION.md"
+      }
+    ],
+    "added": "2026-11-26"
   }
 ]
