@@ -4400,5 +4400,20 @@
     "description": "Local pre-action gate for Claude Code that checks proposed tool calls before they run.",
     "license": "MIT",
     "added": "2026-11-21"
+  },
+  {
+    "name": "AFFiNE",
+    "repo": "toeverything/AFFiNE",
+    "homepage": "https://affine.pro",
+    "category": "notes-knowledge",
+    "description": "Open-source knowledge base that combines docs, whiteboards and databases in one local-first, self-hostable workspace.",
+    "license": "MIT (core)",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://docs.affine.pro"
+      }
+    ],
+    "added": "2026-11-27"
   }
 ]
