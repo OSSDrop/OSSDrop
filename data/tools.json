@@ -4400,5 +4400,14 @@
     "description": "Local pre-action gate for Claude Code that checks proposed tool calls before they run.",
     "license": "MIT",
     "added": "2026-11-21"
+  },
+  {
+    "name": "telegram-rug-checker",
+    "repo": "Balance0014/telegram-rug-checker",
+    "homepage": "https://github.com/Balance0014/telegram-rug-checker",
+    "category": "security-privacy",
+    "description": "Telegram bot on Cloudflare Workers that checks a token for rug-pull and honeypot risk before you buy and alerts when liquidity drops.",
+    "license": "MIT",
+    "added": "2026-11-27"
   }
 ]
