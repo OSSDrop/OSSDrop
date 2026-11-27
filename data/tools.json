@@ -4400,5 +4400,14 @@
     "description": "Local pre-action gate for Claude Code that checks proposed tool calls before they run.",
     "license": "MIT",
     "added": "2026-11-21"
+  },
+  {
+    "name": "SeniorMode",
+    "repo": "EnesKeremAYDIN/SeniorMode",
+    "homepage": "https://github.com/EnesKeremAYDIN/SeniorMode",
+    "category": "ai-coding-agents",
+    "description": "Gives coding agents engineering decision guides and verification checks for building and auditing software.",
+    "license": "MIT",
+    "added": "2026-11-27"
   }
 ]
