@@ -4282,6 +4282,24 @@
     "added": "2026-11-12"
   },
   {
+    "name": "Bitget JavaScript SDK (Siebly)",
+    "repo": "sieblyio/bitget-api",
+    "homepage": "https://siebly.io/sdk/bitget/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for Bitget REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-27"
+  },
+
+
+
+
+
+
+
+
+
+  {
     "name": "usb-rea",
     "repo": "emirmrkaljevic/usb-rea",
     "homepage": "https://github.com/emirmrkaljevic/usb-rea",
