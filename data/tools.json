@@ -4400,5 +4400,14 @@
     "description": "Local pre-action gate for Claude Code that checks proposed tool calls before they run.",
     "license": "MIT",
     "added": "2026-11-21"
+  },
+  {
+    "name": "video-translation-x-post",
+    "repo": "Balance0014/video-translation-x-post",
+    "homepage": "https://github.com/Balance0014/video-translation-x-post",
+    "category": "creator-media",
+    "description": "Codex skill that turns English videos into Chinese editions for X, with bilingual subtitles, credit to the creator and a post draft.",
+    "license": "MIT",
+    "added": "2026-11-27"
   }
 ]
