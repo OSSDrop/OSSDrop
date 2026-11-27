@@ -4400,5 +4400,14 @@
     "description": "Local pre-action gate for Claude Code that checks proposed tool calls before they run.",
     "license": "MIT",
     "added": "2026-11-21"
+  },
+  {
+    "name": "Stackboard",
+    "repo": "swole/stackboard",
+    "homepage": "https://getstackboard.com",
+    "category": "notes-knowledge",
+    "description": "Chrome extension that turns the new tab into a board of your bookmarks, with spaces, stacks, themes and a tab stash. No account.",
+    "license": "MIT",
+    "added": "2026-11-27"
   }
 ]
