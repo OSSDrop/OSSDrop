@@ -4436,5 +4436,14 @@
     "description": "Workspace for developers to run coding agents in parallel and review their pull requests across repositories.",
     "license": "MIT",
     "added": "2026-11-23"
+  },
+  {
+    "name": "SiteWatcher",
+    "repo": "NikKurkov/sitewatcher",
+    "homepage": "https://github.com/NikKurkov/sitewatcher",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted monitoring for website uptime, TLS certificates, and domain registration expiry.",
+    "license": "MIT",
+    "added": "2026-11-23"
   }
 ]
