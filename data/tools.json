@@ -4454,5 +4454,14 @@
     "description": "Self-hostable browser screen recorder for teams that edit walkthroughs by transcript and share them by link.",
     "license": "AGPL-3.0",
     "added": "2026-11-24"
+  },
+  {
+    "name": "Treseko Community",
+    "repo": "treseko/treseko-platform",
+    "homepage": "https://treseko.com/en",
+    "category": "developer-tools-cli",
+    "description": "Self-hosted QA and test management for organizing cases, test runs, API checks, evidence, bugs, and release reports.",
+    "license": "AGPL-3.0-or-later",
+    "added": "2026-11-24"
   }
 ]
