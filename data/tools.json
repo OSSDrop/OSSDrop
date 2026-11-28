@@ -4402,6 +4402,33 @@
     "added": "2026-11-21"
   },
   {
+    "name": "Quock",
+    "repo": "matteocelani/quock",
+    "homepage": "https://github.com/matteocelani/quock",
+    "category": "ai-coding-agents",
+    "description": "Free iPhone app for chatting with Ollama Cloud models, with streaming replies and photo and PDF attachments.",
+    "license": "MIT",
+    "added": "2026-11-21"
+  },
+  {
+    "name": "iotaudit",
+    "repo": "emirmrkaljevic/iotaudit",
+    "homepage": "https://emirmrkaljevic.github.io/iotaudit/",
+    "category": "security-privacy",
+    "description": "Local CLI that watches what each smart-home device sends on your network and grades it A to F, with a one-page HTML report.",
+    "license": "MIT",
+    "added": "2026-11-22"
+  },
+  {
+    "name": "Loom",
+    "repo": "ClickHouse/loom",
+    "homepage": "https://clickhouse.github.io/loom/",
+    "category": "ai-coding-agents",
+    "description": "Self-hosted shared memory and knowledge retrieval for AI agents.",
+    "license": "Apache-2.0",
+    "added": "2026-11-23"
+  },
+  {
     "name": "Paradev",
     "repo": "ParadevAI/Paradev",
     "homepage": "https://paradev.com",
