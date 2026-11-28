@@ -4402,6 +4402,135 @@
     "added": "2026-11-21"
   },
   {
+    "name": "Quock",
+    "repo": "matteocelani/quock",
+    "homepage": "https://github.com/matteocelani/quock",
+    "category": "ai-coding-agents",
+    "description": "Free iPhone app for chatting with Ollama Cloud models, with streaming replies and photo and PDF attachments.",
+    "license": "MIT",
+    "added": "2026-11-21"
+  },
+  {
+    "name": "iotaudit",
+    "repo": "emirmrkaljevic/iotaudit",
+    "homepage": "https://emirmrkaljevic.github.io/iotaudit/",
+    "category": "security-privacy",
+    "description": "Local CLI that watches what each smart-home device sends on your network and grades it A to F, with a one-page HTML report.",
+    "license": "MIT",
+    "added": "2026-11-22"
+  },
+  {
+    "name": "Loom",
+    "repo": "ClickHouse/loom",
+    "homepage": "https://clickhouse.github.io/loom/",
+    "category": "ai-coding-agents",
+    "description": "Self-hosted shared memory and knowledge retrieval for AI agents.",
+    "license": "Apache-2.0",
+    "added": "2026-11-23"
+  },
+  {
+    "name": "Paradev",
+    "repo": "ParadevAI/Paradev",
+    "homepage": "https://paradev.com",
+    "category": "ai-coding-agents",
+    "description": "Workspace for developers to run coding agents in parallel and review their pull requests across repositories.",
+    "license": "MIT",
+    "added": "2026-11-23"
+  },
+  {
+    "name": "SiteWatcher",
+    "repo": "NikKurkov/sitewatcher",
+    "homepage": "https://github.com/NikKurkov/sitewatcher",
+    "category": "devops-self-hosted",
+    "description": "Self-hosted monitoring for website uptime, TLS certificates, and domain registration expiry.",
+    "license": "MIT",
+    "added": "2026-11-23"
+  },
+  {
+    "name": "Vertov",
+    "repo": "ankurmans/vertov-screen-recorder",
+    "homepage": "https://vertov.app/",
+    "category": "creator-media",
+    "description": "Self-hostable browser screen recorder for teams that edit walkthroughs by transcript and share them by link.",
+    "license": "AGPL-3.0",
+    "added": "2026-11-24"
+  },
+  {
+    "name": "Treseko Community",
+    "repo": "treseko/treseko-platform",
+    "homepage": "https://treseko.com/en",
+    "category": "developer-tools-cli",
+    "description": "Self-hosted QA and test management for organizing cases, test runs, API checks, evidence, bugs, and release reports.",
+    "license": "AGPL-3.0-or-later",
+    "added": "2026-11-24"
+  },
+  {
+    "name": "Precost",
+    "repo": "glauberportella/opencode-precost",
+    "homepage": "https://github.com/glauberportella/opencode-precost",
+    "category": "developer-tools-cli",
+    "description": "Estimates a prompt's token cost before it is sent and blocks it over your limit, in OpenCode and Claude Code.",
+    "license": "MIT",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://github.com/glauberportella/opencode-precost/blob/main/docs/INSTALLATION.md"
+      }
+    ],
+    "added": "2026-11-26"
+  },
+  {
+    "name": "Bitget JavaScript SDK (Siebly)",
+    "repo": "sieblyio/bitget-api",
+    "homepage": "https://siebly.io/sdk/bitget/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for Bitget REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-27"
+  },
+  {
+    "name": "AFFiNE",
+    "repo": "toeverything/AFFiNE",
+    "homepage": "https://affine.pro",
+    "category": "notes-knowledge",
+    "description": "Open-source knowledge base that combines docs, whiteboards and databases in one local-first, self-hostable workspace.",
+    "license": "MIT (core)",
+    "links": [
+      {
+        "label": "docs",
+        "url": "https://docs.affine.pro"
+      }
+    ],
+    "added": "2026-11-27"
+  },
+  {
+    "name": "telegram-rug-checker",
+    "repo": "Balance0014/telegram-rug-checker",
+    "homepage": "https://github.com/Balance0014/telegram-rug-checker",
+    "category": "security-privacy",
+    "description": "Telegram bot on Cloudflare Workers that checks a token for rug-pull and honeypot risk before you buy and alerts when liquidity drops.",
+    "license": "MIT",
+    "added": "2026-11-27"
+  },
+  {
+    "name": "video-translation-x-post",
+    "repo": "Balance0014/video-translation-x-post",
+    "homepage": "https://github.com/Balance0014/video-translation-x-post",
+    "category": "creator-media",
+    "description": "Codex skill that turns English videos into Chinese editions for X, with bilingual subtitles, credit to the creator and a post draft.",
+    "license": "MIT",
+    "added": "2026-11-27"
+  },
+  {
+    "name": "Stackboard",
+    "repo": "swole/stackboard",
+    "homepage": "https://getstackboard.com",
+    "category": "notes-knowledge",
+    "description": "Chrome extension that turns the new tab into a board of your bookmarks, with spaces, stacks, themes and a tab stash. No account.",
+    "license": "MIT",
+    "added": "2026-11-27"
+  },
+  {
     "name": "SeniorMode",
     "repo": "EnesKeremAYDIN/SeniorMode",
     "homepage": "https://github.com/EnesKeremAYDIN/SeniorMode",
