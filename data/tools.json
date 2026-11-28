@@ -4400,5 +4400,14 @@
     "description": "Local pre-action gate for Claude Code that checks proposed tool calls before they run.",
     "license": "MIT",
     "added": "2026-11-21"
+  },
+  {
+    "name": "KuCoin JavaScript SDK (Siebly)",
+    "repo": "sieblyio/kucoin-api",
+    "homepage": "https://siebly.io/sdk/kucoin/javascript",
+    "category": "developer-tools-cli",
+    "description": "Typed Node.js and TypeScript SDK for KuCoin REST and WebSocket APIs, with examples and docs.",
+    "license": "MIT",
+    "added": "2026-11-28"
   }
 ]
