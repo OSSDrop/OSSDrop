@@ -4529,5 +4529,14 @@
     "description": "Chrome extension that turns the new tab into a board of your bookmarks, with spaces, stacks, themes and a tab stash. No account.",
     "license": "MIT",
     "added": "2026-11-27"
+  },
+  {
+    "name": "SeniorMode",
+    "repo": "EnesKeremAYDIN/SeniorMode",
+    "homepage": "https://github.com/EnesKeremAYDIN/SeniorMode",
+    "category": "ai-coding-agents",
+    "description": "Gives coding agents engineering decision guides and verification checks for building and auditing software.",
+    "license": "MIT",
+    "added": "2026-11-27"
   }
 ]
