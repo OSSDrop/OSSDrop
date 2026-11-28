@@ -4445,5 +4445,14 @@
     "description": "Self-hosted monitoring for website uptime, TLS certificates, and domain registration expiry.",
     "license": "MIT",
     "added": "2026-11-23"
+  },
+  {
+    "name": "Vertov",
+    "repo": "ankurmans/vertov-screen-recorder",
+    "homepage": "https://vertov.app/",
+    "category": "creator-media",
+    "description": "Self-hostable browser screen recorder for teams that edit walkthroughs by transcript and share them by link.",
+    "license": "AGPL-3.0",
+    "added": "2026-11-24"
   }
 ]
