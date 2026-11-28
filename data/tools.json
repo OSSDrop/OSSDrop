@@ -4409,5 +4409,14 @@
     "description": "Free iPhone app for chatting with Ollama Cloud models, with streaming replies and photo and PDF attachments.",
     "license": "MIT",
     "added": "2026-11-21"
+  },
+  {
+    "name": "iotaudit",
+    "repo": "emirmrkaljevic/iotaudit",
+    "homepage": "https://emirmrkaljevic.github.io/iotaudit/",
+    "category": "security-privacy",
+    "description": "Local CLI that watches what each smart-home device sends on your network and grades it A to F, with a one-page HTML report.",
+    "license": "MIT",
+    "added": "2026-11-22"
   }
 ]
