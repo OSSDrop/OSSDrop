@@ -4520,5 +4520,14 @@
     "description": "Codex skill that turns English videos into Chinese editions for X, with bilingual subtitles, credit to the creator and a post draft.",
     "license": "MIT",
     "added": "2026-11-27"
+  },
+  {
+    "name": "Stackboard",
+    "repo": "swole/stackboard",
+    "homepage": "https://getstackboard.com",
+    "category": "notes-knowledge",
+    "description": "Chrome extension that turns the new tab into a board of your bookmarks, with spaces, stacks, themes and a tab stash. No account.",
+    "license": "MIT",
+    "added": "2026-11-27"
   }
 ]
