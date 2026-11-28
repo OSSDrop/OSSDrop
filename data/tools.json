@@ -4427,5 +4427,14 @@
     "description": "Self-hosted shared memory and knowledge retrieval for AI agents.",
     "license": "Apache-2.0",
     "added": "2026-11-23"
+  },
+  {
+    "name": "Paradev",
+    "repo": "ParadevAI/Paradev",
+    "homepage": "https://paradev.com",
+    "category": "ai-coding-agents",
+    "description": "Workspace for developers to run coding agents in parallel and review their pull requests across repositories.",
+    "license": "MIT",
+    "added": "2026-11-23"
   }
 ]
